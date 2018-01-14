@@ -1,7 +1,7 @@
 .container {
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 4fr;
 }
 
 header {
@@ -12,24 +12,13 @@ header {
 #viewerDiv {
     grid-column: 2;
     grid-row: 2;
-    background-color: yellow;
-}
-
-aside {
-    grid-column: 1;
-    grid-row: 2;
-    background-color: blue;
+    background-color: white;
 }
 
 nav {
-    grid-column: 3;
+    grid-column: 1;
     grid-row: 2;
     background-color: red;
-}
-
-footer {
-    grid-column: 1 / 4;
-    grid-row: 3;
 }
 
 /* Petit ecrans */
@@ -47,20 +36,10 @@ footer {
         background-color: yellow;
     }
 
-    aside {
-        grid-column: 1;
-        grid-row: 1;
-        background-color: blue;
-    }
-
     nav {
         grid-column: 1;
         grid-row: 2;
-        background-color: red;
-    }
-
-    footer {
-        display: none;
+        background-color: blue;
     }
 
 }
