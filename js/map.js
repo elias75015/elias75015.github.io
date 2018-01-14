@@ -28,10 +28,6 @@ map = Gp.Map.load(
            },
            "graticule" : {
            },
-           "mouseposition" : {
-             div : "viewerDiv",
-             displayAltitude : false
-           },
            "getfeatureinfo" : {
              auto : true
            }
@@ -54,6 +50,7 @@ function addKMLLayer(kmlId) {
       format : "kml",
       url : kmlFilePath,
       title : kmlId,
+      zoomToExtent : true,
       showPointNames : true
     }
   });
