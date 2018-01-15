@@ -174,6 +174,21 @@
 					self.$menu.off( self.transEndEventName );
 					self._resetMenu();
 				};
+
+            // sets the menu as "closed"
+            this.$menu.removeClass( 'dl-menuopen' );
+            this.$menu.addClass( 'dl-menu-toggle' );
+            this.$trigger.removeClass( 'dl-active' );
+
+            if( this.supportTransitions ) {
+                this.$menu.on( this.transEndEventName, onTransitionEndFn );
+            }
+            else {
+                onTransitionEndFn.call();
+            }
+
+            this.open = false;
+            
             // hides left nav menu
             $( 'nav' ).hide();
             $( 'nav' ).css("gridColumn", "");
@@ -194,19 +209,7 @@
             $( '.ol-viewport').css( "position", "absolute");
             map.libMap.updateSize();
 
-            // sets the menu as "closed"
-			this.$menu.removeClass( 'dl-menuopen' );
-			this.$menu.addClass( 'dl-menu-toggle' );
-			this.$trigger.removeClass( 'dl-active' );
 
-			if( this.supportTransitions ) {
-				this.$menu.on( this.transEndEventName, onTransitionEndFn );
-			}
-			else {
-				onTransitionEndFn.call();
-			}
-
-			this.open = false;
 		},
 		openMenu : function() {
 			if( !this.open ) {
