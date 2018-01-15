@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
@@ -39,7 +39,7 @@
 			this.options = $.extend( true, {}, $.DLMenu.defaults, options );
 			// cache some elements and initialize some variables
 			this._config();
-			
+
 			var animEndEventNames = {
 					'WebkitAnimation' : 'webkitAnimationEnd',
 					'OAnimation' : 'oAnimationEnd',
@@ -69,7 +69,7 @@
 			this.$trigger = this.$el.children( '.dl-trigger' );
 			this.$menu = this.$el.children( 'ul.dl-menu' );
 			this.$menuitems = this.$menu.find( 'li:not(.dl-back)' );
-			this.$el.find( 'ul.dl-submenu' ).prepend( '<li class="dl-back"><a href="#">back</a></li>' );
+			this.$el.find( 'ul.dl-submenu' ).prepend( '<li class="dl-back"><a href="#">Retour</a></li>' );
 			this.$back = this.$menu.find( 'li.dl-back' );
 		},
 		_initEvents : function() {
@@ -77,10 +77,10 @@
 			var self = this;
 
 			this.$trigger.on( 'click.dlmenu', function() {
-				
+
 				if( self.open ) {
 					self._closeMenu();
-				} 
+				}
 				else {
 					self._openMenu();
 				}
@@ -89,7 +89,7 @@
 			} );
 
 			this.$menuitems.on( 'click.dlmenu', function( event ) {
-				
+
 				event.stopPropagation();
 
 				var $item = $(this),
@@ -127,7 +127,7 @@
 			} );
 
 			this.$back.on( 'click.dlmenu', function( event ) {
-				
+
 				var $this = $( this ),
 					$submenu = $this.parents( 'ul.dl-submenu:first' ),
 					$item = $submenu.parent(),
@@ -150,7 +150,7 @@
 					}
 
 					$item.removeClass( 'dl-subviewopen' );
-					
+
 					var $subview = $this.parents( '.dl-subview:first' );
 					if( $subview.is( 'li' ) ) {
 						$subview.addClass( 'dl-subviewopen' );
@@ -161,7 +161,7 @@
 				return false;
 
 			} );
-			
+
 		},
 		closeMenu : function() {
 			if( this.open ) {
@@ -174,11 +174,31 @@
 					self.$menu.off( self.transEndEventName );
 					self._resetMenu();
 				};
-			
+            // hides left nav menu
+            $( 'nav' ).hide();
+            $( 'nav' ).css("gridColumn", "");
+
+            // puts the viewer Div fullscreen
+            $( '#viewerDiv' ).css("gridColumn", "1 / 3");
+
+            // adds the menu button on the top of the viewerDiv
+            $( '#dl-menu').appendTo( "#viewerDiv");
+
+            // position the button at the top left corner
+            $( '#dl-menu').css( "z-index", "8");
+            $( '#dl-menu').css( "position", "absolute");
+            $( '#dl-menu').css( "top", "0px");
+            $( '#dl-menu').css( "left", "0px");
+
+            // trick on the map viewport to adapt the size of the map to the window
+            $( '.ol-viewport').css( "position", "absolute");
+            map.libMap.updateSize();
+
+            // sets the menu as "closed"
 			this.$menu.removeClass( 'dl-menuopen' );
 			this.$menu.addClass( 'dl-menu-toggle' );
 			this.$trigger.removeClass( 'dl-active' );
-			
+
 			if( this.supportTransitions ) {
 				this.$menu.on( this.transEndEventName, onTransitionEndFn );
 			}
@@ -195,10 +215,26 @@
 		},
 		_openMenu : function() {
 			var self = this;
-			// clicking somewhere else makes the menu close
-			$body.off( 'click' ).on( 'click.dlmenu', function() {
-				self._closeMenu() ;
-			} );
+
+            // shows left nav menu on the first grid column
+            $( 'nav' ).show();
+            $( 'nav' ).css("gridColumn", "1 / 2");
+
+            // puts the viewer Div on the second grid column
+            $( '#viewerDiv' ).css("gridColumn", "2 / 3");
+
+            // adds the menu button into the nav div
+            $( '#dl-menu').appendTo( "nav");
+            $( '#dl-menu').css( "z-index", "1");
+
+            // position the menu at the top left corner of the nav div
+            $( '#dl-menu').css( "position", "relative");
+            $( '#dl-menu').css( "top", "");
+            $( '#dl-menu').css( "left", "");
+
+            // adapt the size of the map to the window
+            map.libMap.updateSize();
+
 			this.$menu.addClass( 'dl-menuopen dl-menu-toggle' ).on( this.transEndEventName, function() {
 				$( this ).removeClass( 'dl-menu-toggle' );
 			} );
@@ -234,9 +270,9 @@
 				}
 				instance[ options ].apply( instance, args );
 			});
-		} 
+		}
 		else {
-			this.each(function() {	
+			this.each(function() {
 				var instance = $.data( this, 'dlmenu' );
 				if ( instance ) {
 					instance._init();

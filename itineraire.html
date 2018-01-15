@@ -22,7 +22,7 @@
 	<body>
 		<div class="container">
 
-			<nav>
+			<nav id="mapNavigation">
 
                 <div id="dl-menu" class="dl-menuwrapper">
                     <button class="dl-trigger">Open Menu</button>
@@ -30,7 +30,7 @@
                         <li>
                             <a href="#">Global</a>
                                 <ul class="dl-submenu">
-                                    <li id="Itineraire_US" class="kmlLayer"><a href="#">Itinéraire US</a></li>
+                                    <li id="Itineraire_US" class="kmlLayer USLayer"><a href="#">Itinéraire US</a></li>
                                     <li id="Itineraire_Bresil" class="kmlLayer"><a href="#">Itinéraire Brésil</a></li>
                                 </ul>
                         </li>
@@ -147,10 +147,12 @@
             $(function() {
                 $( '#dl-menu' ).dlmenu({
                     animationClasses : {
-                        classin : 'dl-animate-in-3',
-                        classout : 'dl-animate-out-3'
+                        classin : 'dl-animate-in-4',
+                        classout : 'dl-animate-out-4'
                     }
                 });
+                // on ouvre le menu au chargement de la page
+                $( 'button.dl-trigger').click();
             });
         </script>
 	</body>
