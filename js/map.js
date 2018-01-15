@@ -57,7 +57,7 @@ function addKMLLayer(kmlId) {
 }
 
 // selects all buttons to add kml
-var kmlLayersButtons = document.querySelectorAll("button.kmlLayer");
+var kmlLayersButtons = document.querySelectorAll("li.kmlLayer");
 
 // adds to the button listener to add layer to the map
 for (var i = 0; i < kmlLayersButtons.length; i++) {
