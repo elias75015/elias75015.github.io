@@ -9,15 +9,79 @@
 		<link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<link rel="stylesheet" type="text/css" href="css/menu.css" />
+        <link rel="stylesheet" type="text/css" href="css/commonstyle.css" />
         <link rel="stylesheet" type="text/css" href="css/fontello.css" />
+        <link rel="stylesheet" type="text/css" href="css/mapNav/default.css" />
+        <link rel="stylesheet" type="text/css" href="css/mapNav/component.css" />
 		<script src="js/modernizr-2.6.2.min.js"></script>
 
 	</head>
 	<body>
 		<div class="container">
-			<nav>
-			</nav>
-			<article>
+            <nav>
+                <div id="dl-menu" class="dl-menuwrapper">
+                    <button class="dl-trigger">Open Menu</button>
+                    <ul class="dl-menu">
+                        <li>
+                            <a href="#">Bresil</a>
+                            <ul class="dl-submenu">
+                                <li>
+                                    <a href="#">Rencontres</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="#">Rencontres A - Bresil</a></li>
+                                        <li><a href="#">Rencontres B - Bresil</a></li>
+                                        <li><a href="#">Rencontres C - Bresil</a></li>
+                                        <li><a href="#">Rencontres D - Bresil</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Nature</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="#">Nature A - Bresil</a></li>
+                                        <li><a href="#">Nature B - Bresil</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Cuisine</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="#">Cuisine A - Bresil</a></li>
+                                        <li><a href="#">Cuisine B - Bresil</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">US</a>
+                            <ul class="dl-submenu">
+                                <li>
+                                    <a href="#">Rencontres</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="#">Rencontres A - US</a></li>
+                                        <li><a href="#">Rencontres B - US</a></li>
+                                        <li><a href="#">Rencontres C - US</a></li>
+                                        <li><a href="#">Rencontres D - US</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Nature</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="#">Nature A - US</a></li>
+                                        <li><a href="#">Nature B - US</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Cuisine</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="#">Cuisine A - US</a></li>
+                                        <li><a href="#">Cuisine B - US</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /dl-menuwrapper -->
+            </nav>
+			<article id="mainContent">
 			</article>
 			<aside>
 			</aside>
@@ -39,5 +103,20 @@
 		</div><!-- /container -->
 		<script src="js/polyfills.js"></script>
 		<script src="js/menu.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="js/jquery.dlmenu.js"></script>
+        <script>
+            var map;
+            $(function() {
+                $( '#dl-menu' ).dlmenu({
+                    animationClasses : {
+                        classin : 'dl-animate-in-4',
+                        classout : 'dl-animate-out-4'
+                    }
+                });
+                // on ouvre le menu au chargement de la page
+                $( 'button.dl-trigger').click();
+            });
+        </script>
 	</body>
 </html>

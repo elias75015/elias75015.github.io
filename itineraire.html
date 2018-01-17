@@ -9,6 +9,7 @@
 		<link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<link rel="stylesheet" type="text/css" href="css/menu.css" />
+        <link rel="stylesheet" type="text/css" href="css/commonstyle.css" />
         <link rel="stylesheet" type="text/css" href="css/itineraire.css" />
         <link rel="stylesheet" type="text/css" href="css/fontello.css" />
 		<link rel="stylesheet" type="text/css" href="sdk-ol/GpOl3-src.css" />
@@ -22,105 +23,42 @@
 	<body>
 		<div class="container">
 
-			<nav id="mapNavigation">
+			<nav id>
 
                 <div id="dl-menu" class="dl-menuwrapper">
                     <button class="dl-trigger">Open Menu</button>
                     <ul class="dl-menu">
                         <li>
-                            <a href="#">Global</a>
+                            <a href="#">Brésil</a>
                                 <ul class="dl-submenu">
-                                    <li id="Itineraire_US" class="kmlLayer USLayer"><a href="#">Itinéraire US</a></li>
-                                    <li id="Itineraire_Bresil" class="kmlLayer"><a href="#">Itinéraire Brésil</a></li>
+                                    <li id="Itineraire_Bresil" class="kmlLayer BRLayer"><a href="#">Itinéraire Brésil</a></li>
+                                    <li>
+                                    <a href="#">Evenements</a>
+                                        <ul class="dl-submenu">
+                                            <li id="BR_KML_event_1" class="kmlLayer BRLayer"><a href="#">event 1 - bresil</a></li>
+                                            <li id="BR_KML_event_2" class="kmlLayer BRLayer"><a href="#">event 2 - bresil</a></li>
+                                        </ul>
+                                    </li>
                                 </ul>
                         </li>
                         <li>
-                            <a href="#">Régional</a>
-                            <ul class="dl-submenu">
-                                <li>
-                                    <a href="#">Brésil</a>
-                                    <ul class="dl-submenu">
-                                        <li>
-                                            <a href="#">Parcs naturels</a>
-                                            <ul class="dl-submenu">
-                                                <li class="kmlLayer"><a href="#">Parc naturel A - Bresil</a></li>
-                                                <li class="kmlLayer"><a href="#">Parc naturel B - Bresil</a></li>
-                                                <li class="kmlLayer"><a href="#">Parc naturel C - Bresil</a></li>
-                                                <li class="kmlLayer"><a href="#">Parc naturel D - Bresil</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">Transports</a>
-                                            <ul class="dl-submenu">
-                                                <li class="kmlLayer"><a href="#">Transports A - Bresil</a></li>
-                                                <li class="kmlLayer"><a href="#">Transports B - Bresil</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">Curiosités</a>
-                                            <ul class="dl-submenu">
-                                                <li class="kmlLayer"><a href="#">Curiosité A - Bresil</a></li>
-                                                <li class="kmlLayer"><a href="#">Curiosité B - Bresil</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">US</a>
-                                    <ul class="dl-submenu">
-                                        <li>
-                                            <a href="#">Parcs naturels</a>
-                                            <ul class="dl-submenu">
-                                                <li class="kmlLayer"><a href="#">Parc naturel A - US</a></li>
-                                                <li class="kmlLayer"><a href="#">Parc naturel B - US</a></li>
-                                                <li class="kmlLayer"><a href="#">Parc naturel C - US</a></li>
-                                                <li class="kmlLayer"><a href="#">Parc naturel D - US</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">Transports</a>
-                                            <ul class="dl-submenu">
-                                                <li class="kmlLayer"><a href="#">Transports A - US</a></li>
-                                                <li class="kmlLayer"><a href="#">Transports B - US</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">Curiosités</a>
-                                            <ul class="dl-submenu">
-                                                <li class="kmlLayer"><a href="#">Curiosité A - US</a></li>
-                                                <li class="kmlLayer"><a href="#">Curiosité B - US</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Villes</a>
-                            <ul class="dl-submenu">
-                                <li>
-                                    <a href="#">US</a>
-                                    <ul class="dl-submenu">
-                                        <li><a href="#">New Orleans</a></li>
-                                        <li><a href="#">Houston</a></li>
-                                        <li><a href="#">Los Angeles</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Brésil</a>
-                                    <ul class="dl-submenu">
-                                        <li><a href="#">Sao Paulo</a></li>
-                                        <li><a href="#">Rio</a></li>
-                                        <li><a href="#">Manaus</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                            <a href="#">US</a>
+                                <ul class="dl-submenu">
+                                    <li id="Itineraire_US" class="kmlLayer USLayer"><a href="#">Itinéraire US</a></li>
+                                    <li>
+                                    <a href="#">Evenements</a>
+                                        <ul class="dl-submenu">
+                                            <li id="US_KML_event_1" class="kmlLayer USLayer"><a href="#">event 1 - usa</a></li>
+                                            <li id="US_KML_event_2" class="kmlLayer USLayer"><a href="#">event 2 - usa</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
                         </li>
                     </ul>
                 </div><!-- /dl-menuwrapper -->
 		 </nav>
 
-			<div id="viewerDiv">
+			<div id="mainContent">
 			</div>
 			<div class="component">
 				<!-- Start Nav Structure -->
@@ -144,8 +82,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="js/jquery.dlmenu.js"></script>
         <script>
-            $(function() {
+        var map = createMap();
+            $(function () {
                 $( '#dl-menu' ).dlmenu({
+                    forMap : true,
                     animationClasses : {
                         classin : 'dl-animate-in-4',
                         classout : 'dl-animate-out-4'

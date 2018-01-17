@@ -188,16 +188,16 @@
             }
 
             this.open = false;
-            
+
             // hides left nav menu
             $( 'nav' ).hide();
             $( 'nav' ).css("gridColumn", "");
 
-            // puts the viewer Div fullscreen
-            $( '#viewerDiv' ).css("gridColumn", "1 / 3");
+            // puts the article fullscreen
+            $( '#mainContent' ).css("gridColumn", "1 / 3");
 
-            // adds the menu button on the top of the viewerDiv
-            $( '#dl-menu').appendTo( "#viewerDiv");
+            // adds the menu button on the top of the article div
+            $( '#dl-menu').appendTo( "#mainContent");
 
             // position the button at the top left corner
             $( '#dl-menu').css( "z-index", "8");
@@ -205,10 +205,12 @@
             $( '#dl-menu').css( "top", "0px");
             $( '#dl-menu').css( "left", "0px");
 
-            // trick on the map viewport to adapt the size of the map to the window
-            $( '.ol-viewport').css( "position", "absolute");
-            map.libMap.updateSize();
-
+            // actions specific to the itinaire.html page
+            if (this.options.forMap === true) {
+                // trick on the map viewport to adapt the size of the map to the window
+                $( '.ol-viewport').css( "position", "absolute");
+                map.libMap.updateSize();
+            }
 
 		},
 		openMenu : function() {
@@ -223,8 +225,8 @@
             $( 'nav' ).show();
             $( 'nav' ).css("gridColumn", "1 / 2");
 
-            // puts the viewer Div on the second grid column
-            $( '#viewerDiv' ).css("gridColumn", "2 / 3");
+            // puts the article Div on the second grid column
+            $( '#mainContent' ).css("gridColumn", "2 / 3");
 
             // adds the menu button into the nav div
             $( '#dl-menu').appendTo( "nav");
@@ -235,8 +237,11 @@
             $( '#dl-menu').css( "top", "");
             $( '#dl-menu').css( "left", "");
 
-            // adapt the size of the map to the window
-            map.libMap.updateSize();
+            // actions specific to the itinaire.html page
+            if (this.options.forMap === true) {
+                // adapt the size of the map to the window
+                map.libMap.updateSize();
+            }
 
 			this.$menu.addClass( 'dl-menuopen dl-menu-toggle' ).on( this.transEndEventName, function() {
 				$( this ).removeClass( 'dl-menu-toggle' );

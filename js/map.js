@@ -1,5 +1,9 @@
-map = Gp.Map.load(
-    "viewerDiv",   // identifiant du conteneur HTML
+/**
+ *
+ */
+function createMap () {
+    return Gp.Map.load(
+    "mainContent",   // identifiant du conteneur HTML
     // options d'affichage de la carte (Gp.MapOptions)
     {
         // clef d'accès à la plateforme
@@ -26,7 +30,7 @@ map = Gp.Map.load(
         },
         controlsOptions : {
             "layerswitcher" : {
-                div : "viewerDiv",
+                div : "mainContent",
                 maximised : true
             },
             "graticule" : {
@@ -40,6 +44,7 @@ map = Gp.Map.load(
         }
     }
 ) ;
+};
 
 /**
   *
@@ -47,8 +52,15 @@ map = Gp.Map.load(
 function addKMLLayer (clickedElement) {
     var kmlId = clickedElement.id;
     var layers = map.getLayersOptions();
+
+    var isLayerAlreadyAdded = false;
+
     // removes all non-base layers previously added
     for (var layerId in layers) {
+        if (layerId === kmlId) {
+            // if the clickedlayer is on the map, we set isLayerAlreadyAdded to true
+            isLayerAlreadyAdded = true;
+        }
         if (layerId !== "coucheOSM") {
             if (layerId === "USA Orthos" && $(clickedElement).hasClass("USLayer")) {
                 continue;
@@ -57,6 +69,7 @@ function addKMLLayer (clickedElement) {
         }
     }
 
+    // if we clicked on an USLayer, we add the USA phto layer
     if ($(clickedElement).hasClass("USLayer")) {
         map.addLayers({
             // Couche USA photos
@@ -79,17 +92,22 @@ function addKMLLayer (clickedElement) {
 
     }
 
-    // adds kml Layer associated to the clicked button
-    var kmlFilePath = "./map-data/" + kmlId + ".kml";
-    map.addLayers({
-        kmlId : {
+    // if the kmlLayer was not on the map, we add it.
+    // in the case isLayerAlreadyAdded is true, the layer has been removed just before (see few lines above)
+    if (isLayerAlreadyAdded === false) {
+        // adds kml Layer associated to the clicked button
+        var kmlFilePath = "./map-data/" + kmlId + ".kml";
+        var kmlLayerToAdd = {};
+        kmlLayerToAdd["" + kmlId] = {
             format : "kml",
             url : kmlFilePath,
             title : kmlId,
             zoomToExtent : true,
             showPointNames : false
-        }
-    });
+        };
+        map.addLayers(kmlLayerToAdd);
+    }
+
 }
 
 // selects all buttons to add kml
