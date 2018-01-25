@@ -28,28 +28,40 @@
                 <div id="dl-menu" class="dl-menuwrapper">
                     <button class="dl-trigger">Open Menu</button>
                     <ul class="dl-menu">
-                        <li>
+                        <li id="Itineraire_Bresil" class="itiLayer BRLayer">
                             <a href="#">Brésil</a>
                                 <ul class="dl-submenu">
-                                    <li id="Itineraire_Bresil" class="kmlLayer BRLayer"><a href="#">Itinéraire Brésil</a></li>
                                     <li>
                                     <a href="#">Evenements</a>
+                                    <ul class="dl-submenu">
+                                        <li id="BR_sport" class="kmlLayer BRLayer"><a href="#">Evénements sportifs</a></li>
+                                        <li id="BR_concert" class="kmlLayer BRLayer"><a href="#">Evénements musicaux</a></li>
+                                    </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Fonds de carte</a>
                                         <ul class="dl-submenu">
-                                            <li id="BR_KML_event_1" class="kmlLayer BRLayer"><a href="#">event 1 - bresil</a></li>
-                                            <li id="BR_KML_event_2" class="kmlLayer BRLayer"><a href="#">event 2 - bresil</a></li>
+                                            <li id="NAT_GEO" class="baseLayer BRLayer"><a href="#">National Geographic</a></li>
+                                            <li id="OSM" class="baseLayer BRLayer"><a href="#">Open Street Map</a></li>
                                         </ul>
                                     </li>
                                 </ul>
                         </li>
-                        <li>
+                        <li id="Itineraire_US" class="itiLayer USLayer">
                             <a href="#">US</a>
                                 <ul class="dl-submenu">
-                                    <li id="Itineraire_US" class="kmlLayer USLayer"><a href="#">Itinéraire US</a></li>
                                     <li>
                                     <a href="#">Evenements</a>
                                         <ul class="dl-submenu">
-                                            <li id="US_KML_event_1" class="kmlLayer USLayer"><a href="#">event 1 - usa</a></li>
-                                            <li id="US_KML_event_2" class="kmlLayer USLayer"><a href="#">event 2 - usa</a></li>
+                                            <li id="US_sport" class="kmlLayer USLayer"><a href="#">Evénements sportifs</a></li>
+                                            <li id="US_concert" class="kmlLayer USLayer"><a href="#">Evénements musicaux</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Fonds de carte</a>
+                                        <ul class="dl-submenu">
+                                            <li id="US_ORTHO" class="baseLayer USLayer"><a href="#">Orthos USA</a></li>
+                                            <li id="OSM" class="baseLayer USLayer"><a href="#">Open Street Map</a></li>
                                         </ul>
                                     </li>
                                 </ul>

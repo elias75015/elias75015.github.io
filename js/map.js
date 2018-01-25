@@ -1,5 +1,5 @@
 /**
- *
+ * Function to create the map
  */
 function createMap () {
     return Gp.Map.load(
@@ -21,6 +21,7 @@ function createMap () {
             // Couche openstreetmap
             coucheOSM : {
                 opacity : 1,
+                position : 0,
                 visibility : true,
                 format :"osm",
                 title : "OpenStreetMap",
@@ -46,7 +47,49 @@ function createMap () {
 ) ;
 };
 
+
+/**************************** MAP FUNCTIONS ********************************************/
+
 /**
+  * Fonction qui remet tout à zero:
+  * - suppression de toutes les couches présentes
+  * - ajout de la couche de fond OSM
+  * - ajout de la couche KML de l'itinéraire choisi 
+  * - centrage sur cet itinéraire
+  */
+function goTo (clickedElement) {
+    var itiId = clickedElement.id;
+    var layers = map.getLayersOptions();
+
+    // Suppression de toutes les couches précédement ajoutées
+    for (var layerId in layers) {
+        if (layerId !== "coucheOSM") {
+            map.removeLayers(layerId);
+        }
+    }
+    // réajout de la couche OSM si elle a été supprimée
+    if (!layers["coucheOSM"]) {
+        map.addLayers(baseLayers["OSM"]);
+    }
+
+    // ajout du kml itineraire correspondant
+    var itiKmlFilePath = "./map-data/" + itiId + ".kml";
+    var itiKmlLayerToAdd = {};
+    itiKmlLayerToAdd[itiId] = {
+        format : "kml",
+        url : itiKmlFilePath,
+        title : itiId,
+        zoomToExtent : true,
+        showPointNames : false
+    };
+    
+    map.addLayers(itiKmlLayerToAdd);
+}
+
+/**
+  * Fonction qui : 
+  * - ajoute un kml s'il n'est pas déja présent
+  * - supprime un kml s'il est déjà présent 
   *
   */
 function addKMLLayer (clickedElement) {
@@ -55,60 +98,111 @@ function addKMLLayer (clickedElement) {
 
     var isLayerAlreadyAdded = false;
 
-    // removes all non-base layers previously added
+    // checks if the clickedlayer is on the map
+    // - yes ? we set isLayerAlreadyAdded to true
     for (var layerId in layers) {
         if (layerId === kmlId) {
-            // if the clickedlayer is on the map, we set isLayerAlreadyAdded to true
             isLayerAlreadyAdded = true;
         }
-        if (layerId !== "coucheOSM") {
-            if (layerId === "USA Orthos" && $(clickedElement).hasClass("USLayer")) {
-                continue;
-            }
-            map.removeLayers(layerId);
-        }
     }
 
-    // if we clicked on an USLayer, we add the USA phto layer
-    if ($(clickedElement).hasClass("USLayer")) {
-        map.addLayers({
-            // Couche USA photos
-            "USA Orthos" : {
-                format : "wmts",
-                title : "Photos US",
-                url : "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/WMTS/tile/1.0.0/USGSImageryOnly/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}",
-                layer : "USGSImageryOnly",
-                tileMatrixSet : "default028mm",
-                topLeftCorner : {
-                    x : -20037508,
-                    y : 20037508
-                },
-                styleName : "default",
-                outputFormat : "image/png",
-                opacity : 0.7,
-                visibility : true
-            }
-        });
-
-    }
-
-    // if the kmlLayer was not on the map, we add it.
-    // in the case isLayerAlreadyAdded is true, the layer has been removed just before (see few lines above)
+    // if the kmlLayer is not on the map, we add it.
+    // if the kmlLayer is on the map, we remove it.
     if (isLayerAlreadyAdded === false) {
         // adds kml Layer associated to the clicked button
         var kmlFilePath = "./map-data/" + kmlId + ".kml";
         var kmlLayerToAdd = {};
-        kmlLayerToAdd["" + kmlId] = {
+        kmlLayerToAdd[kmlId] = {
             format : "kml",
             url : kmlFilePath,
             title : kmlId,
-            zoomToExtent : true,
+            // zoomToExtent : true,
             showPointNames : false
         };
         map.addLayers(kmlLayerToAdd);
+    } else {
+        map.removeLayers(kmlId);
     }
 
 }
+
+
+function addBaseLayer (clickedElement) {
+    var baseLayerId = clickedElement.id;
+
+    var layers = map.getLayersOptions();
+
+    // Deleting previous baseLayer
+    for (var layerId in layers) {
+        for (var blId in baseLayers) {
+            if (baseLayers[blId][layerId]) {
+                map.removeLayers(layerId);
+                break;
+            }
+        }
+    }
+    // Add the baseLayer to the map
+    map.addLayers(baseLayers[baseLayerId]);
+
+}
+
+// Object referencing all the base layers we can add to the map
+// the first level of keys of this object must correspond to the baselayer <li> tag id
+const baseLayers = {
+    "OSM" : {
+        "coucheOSM" : {
+            position : 0,
+            opacity : 1,
+            visibility : true,
+            format :"osm",
+            title : "OpenStreetMap",
+            url : "https://{a-c}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=39cfa021a92541bdbcac02cf76e3a2ce",
+            crossOrigin : null
+            }
+        },
+    "US_ORTHO" : {
+        "USA Orthos" : {
+            position : 0,
+            format : "wmts",
+            title : "Photos US",
+            url : "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/WMTS/tile/1.0.0/USGSImageryOnly/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}",
+            layer : "USGSImageryOnly",
+            tileMatrixSet : "default028mm",
+            topLeftCorner : {
+                x : -20037508,
+                y : 20037508
+            },
+            styleName : "default",
+            outputFormat : "image/png",
+            opacity : 1,
+            visibility : true
+        }
+    },
+    "NAT_GEO" : {
+        "National Geo" : {
+            position : 0,
+            opacity : 1,
+            visibility : true,
+            format :"osm",
+            title : "National Geographic",
+            url : "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}",
+            crossOrigin : null
+            }
+    }
+}
+
+/************** ADD LISTENERS TO DOM  **********************************/
+
+// selects all buttons to add itinerary kml
+var itiLayersButtons = document.querySelectorAll("li.itiLayer");
+
+// adds to the button listener to add layer to the map
+for (var i = 0; i < itiLayersButtons.length; i++) {
+    itiLayersButtons[i].onclick = function () {
+        goTo(this);
+    };
+}
+
 
 // selects all buttons to add kml
 var kmlLayersButtons = document.querySelectorAll("li.kmlLayer");
@@ -117,5 +211,15 @@ var kmlLayersButtons = document.querySelectorAll("li.kmlLayer");
 for (var i = 0; i < kmlLayersButtons.length; i++) {
     kmlLayersButtons[i].onclick = function () {
         addKMLLayer(this);
+    };
+}
+
+// selects all buttons to add base layer
+var baseLayersButtons = document.querySelectorAll("li.baseLayer");
+
+// adds to the button listener to add layer to the map
+for (var i = 0; i < baseLayersButtons.length; i++) {
+    baseLayersButtons[i].onclick = function () {
+        addBaseLayer(this);
     };
 }
