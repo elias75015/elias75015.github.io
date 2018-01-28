@@ -19,64 +19,60 @@
 	</head>
 	<body>
 		<div class="container">
-            <nav id>
-
-                <div id="dl-menu" class="dl-menuwrapper">
-                    <button class="dl-trigger">Open Menu</button>
-                    <ul class="dl-menu">
-                        <li>
-                            <a href="#">Tout</a>
-                        </li>
-                        <li>
-                            <a href="#">Bresil</a>
-                        </li>
-                        <li>
-                            <a href="#">US</a>
-                        </li>
-                    </ul>
-                </div><!-- /dl-menuwrapper -->
+            <nav id="navigation">
+							<div id="dl-menu" class="dl-menuwrapper">
+							  <button class="dl-trigger">Open Menu</button>
+							</div>
             </nav>
 			<article id="mainContent">
-                    <table cellspacing="0">
+                    <table cellspacing="0" id="infoArray">
+											  <thead>
                             <tr>
                                <th>Nom</th>
                                <th>Theme</th>
                                <th>Pays</th>
                                <th>Lieu</th>
-                               <th>Date</th>
+                               <th data-dynatable-read="date">Date</th>
+															 <th data-dynatable-no-sort=true> Commentaires </th>
                             </tr>
-                      
+												</thead>
+												<tbody>
                             <tr>
                                <td>Concert de Jamiroquai</td>
                                <td>Musique</td>
-                               <td>USA</td>
-                               <td>Rasta Arena, Dallas</td>
-                               <td>23/09/1991 </td>
-                            </tr>
-                      
-                            <tr>
-                                <td>Concert de Jamiroquai</td>
-                                <td>Musique</td>
-                                <td>USA</td>
-                                <td>Rasta Arena, Dallas</td>
-                                <td>23/09/1991 </td>
+                               <td>Brésil</td>
+                               <td>Rasta Arena, Sao Paulo</td>
+                               <td>20/07/2018</td>
+															 <td>Prix de la place à 67 dollars, 20h</td>
                             </tr>
 
                             <tr>
-                                <td>Concert de Jamiroquai</td>
-                                <td>Musique</td>
+                                <td>Baseball - Toronto vs Houston</td>
+                                <td>Sport</td>
                                 <td>USA</td>
-                                <td>Rasta Arena, Dallas</td>
-                                <td>23/09/1991 </td>
-                                </tr>
+                                <td>U Arena, Dallas</td>
+                                <td>19/08/2018</td>
+																<td> Match à 17h, acheter hot dog en face du stade</td>
+                            </tr>
 
                             <tr>
-                                <td>Concert de Jamiroquai</td>
+                                <td>Basket - Spurs vs Bulls</td>
+                                <td>Sport</td>
+                                <td>USA</td>
+                                <td>Green Park, Los Angeles</td>
+                                <td>12/06/2018</td>
+																<td>Match universitaire - 15h</td>
+                            </tr>
+
+                            <tr>
+                                <td>Concert d'Elvis</td>
                                 <td>Musique</td>
                                 <td>USA</td>
-                                <td>Rasta Arena, Dallas</td>
-                                <td>23/09/1991 </td>
+                                <td>Elvis Hall, Memphis</td>
+                                <td>14/05/2018</td>
+																<td></td>
                             </tr>
+														<tbody>
                          </table>
 
 			</article>
@@ -100,6 +96,7 @@
 		<script src="js/menu.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="js/jquery.dlmenu.js"></script>
+				<script src="js/jquery.dynatable.js"></script>
         <script>
             var map;
             $(function() {
@@ -112,6 +109,51 @@
                 // on ouvre le menu au chargement de la page
                 $( 'button.dl-trigger').click();
             });
+
+
+						// on transforme le tableau pour le trier et le requeter
+						var dynatableClosed = $('#infoArray').dynatable({
+							features: {
+								search: true,
+								paginate: false,
+								recordCount: true,
+								sorting: true,
+								pushState: true
+							},
+							readers: {
+								'date': function(el, record) {
+									var date = el.innerHTML.split('/');
+									var dateObj = new Date(Number(date[2]), Number(date[1]), Number(date[0]));
+									return dateObj;
+								}
+							},
+							writers: {
+								'date': function(record) {
+									var objDate = record.date;
+									var d  = objDate.getDate();
+									var m  = objDate.getMonth() + 1;
+									var y  = objDate.getFullYear();
+
+									// ensure we have 2 digits for days/months
+									var d  = (d.toString().length < 2) ? '0' + d : d;
+									var m  = (m.toString().length < 2) ? '0' + m : m;
+
+									return d + '/' + m + '/' + y;
+								}
+							}
+						}).data('dynatable');
+
+						var dynatable = $('#infoArray').data('dynatable');
+						$("#dynatable-search-infoArray").appendTo($( "#navigation" ));
+						$("#dynatable-search-infoArray").css({
+						  "background-color": "hsla(29, 34.6%, 37.6%, 1)",
+						  "color": "#ffffff"
+						});
+						$("#dynatable-query-search-infoArray").css({
+							"position": "relative",
+							"height": "40px",
+							"width" : "100%"
+						})
         </script>
 	</body>
 </html>

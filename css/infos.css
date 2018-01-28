@@ -19,7 +19,7 @@ img {
 }
 
 table {
-  width: 50%;
+  width: 75%;
   margin: auto;
   margin-top: 50px;
 }
@@ -51,7 +51,7 @@ table tr:nth-child(2n) {
 table tr:nth-child(2n+1) {
   background-color: hsla(29, 34.6%, 37.6%, 1);
 }
-
+/**
 @media screen and (max-width: 700px) {
 
   table {
@@ -162,3 +162,4 @@ table tr:nth-child(2n+1) {
     overflow: visible;
   }
 }
+*/
