@@ -193,6 +193,11 @@
             $( 'nav' ).hide();
             $( 'nav' ).css("gridColumn", "");
 
+						// Specific for info page - hide the query bar
+						if (document.getElementById("dynatable-search-infoArray")) {
+							$("#dynatable-search-infoArray").hide();
+						}
+
             // puts the article fullscreen
             $( '#mainContent' ).css("gridColumn", "1 / 3");
 
@@ -224,7 +229,10 @@
             // shows left nav menu on the first grid column
             $( 'nav' ).show();
             $( 'nav' ).css("gridColumn", "1 / 2");
-
+						// Specific for info page - show the query bar
+						if (document.getElementById("dynatable-search-infoArray")) {
+							$("#dynatable-search-infoArray").show();
+						}
             // puts the article Div on the second grid column
             $( '#mainContent' ).css("gridColumn", "2 / 3");
 
