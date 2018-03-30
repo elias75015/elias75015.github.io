@@ -51,7 +51,7 @@ table tr:nth-child(2n) {
 table tr:nth-child(2n+1) {
   background-color: hsla(29, 34.6%, 37.6%, 1);
 }
-/**
+
 @media screen and (max-width: 700px) {
 
   table {
@@ -78,7 +78,6 @@ table tr:nth-child(2n+1) {
   }
 
   td:not(:first-child):before {
-    color: #91ced4;
     content: '';
     display: block;
     left: 0;
@@ -106,7 +105,7 @@ table tr:nth-child(2n+1) {
     position: relative;
   }
 
-  tr:first-child {
+  thead tr:first-child {
     display: none;
   }
 }
@@ -122,8 +121,8 @@ table tr:nth-child(2n+1) {
   }
 
   td:first-child {
-    background-color: #c8e7ea;
-    border-bottom: 1px solid #91ced4;
+    /* background-color: #c8e7ea; */
+    border-bottom: 1px solid;
     border-radius: 10px 10px 0 0;
     position: relative;
     top: 0;
@@ -148,8 +147,8 @@ table tr:nth-child(2n+1) {
   }
 
   tr {
-    background-color: white !important;
-    border: 1px solid #6cbec6;
+  /*  background-color: white !important;*/
+    border: 1px solid;
     border-radius: 10px;
     box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
     margin: 0.5rem 0;
@@ -162,4 +161,3 @@ table tr:nth-child(2n+1) {
     overflow: visible;
   }
 }
-*/
