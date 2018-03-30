@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Blog de voyage - BO</title>
+		<meta name="description" content="Blog de voyage de Clara et Elias" />
+	</head>
+
+  <body>
+    <form>
+      <fieldset id="infos">
+        Le code généré est à insérer dans le tableau "infoArray" de la page infos.html.
+        <br/>
+        Titre : <input id="title"></input>
+        <br/>
+        Theme : <select id="theme">
+          <option value="Sport"> Sport </option>
+          <option value="Musique"> Musique </option>
+          <option value="Spectacle"> Spectacle </option>
+          <option value="Hotel"> Hotel </option>
+        </select>
+        <br/>
+        Pays : <select id="pays">
+          <option value="Brésil"> Brésil </option>
+          <option value="Uruguay"> Uruguay </option>
+          <option value="Argentine"> Argentine </option>
+          <option value="USA"> USA </option>
+        </select>
+        <br/>
+        Lieu : <input id="lieu"></input>
+        <br/>
+        Date : <input type="date" id="date"></input>
+        <br/>
+        Commentaires : <textarea id="commentaires"> </textarea>
+        <button id="validateInfo"> Afficher le code ci-dessous </input>
+      </fieldset>
+    </form>
+
+    <div id="genResult">
+      &lt;tr&gt;
+      </br>
+        &lt;td&gt;<span id="titreGen"></span>&lt;/td&gt;
+      </br>
+        &lt;td&gt;<span id="themeGen"></span>&lt;/td&gt;
+        </br>
+        &lt;td&gt;<span id="paysGen"></span>&lt;/td&gt;
+        </br>
+        &lt;td&gt;<span id="lieuGen"></span>&lt;/td&gt;
+        </br>
+        &lt;td&gt;<span id="dateGen"></span>&lt;/td&gt;
+        </br>
+        &lt;td&gt;<span id="commentairesGen"></span>&lt;/td&gt;
+        </br>
+      &lt;/tr&gt;
+    </div>
+    <script>
+    document.getElementById("validateInfo").onclick = function() {
+      console.log(document.getElementById("theme").value);
+      console.log(document.getElementById("date").value);
+      console.log(document.getElementById("lieu").value);
+    }
+    </script>
+  </body>
+</html>
