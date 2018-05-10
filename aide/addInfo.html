@@ -9,8 +9,10 @@
 	</head>
 
   <body>
+		<h3> Générateur de code infosArray </h3>
+		<p>Le code généré est à insérer dans le tableau "infoArray" de la page
+		infos.html, afin d'ajouter des entrées au tableau.</p>
       <fieldset id="infos">
-        Le code généré est à insérer dans le tableau "infoArray" de la page infos.html.
         <br/>
         Titre : <input id="title"></input>
         <br/>
@@ -60,7 +62,7 @@
 			document.getElementById("paysGen").append(document.getElementById("pays").value);
 			document.getElementById("lieuGen").append(document.getElementById("lieu").value);
 			//regexp pour reformater la date correctement dans le tableau des Infos
-			var reg = /(\d{4})-(\d{2})-(\d{2})/;		
+			var reg = /(\d{4})-(\d{2})-(\d{2})/;
 			document.getElementById("dateGen").append(document.getElementById("date").value.replace(reg, '$3/$2/$1'));
 			document.getElementById("commentairesGen").append(document.getElementById("commentaires").value);
     }
