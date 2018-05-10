@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grandTitre {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.titreSpan {
+    background-color: #694d33;
+    color: #eccd9d;
+    padding: 15px;
+    font-size: 1.250em;
+    letter-spacing: 8px;
+}
+
+#background1 {
+  /* Full height */
+  height: 40%;
+  /* The image used */
+  background-image: url("../img/backgroundIndex.jpg");
+}
+
+#background2 {
+  /* Full height */
+  height: 50%;
+  /* The image used */
+  background-image: url("../img/backgroundIndex2.jpg");
+}
+
+#background3 {
+  /* Full height */
+  height: 80%;
+  /* The image used */
+  background-image: url("../img/backgroundIndex3.jpg");
+}
+
+.mainContent {
+  background-color: #694d33;
+  color: #eccd9d;
+  font-size:1em;
+}
+
+.mainContent h2 {
+  text-align: center;
+}
+
+#firstPart {
+  height:400px;
+}
+
+#secondPart {
+  height:400px;
+}
