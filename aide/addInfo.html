@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Blog de voyage - BO</title>
 		<meta name="description" content="Blog de voyage de Clara et Elias" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	</head>
 
   <body>
@@ -19,8 +20,7 @@
         Theme : <select id="theme">
           <option value="Sport"> Sport </option>
           <option value="Musique"> Musique </option>
-          <option value="Spectacle"> Spectacle </option>
-          <option value="Hotel"> Hotel </option>
+          <option value="Fête"> Fête </option>
         </select>
         <br/>
         Pays : <select id="pays">
@@ -57,6 +57,7 @@
     </div>
     <script>
     document.getElementById("validateInfo").onclick = function() {
+			$("span").html("");
       document.getElementById("titreGen").append(document.getElementById("title").value);
 			document.getElementById("themeGen").append(document.getElementById("theme").value);
 			document.getElementById("paysGen").append(document.getElementById("pays").value);
