@@ -25,25 +25,26 @@
                         <li>
                             <a href="#">Bresil</a>
                             <ul class="dl-submenu">
-                                <li><a href="#"> 08/06 - Arrivée à Buenos Aires </a></li>
-                                <li><a href="#"> 10/06 - On danse le tango </a></li>
-                                <li><a href="#"> 12/06 - Montevideo, chez Pepe Murica </a></li>
-                                <li><a href="#"> 16/06 - Brazil </a></li>
+                                <li class="articleEntry" id="article1"><a href="#"> 08/06 - Arrivée à Buenos Aires </a></li>
+                                <li class="articleEntry" id="article2"><a href="#"> 10/06 - On danse le tango </a></li>
+                                <li class="articleEntry" id="article3"><a href="#"> 12/06 - Montevideo, chez Pepe Murica </a></li>
+                                <li class="articleEntry" id="article4"><a href="#"> 16/06 - Brazil </a></li>
                             </ul>
                         </li>
                         <li>
                             <a href="#">US</a>
                             <ul class="dl-submenu">
-                                <li><a href="#"> 20/08 - De Manaus à Miami </a></li>
-                                <li><a href="#"> 29/08 - New Orleans, jazz </a></li>
-                                <li><a href="#"> 10/09 - Texas and rednecks </a></li>
-                                <li><a href="#"> 20/09 - California here we come </a></li>
+                                <li class="articleEntry" id="article1"><a href="#"> 20/08 - De Manaus à Miami </a></li>
+                                <li class="articleEntry" id="article2"><a href="#"> 29/08 - New Orleans, jazz </a></li>
+                                <li class="articleEntry" id="article3"><a href="#"> 10/09 - Texas and rednecks </a></li>
+                                <li class="articleEntry" id="article4"><a href="#"> 20/09 - California here we come </a></li>
                             </ul>
                         </li>
                     </ul>
                 </div><!-- /dl-menuwrapper -->
             </nav>
 			<article id="mainContent">
+				A
 			</article>
 			<aside>
 			</aside>
@@ -79,6 +80,12 @@
                 // on ouvre le menu au chargement de la page
                 $( 'button.dl-trigger').click();
             });
+
+						$(".articleEntry").click(function(e) {
+							$('#mainContent').empty();
+    					$('#mainContent').load('articles/'+this.id+'.html');
+						});
+</script>
         </script>
 	</body>
 </html>
