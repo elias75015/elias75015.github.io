@@ -1,16 +1,1 @@
-#viewerDiv {
-    grid-column: 2;
-    grid-row: 1;
-    background-color: white;
-}
 
-/* Petit ecrans */
-@media screen and (max-width:480px) {
-
-    #viewerDiv {
-        grid-column: 2;
-        grid-row: 1;
-        background-color: white;
-    }
-
-}
