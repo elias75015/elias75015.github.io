@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Blog de voyage - BO</title>
+		<meta name="description" content="Blog de voyage de Clara et Elias" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	</head>
+
+  <body>
+		<h3> Générateur de code article carnet de voyage </h3>
+		<p>Le code généré est à insérer dans un fichier /articles/articleX.html. Il suffit ensuite de modifier
+    la page articles.html pour ajouter une ligne du type  &lt;li class="articleEntry" id="article4"&gt;&lt;a href="#"&gt; 16/06 - Brazil &lt;/a&gt;&lt;/li&gt;
+    dans le menu</p>
+      <fieldset id="infos">
+        <br/>
+        Titre de l'article : <input id="title"></input>
+        <br/>
+        Date de l'article : <input type="date" id="date"></input>
+        <br/>
+        Lieu de l'article (ville) : <input id="place"></input>
+        <br/>
+        Nombre de paragraphes de l'article :
+        <select id="selectNbParagraphes" onchange="updateParagraphes(this.value)">
+            <option>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <div id="paragraphes">
+        </div>
+        <br>
+        <button id="validateInfo"> Afficher le code ci-dessous </input>
+    </fieldset>
+    <br>
+    <br>
+
+    <div id="genResult">
+      &lt;p id="date"&gt; Le <span id="dateArticle"></span>, à <span id="lieuArticle">Porto Alegre</span> &lt;/p&gt;
+      &lt;br&gt;
+      &lt;h2 id="title"&gt; <span id="titreArticle"></span> &lt;/h2&gt;
+      <div id="paragrapheResults">
+      </div>
+    </div>
+    <script>
+    /* OGENERATION DU FORMULAIRE */
+
+    function updateParagraphes(nbParagraphes) {
+      // Form Part -->
+      $( "#paragraphes" ).empty();
+      for (var i = 0; i < nbParagraphes; i++) {
+        var y = i+1;
+        var texteParagraphe = document.createElement( "textArea" );
+        texteParagraphe.id = "texteParagraphe" + y;
+        texteParagraphe.rows = 15;
+        texteParagraphe.cols = 70;
+
+        var imageParagraphe = document.createElement( "input" );
+        imageParagraphe.id = "imgParagraphe" + y;
+
+        var imageTypePortrait = document.createElement( "input" );
+        imageTypePortrait.id = "imgTypeParagraphe" + y + "Portrait";
+        imageTypePortrait.type = "radio";
+        imageTypePortrait.name = "imageType"+y;
+        imageTypePortrait.value = "portrait";
+
+        var imageTypePaysage = document.createElement( "input" );
+        imageTypePaysage.id = "imgTypeParagraphe" + y + "Paysage";
+        imageTypePaysage.type = "radio";
+        imageTypePaysage.name = "imageType"+y;
+        imageTypePaysage.value = "paysage";
+
+        var imageTypeCarre = document.createElement( "input" );
+        imageTypeCarre.id = "imgTypeParagraphe" + y + "Carre";
+        imageTypeCarre.type = "radio";
+        imageTypeCarre.name = "imageType"+y;
+        imageTypeCarre.value = "carre";
+
+        $( "#paragraphes" ).append("<b>Texte paragraphe " + y + ": </b><br>");
+        $( "#paragraphes" ).append(texteParagraphe);
+        $( "#paragraphes" ).append("<br><b>Nom image (avec extension) paragraphe " + y + ": </b><br>");
+        $( "#paragraphes" ).append(imageParagraphe);
+        $( "#paragraphes" ).append("<br><b>Format image paragraphe" + y + ": </b><br>");
+        $( "#paragraphes" ).append("Portrait : ");
+        $( "#paragraphes" ).append(imageTypePortrait);
+        $( "#paragraphes" ).append("<br>Paysage : ");
+        $( "#paragraphes" ).append(imageTypePaysage);
+        $( "#paragraphes" ).append("<br>Carre : ");
+        $( "#paragraphes" ).append(imageTypeCarre);
+        $( "#paragraphes" ).append("<br> <br> <br>");
+      }
+        // Results Generation part -->
+        $( "#genResult" ).empty();
+        $( "#genResult" ).append("&lt;p id='date'&gt; <br> Le <span id='dateArticle'></span>, à <span id='lieuArticle'></span> <br>&lt;/p&gt;<br>&lt;br&gt;<br>&lt;h2 id='title'&gt;<br> <span id='titreArticle'></span> <br>&lt;/h2&gt;<br>");
+        for (var i = 0; i < nbParagraphes; i++) {
+          y = i+1;
+          $( "#genResult" ).append("&lt;br&gt;<br>&lt;p&gt;<br><span id='p"+y+"Texte'></span><br>&lt;/p&gt;<br>&lt;br&gt;<br><span id='p"+y+"Image'></span><br>");
+      }
+    }
+    /* ONCLICK - GENERATION DES INFOS */
+    document.getElementById("validateInfo").onclick = function() {
+      // On vide préalablement la génération précédente
+      $("span").html("");
+
+      // On remplit les trous pour le titre, la date, et le lieu de l'article
+      document.getElementById("titreArticle").append(document.getElementById("title").value);
+      document.getElementById("dateArticle").append(document.getElementById("date").value);
+      document.getElementById("lieuArticle").append(document.getElementById("place").value);
+
+      // Pour chaque paragraphe, on génère le code associé, en fonction aussi de si une image est asssociée au paragraphe
+      var nbParagraphes = document.getElementById("selectNbParagraphes").value;
+      for (var i=0; i<nbParagraphes; i++) {
+        y = i+1;
+        document.getElementById("p"+y+"Texte").append(document.getElementById("texteParagraphe" + y).value);
+        if (document.getElementById("imgParagraphe" + y).value) {
+          var imageName = document.getElementById("imgParagraphe" + y).value;
+          var radiobuttons = "imageType" + y;
+          var imageType = document.querySelector('input[name="'+radiobuttons+'"]:checked').value;
+          $( "#p"+y+"Image" ).append('<br>&lt;div class="photo"&gt;<br>&lt;img src="./img/diaporama/'+imageName+'" id="photo1" class="'+imageType+'"&gt;<br>&lt;/div&gt;<br><br>');
+        }
+      }
+
+			//regexp pour reformater la date correctement dans le tableau des Infos
+			/*var reg = /(\d{4})-(\d{2})-(\d{2})/;
+			document.getElementById("dateGen").append(document.getElementById("date").value.replace(reg, '$3/$2/$1'));*/
+    }
+    </script>
+  </body>
+</html>
