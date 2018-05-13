@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:600');
+
 body, html {
     height: 100%;
 }
 
 .parallax {
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,6 +12,7 @@ body, html {
 }
 
 .grandTitre {
+    font-family: 'Source Serif Pro', serif;
     position: absolute;
     left: 0;
     top: 40%;
@@ -28,30 +30,27 @@ body, html {
 }
 
 #background1 {
-  /* Full height */
-  height: 40%;
-  /* The image used */
+  height: 30%;
   background-image: url("../img/backgroundIndex.jpg");
 }
 
 #background2 {
-  /* Full height */
-  height: 50%;
-  /* The image used */
+  height: 30%;
   background-image: url("../img/backgroundIndex2.jpg");
 }
 
 #background3 {
-  /* Full height */
   height: 80%;
-  /* The image used */
   background-image: url("../img/backgroundIndex3.jpg");
 }
 
 .mainContent {
+  font-family: 'Source Serif Pro', serif;
   background-color: #694d33;
   color: #eccd9d;
   font-size:1em;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .mainContent h2 {
@@ -59,9 +58,19 @@ body, html {
 }
 
 #firstPart {
-  height:400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width:auto;
+  height:auto;
 }
 
 #secondPart {
-  height:400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width:auto;
+  height:auto;
 }
