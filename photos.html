@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/mapNav/default.css" />
     <link rel="stylesheet" type="text/css" href="css/mapNav/component.css" />
 		<link rel="stylesheet" type="text/css" href="css/photos.css" />
+		<link rel="stylesheet" type="text/css" href="libDiaporama/pgwslider.css" />
 		<script src="js/modernizr-2.6.2.min.js"></script>
 
 	</head>
@@ -33,6 +34,25 @@
                 </div><!-- /dl-menuwrapper -->
             </nav>
 			<article id="mainContent">
+				<div id="diaporamaAmSud">
+				<ul class="pgwSlider">
+    			<li>
+						<img src="img/diaporama/AmSud/montevideo.jpg" alt="MonteVideo, Uruguay" data-description="Montevideo, capitale de l'Uruguay">
+					</li>
+					<li>
+						<img src="img/diaporama/AmSud/corcovado.jpg" alt="Rio, Bresil" data-description="Le Christ redempteur sur les hauteurs de Rio">
+					</li>
+					<li>
+						<img src="img/diaporama/AmSud/saopaulo.jpg" alt="SaoPaulo, Bresil" data-description="La ville de Sao Paulo">
+					</li>
+					<li>
+						<img src="img/diaporama/AmSud/test1.JPG" class="portrait" alt="Rio, Bresil" data-description="Le Christ redempteur sur les hauteurs de Rio">
+					</li>
+					<li>
+						<img src="img/diaporama/AmSud/test2.JPG" alt="SaoPaulo, Bresil" data-description="La ville de Sao Paulo">
+					</li>
+			</ul>
+		</div>
 			</article>
 			<aside>
 			</aside>
@@ -56,8 +76,8 @@
 		<script src="js/menu.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="js/jquery.dlmenu.js"></script>
+				<script src="libDiaporama/pgwslider.js"></script>
         <script>
-            var map;
             $(function() {
                 $( '#dl-menu' ).dlmenu({
                     animationClasses : {
@@ -68,6 +88,14 @@
                 // on ouvre le menu au chargement de la page
                 $( 'button.dl-trigger').click();
             });
+
+						$(document).ready(function() {
+    					var diaporama1 = $('.pgwSlider').pgwSlider({
+								displayList: false,
+								transitionEffect : "sliding",
+								adaptiveHeight: true
+							});
+						});
         </script>
 	</body>
 </html>
