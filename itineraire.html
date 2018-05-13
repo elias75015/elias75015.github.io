@@ -10,7 +10,6 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<link rel="stylesheet" type="text/css" href="css/menu.css" />
         <link rel="stylesheet" type="text/css" href="css/commonstyle.css" />
-        <link rel="stylesheet" type="text/css" href="css/itineraire.css" />
         <link rel="stylesheet" type="text/css" href="css/fontello.css" />
 		<link rel="stylesheet" type="text/css" href="sdk-ol/GpOl3-src.css" />
         <link rel="stylesheet" type="text/css" href="css/mapNav/default.css" />
@@ -104,8 +103,12 @@
                         classout : 'dl-animate-out-4'
                     }
                 });
-                // on ouvre le menu au chargement de la page
+                // FIXME : dégueu : on ouvre/ferme/ouvre le menu au chargement de la page
+								// pour contourner un probleme de css et de redimensionnement de la page
+								// qui introduit une scrollbar sur la fenêtre de la carte
                 $( 'button.dl-trigger').click();
+								$( 'button.dl-trigger').click();
+								$( 'button.dl-trigger').click();
             });
         </script>
 	</body>
