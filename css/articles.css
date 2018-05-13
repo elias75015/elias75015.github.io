@@ -43,14 +43,6 @@ p {
 .portrait {
   width : 50%;
   height: auto;
-  margin-top: 5% !important;
-  margin-bottom: 5% !important;
-  /* Photo de Clara de type portrait sont lues en paysage...*/
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
 }
 
 @media screen and (max-width: 800px) {
@@ -66,8 +58,6 @@ p {
 
   .portrait {
     width : 60%;
-    margin-top: 5% !important;
-    margin-bottom: 5% !important;
     height: auto;
   }
 }
@@ -85,8 +75,6 @@ p {
 
   .portrait {
     width : 100%;
-    margin-top: 5% !important;
-    margin-bottom: 5% !important;
     height: auto;
   }
 }
