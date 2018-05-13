@@ -81,6 +81,18 @@
         imageTypeCarre.name = "imageType"+y;
         imageTypeCarre.value = "carre";
 
+				var imagePaysAmSud = document.createElement( "input" );
+				imagePaysAmSud.id = "imgPaysParagraphe" + y + "AmSud";
+				imagePaysAmSud.type = "radio";
+				imagePaysAmSud.name = "imagePays"+y;
+				imagePaysAmSud.value = "AmSud";
+
+				var imagePaysUS = document.createElement( "input" );
+				imagePaysUS.id = "imgPaysParagraphe" + y + "US";
+				imagePaysUS.type = "radio";
+				imagePaysUS.name = "imagePays"+y;
+				imagePaysUS.value = "US";
+
         $( "#paragraphes" ).append("<b>Texte paragraphe " + y + ": </b><br>");
         $( "#paragraphes" ).append(texteParagraphe);
         $( "#paragraphes" ).append("<br><b>Nom image (avec extension) paragraphe " + y + ": </b><br>");
@@ -92,6 +104,11 @@
         $( "#paragraphes" ).append(imageTypePaysage);
         $( "#paragraphes" ).append("<br>Carre : ");
         $( "#paragraphes" ).append(imageTypeCarre);
+				$( "#paragraphes" ).append("<br><b>Région image paragraphe" + y + ": </b><br>");
+				$( "#paragraphes" ).append("Amérique du sud : ");
+				$( "#paragraphes" ).append(imagePaysAmSud);
+				$( "#paragraphes" ).append("<br>USA : ");
+				$( "#paragraphes" ).append(imagePaysUS);
         $( "#paragraphes" ).append("<br> <br> <br>");
       }
         // Results Generation part -->
@@ -118,10 +135,15 @@
         y = i+1;
         document.getElementById("p"+y+"Texte").append(document.getElementById("texteParagraphe" + y).value);
         if (document.getElementById("imgParagraphe" + y).value) {
+					// rretrieve image name
           var imageName = document.getElementById("imgParagraphe" + y).value;
-          var radiobuttons = "imageType" + y;
-          var imageType = document.querySelector('input[name="'+radiobuttons+'"]:checked').value;
-          $( "#p"+y+"Image" ).append('<br>&lt;div class="photo"&gt;<br>&lt;img src="./img/diaporama/'+imageName+'" id="photo1" class="'+imageType+'"&gt;<br>&lt;/div&gt;<br><br>');
+					// retrieve image type
+          var radiobuttonsType = "imageType" + y;
+          var imageType = document.querySelector('input[name="'+radiobuttonsType+'"]:checked').value;
+					// retrieve image region
+					var radiobuttonsRegion = "imagePays" + y;
+					var imageRegion = document.querySelector('input[name="'+radiobuttonsRegion+'"]:checked').value;
+          $( "#p"+y+"Image" ).append('<br>&lt;div class="photo"&gt;<br>&lt;img src="./img/diaporama/'+imageRegion+'/'+imageName+'" id="photo1" class="'+imageType+'"&gt;<br>&lt;/div&gt;<br><br>');
         }
       }
     }
