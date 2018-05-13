@@ -55298,7 +55298,8 @@ ol3OL3 = function (Logger, ol, plugins, IMap) {
         });
         this.libMap = new ol.Map({
             target: this.div,
-            view: view
+            view: view,
+            moveTolerance: 5
         });
         this._afterInitMap();
     };
