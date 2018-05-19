@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="./css/fontello.css" />
     <link rel="stylesheet" type="text/css" href="./css/mapNav/default.css" />
     <link rel="stylesheet" type="text/css" href="./css/mapNav/component.css" />
+		<link rel="stylesheet" type="text/css" href="./libDiaporama/pgwslider.css" />
 		<link rel="stylesheet" type="text/css" href="./css/photos.css" />
 		<script src="./js/modernizr-2.6.2.min.js"></script>
 
@@ -24,6 +25,12 @@
         <!-- rempli par menuDiapo.html -->
       </nav>
 			<article id="mainContent">
+				<ul class="pgwSlider">
+          <!-- Liste des images du diaporama -->
+    			<li>
+						<img src="./img/diaporama/AmSud/montevideo.jpg" alt="MonteVideo, Uruguay" data-description="Montevideo, capitale de l'Uruguay">
+					</li>
+			</ul>
 			</article>
 			<aside>
 			</aside>
@@ -45,9 +52,10 @@
 		</div><!-- /container -->
 		<script src="./js/polyfills.js"></script>
 		<script src="./js/menu.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="./js/jquery.dlmenu.js"></script>
-    <script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="./js/jquery.dlmenu.js"></script>
+				<script src="./libDiaporama/pgwslider.js"></script>
+        <script>
         // on charge le contenu du menu de gauche
         $('#diapoMenu').load('./menuDiapo.html', function() {
             $( '#dl-menu' ).dlmenu({
@@ -56,9 +64,26 @@
                     classout : 'dl-animate-out-4'
                 }
             });
+            // fix pour que l'image du diaporama se redimensionne
+            // bien en hauteur lorsque le menu de gauche se replie
+            $( "button.dl-trigger" ).click(function() {
+                $( "div.ps-current" ).css('height', '100%');
+            });
+
             // on ouvre le menu au chargement de la page
             $( 'button.dl-trigger').click();
         });
-    </script>
+        // Une fois le document chargé
+						$(document).ready(function() {
+              // 1 - on initialise le diaporama
+    					$('.pgwSlider').pgwSlider({
+								displayList: false,
+								transitionEffect : "sliding",
+								adaptiveHeight: true,
+                maxHeight: 500
+							});
+
+						});
+        </script>
 	</body>
 </html>

@@ -7,20 +7,31 @@
  * Released under the GNU GPLv3 license - http://opensource.org/licenses/gpl-3.0
  */
 .pgwSlider {
-  margin-top: 5%;
+  margin-top: 2%;
   margin-bottom: 5%;
   margin-left: auto;
   margin-right: auto;;
-  width: 50%;
+  width: 35%;
   height: auto;
   color: #fff;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .pgwSlider {
-    margin-top: 10%;
+    margin-top: 4%;
     margin-left: auto;
-    margin-right: auto;;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pgwSlider {
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
     width: 70%;
     height: auto;
     color: #fff;
@@ -31,7 +42,7 @@
   .pgwSlider {
     margin-top: 10%;
     margin-left: auto;
-    margin-right: auto;;
+    margin-right: auto;
     width: 100%;
     height: auto;
     color: #fff;

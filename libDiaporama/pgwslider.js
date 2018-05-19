@@ -3,7 +3,7 @@
  *
  * Copyright 2014, Jonathan M. Piat
  * http://pgwjs.com - http://pagawa.com
- * 
+ *
  * Released under the GNU GPLv3 license - http://opensource.org/licenses/gpl-3.0
  */
 ;(function($){
@@ -80,7 +80,7 @@
                 }
             }
 
-            // Get image 
+            // Get image
             var elementThumbnail = obj.find('img').attr('src');
             if ((typeof elementThumbnail != 'undefined') && (elementThumbnail != '')) {
                 element.thumbnail = elementThumbnail;
@@ -91,7 +91,7 @@
                 element.image = elementImage;
             }
 
-            // Get title 
+            // Get title
             var elementSpan = obj.find('span').text();
             if ((typeof elementSpan != 'undefined') && (elementSpan != '') && (elementSpan != null)) {
                 element.title = elementSpan;
@@ -616,6 +616,10 @@
             if (typeof apiController != 'undefined' && pgwSlider.config.autoSlide) {
                 activateInterval();
             }
+
+            $( "button.dl-trigger" ).click(function() {
+                $( "div.ps-current" ).css('height', '100%');
+            });
 
             return true;
         };
