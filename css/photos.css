@@ -3,3 +3,11 @@
   color: #694d33;
   padding-bottom: 100px;
 }
+
+#diapoTitle {
+  text-align: center;
+}
+
+#date {
+  text-align: right;
+}
