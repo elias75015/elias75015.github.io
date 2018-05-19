@@ -171,6 +171,15 @@ ul.pgwSlider > li img,
     display: block;
 }
 
+/* Rajout car les fleches sont cachées sinon */
+.ps-prev span  {
+  z-index: 10;
+}
+
+.ps-next span {
+  z-index: 10;
+}
+
 .pgwSlider .ps-current .ps-prev {
     background: rgba(0, 0, 0, 0.5);
     filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000');
