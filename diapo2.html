@@ -73,7 +73,8 @@
                 $( "div.ps-current" ).css('height', '100%');
             });
 
-            // on ouvre le menu au chargement de la page
+            // bug - on ouvre et on referme le menu au chargement de la page diapo
+            $( 'button.dl-trigger').click();
             $( 'button.dl-trigger').click();
         });
         // Une fois le document chargé
