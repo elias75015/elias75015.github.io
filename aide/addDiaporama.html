@@ -33,7 +33,7 @@
         </input>
         <br/>
         <br/>
-        Nombre de Photos de l'article :
+        Nombre de Photos du diaporama :
         <select id="selectNbPhotos" onchange="updatePhotos(this.value)">
             <option>0</option>
             <option value="1">1</option>
@@ -58,15 +58,32 @@
     <br>
 
     <div id="genResult">
-      &lt;p id="date"&gt; Le <span id="dateArticle"></span>, à <span id="lieuArticle">Porto Alegre</span> &lt;/p&gt;
-      &lt;br&gt;
-      &lt;h2 id="title"&gt; <span id="titreArticle"></span> &lt;/h2&gt;
-      <div id="diapoResults">
-      </div>
     </div>
     <script>
-    /* OGENERATION DU FORMULAIRE */
+		/*Remplissage result div*/
+		/* on recrée tout le fichier  diapo sous forme de texte*/
+		$( "#genResult" ).empty();
+		$( "#genResult" ).append('&lt;!DOCTYPE html&gt;<br>&lt;html lang="fr" class="no-js"&gt;<br>');
+		$( "#genResult" ).append('&lt;head&gt;<br>&lt;meta charset="UTF-8" /&gt;<br>&lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"&gt;<br>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;');
+		$( "#genResult" ).append('<br>&lt;title&gt;Diapo&lt;/title&gt;<br>&lt;meta name="description" content="Blog de voyage de Clara et Elias" /&gt;<br>');
+		$( "#genResult" ).append('&lt;link rel="stylesheet" type="text/css" href="./css/main.css" /&gt;<br>&lt;link rel="stylesheet" type="text/css" href="./css/menu.css" /&gt;<br>&lt;link rel="stylesheet" type="text/css" href="./css/commonstyle.css" /&gt;');
+		$( "#genResult" ).append('<br>&lt;link rel="stylesheet" type="text/css" href="./css/fontello.css" /&gt;<br>&lt;link rel="stylesheet" type="text/css" href="./css/mapNav/default.css" /&gt;<br>&lt;link rel="stylesheet" type="text/css" href="./css/mapNav/component.css" /&gt;');
+		$( "#genResult" ).append('<br>&lt;link rel="stylesheet" type="text/css" href="./libDiaporama/pgwslider.css" /&gt;<br>');
+		$( "#genResult" ).append('&lt;link rel="stylesheet" type="text/css" href="./css/photos.css" /&gt;<br>');
+		$( "#genResult" ).append('&lt;script src="./js/modernizr-2.6.2.min.js"&gt;&lt;/script&gt;<br>&lt;/head&gt;<br><br>&lt;body&gt;<br>');
+		$( "#genResult" ).append('&lt;div class="container"&gt;<br>&lt;nav id="diapoMenu"&gt;<br>&lt;/nav&gt;<br>');
+		$( "#genResult" ).append('&lt;article id="mainContent"&gt;<br>&lt;h2 id="diapoTitle"&gt; <span id="titreDiapo" class="forGen"> </span> &lt;/h2&gt;<br>&lt;p id="date"&gt;<br>Du <span id="dateDebutDiapo" class="forGen"> </span>  au <span id="dateFinDiapo" class="forGen"> </span><br>&lt;/p&gt;<br>&lt;ul class="pgwSlider"&gt;<br><span id="listImgDiapo" class="forGen"></span>&lt;/ul&gt;<br>&lt;/article&gt;');
+		$( "#genResult" ).append('<br>&lt;aside&gt;<br>&lt;/aside&gt;<br>&lt;div class="component"&gt;<br>&lt;button class="cn-button" id="cn-button"&gt;+&lt;/button&gt;<br>');
+		$( "#genResult" ).append('&lt;div class="cn-wrapper" id="cn-wrapper"&gt;<br>&lt;ul&gt;<br>&lt;li&gt;&lt;a href="./index.html"&gt;&lt;span class="icon-flight"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br>');
+		$( "#genResult" ).append('&lt;li&gt;&lt;a href="./itineraire.html"&gt;&lt;span class="icon-map-signs"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br>');
+		$( "#genResult" ).append('&lt;li&gt;&lt;a href="./articles.html"&gt;&lt;span class="icon-newspaper"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br>');
+		$( "#genResult" ).append('&lt;li&gt;&lt;a href="./photos.html"&gt;&lt;span class="icon-camera-outline"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br>');
+		$( "#genResult" ).append('&lt;li&gt;&lt;a href="./infos.html"&gt;&lt;span class="icon-info-circled"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;/div&gt;<br>&lt;div id="cn-overlay" class="cn-overlay"&gt;&lt;/div&gt;');
+		$( "#genResult" ).append('<br>&lt;/div&gt;<br>&lt;/div&gt;<br>&lt;script src="./js/polyfills.js"&gt;&lt;/script&gt;<br>&lt;script src="./js/menu.js"&gt;&lt;/script&gt;<br>');
+		$( "#genResult" ).append('&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"&gt;&lt;/script&gt;<br>&lt;script src="./js/jquery.dlmenu.js"&gt;&lt;/script&gt;<br>');
+		$( "#genResult" ).append('&lt;script src="./libDiaporama/pgwslider.js"&gt;&lt;/script&gt;<br>&lt;script src="./js/diapoScript.js"&gt;&lt;/script&gt;<br>&lt;/body&gt;<br>&lt;/html&gt;');
 
+    /* GENERATION DU FORMULAIRE */
     function updatePhotos(nbPhotos) {
       // Form Part -->
       $( "#photosChemins" ).empty();
@@ -90,14 +107,11 @@
         $( "#photosChemins" ).append(imageDescription);
         $( "#photosChemins" ).append("<br> <br> <br>");
       }
-        // Results Generation part -->
-        $( "#genResult" ).empty();
-        $( "#genResult" ).append("&lt;p id='date'&gt; <br> Le <span id='dateArticle'></span>, à <span id='lieuArticle'></span> <br>&lt;/p&gt;<br>&lt;br&gt;<br>&lt;h2 id='title'&gt;<br> <span id='titreArticle'></span> <br>&lt;/h2&gt;<br>");
     }
     /* ONCLICK - GENERATION DES INFOS */
     document.getElementById("validateInfo").onclick = function() {
       // On vide préalablement la génération précédente
-      $("span").html("");
+      $(".forGen").html("");
 
       // On remplit les trous pour le titre, la date de début et de fin du diaporama
       document.getElementById("titreDiapo").append(document.getElementById("title").value);
@@ -105,11 +119,11 @@
       document.getElementById("dateFinDiapo").append(document.getElementById("dateFin").value);
 
       var nbPhotos = document.getElementById("selectNbPhotos").value;
-
+			// on récupère la région du diaporama pour aller chercher les images dans le bon dossier
       var imageRegion = document.querySelector('input[name="diapoRegion"]:checked').value;
       // On crée la liste des images du diaporama à insérer dans le fichier
+			var imageList = "";
       for (var i=0; i<nbPhotos; i++) {
-        var imageList = "";
         y = i+1;
         if (document.getElementById("imageName" + y).value) {
           // retrieve image name
@@ -119,9 +133,10 @@
           // retrieve image desc
           var imageDesc = document.getElementById("imageDescription" + y).value;
 
-          imageList = imageList + '<li> <img src="./img/diaporama/' +imageRegion+'/'+imageName+'" alt="'+imageAlt+'" data-description="'+imageDesc+'"><li>'
+          imageList = imageList + '<li> <img src="./img/diaporama/' +imageRegion+'/'+imageName+'" alt="'+imageAlt+'" data-description="'+imageDesc+'"></li>'
         }
       }
+			  document.getElementById("listImgDiapo").append(imageList);
     }
     </script>
   </body>
