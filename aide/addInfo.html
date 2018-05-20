@@ -14,58 +14,87 @@
 		<p>Le code généré est à insérer dans le tableau "infoArray" de la page
 		infos.html, afin d'ajouter des entrées au tableau.</p>
       <fieldset id="infos">
-        <br/>
-        Titre : <input id="title"></input>
-        <br/>
-        Theme : <select id="theme">
-          <option value="Sport"> Sport </option>
-          <option value="Musique"> Musique </option>
-          <option value="Fête"> Fête </option>
+				<br/>
+        Nombre d'infos à ajouter :
+        <select id="selectNbInfos" onchange="updateInfos(this.value)">
+            <option>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
         </select>
-        <br/>
-        Pays : <select id="pays">
-          <option value="Brésil"> Brésil </option>
-          <option value="Uruguay"> Uruguay </option>
-          <option value="Argentine"> Argentine </option>
-          <option value="USA"> USA </option>
-        </select>
-        <br/>
-        Lieu : <input id="lieu"></input>
-        <br/>
-        Date : <input type="date" id="date"></input>
-        <br/>
-        Commentaires : <textarea id="commentaires"> </textarea>
+				<div id="informationsForm">
+				</div>
         <button id="validateInfo"> Afficher le code ci-dessous </input>
     </fieldset>
 
     <div id="genResult">
-      &lt;tr&gt;
-      </br>
-        &lt;td&gt;<span id="titreGen"></span>&lt;/td&gt;
-      </br>
-        &lt;td&gt;<span id="themeGen"></span>&lt;/td&gt;
-        </br>
-        &lt;td&gt;<span id="paysGen"></span>&lt;/td&gt;
-        </br>
-        &lt;td&gt;<span id="lieuGen"></span>&lt;/td&gt;
-        </br>
-        &lt;td&gt;<span id="dateGen"></span>&lt;/td&gt;
-        </br>
-        &lt;td&gt;<span id="commentairesGen"></span>&lt;/td&gt;
-        </br>
-      &lt;/tr&gt;
     </div>
     <script>
+    /* GENERATION DU FORMULAIRE */
+
+    function updateInfos(nbInfos) {
+			// Form Part -->
+			$( "#informationsForm" ).empty();
+			for (var i = 0; i < nbInfos; i++) {
+				var y = i+1;
+				$( "#informationsForm" ).append("<b>Titre info " + y + ": </b><br>");
+        $( "#informationsForm" ).append("<input id='title"+y+"'></input>");
+        $( "#informationsForm" ).append("<br><b>Theme info " + y + ": </b><br>");
+        $( "#informationsForm" ).append("<select id='theme"+y+"'><option value='Sport'> Sport </option><option value='Musique'> Musique </option><option value='Fête'> Fête </option>");
+        $( "#informationsForm" ).append("<br><b>Pays info " + y + ": </b><br>");
+				$( "#informationsForm" ).append("<select id='pays"+y+"'><option value='Brésil'> Brésil </option><option value='Argentine'> Argentine </option><option value='Uruguay'> Uruguay </option><option value='US'> US </option>");
+        $( "#informationsForm" ).append("<br><b>Lieu info " + y + ": </b><br>");
+				$( "#informationsForm" ).append("<input id='lieu"+y+"'></input>");
+				$( "#informationsForm" ).append("<br><br><b>Date info " + y + ": </b><br>");
+				$( "#informationsForm" ).append("<input type='date' id='date"+y+"'></input>");
+				$( "#informationsForm" ).append("<br><b>Commentaires info " + y + ": </b><br>");
+				$( "#informationsForm" ).append("<textarea id='commentaires"+y+"'></textarea><br><br><br>");
+			}
+
+			for (var i = 0; i < nbInfos; i++) {
+				y = i+1;
+				$( "#genResult" ).append("&lt;tr&gt;<br>&lt;td&gt;<span id='titreGen"+y+"'></span>&lt;/td&gt;<br>");
+				$( "#genResult" ).append("&lt;td&gt;<span id='themeGen"+y+"'></span>&lt;/td&gt;<br>");
+				$( "#genResult" ).append("&lt;td&gt;<span id='paysGen"+y+"'></span>&lt;/td&gt;<br>");
+				$( "#genResult" ).append("&lt;td&gt;<span id='lieuGen"+y+"'></span>&lt;/td&gt;<br>");
+				$( "#genResult" ).append("&lt;td&gt;<span id='dateGen"+y+"'></span>&lt;/td&gt;<br>");
+				$( "#genResult" ).append("&lt;td&gt;<span id='commentairesGen"+y+"'></span>&lt;/td&gt;<br>&lt;/tr&gt;<br><br>");
+			}
+		};
+
+
     document.getElementById("validateInfo").onclick = function() {
+			// On vide préalablement la génération précédente
 			$("span").html("");
-      document.getElementById("titreGen").append(document.getElementById("title").value);
-			document.getElementById("themeGen").append(document.getElementById("theme").value);
-			document.getElementById("paysGen").append(document.getElementById("pays").value);
-			document.getElementById("lieuGen").append(document.getElementById("lieu").value);
-			//regexp pour reformater la date correctement dans le tableau des Infos
-			var reg = /(\d{4})-(\d{2})-(\d{2})/;
-			document.getElementById("dateGen").append(document.getElementById("date").value.replace(reg, '$3/$2/$1'));
-			document.getElementById("commentairesGen").append(document.getElementById("commentaires").value);
+
+			// Pour chaque info, on génère le code associé
+			var nbInfos = document.getElementById("selectNbInfos").value;
+			for (var i=0; i<nbInfos; i++) {
+				y = i+1;
+				document.getElementById("titreGen"+y).append(document.getElementById("title" + y).value);
+				document.getElementById("themeGen"+y).append(document.getElementById("theme" + y).value);
+				document.getElementById("paysGen"+y).append(document.getElementById("pays" + y).value);
+				document.getElementById("lieuGen"+y).append(document.getElementById("lieu" + y).value);
+				//regexp pour reformater la date correctement dans le tableau des Infos
+				var reg = /(\d{4})-(\d{2})-(\d{2})/;
+				document.getElementById("dateGen"+y).append(document.getElementById("date" +y).value.replace(reg, '$3/$2/$1'));
+				document.getElementById("commentairesGen"+y).append(document.getElementById("commentaires" + y).value);
+			}
     }
     </script>
   </body>
