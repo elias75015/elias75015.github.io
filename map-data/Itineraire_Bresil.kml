@@ -41,7 +41,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>15/6 - Porto Alegre</description>
+			<description>16/6 - Porto Alegre</description>
 			<Style>
 				<IconStyle>
 					<Icon>
@@ -201,7 +201,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Metropolis</description>
+			<description>Petropolis</description>
 			<Style>
 				<IconStyle>
 					<Icon>
@@ -261,7 +261,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Belo Horizonte - 20/7</description>
+			<description>Belo Horizonte - 17/7</description>
 			<Style>
 				<IconStyle>
 					<Icon>
@@ -281,7 +281,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Salvador - 25/7</description>
+			<description>Salvador - 21/7</description>
 			<Style>
 				<IconStyle>
 					<Icon>
@@ -401,7 +401,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Belem - 18/8</description>
+			<description>Belem - 15/8</description>
 			<Style>
 				<IconStyle>
 					<Icon>
@@ -461,7 +461,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Barreirinhas - 15/8</description>
+			<description>Barreirinhas - 13/8</description>
 			<Style>
 				<IconStyle>
 					<Icon>
@@ -481,7 +481,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Jerocoara</description>
+			<description>Jericoara</description>
 			<Style>
 				<IconStyle>
 					<Icon>
@@ -501,7 +501,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Fortaleza - 10/8</description>
+			<description>Fortaleza - 8/8</description>
 			<Style>
 				<IconStyle>
 					<Icon>
@@ -541,7 +541,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Recife - 6/8</description>
+			<description>Recife - 30/7</description>
 			<Style>
 				<IconStyle>
 					<Icon>
@@ -561,7 +561,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>Olinda - 6/8</description>
+			<description>Olinda - 3-6/8</description>
 			<Style>
 				<IconStyle>
 					<Icon>
@@ -588,7 +588,7 @@
 				</LineStyle>
 			</Style>
 			<LineString>
-				<coordinates>-58.56121646156107,-34.57336096024619 -56.14962295584583,-34.84201606967634 -51.22501378763294,-29.99300605988781 -49.2795458975313,-25.420680139783272 -51.41348970482734,-22.120389660857427 -46.2955704408511,-23.95343122609033 -43.215394310793734,-22.926666972830333 -43.970423611813544,-19.902543073682082 -38.49744397941911,-12.96659575591866 -34.90098499010777,-8.054962343789754 -38.56541881887966,-3.7482436520425466 -42.82599917644347,-2.7377849861151446 -48.469207492279956,-1.4657516316485442 -54.84093458250668,-2.4587490884414365 -59.99705378903677,-3.1665517951347084</coordinates>
+				<coordinates>-58.46896407641305,-34.6165086056044 -56.20028731860053,-34.87378945254537 -51.2777375949141,-30.020975800927275 -49.23694011882996,-25.40582412527189 -51.396546035902304,-22.16048216187413 -46.640795555476366,-23.571878463606367 -43.216926139121824,-22.8842489653112 -43.96933072596374,-19.88054641755666 -38.49360025832891,-12.96942592761819 -34.901026122930666,-8.06349515501816 -38.538263160114916,-3.7558324139129695 -42.83492672195712,-2.751548252954805 -48.47715512874811,-1.4548378459742253 -59.99717024927521,-3.0960440597420984</coordinates>
 			</LineString>
 		</Placemark>
 	</Document>

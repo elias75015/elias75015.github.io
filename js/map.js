@@ -18,16 +18,16 @@ function createMap () {
         zoom : 4,
         // Couches à afficher
         layersOptions : {
-            // Couche openstreetmap
-            coucheOSM : {
-                opacity : 1,
+            // Couche national geo
+            "National Geo" : {
                 position : 0,
+                opacity : 1,
                 visibility : true,
                 format :"osm",
-                title : "OpenStreetMap",
-                url : "https://{a-c}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=39cfa021a92541bdbcac02cf76e3a2ce",
+                title : "National Geographic",
+                url : "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}",
                 crossOrigin : null
-            }
+                }
         },
         controlsOptions : {
             "layerswitcher" : {
@@ -54,7 +54,7 @@ function createMap () {
   * Fonction qui remet tout à zero:
   * - suppression de toutes les couches présentes
   * - ajout de la couche de fond OSM
-  * - ajout de la couche KML de l'itinéraire choisi 
+  * - ajout de la couche KML de l'itinéraire choisi
   * - centrage sur cet itinéraire
   */
 function goTo (clickedElement) {
@@ -63,13 +63,13 @@ function goTo (clickedElement) {
 
     // Suppression de toutes les couches précédement ajoutées
     for (var layerId in layers) {
-        if (layerId !== "coucheOSM") {
+        if (layerId !== "National Geo") {
             map.removeLayers(layerId);
         }
     }
     // réajout de la couche OSM si elle a été supprimée
-    if (!layers["coucheOSM"]) {
-        map.addLayers(baseLayers["OSM"]);
+    if (!layers["National Geo"]) {
+        map.addLayers(baseLayers["NAT_GEO"]);
     }
 
     // ajout du kml itineraire correspondant
@@ -82,14 +82,14 @@ function goTo (clickedElement) {
         zoomToExtent : true,
         showPointNames : false
     };
-    
+
     map.addLayers(itiKmlLayerToAdd);
 }
 
 /**
-  * Fonction qui : 
+  * Fonction qui :
   * - ajoute un kml s'il n'est pas déja présent
-  * - supprime un kml s'il est déjà présent 
+  * - supprime un kml s'il est déjà présent
   *
   */
 function addKMLLayer (clickedElement) {
