@@ -1,7 +1,586 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 https://developers.google.com/kml/schema/kml22gx.xsd">
 	<Document>
 		<Placemark>
-			<description>Itineraire Bresil</description>
+			<description>8/06 - Buenos Aires</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-58.57473474607857,-34.569387698246075,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>12/6 - Montevideo</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-56.230008224719505,-34.77692055035119,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>15/6 - Porto Alegre</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-51.21867870714157,-29.93795900701474,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>20/6 - Curitiba</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-49.29003760165364,-25.424754617129082,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>26/6 - Presidente Prudente</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-51.38611416661068,-22.163412071814605,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>30/6 - Sao Paulo</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-46.688598504437,-23.593527672671684,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>30/6 - Ubatuba</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-45.07025345721607,-23.47622857619281,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>30/06 - Paraty</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-44.70933445228429,-23.23221174907549,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>30/6 - Guaruja</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-46.26356914464076,-23.992904247427404,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Rio de Janeiro - 10/7</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-43.21436732352822,-22.9170042675198,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Metropolis</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-43.20111314469865,-22.520356750063527,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Teresopolis</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-42.98053179198999,-22.418438941323018,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Ouro Preto</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-43.49185147237681,-20.375878386155136,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Belo Horizonte - 20/7</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-43.9652529496762,-19.921926814599743,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Salvador - 25/7</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-38.482110798876526,-12.984783624594755,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Boipeda</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-38.91909518111932,-13.586792151110288,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Barra Grande</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-38.9459200052344,-13.901219405181479,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Porto Seguro</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-39.067408995093984,-16.449627018567895,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Lençois</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-41.38997612305934,-12.564963252184313,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Manaus - 20/8</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-60.00470142328171,-3.184309439252445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Belem - 18/8</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-48.46889247099959,-1.4595211540753041,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Alter do Chao</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-54.951962371155275,-2.524082218190941,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Santarém</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-54.71123650910848,-2.439093097958036,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Barreirinhas - 15/8</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-42.83047992957482,-2.7516061028489673,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Jerocoara</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-40.50561390587914,-2.814468915325321,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Fortaleza - 10/8</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-38.53142557330845,-3.752270344844007,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Paracuru</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-39.01260067056724,-3.406372456444828,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Recife - 6/8</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-34.90344122848771,-8.06377799862922,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>Olinda - 6/8</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-34.855519719250964,-8.013444965468835,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
 			<Style>
 				<LineStyle>
 					<color>ff502a00</color>
@@ -9,40 +588,8 @@
 				</LineStyle>
 			</Style>
 			<LineString>
-				<coordinates>-58.323562969728606,-34.57148629515176 -56.170242657228606,-34.824397820358875 -56.7195590634786,-34.29965341282341 -58.05989109472859,-33.25866784578302 -58.6531528134786,-33.00105916642673 -58.05989109472859,-32.22371902809464 -60.65266453222859,-31.5708101895651 -60.1912387509786,-29.39341946867941 -59.31233250097856,-29.10585311489219 -57.99397312597857,-29.125049328980772 -55.99446140722856,-28.644073056234433 -55.20344578222857,-27.869912751060788 -55.95051609472856,-27.363714578541426 -54.52229343847857,-26.87479245854601 -54.236648907228556,-25.910370311739825 -54.50032078222856,-25.514431608432403 -53.35774265722858,-24.957919566249046 -52.36897312597858,-25.395393836085077 -50.08381687597858,-25.077386299992867 -49.33674656347858,-25.375542770613833 -46.61213718847857,-23.595952623559327 -44.28303562597857,-22.443268250729417 -43.11848484472856,-22.686754405448966 -41.22883640722857,-21.628576261683975 -41.31672703222856,-21.035028091549222 -40.28401218847856,-20.356726468446993 -39.99836765722857,-19.28184688433798 -39.84455906347857,-18.67928890923187 -39.58088718847856,-16.943050394185178 -39.690750469728584,-13.82927533129461 -35.82356296972859,-9.440117119280856 -35.91145359472859,-6.306285864272041 -42.151687969728584,-3.1534016781564986 -49.97395359472859,-0.16671339333723267 -51.8196567197286,-1.3970439269007926 -53.81916843847859,-2.0339620744105673 -55.5769809384786,-2.0339620744105673 -56.93928562597859,-2.3852626224651345 -57.6424106259786,-2.6486798891121595 -58.3015903134786,-3.1314620612908755 -59.5100864072286,-3.19727952018998 -59.92756687597859,-3.0656404657864584</coordinates>
+				<coordinates>-58.56121646156107,-34.57336096024619 -56.14962295584583,-34.84201606967634 -51.22501378763294,-29.99300605988781 -49.2795458975313,-25.420680139783272 -51.41348970482734,-22.120389660857427 -46.2955704408511,-23.95343122609033 -43.215394310793734,-22.926666972830333 -43.970423611813544,-19.902543073682082 -38.49744397941911,-12.96659575591866 -34.90098499010777,-8.054962343789754 -38.56541881887966,-3.7482436520425466 -42.82599917644347,-2.7377849861151446 -48.469207492279956,-1.4657516316485442 -54.84093458250668,-2.4587490884414365 -59.99705378903677,-3.1665517951347084</coordinates>
 			</LineString>
-		</Placemark>
-		<Placemark>
-			<description>Buenos Aires : 03/04/2018</description>
-			<Style>
-				<IconStyle>
-					<Icon>
-						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTtJREFUeNq8WGtsFUUU/rb3gtdCAykFG9AUDTQUKimhxUewEusrJYoBo4FfEgoqotHERH6oP9TGmJhIrIlWAf9hjAaEiME2pgFfVVpFii8sWqIQLLSx3EJLW7p+Z2Z2b2l7d/b23vZLTmZ2duacb2fmnDk7DlKA67rXs1hJKacsohRQppjXFygnKT9TDlH2O47zFzIFGnco91EOuqnjoBnr2Ow4FhIlLN6m3DykFTh3BGj/Doj/CfSe082xPCDnBmDWTUBeyXDVjZTHOUNHUiZCEs+weI0ySTV0/w0c2wa07gIungn+vOx8YN46oPhpYOp1Xms/5TmSeSMUERKImFnYqBoGuPRNL5LEW8BgX2rrmjWZZLYApS8BUW8r4T0zO5eTEjFr+S6lSjV0HgPqVwNdf6S30abNB+7aDeQWey3bKZtIxvU5DxvyrE/izJfAvuXpkxCIDtElOjWqjK2RM8LZWMbiG0oEnUc5kB7a14WMYvI04H56du5ieZKluZWz8r0/IyQh5TuKRH8cqFuTeRIC0Sm6xYbYok1j21+ahyhLVO3wC8D5VowbRLfY0FhibOulIavDLEoRZyD8sJDeMWBXKG5ZsIobsdDsg+OMq3u1m1u9KQo8zP45EqjRxOUpk6i50IRl4FuGjpZtwUoiMYa314GFj/EzIsN8n8v+C1e4kfvwcm+wnhsZY27xQ8oiWZpKrWRQB6tAElfxpKnjsCdGklDzG9HvpI/0DYLYEpsalVnmAAM6fgR62oMHl70C5N9mn3rpI32DILbEpkZ5ljlFgbPNFtebzij5VPhNKX1lTBASNtXSzPZ3cxCuvVOH7FTCu4yxeZDGbCES0z5+PniQ3uGpwTYmYTOWCPGTpgYP6u9OnYhtzBCbQkSH0NiM4EEdP6VOxDYmYbNLiJxQ1elFwYPaG3XQCn3QHddjgpCweUKI6K2bvzw4YROf//rJob6fZl/H2FRoFiINfqo3qyzYwD8MVIeYLw32J+8j76SP9A2C2BKbGg1CZL+EF/W4YKP9a3/fCeyhkrY9DOOXEu1SlzZ5J31sSNjqURm/OfQkY9qgvkYOvXhbuH0g505Oga7HT9rPF9+t5+pDL0ulwzt46FV5ROax+JUSRRtP0LoHMK64+xNg7iqVEVOKSKRVxRGpsKhRnaRD4SPjR0J0axKCGmP7ilQxm4X8d8xXmfvHJZlPkCR3WfODl9FLMlxCIhevSJ5Nwzo1XdKxYpe3hpmB6BKdmoS43VqPxIgsni+aWOg8biZ3f+nLmSMiuvKWek/P01az7QdLyNVT7lC/l59WAKcb0iMxhzpW1nvmvpDtSiKD1l9OkpnDgv8UyMWFU9wvTP8vdY6NhJwnD1JVtso2OiiLSeL0iJUbNfg6zikVVwRTyOn2HWOfjfLtHgnBhtFIJCViyNDZUatdmnGlaFPqJIoe1WM1aqlz71ivJbLNobgAA9zgu7nZ/vstHAk5WVdzaPRqmGC5lER6kjpV4OWJdq+1kkshSk4VH9izcy/bV66qSPQZV+0J9G7rTY6+XNmqHmYwyJVV24kse1X31dhKHdasygkzy+a64oC4nWr47F4e858nSbLv4V/KAe9JKpVDrx/SImLIXMOiRUKdujESl+49O8xVZxpXzVc/C/I/RxL/hgq8YYkYhev9q6kVO4d9B+sr3vdICNaHJTHWW8Ya/87wqy2uWwstUk/gTYw3aCRGOarMDfS67kfFWqSuIe9imAjQEC272nJHixYNaSvGRIIGN49ywbsZEw1zI11N6TZSHeaGORn+F2AAJtRIMx4t+hUAAAAASUVORK5CYII=</href>
-						<gx:w>34</gx:w>
-						<gx:h>44</gx:h>
-					</Icon>
-					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
-				</IconStyle>
-			</Style>
-			<Point>
-				<coordinates>-58.37849461035356,-34.556021300522225</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<description>Paysandu : 21/04/2018</description>
-			<Style>
-				<IconStyle>
-					<Icon>
-						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTtJREFUeNq8WGtsFUUU/rb3gtdCAykFG9AUDTQUKimhxUewEusrJYoBo4FfEgoqotHERH6oP9TGmJhIrIlWAf9hjAaEiME2pgFfVVpFii8sWqIQLLSx3EJLW7p+Z2Z2b2l7d/b23vZLTmZ2duacb2fmnDk7DlKA67rXs1hJKacsohRQppjXFygnKT9TDlH2O47zFzIFGnco91EOuqnjoBnr2Ow4FhIlLN6m3DykFTh3BGj/Doj/CfSe082xPCDnBmDWTUBeyXDVjZTHOUNHUiZCEs+weI0ySTV0/w0c2wa07gIungn+vOx8YN46oPhpYOp1Xms/5TmSeSMUERKImFnYqBoGuPRNL5LEW8BgX2rrmjWZZLYApS8BUW8r4T0zO5eTEjFr+S6lSjV0HgPqVwNdf6S30abNB+7aDeQWey3bKZtIxvU5DxvyrE/izJfAvuXpkxCIDtElOjWqjK2RM8LZWMbiG0oEnUc5kB7a14WMYvI04H56du5ieZKluZWz8r0/IyQh5TuKRH8cqFuTeRIC0Sm6xYbYok1j21+ahyhLVO3wC8D5VowbRLfY0FhibOulIavDLEoRZyD8sJDeMWBXKG5ZsIobsdDsg+OMq3u1m1u9KQo8zP45EqjRxOUpk6i50IRl4FuGjpZtwUoiMYa314GFj/EzIsN8n8v+C1e4kfvwcm+wnhsZY27xQ8oiWZpKrWRQB6tAElfxpKnjsCdGklDzG9HvpI/0DYLYEpsalVnmAAM6fgR62oMHl70C5N9mn3rpI32DILbEpkZ5ljlFgbPNFtebzij5VPhNKX1lTBASNtXSzPZ3cxCuvVOH7FTCu4yxeZDGbCES0z5+PniQ3uGpwTYmYTOWCPGTpgYP6u9OnYhtzBCbQkSH0NiM4EEdP6VOxDYmYbNLiJxQ1elFwYPaG3XQCn3QHddjgpCweUKI6K2bvzw4YROf//rJob6fZl/H2FRoFiINfqo3qyzYwD8MVIeYLw32J+8j76SP9A2C2BKbGg1CZL+EF/W4YKP9a3/fCeyhkrY9DOOXEu1SlzZ5J31sSNjqURm/OfQkY9qgvkYOvXhbuH0g505Oga7HT9rPF9+t5+pDL0ulwzt46FV5ROax+JUSRRtP0LoHMK64+xNg7iqVEVOKSKRVxRGpsKhRnaRD4SPjR0J0axKCGmP7ilQxm4X8d8xXmfvHJZlPkCR3WfODl9FLMlxCIhevSJ5Nwzo1XdKxYpe3hpmB6BKdmoS43VqPxIgsni+aWOg8biZ3f+nLmSMiuvKWek/P01az7QdLyNVT7lC/l59WAKcb0iMxhzpW1nvmvpDtSiKD1l9OkpnDgv8UyMWFU9wvTP8vdY6NhJwnD1JVtso2OiiLSeL0iJUbNfg6zikVVwRTyOn2HWOfjfLtHgnBhtFIJCViyNDZUatdmnGlaFPqJIoe1WM1aqlz71ivJbLNobgAA9zgu7nZ/vstHAk5WVdzaPRqmGC5lER6kjpV4OWJdq+1kkshSk4VH9izcy/bV66qSPQZV+0J9G7rTY6+XNmqHmYwyJVV24kse1X31dhKHdasygkzy+a64oC4nWr47F4e858nSbLv4V/KAe9JKpVDrx/SImLIXMOiRUKdujESl+49O8xVZxpXzVc/C/I/RxL/hgq8YYkYhev9q6kVO4d9B+sr3vdICNaHJTHWW8Ya/87wqy2uWwstUk/gTYw3aCRGOarMDfS67kfFWqSuIe9imAjQEC272nJHixYNaSvGRIIGN49ywbsZEw1zI11N6TZSHeaGORn+F2AAJtRIMx4t+hUAAAAASUVORK5CYII=</href>
-						<gx:w>34</gx:w>
-						<gx:h>44</gx:h>
-					</Icon>
-					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
-				</IconStyle>
-			</Style>
-			<Point>
-				<coordinates>-58.08186375097857,-32.235713523669034</coordinates>
-			</Point>
 		</Placemark>
 	</Document>
 </kml>
