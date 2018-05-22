@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Blog de voyage - BO</title>
 		<meta name="description" content="Blog de voyage de Clara et Elias" />
+		<link rel="stylesheet" type="text/css" href="../css/aide.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	</head>
 
@@ -13,7 +14,7 @@
 		<h3> Générateur de code infosArray </h3>
 		<p>Le code généré est à insérer dans le tableau "infoArray" de la page
 		infos.html, afin d'ajouter des entrées au tableau.</p>
-      <fieldset id="infos">
+      <fieldset class="fieldsetAide">
 				<br/>
         Nombre d'infos à ajouter :
         <select id="selectNbInfos" onchange="updateInfos(this.value)">
@@ -50,6 +51,7 @@
     function updateInfos(nbInfos) {
 			// Form Part -->
 			$( "#informationsForm" ).empty();
+			$( "#informationsForm" ).append("<br><br>");
 			for (var i = 0; i < nbInfos; i++) {
 				var y = i+1;
 				$( "#informationsForm" ).append("<b>Titre info " + y + ": </b><br>");

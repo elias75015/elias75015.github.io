@@ -5,7 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Blog de voyage - BO</title>
-		<meta name="description" content="Blog de voyage de Clara et Elias" />
+    <meta name="description" content="Blog de voyage de Clara et Elias" />
+    <link rel="stylesheet" type="text/css" href="../css/aide.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	</head>
 
@@ -14,7 +15,7 @@
 		<p>Le code généré est à insérer dans un fichier /articles/articleX.html. Il suffit ensuite de modifier
     la page articles.html pour ajouter une ligne du type  &lt;li class="articleEntry" id="article4"&gt;&lt;a href="#"&gt; 16/06 - Brazil &lt;/a&gt;&lt;/li&gt;
     dans le menu</p>
-      <fieldset id="infos">
+      <fieldset class="fieldsetAide">
         <br/>
         Titre de l'article : <input id="title"></input>
         <br/>
@@ -53,6 +54,8 @@
     function updateParagraphes(nbParagraphes) {
       // Form Part -->
       $( "#paragraphes" ).empty();
+      $( "#paragraphes" ).append("<br><br>");
+
       for (var i = 0; i < nbParagraphes; i++) {
         var y = i+1;
         var texteParagraphe = document.createElement( "textArea" );
