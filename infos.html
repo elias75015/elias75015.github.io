@@ -32,7 +32,7 @@
 								<th>Theme</th>
 								<th>Pays</th>
 								<th>Lieu</th>
-								<th data-dynatable-read="date">Date</th>
+								<th>Date</th>
 								<th data-dynatable-no-sort=true> Commentaires </th>
 							</tr>
 						</thead>
@@ -294,7 +294,7 @@
 								'date': function(record) {
 									var objDate = record.date;
 									var d  = objDate.getDate();
-									var m  = objDate.getMonth() + 1;
+									var m  = objDate.getMonth();
 									var y  = objDate.getFullYear();
 
 									// ensure we have 2 digits for days/months
