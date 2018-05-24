@@ -1,0 +1,116 @@
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 https://developers.google.com/kml/schema/kml22gx.xsd">
+	<Document>
+		<Placemark>
+			<description>23/09 : Cardinals (Phoenix) vs Bears (Chicago)&lt;br&gt;16h25</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNq8WGtsVEUUPre74NrSQErBpmgKBhoKlZTQ4iNYifWVEoWA0cAvCQUV0WhiIj/UH2pjTEwk1kSrgP8wRgNixGAb0oCvKq0ixRcWLVEIFtpYttDSll6/787s7bbbnbnbbvslJzNz78w5352Zc+bccSQFuK47D8UqSDlkMaQAkqVfX4KchvwMOQI54DjOX5IuwLgDuR9y2E0dh/VYx2bHsZAoQfE25JahhyIXjom0fycS/VOk94J6HMkVyb5RZPbNIrklCZobIY9jho6lTAQknkHxGmQK291/i5zYIdK6R+TyOfPXZeaJzN8gUvy0yLQb/Mf9kOdA5o1AREAgpGdhM9sDWPmmF0HiLZHBvtSWNWMqyGwTKX1JJJzlP35Pz87VpET0Wr4LqWK784RI/VqRrj/Gt8+mLxC5e69ITrH/aCdkC8i4PukRY56NkTj3pcinK8ZPgqAO6qJOjSptK3FGMBvLUXwDCXUex0A4aF+XpBVTp4s8AMfOWeI1uTS3YVa+92cEJFi+QxL9UZG6deknQVAnddMGbdGmtu0vzUOQpawcfUHkYqtMGKibNjSWattqacDqKIrSKOLgh4XwjgG7QrplwWpsxEK9D04irO5Xbm71prDIw+ifPc9rNmF5yhg1F+mwLN8icrTsMCsJRRDdXhdZ9Bi+IjTC9bHqv2CBG7ENr/aa9dyEGHPrUERZzKWp9JQMqmBlJHENDpo6jHoikYQ3vSH1jn3Y1wTaok2Nygx9gEnHjyI97ebBZa+I5N1un3r2YV8TaIs2Ncoz9Ckq55strjcDUfKp4JuSfTnGhDib3tLkx3azCdffpUJ2KuGdY2wepJFPIhHPxy+aB+kdnhJsY+JsRvwQP2WaeVB/d+pEbGPibZKIF0MjM82DOn5KnYhtTJzNLhI5xdqMIvOg9kYVtAIfdCfVGBPibJ4iEW/v5q0w52v0+a+fHOb74+vraJsKzSTSEEv1ZpeZDfyDQHUE6dJgf/I+fMc+7GsCbdGmRgOJHGB8YWvhZvvX/r5bZB+UtO1DGL8y9Jx1PuM79rEhzlaPl/HrQ48Z0yZ+DQ+9aFuwfcBzJ7tA1aOn7eeL79Zz1aGX4WXDsguHXlWMyHwUv0LCbThB69bIhOKeT0TmrvaqPOeLQKTViyOsoKhhnR0KH5k4EtStSRA12vawVDETBf87FjBz/7gk/QkSc5d1P/gZPbPhEhC5PCx51g82cLrYsWKPv4ZpAXVRpyZBv1sfI5GQxeNFEwovkZuF3V/6cvqIUFfuMr/5PGw1236wSK4ecid/Lz+rEDnbMD4Sc6BjVb1v7RD3K4gMWn85QWYOCvxUSM6lM9gvSP+vdI6NBM+TB6EpM18dP5AlIHE2YelGjb6Oc4ZxhfUsULpj19hno3ynT4LYNBqJpEQ0GXi71HoujbhStCV1EkWPqrEatdC5f6zXEpn6UFw4gP29F5vtv9+CkeDJuhYjw9d6TQbLZSDSk9SrjJcnyr3WM5kKg1LFB/bsPJbte66qSPRpV+0xurf1JkddrmxnfSaCXFm1ncjyV1Vfje3QYU2rnCDTrK8rDtLt2P78PhzzXyRJsu/FT8pBv8laZfz1w7iIaDLXoWhhrOONEV269/wIV52lXTVP/S3whw4k/g0UeYMS0Qo3xq6mVu4e8Rmor3zfJ0FsDEpirLeMNbErw6+2uW6tKGE9Dm/KRANGIpDjtDbQ67ofFSthXYPvIjIZgCGYdj3THS1KNPisWCYTMLh1lAverTLZ0DfS1ZBuLdVBbpiT4X8BBgAGo0gzntXEvgAAAABJRU5ErkJggg==</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-112.26257989913907,33.52765357429057</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>26/08 : Cowboys (Dallas) vs Cardinals (Phoenix)&lt;br&gt;19h00&lt;br&gt;Match de présaison</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNq8WGtsVEUUPre74NrSQErBpmgKBhoKlZTQ4iNYifWVEoWA0cAvCQUV0WhiIj/UH2pjTEwk1kSrgP8wRgNixGAb0oCvKq0ixRcWLVEIFtpYttDSll6/787s7bbbnbnbbvslJzNz78w5352Zc+bccSQFuK47D8UqSDlkMaQAkqVfX4KchvwMOQI54DjOX5IuwLgDuR9y2E0dh/VYx2bHsZAoQfE25JahhyIXjom0fycS/VOk94J6HMkVyb5RZPbNIrklCZobIY9jho6lTAQknkHxGmQK291/i5zYIdK6R+TyOfPXZeaJzN8gUvy0yLQb/Mf9kOdA5o1AREAgpGdhM9sDWPmmF0HiLZHBvtSWNWMqyGwTKX1JJJzlP35Pz87VpET0Wr4LqWK784RI/VqRrj/Gt8+mLxC5e69ITrH/aCdkC8i4PukRY56NkTj3pcinK8ZPgqAO6qJOjSptK3FGMBvLUXwDCXUex0A4aF+XpBVTp4s8AMfOWeI1uTS3YVa+92cEJFi+QxL9UZG6deknQVAnddMGbdGmtu0vzUOQpawcfUHkYqtMGKibNjSWattqacDqKIrSKOLgh4XwjgG7QrplwWpsxEK9D04irO5Xbm71prDIw+ifPc9rNmF5yhg1F+mwLN8icrTsMCsJRRDdXhdZ9Bi+IjTC9bHqv2CBG7ENr/aa9dyEGHPrUERZzKWp9JQMqmBlJHENDpo6jHoikYQ3vSH1jn3Y1wTaok2Nygx9gEnHjyI97ebBZa+I5N1un3r2YV8TaIs2Ncoz9Ckq55strjcDUfKp4JuSfTnGhDib3tLkx3azCdffpUJ2KuGdY2wepJFPIhHPxy+aB+kdnhJsY+JsRvwQP2WaeVB/d+pEbGPibZKIF0MjM82DOn5KnYhtTJzNLhI5xdqMIvOg9kYVtAIfdCfVGBPibJ4iEW/v5q0w52v0+a+fHOb74+vraJsKzSTSEEv1ZpeZDfyDQHUE6dJgf/I+fMc+7GsCbdGmRgOJHGB8YWvhZvvX/r5bZB+UtO1DGL8y9Jx1PuM79rEhzlaPl/HrQ48Z0yZ+DQ+9aFuwfcBzJ7tA1aOn7eeL79Zz1aGX4WXDsguHXlWMyHwUv0LCbThB69bIhOKeT0TmrvaqPOeLQKTViyOsoKhhnR0KH5k4EtStSRA12vawVDETBf87FjBz/7gk/QkSc5d1P/gZPbPhEhC5PCx51g82cLrYsWKPv4ZpAXVRpyZBv1sfI5GQxeNFEwovkZuF3V/6cvqIUFfuMr/5PGw1236wSK4ecid/Lz+rEDnbMD4Sc6BjVb1v7RD3K4gMWn85QWYOCvxUSM6lM9gvSP+vdI6NBM+TB6EpM18dP5AlIHE2YelGjb6Oc4ZxhfUsULpj19hno3ynT4LYNBqJpEQ0GXi71HoujbhStCV1EkWPqrEatdC5f6zXEpn6UFw4gP29F5vtv9+CkeDJuhYjw9d6TQbLZSDSk9SrjJcnyr3WM5kKg1LFB/bsPJbte66qSPRpV+0xurf1JkddrmxnfSaCXFm1ncjyV1Vfje3QYU2rnCDTrK8rDtLt2P78PhzzXyRJsu/FT8pBv8laZfz1w7iIaDLXoWhhrOONEV269/wIV52lXTVP/S3whw4k/g0UeYMS0Qo3xq6mVu4e8Rmor3zfJ0FsDEpirLeMNbErw6+2uW6tKGE9Dm/KRANGIpDjtDbQ67ofFSthXYPvIjIZgCGYdj3THS1KNPisWCYTMLh1lAverTLZ0DfS1ZBuLdVBbpiT4X8BBgAGo0gzntXEvgAAAABJRU5ErkJggg==</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-97.09286212451947,32.74783951741692</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>30/08 : Texans (Houston) vs Cowboys (Dallas)&lt;br&gt;20h00&lt;br&gt;Match de présaison</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNq8WGtsVEUUPre74NrSQErBpmgKBhoKlZTQ4iNYifWVEoWA0cAvCQUV0WhiIj/UH2pjTEwk1kSrgP8wRgNixGAb0oCvKq0ixRcWLVEIFtpYttDSll6/787s7bbbnbnbbvslJzNz78w5352Zc+bccSQFuK47D8UqSDlkMaQAkqVfX4KchvwMOQI54DjOX5IuwLgDuR9y2E0dh/VYx2bHsZAoQfE25JahhyIXjom0fycS/VOk94J6HMkVyb5RZPbNIrklCZobIY9jho6lTAQknkHxGmQK291/i5zYIdK6R+TyOfPXZeaJzN8gUvy0yLQb/Mf9kOdA5o1AREAgpGdhM9sDWPmmF0HiLZHBvtSWNWMqyGwTKX1JJJzlP35Pz87VpET0Wr4LqWK784RI/VqRrj/Gt8+mLxC5e69ITrH/aCdkC8i4PukRY56NkTj3pcinK8ZPgqAO6qJOjSptK3FGMBvLUXwDCXUex0A4aF+XpBVTp4s8AMfOWeI1uTS3YVa+92cEJFi+QxL9UZG6deknQVAnddMGbdGmtu0vzUOQpawcfUHkYqtMGKibNjSWattqacDqKIrSKOLgh4XwjgG7QrplwWpsxEK9D04irO5Xbm71prDIw+ifPc9rNmF5yhg1F+mwLN8icrTsMCsJRRDdXhdZ9Bi+IjTC9bHqv2CBG7ENr/aa9dyEGHPrUERZzKWp9JQMqmBlJHENDpo6jHoikYQ3vSH1jn3Y1wTaok2Nygx9gEnHjyI97ebBZa+I5N1un3r2YV8TaIs2Ncoz9Ckq55strjcDUfKp4JuSfTnGhDib3tLkx3azCdffpUJ2KuGdY2wepJFPIhHPxy+aB+kdnhJsY+JsRvwQP2WaeVB/d+pEbGPibZKIF0MjM82DOn5KnYhtTJzNLhI5xdqMIvOg9kYVtAIfdCfVGBPibJ4iEW/v5q0w52v0+a+fHOb74+vraJsKzSTSEEv1ZpeZDfyDQHUE6dJgf/I+fMc+7GsCbdGmRgOJHGB8YWvhZvvX/r5bZB+UtO1DGL8y9Jx1PuM79rEhzlaPl/HrQ48Z0yZ+DQ+9aFuwfcBzJ7tA1aOn7eeL79Zz1aGX4WXDsguHXlWMyHwUv0LCbThB69bIhOKeT0TmrvaqPOeLQKTViyOsoKhhnR0KH5k4EtStSRA12vawVDETBf87FjBz/7gk/QkSc5d1P/gZPbPhEhC5PCx51g82cLrYsWKPv4ZpAXVRpyZBv1sfI5GQxeNFEwovkZuF3V/6cvqIUFfuMr/5PGw1236wSK4ecid/Lz+rEDnbMD4Sc6BjVb1v7RD3K4gMWn85QWYOCvxUSM6lM9gvSP+vdI6NBM+TB6EpM18dP5AlIHE2YelGjb6Oc4ZxhfUsULpj19hno3ynT4LYNBqJpEQ0GXi71HoujbhStCV1EkWPqrEatdC5f6zXEpn6UFw4gP29F5vtv9+CkeDJuhYjw9d6TQbLZSDSk9SrjJcnyr3WM5kKg1LFB/bsPJbte66qSPRpV+0xurf1JkddrmxnfSaCXFm1ncjyV1Vfje3QYU2rnCDTrK8rDtLt2P78PhzzXyRJsu/FT8pBv8laZfz1w7iIaDLXoWhhrOONEV269/wIV52lXTVP/S3whw4k/g0UeYMS0Qo3xq6mVu4e8Rmor3zfJ0FsDEpirLeMNbErw6+2uW6tKGE9Dm/KRANGIpDjtDbQ67ofFSthXYPvIjIZgCGYdj3THS1KNPisWCYTMLh1lAverTLZ0DfS1ZBuLdVBbpiT4X8BBgAGo0gzntXEvgAAAABJRU5ErkJggg==</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-95.41085254753557,29.684798318656675</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>30/09 : Chargers (L.A) vs 49ers (S.F)&lt;br&gt;13h25</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNq8WGtsVEUUPre74NrSQErBpmgKBhoKlZTQ4iNYifWVEoWA0cAvCQUV0WhiIj/UH2pjTEwk1kSrgP8wRgNixGAb0oCvKq0ixRcWLVEIFtpYttDSll6/787s7bbbnbnbbvslJzNz78w5352Zc+bccSQFuK47D8UqSDlkMaQAkqVfX4KchvwMOQI54DjOX5IuwLgDuR9y2E0dh/VYx2bHsZAoQfE25JahhyIXjom0fycS/VOk94J6HMkVyb5RZPbNIrklCZobIY9jho6lTAQknkHxGmQK291/i5zYIdK6R+TyOfPXZeaJzN8gUvy0yLQb/Mf9kOdA5o1AREAgpGdhM9sDWPmmF0HiLZHBvtSWNWMqyGwTKX1JJJzlP35Pz87VpET0Wr4LqWK784RI/VqRrj/Gt8+mLxC5e69ITrH/aCdkC8i4PukRY56NkTj3pcinK8ZPgqAO6qJOjSptK3FGMBvLUXwDCXUex0A4aF+XpBVTp4s8AMfOWeI1uTS3YVa+92cEJFi+QxL9UZG6deknQVAnddMGbdGmtu0vzUOQpawcfUHkYqtMGKibNjSWattqacDqKIrSKOLgh4XwjgG7QrplwWpsxEK9D04irO5Xbm71prDIw+ifPc9rNmF5yhg1F+mwLN8icrTsMCsJRRDdXhdZ9Bi+IjTC9bHqv2CBG7ENr/aa9dyEGHPrUERZzKWp9JQMqmBlJHENDpo6jHoikYQ3vSH1jn3Y1wTaok2Nygx9gEnHjyI97ebBZa+I5N1un3r2YV8TaIs2Ncoz9Ckq55strjcDUfKp4JuSfTnGhDib3tLkx3azCdffpUJ2KuGdY2wepJFPIhHPxy+aB+kdnhJsY+JsRvwQP2WaeVB/d+pEbGPibZKIF0MjM82DOn5KnYhtTJzNLhI5xdqMIvOg9kYVtAIfdCfVGBPibJ4iEW/v5q0w52v0+a+fHOb74+vraJsKzSTSEEv1ZpeZDfyDQHUE6dJgf/I+fMc+7GsCbdGmRgOJHGB8YWvhZvvX/r5bZB+UtO1DGL8y9Jx1PuM79rEhzlaPl/HrQ48Z0yZ+DQ+9aFuwfcBzJ7tA1aOn7eeL79Zz1aGX4WXDsguHXlWMyHwUv0LCbThB69bIhOKeT0TmrvaqPOeLQKTViyOsoKhhnR0KH5k4EtStSRA12vawVDETBf87FjBz/7gk/QkSc5d1P/gZPbPhEhC5PCx51g82cLrYsWKPv4ZpAXVRpyZBv1sfI5GQxeNFEwovkZuF3V/6cvqIUFfuMr/5PGw1236wSK4ecid/Lz+rEDnbMD4Sc6BjVb1v7RD3K4gMWn85QWYOCvxUSM6lM9gvSP+vdI6NBM+TB6EpM18dP5AlIHE2YelGjb6Oc4ZxhfUsULpj19hno3ynT4LYNBqJpEQ0GXi71HoujbhStCV1EkWPqrEatdC5f6zXEpn6UFw4gP29F5vtv9+CkeDJuhYjw9d6TQbLZSDSk9SrjJcnyr3WM5kKg1LFB/bsPJbte66qSPRpV+0xurf1JkddrmxnfSaCXFm1ncjyV1Vfje3QYU2rnCDTrK8rDtLt2P78PhzzXyRJsu/FT8pBv8laZfz1w7iIaDLXoWhhrOONEV269/wIV52lXTVP/S3whw4k/g0UeYMS0Qo3xq6mVu4e8Rmor3zfJ0FsDEpirLeMNbErw6+2uW6tKGE9Dm/KRANGIpDjtDbQ67ofFSthXYPvIjIZgCGYdj3THS1KNPisWCYTMLh1lAverTLZ0DfS1ZBuLdVBbpiT4X8BBgAGo0gzntXEvgAAAABJRU5ErkJggg==</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-118.26106021878468,33.86427559887987</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>23/09 : Rams (L.A) vs Chargers (L.A)&lt;br&gt;13h05&lt;br&gt;Derby !</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNq8WGtsVEUUPre74NrSQErBpmgKBhoKlZTQ4iNYifWVEoWA0cAvCQUV0WhiIj/UH2pjTEwk1kSrgP8wRgNixGAb0oCvKq0ixRcWLVEIFtpYttDSll6/787s7bbbnbnbbvslJzNz78w5352Zc+bccSQFuK47D8UqSDlkMaQAkqVfX4KchvwMOQI54DjOX5IuwLgDuR9y2E0dh/VYx2bHsZAoQfE25JahhyIXjom0fycS/VOk94J6HMkVyb5RZPbNIrklCZobIY9jho6lTAQknkHxGmQK291/i5zYIdK6R+TyOfPXZeaJzN8gUvy0yLQb/Mf9kOdA5o1AREAgpGdhM9sDWPmmF0HiLZHBvtSWNWMqyGwTKX1JJJzlP35Pz87VpET0Wr4LqWK784RI/VqRrj/Gt8+mLxC5e69ITrH/aCdkC8i4PukRY56NkTj3pcinK8ZPgqAO6qJOjSptK3FGMBvLUXwDCXUex0A4aF+XpBVTp4s8AMfOWeI1uTS3YVa+92cEJFi+QxL9UZG6deknQVAnddMGbdGmtu0vzUOQpawcfUHkYqtMGKibNjSWattqacDqKIrSKOLgh4XwjgG7QrplwWpsxEK9D04irO5Xbm71prDIw+ifPc9rNmF5yhg1F+mwLN8icrTsMCsJRRDdXhdZ9Bi+IjTC9bHqv2CBG7ENr/aa9dyEGHPrUERZzKWp9JQMqmBlJHENDpo6jHoikYQ3vSH1jn3Y1wTaok2Nygx9gEnHjyI97ebBZa+I5N1un3r2YV8TaIs2Ncoz9Ckq55strjcDUfKp4JuSfTnGhDib3tLkx3azCdffpUJ2KuGdY2wepJFPIhHPxy+aB+kdnhJsY+JsRvwQP2WaeVB/d+pEbGPibZKIF0MjM82DOn5KnYhtTJzNLhI5xdqMIvOg9kYVtAIfdCfVGBPibJ4iEW/v5q0w52v0+a+fHOb74+vraJsKzSTSEEv1ZpeZDfyDQHUE6dJgf/I+fMc+7GsCbdGmRgOJHGB8YWvhZvvX/r5bZB+UtO1DGL8y9Jx1PuM79rEhzlaPl/HrQ48Z0yZ+DQ+9aFuwfcBzJ7tA1aOn7eeL79Zz1aGX4WXDsguHXlWMyHwUv0LCbThB69bIhOKeT0TmrvaqPOeLQKTViyOsoKhhnR0KH5k4EtStSRA12vawVDETBf87FjBz/7gk/QkSc5d1P/gZPbPhEhC5PCx51g82cLrYsWKPv4ZpAXVRpyZBv1sfI5GQxeNFEwovkZuF3V/6cvqIUFfuMr/5PGw1236wSK4ecid/Lz+rEDnbMD4Sc6BjVb1v7RD3K4gMWn85QWYOCvxUSM6lM9gvSP+vdI6NBM+TB6EpM18dP5AlIHE2YelGjb6Oc4ZxhfUsULpj19hno3ynT4LYNBqJpEQ0GXi71HoujbhStCV1EkWPqrEatdC5f6zXEpn6UFw4gP29F5vtv9+CkeDJuhYjw9d6TQbLZSDSk9SrjJcnyr3WM5kKg1LFB/bsPJbte66qSPRpV+0xurf1JkddrmxnfSaCXFm1ncjyV1Vfje3QYU2rnCDTrK8rDtLt2P78PhzzXyRJsu/FT8pBv8laZfz1w7iIaDLXoWhhrOONEV269/wIV52lXTVP/S3whw4k/g0UeYMS0Qo3xq6mVu4e8Rmor3zfJ0FsDEpirLeMNbErw6+2uW6tKGE9Dm/KRANGIpDjtDbQ67ofFSthXYPvIjIZgCGYdj3THS1KNPisWCYTMLh1lAverTLZ0DfS1ZBuLdVBbpiT4X8BBgAGo0gzntXEvgAAAABJRU5ErkJggg==</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-118.28798897733589,34.01402720833187</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>16/09 : 49ers (S.F) vs Lions (Detroit)&lt;br&gt;13h05</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNq8WGtsVEUUPre74NrSQErBpmgKBhoKlZTQ4iNYifWVEoWA0cAvCQUV0WhiIj/UH2pjTEwk1kSrgP8wRgNixGAb0oCvKq0ixRcWLVEIFtpYttDSll6/787s7bbbnbnbbvslJzNz78w5352Zc+bccSQFuK47D8UqSDlkMaQAkqVfX4KchvwMOQI54DjOX5IuwLgDuR9y2E0dh/VYx2bHsZAoQfE25JahhyIXjom0fycS/VOk94J6HMkVyb5RZPbNIrklCZobIY9jho6lTAQknkHxGmQK291/i5zYIdK6R+TyOfPXZeaJzN8gUvy0yLQb/Mf9kOdA5o1AREAgpGdhM9sDWPmmF0HiLZHBvtSWNWMqyGwTKX1JJJzlP35Pz87VpET0Wr4LqWK784RI/VqRrj/Gt8+mLxC5e69ITrH/aCdkC8i4PukRY56NkTj3pcinK8ZPgqAO6qJOjSptK3FGMBvLUXwDCXUex0A4aF+XpBVTp4s8AMfOWeI1uTS3YVa+92cEJFi+QxL9UZG6deknQVAnddMGbdGmtu0vzUOQpawcfUHkYqtMGKibNjSWattqacDqKIrSKOLgh4XwjgG7QrplwWpsxEK9D04irO5Xbm71prDIw+ifPc9rNmF5yhg1F+mwLN8icrTsMCsJRRDdXhdZ9Bi+IjTC9bHqv2CBG7ENr/aa9dyEGHPrUERZzKWp9JQMqmBlJHENDpo6jHoikYQ3vSH1jn3Y1wTaok2Nygx9gEnHjyI97ebBZa+I5N1un3r2YV8TaIs2Ncoz9Ckq55strjcDUfKp4JuSfTnGhDib3tLkx3azCdffpUJ2KuGdY2wepJFPIhHPxy+aB+kdnhJsY+JsRvwQP2WaeVB/d+pEbGPibZKIF0MjM82DOn5KnYhtTJzNLhI5xdqMIvOg9kYVtAIfdCfVGBPibJ4iEW/v5q0w52v0+a+fHOb74+vraJsKzSTSEEv1ZpeZDfyDQHUE6dJgf/I+fMc+7GsCbdGmRgOJHGB8YWvhZvvX/r5bZB+UtO1DGL8y9Jx1PuM79rEhzlaPl/HrQ48Z0yZ+DQ+9aFuwfcBzJ7tA1aOn7eeL79Zz1aGX4WXDsguHXlWMyHwUv0LCbThB69bIhOKeT0TmrvaqPOeLQKTViyOsoKhhnR0KH5k4EtStSRA12vawVDETBf87FjBz/7gk/QkSc5d1P/gZPbPhEhC5PCx51g82cLrYsWKPv4ZpAXVRpyZBv1sfI5GQxeNFEwovkZuF3V/6cvqIUFfuMr/5PGw1236wSK4ecid/Lz+rEDnbMD4Sc6BjVb1v7RD3K4gMWn85QWYOCvxUSM6lM9gvSP+vdI6NBM+TB6EpM18dP5AlIHE2YelGjb6Oc4ZxhfUsULpj19hno3ynT4LYNBqJpEQ0GXi71HoujbhStCV1EkWPqrEatdC5f6zXEpn6UFw4gP29F5vtv9+CkeDJuhYjw9d6TQbLZSDSk9SrjJcnyr3WM5kKg1LFB/bsPJbte66qSPRpV+0xurf1JkddrmxnfSaCXFm1ncjyV1Vfje3QYU2rnCDTrK8rDtLt2P78PhzzXyRJsu/FT8pBv8laZfz1w7iIaDLXoWhhrOONEV269/wIV52lXTVP/S3whw4k/g0UeYMS0Qo3xq6mVu4e8Rmor3zfJ0FsDEpirLeMNbErw6+2uW6tKGE9Dm/KRANGIpDjtDbQ67ofFSthXYPvIjIZgCGYdj3THS1KNPisWCYTMLh1lAverTLZ0DfS1ZBuLdVBbpiT4X8BBgAGo0gzntXEvgAAAABJRU5ErkJggg==</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-121.96973388139968,37.403122469643066</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>30/08 : Saints (Nouvelle Orléans) vs Rams (L.A)&lt;br&gt;19h00&lt;br&gt;Match de présaison</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNq8WGtsVEUUPre74NrSQErBpmgKBhoKlZTQ4iNYifWVEoWA0cAvCQUV0WhiIj/UH2pjTEwk1kSrgP8wRgNixGAb0oCvKq0ixRcWLVEIFtpYttDSll6/787s7bbbnbnbbvslJzNz78w5352Zc+bccSQFuK47D8UqSDlkMaQAkqVfX4KchvwMOQI54DjOX5IuwLgDuR9y2E0dh/VYx2bHsZAoQfE25JahhyIXjom0fycS/VOk94J6HMkVyb5RZPbNIrklCZobIY9jho6lTAQknkHxGmQK291/i5zYIdK6R+TyOfPXZeaJzN8gUvy0yLQb/Mf9kOdA5o1AREAgpGdhM9sDWPmmF0HiLZHBvtSWNWMqyGwTKX1JJJzlP35Pz87VpET0Wr4LqWK784RI/VqRrj/Gt8+mLxC5e69ITrH/aCdkC8i4PukRY56NkTj3pcinK8ZPgqAO6qJOjSptK3FGMBvLUXwDCXUex0A4aF+XpBVTp4s8AMfOWeI1uTS3YVa+92cEJFi+QxL9UZG6deknQVAnddMGbdGmtu0vzUOQpawcfUHkYqtMGKibNjSWattqacDqKIrSKOLgh4XwjgG7QrplwWpsxEK9D04irO5Xbm71prDIw+ifPc9rNmF5yhg1F+mwLN8icrTsMCsJRRDdXhdZ9Bi+IjTC9bHqv2CBG7ENr/aa9dyEGHPrUERZzKWp9JQMqmBlJHENDpo6jHoikYQ3vSH1jn3Y1wTaok2Nygx9gEnHjyI97ebBZa+I5N1un3r2YV8TaIs2Ncoz9Ckq55strjcDUfKp4JuSfTnGhDib3tLkx3azCdffpUJ2KuGdY2wepJFPIhHPxy+aB+kdnhJsY+JsRvwQP2WaeVB/d+pEbGPibZKIF0MjM82DOn5KnYhtTJzNLhI5xdqMIvOg9kYVtAIfdCfVGBPibJ4iEW/v5q0w52v0+a+fHOb74+vraJsKzSTSEEv1ZpeZDfyDQHUE6dJgf/I+fMc+7GsCbdGmRgOJHGB8YWvhZvvX/r5bZB+UtO1DGL8y9Jx1PuM79rEhzlaPl/HrQ48Z0yZ+DQ+9aFuwfcBzJ7tA1aOn7eeL79Zz1aGX4WXDsguHXlWMyHwUv0LCbThB69bIhOKeT0TmrvaqPOeLQKTViyOsoKhhnR0KH5k4EtStSRA12vawVDETBf87FjBz/7gk/QkSc5d1P/gZPbPhEhC5PCx51g82cLrYsWKPv4ZpAXVRpyZBv1sfI5GQxeNFEwovkZuF3V/6cvqIUFfuMr/5PGw1236wSK4ecid/Lz+rEDnbMD4Sc6BjVb1v7RD3K4gMWn85QWYOCvxUSM6lM9gvSP+vdI6NBM+TB6EpM18dP5AlIHE2YelGjb6Oc4ZxhfUsULpj19hno3ynT4LYNBqJpEQ0GXi71HoujbhStCV1EkWPqrEatdC5f6zXEpn6UFw4gP29F5vtv9+CkeDJuhYjw9d6TQbLZSDSk9SrjJcnyr3WM5kKg1LFB/bsPJbte66qSPRpV+0xurf1JkddrmxnfSaCXFm1ncjyV1Vfje3QYU2rnCDTrK8rDtLt2P78PhzzXyRJsu/FT8pBv8laZfz1w7iIaDLXoWhhrOONEV269/wIV52lXTVP/S3whw4k/g0UeYMS0Qo3xq6mVu4e8Rmor3zfJ0FsDEpirLeMNbErw6+2uW6tKGE9Dm/KRANGIpDjtDbQ67ofFSthXYPvIjIZgCGYdj3THS1KNPisWCYTMLh1lAverTLZ0DfS1ZBuLdVBbpiT4X8BBgAGo0gzntXEvgAAAABJRU5ErkJggg==</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-90.08115751381398,29.951082950296097</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</kml>
