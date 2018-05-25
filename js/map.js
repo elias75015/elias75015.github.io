@@ -145,6 +145,8 @@ function addBaseLayer (clickedElement) {
             }
         }
     }
+    // FIXME workaround to fix position problem, displaying baseLayer over kmlLayers
+    baseLayers[baseLayerId][Object.keys(baseLayers[baseLayerId])[0]].position = 0;
     // Add the baseLayer to the map
     map.addLayers(baseLayers[baseLayerId]);
 
