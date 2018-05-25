@@ -101,6 +101,10 @@ function addKMLLayer (clickedElement) {
     // checks if the clickedlayer is on the map
     // - yes ? we set isLayerAlreadyAdded to true
     for (var layerId in layers) {
+        // FIXME workaround to fix position problem, displaying baseLayer over kmlLayers
+        if (layers[layerId].format !== "kml") {
+            layers[layerId].position = 0;
+        }
         if (layerId === kmlId) {
             isLayerAlreadyAdded = true;
         }
