@@ -172,7 +172,10 @@
 			var self = this,
 				onTransitionEndFn = function() {
 					self.$menu.off( self.transEndEventName );
-					self._resetMenu();
+					// we do not reset the menu on the map page
+					if (self.options.forMap !== true) {
+						self._resetMenu();
+					}
 				};
 
             // sets the menu as "closed"
