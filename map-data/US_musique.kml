@@ -1,0 +1,68 @@
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 https://developers.google.com/kml/schema/kml22gx.xsd">
+	<Document>
+		<Placemark>
+			<description>01/09 : Zydeco Music Festival</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNq8WG1MllUYvl4Qe0MZJIIGDXMlU0GnC1i0AparNZ1tkpEy1+bAFqwffeePtD/R+tjKzZrax79qfTgtF1uzNUdb5UpWmeX8YEmppYXhR4CIvF3XOed5Xz6f53kBvbd7z3nOOfd9X8855/44TwRJUCwWm83HMnIFuYg8izzFDf9Hbif/Qv6K3ByJRH7DRBGNR8jLyS2x5KnFyUaC7EQCQCziYwv51kQn+fA/wIHTwInzQGeP7c+KAvkZQHEuUDh9qOa95Aau0I9JAyGIx/h4iZxmOk5dAN4/AHx+FOjo8v+87HTgnpuB2mJgxlSv9xL5GYJ5LRQQAkh1q7DOdHT3AVv3AR8RxKX+5PY1LQWoIZiHS4BrJ3m9b7nVuTwqELeXb5LrTUfbGeCpL4Dfz47voBVkAq/cBdw0zet5m/wQwcS8jpQhIk/GQfzwF1C3a/wgRNIhXdJpqd7ZGr4iXI0yPr4hp+IIV2IdBS/0YkJp6mRuzL3AHLMy2prbuCrfxVeEIPTcakB08Uw9vXviQYikU7plQ7Zo09mOb00NebFpbfke+OMcrhhJt2xYWuxs260hKo2U4CTjwooPuWghvENuWcnAOivTvrfzHLS0WzcPolR+/84HgLwMve3j9pQqas53YRl49VvGip/9lUzmij7K+LaSYilDvL+fTrD9V2AT41fvZX89tQuAx8u9tyJtzdK4EgWrIBBvMNXUFA0HYTY6Ysc0R3P9SLb64967NMUlMOBQB3Cm21+4oZS7OjN46TVHc/1ItmTTUkWKy6LAwb/9BTPoequKwx9KzZWMHyVsmq3JM83jAZ5SdoMN2cmEd8n4UcJmnjRH4z7uR/kZybtqkEzCZjTxielp/kI2CCVHQTIDbAqITSaZUX+hwx3JAwmSSdg8KyBtpjk7y19IhVAyCVBzJeNHCZttAtJqmotm+tdr8vmXvx7o++ObG3E2LbUKyJ54qTc/19/A3uPA86yL+3xSgMY0R3P9SLay4luzR0CaVYeZ1xVzg7921yHgwZ0UPTY4jKutPo1pThAlbHWbit8lPVVMdeZrqpn0lPzCkML49c5F/zwfnF/iUYMyO5j0JhmnfYdJr95z3xe1qGbgifLwB1KG2zsthwUhkg0Los/ZtvUIESnbbTaTKm8ElhdeuXpEumXD0mZne1CpyDsAdO+YYyr32u0TXyCpiH7vPq+iPyK/IZCuQcWz66g1y6WJTUu85ZsYki7ptCAUcld7IIZV8RzgBQYbrHvlMJWXTBwQ6Zo33Xt7lrZagy5YAsfLDO4018uGz1jMnRwfiLJ8WyxZa1+S7yaQ/sArJ8FQEvvJ03Cal/xVPC/nLo4NhPLJByuBHB1BKPksJIhhXzbiIeDEEyauiHKnABsrx74aGyo8EKK6kUCMCsSB+YSPbealiu5WPS95EJKpirvqNur8dKy/JdJdUpyLHrr0mh3Asc5wIJRZ360GrjFecpB8C4GMWhT7+qdzr9WKoYhS4QtLgqtzL/TLVS2IXueqvpV5YKBwP1fWm5fCbKCxNBjII2V2rqX11PFTkEjYiLWJvNu01iwEyn2KYo3p8uRuL042kCJhzx3Pyww+dA3MMX+M5NL/9gyedJ1z1WzjJborLOBqnAqjP3QMdwrXxn9Nbawa/BlqP1flgRCtDQsiKSAOjIqo183LHQXA/UWJQbVvLxiYVZtxJYlbFCXvNz8vL/bFYjUfW1bbksaiuBpEQ8XkHmP2aIdlS+orxtUkGmwc4QdvI642uT/STeQLjpvC/GEejf4XYABjPiWbTusdHAAAAABJRU5ErkJggg==</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-92.12644499626498,30.612660630825502</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>31/08 - 02/09 : Kervill Fall Music Festival</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNq8WG1MllUYvl4Qe0MZJIIGDXMlU0GnC1i0AparNZ1tkpEy1+bAFqwffeePtD/R+tjKzZrax79qfTgtF1uzNUdb5UpWmeX8YEmppYXhR4CIvF3XOed5Xz6f53kBvbd7z3nOOfd9X8855/44TwRJUCwWm83HMnIFuYg8izzFDf9Hbif/Qv6K3ByJRH7DRBGNR8jLyS2x5KnFyUaC7EQCQCziYwv51kQn+fA/wIHTwInzQGeP7c+KAvkZQHEuUDh9qOa95Aau0I9JAyGIx/h4iZxmOk5dAN4/AHx+FOjo8v+87HTgnpuB2mJgxlSv9xL5GYJ5LRQQAkh1q7DOdHT3AVv3AR8RxKX+5PY1LQWoIZiHS4BrJ3m9b7nVuTwqELeXb5LrTUfbGeCpL4Dfz47voBVkAq/cBdw0zet5m/wQwcS8jpQhIk/GQfzwF1C3a/wgRNIhXdJpqd7ZGr4iXI0yPr4hp+IIV2IdBS/0YkJp6mRuzL3AHLMy2prbuCrfxVeEIPTcakB08Uw9vXviQYikU7plQ7Zo09mOb00NebFpbfke+OMcrhhJt2xYWuxs260hKo2U4CTjwooPuWghvENuWcnAOivTvrfzHLS0WzcPolR+/84HgLwMve3j9pQqas53YRl49VvGip/9lUzmij7K+LaSYilDvL+fTrD9V2AT41fvZX89tQuAx8u9tyJtzdK4EgWrIBBvMNXUFA0HYTY6Ysc0R3P9SLb64967NMUlMOBQB3Cm21+4oZS7OjN46TVHc/1ItmTTUkWKy6LAwb/9BTPoequKwx9KzZWMHyVsmq3JM83jAZ5SdoMN2cmEd8n4UcJmnjRH4z7uR/kZybtqkEzCZjTxielp/kI2CCVHQTIDbAqITSaZUX+hwx3JAwmSSdg8KyBtpjk7y19IhVAyCVBzJeNHCZttAtJqmotm+tdr8vmXvx7o++ObG3E2LbUKyJ54qTc/19/A3uPA86yL+3xSgMY0R3P9SLay4luzR0CaVYeZ1xVzg7921yHgwZ0UPTY4jKutPo1pThAlbHWbit8lPVVMdeZrqpn0lPzCkML49c5F/zwfnF/iUYMyO5j0JhmnfYdJr95z3xe1qGbgifLwB1KG2zsthwUhkg0Los/ZtvUIESnbbTaTKm8ElhdeuXpEumXD0mZne1CpyDsAdO+YYyr32u0TXyCpiH7vPq+iPyK/IZCuQcWz66g1y6WJTUu85ZsYki7ptCAUcld7IIZV8RzgBQYbrHvlMJWXTBwQ6Zo33Xt7lrZagy5YAsfLDO4018uGz1jMnRwfiLJ8WyxZa1+S7yaQ/sArJ8FQEvvJ03Cal/xVPC/nLo4NhPLJByuBHB1BKPksJIhhXzbiIeDEEyauiHKnABsrx74aGyo8EKK6kUCMCsSB+YSPbealiu5WPS95EJKpirvqNur8dKy/JdJdUpyLHrr0mh3Asc5wIJRZ360GrjFecpB8C4GMWhT7+qdzr9WKoYhS4QtLgqtzL/TLVS2IXueqvpV5YKBwP1fWm5fCbKCxNBjII2V2rqX11PFTkEjYiLWJvNu01iwEyn2KYo3p8uRuL042kCJhzx3Pyww+dA3MMX+M5NL/9gyedJ1z1WzjJborLOBqnAqjP3QMdwrXxn9Nbawa/BlqP1flgRCtDQsiKSAOjIqo183LHQXA/UWJQbVvLxiYVZtxJYlbFCXvNz8vL/bFYjUfW1bbksaiuBpEQ8XkHmP2aIdlS+orxtUkGmwc4QdvI642uT/STeQLjpvC/GEejf4XYABjPiWbTusdHAAAAABJRU5ErkJggg==</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-99.21744334534255,29.958115160883665</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>01/09 : NOLA Nights</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNq8WG1MllUYvl4Qe0MZJIIGDXMlU0GnC1i0AparNZ1tkpEy1+bAFqwffeePtD/R+tjKzZrax79qfTgtF1uzNUdb5UpWmeX8YEmppYXhR4CIvF3XOed5Xz6f53kBvbd7z3nOOfd9X8855/44TwRJUCwWm83HMnIFuYg8izzFDf9Hbif/Qv6K3ByJRH7DRBGNR8jLyS2x5KnFyUaC7EQCQCziYwv51kQn+fA/wIHTwInzQGeP7c+KAvkZQHEuUDh9qOa95Aau0I9JAyGIx/h4iZxmOk5dAN4/AHx+FOjo8v+87HTgnpuB2mJgxlSv9xL5GYJ5LRQQAkh1q7DOdHT3AVv3AR8RxKX+5PY1LQWoIZiHS4BrJ3m9b7nVuTwqELeXb5LrTUfbGeCpL4Dfz47voBVkAq/cBdw0zet5m/wQwcS8jpQhIk/GQfzwF1C3a/wgRNIhXdJpqd7ZGr4iXI0yPr4hp+IIV2IdBS/0YkJp6mRuzL3AHLMy2prbuCrfxVeEIPTcakB08Uw9vXviQYikU7plQ7Zo09mOb00NebFpbfke+OMcrhhJt2xYWuxs260hKo2U4CTjwooPuWghvENuWcnAOivTvrfzHLS0WzcPolR+/84HgLwMve3j9pQqas53YRl49VvGip/9lUzmij7K+LaSYilDvL+fTrD9V2AT41fvZX89tQuAx8u9tyJtzdK4EgWrIBBvMNXUFA0HYTY6Ysc0R3P9SLb64967NMUlMOBQB3Cm21+4oZS7OjN46TVHc/1ItmTTUkWKy6LAwb/9BTPoequKwx9KzZWMHyVsmq3JM83jAZ5SdoMN2cmEd8n4UcJmnjRH4z7uR/kZybtqkEzCZjTxielp/kI2CCVHQTIDbAqITSaZUX+hwx3JAwmSSdg8KyBtpjk7y19IhVAyCVBzJeNHCZttAtJqmotm+tdr8vmXvx7o++ObG3E2LbUKyJ54qTc/19/A3uPA86yL+3xSgMY0R3P9SLay4luzR0CaVYeZ1xVzg7921yHgwZ0UPTY4jKutPo1pThAlbHWbit8lPVVMdeZrqpn0lPzCkML49c5F/zwfnF/iUYMyO5j0JhmnfYdJr95z3xe1qGbgifLwB1KG2zsthwUhkg0Los/ZtvUIESnbbTaTKm8ElhdeuXpEumXD0mZne1CpyDsAdO+YYyr32u0TXyCpiH7vPq+iPyK/IZCuQcWz66g1y6WJTUu85ZsYki7ptCAUcld7IIZV8RzgBQYbrHvlMJWXTBwQ6Zo33Xt7lrZagy5YAsfLDO4018uGz1jMnRwfiLJ8WyxZa1+S7yaQ/sArJ8FQEvvJ03Cal/xVPC/nLo4NhPLJByuBHB1BKPksJIhhXzbiIeDEEyauiHKnABsrx74aGyo8EKK6kUCMCsSB+YSPbealiu5WPS95EJKpirvqNur8dKy/JdJdUpyLHrr0mh3Asc5wIJRZ360GrjFecpB8C4GMWhT7+qdzr9WKoYhS4QtLgqtzL/TLVS2IXueqvpV5YKBwP1fWm5fCbKCxNBjII2V2rqX11PFTkEjYiLWJvNu01iwEyn2KYo3p8uRuL042kCJhzx3Pyww+dA3MMX+M5NL/9gyedJ1z1WzjJborLOBqnAqjP3QMdwrXxn9Nbawa/BlqP1flgRCtDQsiKSAOjIqo183LHQXA/UWJQbVvLxiYVZtxJYlbFCXvNz8vL/bFYjUfW1bbksaiuBpEQ8XkHmP2aIdlS+orxtUkGmwc4QdvI642uT/STeQLjpvC/GEejf4XYABjPiWbTusdHAAAAABJRU5ErkJggg==</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-95.6218448937589,29.595950166656124</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>07/09 - 08/09 : Elephant Day (jusqu'à 22h)</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNq8WG1MllUYvl4Qe0MZJIIGDXMlU0GnC1i0AparNZ1tkpEy1+bAFqwffeePtD/R+tjKzZrax79qfTgtF1uzNUdb5UpWmeX8YEmppYXhR4CIvF3XOed5Xz6f53kBvbd7z3nOOfd9X8855/44TwRJUCwWm83HMnIFuYg8izzFDf9Hbif/Qv6K3ByJRH7DRBGNR8jLyS2x5KnFyUaC7EQCQCziYwv51kQn+fA/wIHTwInzQGeP7c+KAvkZQHEuUDh9qOa95Aau0I9JAyGIx/h4iZxmOk5dAN4/AHx+FOjo8v+87HTgnpuB2mJgxlSv9xL5GYJ5LRQQAkh1q7DOdHT3AVv3AR8RxKX+5PY1LQWoIZiHS4BrJ3m9b7nVuTwqELeXb5LrTUfbGeCpL4Dfz47voBVkAq/cBdw0zet5m/wQwcS8jpQhIk/GQfzwF1C3a/wgRNIhXdJpqd7ZGr4iXI0yPr4hp+IIV2IdBS/0YkJp6mRuzL3AHLMy2prbuCrfxVeEIPTcakB08Uw9vXviQYikU7plQ7Zo09mOb00NebFpbfke+OMcrhhJt2xYWuxs260hKo2U4CTjwooPuWghvENuWcnAOivTvrfzHLS0WzcPolR+/84HgLwMve3j9pQqas53YRl49VvGip/9lUzmij7K+LaSYilDvL+fTrD9V2AT41fvZX89tQuAx8u9tyJtzdK4EgWrIBBvMNXUFA0HYTY6Ysc0R3P9SLb64967NMUlMOBQB3Cm21+4oZS7OjN46TVHc/1ItmTTUkWKy6LAwb/9BTPoequKwx9KzZWMHyVsmq3JM83jAZ5SdoMN2cmEd8n4UcJmnjRH4z7uR/kZybtqkEzCZjTxielp/kI2CCVHQTIDbAqITSaZUX+hwx3JAwmSSdg8KyBtpjk7y19IhVAyCVBzJeNHCZttAtJqmotm+tdr8vmXvx7o++ObG3E2LbUKyJ54qTc/19/A3uPA86yL+3xSgMY0R3P9SLay4luzR0CaVYeZ1xVzg7921yHgwZ0UPTY4jKutPo1pThAlbHWbit8lPVVMdeZrqpn0lPzCkML49c5F/zwfnF/iUYMyO5j0JhmnfYdJr95z3xe1qGbgifLwB1KG2zsthwUhkg0Los/ZtvUIESnbbTaTKm8ElhdeuXpEumXD0mZne1CpyDsAdO+YYyr32u0TXyCpiH7vPq+iPyK/IZCuQcWz66g1y6WJTUu85ZsYki7ptCAUcld7IIZV8RzgBQYbrHvlMJWXTBwQ6Zo33Xt7lrZagy5YAsfLDO4018uGz1jMnRwfiLJ8WyxZa1+S7yaQ/sArJ8FQEvvJ03Cal/xVPC/nLo4NhPLJByuBHB1BKPksJIhhXzbiIeDEEyauiHKnABsrx74aGyo8EKK6kUCMCsSB+YSPbealiu5WPS95EJKpirvqNur8dKy/JdJdUpyLHrr0mh3Asc5wIJRZ360GrjFecpB8C4GMWhT7+qdzr9WKoYhS4QtLgqtzL/TLVS2IXueqvpV5YKBwP1fWm5fCbKCxNBjII2V2rqX11PFTkEjYiLWJvNu01iwEyn2KYo3p8uRuL042kCJhzx3Pyww+dA3MMX+M5NL/9gyedJ1z1WzjJborLOBqnAqjP3QMdwrXxn9Nbawa/BlqP1flgRCtDQsiKSAOjIqo183LHQXA/UWJQbVvLxiYVZtxJYlbFCXvNz8vL/bFYjUfW1bbksaiuBpEQ8XkHmP2aIdlS+orxtUkGmwc4QdvI642uT/STeQLjpvC/GEejf4XYABjPiWbTusdHAAAAABJRU5ErkJggg==</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>-107.22047334847723,33.18569534084658</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</kml>
