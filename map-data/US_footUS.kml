@@ -11,9 +11,13 @@
 					</Icon>
 					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
 			</Style>
 			<Point>
-				<coordinates>-112.26257989913907,33.52765357429057</coordinates>
+				<coordinates>-112.26257989913907,33.52765357429057,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -27,9 +31,13 @@
 					</Icon>
 					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
 			</Style>
 			<Point>
-				<coordinates>-97.09286212451947,32.74783951741692</coordinates>
+				<coordinates>-97.09286212451947,32.74783951741692,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -43,9 +51,13 @@
 					</Icon>
 					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
 			</Style>
 			<Point>
-				<coordinates>-95.41085254753557,29.684798318656675</coordinates>
+				<coordinates>-95.41085254753557,29.684798318656675,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -59,9 +71,13 @@
 					</Icon>
 					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
 			</Style>
 			<Point>
-				<coordinates>-118.26106021878468,33.86427559887987</coordinates>
+				<coordinates>-118.26106021878468,33.86427559887987,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -75,9 +91,13 @@
 					</Icon>
 					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
 			</Style>
 			<Point>
-				<coordinates>-118.28798897733589,34.01402720833187</coordinates>
+				<coordinates>-118.28798897733589,34.01402720833187,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -91,9 +111,13 @@
 					</Icon>
 					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
 			</Style>
 			<Point>
-				<coordinates>-121.96973388139968,37.403122469643066</coordinates>
+				<coordinates>-121.96973388139968,37.403122469643066,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -107,9 +131,13 @@
 					</Icon>
 					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
 			</Style>
 			<Point>
-				<coordinates>-90.08115751381398,29.951082950296097</coordinates>
+				<coordinates>-90.08115751381398,29.951082950296097,0</coordinates>
 			</Point>
 		</Placemark>
 	</Document>

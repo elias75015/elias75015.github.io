@@ -11,9 +11,13 @@
 					</Icon>
 					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
 			</Style>
 			<Point>
-				<coordinates>-95.35561357525476,29.757345320481633</coordinates>
+				<coordinates>-95.35561357525476,29.757345320481633,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -27,13 +31,17 @@
 					</Icon>
 					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
 			</Style>
 			<Point>
-				<coordinates>-112.06644001352855,33.44525920741607</coordinates>
+				<coordinates>-112.06644001352855,33.44525920741607,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>18/09-19/09-20/09 : Angels (L.A) - Athletics (Oakland)&lt;br&gt;21/09-22/09-23/09 : Angels - Astros (Houston)</description>
+			<description>21/09-22/09-23/09 : Angels - Astros (Houston)</description>
 			<Style>
 				<IconStyle>
 					<Icon>
@@ -43,13 +51,17 @@
 					</Icon>
 					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
 			</Style>
 			<Point>
-				<coordinates>-117.8826352522417,33.80014118706059</coordinates>
+				<coordinates>-117.8826352522417,33.80014118706059,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<description>14/09-15/09-16/09 : Dodgers (L.A) - Cardinals (St-Louis)&lt;br&gt;24/09-25/09-26/09 : Dodgers - D-Backs (Phoenix)</description>
+			<description>24/09-25/09-26/09 : Dodgers - D-Backs (Phoenix)</description>
 			<Style>
 				<IconStyle>
 					<Icon>
@@ -59,9 +71,13 @@
 					</Icon>
 					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
 			</Style>
 			<Point>
-				<coordinates>-118.2399468939551,34.07353369517821</coordinates>
+				<coordinates>-118.2399468939551,34.07353369517821,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -75,9 +91,13 @@
 					</Icon>
 					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
 			</Style>
 			<Point>
-				<coordinates>-122.38887059497179,37.778561375859994</coordinates>
+				<coordinates>-122.38887059497179,37.778561375859994,0</coordinates>
 			</Point>
 		</Placemark>
 	</Document>

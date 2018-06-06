@@ -1,7 +1,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 https://developers.google.com/kml/schema/kml22gx.xsd">
 	<Document>
 		<Placemark>
-			<description>24/09 : L.A Galaxy - Seattle Sounders&lt;br&gt;16h00</description>
+			<description>24/09 : L.A Galaxy - Seattle Sounders&lt;br&gt;16h00&lt;br&gt;&lt;br&gt;&lt;br&gt;30/09 : L.A Galaxy - Vancouver Whitecaps FC&lt;br&gt;19h00</description>
 			<Style>
 				<IconStyle>
 					<Icon>
@@ -11,9 +11,13 @@
 					</Icon>
 					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
 			</Style>
 			<Point>
-				<coordinates>-118.26108080155791,33.86426191602497</coordinates>
+				<coordinates>-118.26108080155791,33.86426191602497,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -27,9 +31,13 @@
 					</Icon>
 					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
 			</Style>
 			<Point>
-				<coordinates>-96.8352194233935,33.15445841228164</coordinates>
+				<coordinates>-96.8352194233935,33.15445841228164,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -43,9 +51,13 @@
 					</Icon>
 					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
 			</Style>
 			<Point>
-				<coordinates>-118.2846422256641,34.01274938124469</coordinates>
+				<coordinates>-118.2846422256641,34.01274938124469,0</coordinates>
 			</Point>
 		</Placemark>
 	</Document>
