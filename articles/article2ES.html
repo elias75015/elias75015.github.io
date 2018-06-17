@@ -1,5 +1,4 @@
 <img src="./img/franceText.png" class="articleTranslate" id="article2">
-<br>
 <p id='date'> 
 Le 2018-06-15, en Uruguay 
 </p>
@@ -72,3 +71,9 @@ Para acercarnos de Brasil y quedarnos en Uruguay para el primer partido de la Ce
 <div class="photo">
 <img src="./img/diaporama/AmSud/article2/p8.jpg" id="photo6" class="paysage">
 </div>
+<script>
+	$(".articleTranslate").click(function(e) {
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>

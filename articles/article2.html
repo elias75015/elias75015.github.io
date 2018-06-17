@@ -1,5 +1,4 @@
 <img src="./img/espText.png" class="articleTranslate" id="article2ES">
-<br>
 <p id='date'> 
 Le 2018-06-15, en Uruguay 
 </p>
@@ -88,3 +87,10 @@ Pour rester dans le pays pour le premier match de l'Uruguay en coupe du monde, n
 <div class="photo">
 <img src="./img/diaporama/AmSud/article2/p8.jpg" id="photo6" class="paysage">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
