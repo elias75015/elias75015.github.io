@@ -73,10 +73,9 @@ Para acercarnos de Brasil y quedarnos en Uruguay para el primer partido de la Ce
 </div>
 <script>
 	$(".articleTranslate").click(function(e) {
-		var container = $('#mainContent'),
-    	menuToNotRemove = container.find('#dl-menu');
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+        $( 'button.dl-trigger').click();
 		$('#mainContent').empty();
     	$('#mainContent').load('articles/'+this.id+'.html');
-    	$('#mainContent').prepend(menuToNotRemove);
 	});
 </script>

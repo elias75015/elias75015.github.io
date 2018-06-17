@@ -90,10 +90,9 @@ Pour rester dans le pays pour le premier match de l'Uruguay en coupe du monde, n
 
 <script>
 	$(".articleTranslate").click(function(e) {
-		var container = $('#mainContent'),
-    	menuToNotRemove = container.find('#dl-menu');
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+        $( 'button.dl-trigger').click();
 		$('#mainContent').empty();
     	$('#mainContent').load('articles/'+this.id+'.html');
-    	$('#mainContent').prepend(menuToNotRemove);
 	});
 </script>
