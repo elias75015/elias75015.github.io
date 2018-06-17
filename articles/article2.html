@@ -93,7 +93,7 @@ Pour rester dans le pays pour le premier match de l'Uruguay en coupe du monde, n
 		var container = $('#mainContent'),
     	menuToNotRemove = container.find('#dl-menu');
 		$('#mainContent').empty();
-		container.html(menuToNotRemove);
     	$('#mainContent').load('articles/'+this.id+'.html');
+    	$('#mainContent').prepend(menuToNotRemove);
 	});
 </script>
