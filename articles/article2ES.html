@@ -73,7 +73,7 @@ Para acercarnos de Brasil y quedarnos en Uruguay para el primer partido de la Ce
 </div>
 <script>
 	$(".articleTranslate").click(function(e) {
-		$('#mainContent').empty();
+		$('#mainContent').find('*').not('.dl-menuwrapper').remove();
     	$('#mainContent').load('articles/'+this.id+'.html');
 	});
 </script>

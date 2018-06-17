@@ -90,7 +90,7 @@ Pour rester dans le pays pour le premier match de l'Uruguay en coupe du monde, n
 
 <script>
 	$(".articleTranslate").click(function(e) {
-		$('#mainContent').empty();
+		$('#mainContent').find('*').not('.dl-menuwrapper').remove();
     	$('#mainContent').load('articles/'+this.id+'.html');
 	});
 </script>
