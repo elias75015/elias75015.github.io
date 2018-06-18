@@ -1,5 +1,5 @@
 // on charge le contenu du menu de gauche
-$('#diapoMenu').load('./menuDiapo.html', function() {
+$('#diapoMenu').load('./../menuDiapo.html', function() {
     $( '#dl-menu' ).dlmenu({
         animationClasses : {
             classin : 'dl-animate-in-4',
