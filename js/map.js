@@ -120,7 +120,7 @@ function addKMLLayer (clickedElement) {
             format : "kml",
             url : kmlFilePath,
             title : kmlId,
-            // zoomToExtent : true,
+            zoomToExtent : true,
             showPointNames : false
         };
         map.addLayers(kmlLayerToAdd);
