@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article5ES">
 <p id='date'> 
 Le 2018-06-24, à Morretes 
 </p>
@@ -82,3 +83,14 @@ Pour rentrer à Curitiba, nous prenons <b>le train à vapeur</b> qui empreinte u
 Le train arrive à Curitiba avec l'heure minimum légale de retard. Pour le dîner, nous retrouvons Carla, Iris et Paulo. En retard, il va de soi.
 </p>
 <br>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>

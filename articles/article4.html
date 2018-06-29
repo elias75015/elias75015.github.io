@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article4ES">
 <p id='date'> 
 Le 2018-06-21, à Curitiba 
 </p>
@@ -116,3 +117,14 @@ Le lendemain nous retrouvons Gabriel. La veille il nous a raconté qu’il fabri
 <div class="photo">
 <img src="./img/diaporama/AmSud/article4/para12.jpg" id="photo8" class="paysage">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
