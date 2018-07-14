@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article6ES">
 <p id='date'> 
 Le 2018-07-29, à Presidente Prudente 
 </p>
@@ -104,3 +105,14 @@ Le lendemain la Carioca et André nous retrouvent pour manger. C'est difficile d
 <div class="photo">
 <img src="./img/diaporama/AmSud/article6/para11.jpg" id="photo7" class="paysage">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
