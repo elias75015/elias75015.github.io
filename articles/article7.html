@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article7ES">
 <p id='date'> 
 Le 2018-07-02, à Sao Roque 
 </p>
@@ -92,3 +93,14 @@ Le jour suivant donc, <b>alors que le Brésil s’est qualifié</b> et que Ferna
 <div class="photo">
 <img src="./img/diaporama/AmSud/article7/para9.jpeg" id="photo7" class="carre">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
