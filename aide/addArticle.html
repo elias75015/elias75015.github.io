@@ -38,6 +38,16 @@
             <option value="10">10</option>
             <option value="11">11</option>
             <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
         </select>
         <div id="paragraphes">
         </div>
@@ -152,7 +162,7 @@
 					// retrieve image region
 					var radiobuttonsRegion = "imagePays" + y;
 					var imageRegion = document.querySelector('input[name="'+radiobuttonsRegion+'"]:checked').value;
-          $( "#p"+y+"Image" ).append('<br>&lt;div class="photo"&gt;<br>&lt;img src="./img/diaporama/'+imageRegion+'/'+imageName+'" id="photo1" class="'+imageType+'"&gt;<br>&lt;/div&gt;<br><br>');
+          $( "#p"+y+"Image" ).append('<br>&lt;div class="photo"&gt;<br>&lt;img src="./img/diaporama/'+imageRegion+'/'+imageName+'" id="photo'+y+'" class="'+imageType+'"&gt;<br>&lt;/div&gt;<br><br>');
         }
       }
     }
