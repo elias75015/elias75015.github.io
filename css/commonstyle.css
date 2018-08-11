@@ -10,6 +10,7 @@ nav {
     background-size: 835px 1100px;
     background-image: url("../img/americaSite.jpg");
     background-color: #eccd9d;
+    height: 1000px;
 }
 
 /* Petit ecrans */
@@ -26,6 +27,7 @@ nav {
         grid-row: 1;
         background-size: 470px 620px;
         background-color: #eccd9d;
+        height: 1000px;
     }
     
 }
