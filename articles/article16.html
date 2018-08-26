@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article16ES">
 <p id='date'> 
 Le 2018-07-30, à Recife 
 </p>
@@ -85,7 +86,7 @@ Nous déjeunons dans un super restaurant pour pas cher. Sur une <b>belle place d
 
 <br>
 <p>
-Nous continuons notre balade le long du fleuve Capibabire, séparé de la mer d'une unique longue digue. C'est sur cette digue que nous apercevons la colona do Cristal, réalisée par Brennand. Quelques rues plus loin, un modeste bâtiment : c'est <b>une synagogue</b> et pas n'importe laquelle, il s'agit de la première d'Amérique latine, elle date du 17ème siècle !
+Nous continuons notre balade le long du fleuve Capibabire, séparé de la mer d'une unique longue digue. C'est sur cette digue que nous apercevons la colona do Cristal, réalisée par Brennand. Quelques rues plus loin, un modeste bâtiment : c'est <b>une synagogue</b> et pas n'importe laquelle, il s'agit de la première d'Amérique latine, elle date du XVIIème siècle !
 </p>
 <br>
 
@@ -127,3 +128,14 @@ Nous reprenons le bus, comme à l'aller, après avoir plusieurs fois laissé pas
 Nous retournons finalement au Airbnb, rendre les clés à Hellyda, qui en parallèle d'étudier la photographie, aide sa mère dans un petit café en bas de l’immeuble. Direction l'aéroport de Recife, pour voler jusqu'à Sao Luis de Maranha.
 </p>
 <br>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>

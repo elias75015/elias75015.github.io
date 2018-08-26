@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article15ES">
 <p id='date'> 
 Le 2018-07-28, à Salvador de Bahia 
 </p>
@@ -104,3 +105,14 @@ Nous marchons ensuite jusqu'au lac où nous étions souvent passé en taxi. Nous
 Nous rentrons finalement à l'hôtel, pour ensuite aller à l'aéroport, direction Recife. 
 </p>
 <br>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
