@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article18ES">
 <p id='date'> 
 Le 2018-08-06, à Belem 
 </p>
@@ -72,3 +73,14 @@ Nous filons alors vite dans la voiture, pour aller <b>boire un coup et grignoter
 Finalement, nous repassons rapidement chez Thiago récupérer nos sacs, pour qu'il nous dépose à l'aéroport Val de cans, où notre vol pour Manaus décollera à 3h du matin. Nous remercions Thiago pour son accueil, et nous lui disons un simple “até mais” , car nous reviendrons à Belém, mais cette fois, par les eaux ! 
 </p>
 <br>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
