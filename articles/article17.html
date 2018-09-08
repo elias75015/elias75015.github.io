@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article10ES">
 <p id='date'> 
 Le 2018-08-04, à Barreirinhas 
 </p>
@@ -209,4 +210,15 @@ Le soir dans le dortoir, nous rencontrons un jeune brésilien du Piauí, <b>Gabr
 <div class="photo">
 <img src="./img/diaporama/AmSud/article17/p21.JPG" id="photo21" class="paysage">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
 
