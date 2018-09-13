@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article22ES">
 <p id='date'> 
 Le 2018-08-19, à Belém 
 </p>
@@ -98,3 +99,15 @@ où <b>des porteurs</b> s'occupent des gros bagages en se les jetant par les fen
 <div class="photo">
 <img src="./img/diaporama/AmSud/article22/p9.jpg" id="photo9" class="paysage">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
+
