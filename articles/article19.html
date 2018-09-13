@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article19ES">
 <p id='date'> 
 Le 2018-08-09, à Manaus 
 </p>
@@ -178,3 +179,13 @@ Nous rentrons au camp de base et après une caipirinha et un excellent repas, c'
 <img src="./img/diaporama/AmSud/article19/p19.JPG" id="photo19" class="paysage">
 </div>
 
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
