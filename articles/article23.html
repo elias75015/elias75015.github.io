@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article23ES">
 <p id='date'> 
 Le 2018-08-21, à Belém 
 </p>
@@ -71,3 +72,15 @@ La suite, c'est une histoire de fièvre et de colique. Elias passera la journée
 Heureusement, le lendemain, la situation est un peu meilleure. Nous décidons donc de ne pas changer notre programme. En route vers l’île reculée d’Algodoal.
 </p>
 <br>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
+
