@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article20ES">
 <p id='date'> 
 Le 2018-08-11, à Manaus 
 </p>
@@ -110,4 +111,15 @@ Le soir, nous allons sur la place de l'Opéra, où il y a toujours de l'ambiance
 Le lendemain nous prenons un Uber direction l'aéroport. Les chauffeurs jusqu'ici étaient super sympas, celle-ci est carrément délurée ! Elle rigole fort, nous raconte sa vie ponctuée d'éclats de rires, traite ses concitoyens de Manaus de brutes ignorantes (les brésiliens de manière générale jugent très durement leurs concitoyens). Elle déteste Manaus, croit voir sa sœur en voiture puis s'écrie en riant que ce n'est pas elle car la conductrice est trop laide ! Un sacré numéro ! Nous arrivons et pouvons prendre l'avion pour Santarém, en se délectant des vues aériennes sur la forêt et l'Amazone !
 </p>
 <br>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
 
