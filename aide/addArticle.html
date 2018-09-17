@@ -21,6 +21,14 @@
 	<br/>
 	Numéro de l'article : <input id="numArticle"></input>
         <br/>
+	Région de l'article : 
+	<br/>
+	<input id="imgPaysParagrapheAmSud" type="radio" name="imagePays" value="AmSud"> </input>
+	<label for="imgPaysParagrapheAmSud">Amérique du sud</label>
+	<br/>
+	<input id="imgPaysParagrapheUS" type="radio" name="imagePays" value="US"> </input>
+	<label for="imgPaysParagrapheUS">USA</label>
+	<br/>
         Date de l'article : <input type="date" id="date"></input>
         <br/>
         Lieu de l'article (ville) : <input id="place"></input>
@@ -103,18 +111,6 @@
         imageTypeCarre.name = "imageType"+y;
         imageTypeCarre.value = "carre";
 
-	var imagePaysAmSud = document.createElement( "input" );
-	imagePaysAmSud.id = "imgPaysParagraphe" + y + "AmSud";
-	imagePaysAmSud.type = "radio";
-	imagePaysAmSud.name = "imagePays"+y;
-	imagePaysAmSud.value = "AmSud";
-
-	var imagePaysUS = document.createElement( "input" );
-	imagePaysUS.id = "imgPaysParagraphe" + y + "US";
-	imagePaysUS.type = "radio";
-	imagePaysUS.name = "imagePays"+y;
-	imagePaysUS.value = "US";
-
         $( "#paragraphes" ).append("<b>Texte paragraphe " + y + ": </b><br>");
         $( "#paragraphes" ).append(texteParagraphe);
         $( "#paragraphes" ).append("<br><b>Cocher si le paragraphe " + y + " a une image </b><br>");
@@ -166,7 +162,7 @@
           var radiobuttonsType = "imageType" + y;
           var imageType = document.querySelector('input[name="'+radiobuttonsType+'"]:checked').value;
 	// retrieve image region
-	  var radiobuttonsRegion = "imagePays" + y;
+	  var radiobuttonsRegion = "imagePays";
 	  var imageRegion = document.querySelector('input[name="'+radiobuttonsRegion+'"]:checked').value;
           $( "#p"+y+"Image" ).append('<br>&lt;div class="photo"&gt;<br>&lt;img src="./img/diaporama/'+imageRegion+'/'+imageName+'" id="photo'+y+'" class="'+imageType+'"&gt;<br>&lt;/div&gt;<br><br>');
         }
