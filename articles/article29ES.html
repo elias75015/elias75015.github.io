@@ -1,3 +1,4 @@
+<img src="./img/franceText.png" class="articleTranslate" id="article29">
 <p id='date'> 
 Le 2018-09-06, à Santa Fe 
 </p>
@@ -136,3 +137,14 @@ Finalmente llegamos <b>al campamento</b> cuando cae la noche a las 8:30 p.m. ¡D
 <div class="photo">
 <img src="./img/diaporama/US/article29/p12.jpg" id="photo12" class="paysage">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
