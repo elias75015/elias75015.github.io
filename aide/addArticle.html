@@ -130,23 +130,16 @@
         $( "#paragraphes" ).append(imageTypePaysage);
         $( "#paragraphes" ).append("<br>Carre : ");
         $( "#paragraphes" ).append(imageTypeCarre);
-				$( "#paragraphes" ).append("<br><b>Région image paragraphe" + y + ": </b><br>");
-				$( "#paragraphes" ).append("Amérique du sud : ");
-				$( "#paragraphes" ).append(imagePaysAmSud);
-				$( "#paragraphes" ).append("<br>USA : ");
-				$( "#paragraphes" ).append(imagePaysUS);
+	$( "#paragraphes" ).append("<br><b>Région image paragraphe" + y + ": </b><br>");
+	$( "#paragraphes" ).append("Amérique du sud : ");
+	$( "#paragraphes" ).append(imagePaysAmSud);
+	$( "#paragraphes" ).append("<br>USA : ");
+	$( "#paragraphes" ).append(imagePaysUS);
         $( "#paragraphes" ).append("<br> <br> <br>");
       }
-        // Results Generation part -->
-        $( "#genResult" ).empty();
-        $( "#genResult" ).append("&lt;p id='date'&gt; <br> Le <span id='dateArticle'></span>, à <span id='lieuArticle'></span> <br>&lt;/p&gt;<br>&lt;br&gt;<br>&lt;h2 id='title'&gt;<br> <span id='titreArticle'></span> <br>&lt;/h2&gt;<br>");
-        for (var i = 0; i < nbParagraphes; i++) {
-          y = i+1;
-          $( "#genResult" ).append("&lt;br&gt;<br>&lt;p&gt;<br><span id='p"+y+"Texte'></span><br>&lt;/p&gt;<br>&lt;br&gt;<br><span id='p"+y+"Image'></span><br>");
-      }
-    }
-	    // Auto fill  image name
-	          for (var i = 0; i < nbParagraphes; i++) {
+	    
+// Auto fill  image name
+	for (var i = 0; i < nbParagraphes; i++) {
 			var p = i + 1;
     			document.getElementById("hasParaImg" + p).onclick = function() {
 				var paraCheckbox = this.dataset.para;
@@ -156,7 +149,15 @@
 					document.getElementById("imgParagraphe" + paraCheckbox).value = ""; 
 				}
 			};	
-    		}
+    	}
+        // Results Generation part -->
+        $( "#genResult" ).empty();
+        $( "#genResult" ).append("&lt;p id='date'&gt; <br> Le <span id='dateArticle'></span>, à <span id='lieuArticle'></span> <br>&lt;/p&gt;<br>&lt;br&gt;<br>&lt;h2 id='title'&gt;<br> <span id='titreArticle'></span> <br>&lt;/h2&gt;<br>");
+        for (var i = 0; i < nbParagraphes; i++) {
+          y = i+1;
+          $( "#genResult" ).append("&lt;br&gt;<br>&lt;p&gt;<br><span id='p"+y+"Texte'></span><br>&lt;/p&gt;<br>&lt;br&gt;<br><span id='p"+y+"Image'></span><br>");
+      }
+    }
     
 	/* ONCLICK - GENERATION DES INFOS */
     document.getElementById("validateInfo").onclick = function() {
