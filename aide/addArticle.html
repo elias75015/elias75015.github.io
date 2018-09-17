@@ -18,6 +18,8 @@
       <fieldset class="fieldsetAide">
         <br/>
         Titre de l'article : <input id="title"></input>
+	<br/>
+	Numéro de l'article : <input id="numArticle"></input>
         <br/>
         Date de l'article : <input type="date" id="date"></input>
         <br/>
@@ -78,8 +80,13 @@
         texteParagraphe.id = "texteParagraphe" + y;
         texteParagraphe.rows = 15;
         texteParagraphe.cols = 70;
-
-        var imageParagraphe = document.createElement( "input" );
+	
+	var hasParaImg = document.createElement( "input" );
+	hasParaImg.id = "hasParaImg" + y;
+	hasParaImg.type = "checkbox";
+	hasParaImg.data-para = y;
+        
+	var imageParagraphe = document.createElement( "input" );
         imageParagraphe.id = "imgParagraphe" + y;
 
         var imageTypePortrait = document.createElement( "input" );
@@ -100,17 +107,17 @@
         imageTypeCarre.name = "imageType"+y;
         imageTypeCarre.value = "carre";
 
-				var imagePaysAmSud = document.createElement( "input" );
-				imagePaysAmSud.id = "imgPaysParagraphe" + y + "AmSud";
-				imagePaysAmSud.type = "radio";
-				imagePaysAmSud.name = "imagePays"+y;
-				imagePaysAmSud.value = "AmSud";
+	var imagePaysAmSud = document.createElement( "input" );
+	imagePaysAmSud.id = "imgPaysParagraphe" + y + "AmSud";
+	imagePaysAmSud.type = "radio";
+	imagePaysAmSud.name = "imagePays"+y;
+	imagePaysAmSud.value = "AmSud";
 
-				var imagePaysUS = document.createElement( "input" );
-				imagePaysUS.id = "imgPaysParagraphe" + y + "US";
-				imagePaysUS.type = "radio";
-				imagePaysUS.name = "imagePays"+y;
-				imagePaysUS.value = "US";
+	var imagePaysUS = document.createElement( "input" );
+	imagePaysUS.id = "imgPaysParagraphe" + y + "US";
+	imagePaysUS.type = "radio";
+	imagePaysUS.name = "imagePays"+y;
+	imagePaysUS.value = "US";
 
         $( "#paragraphes" ).append("<b>Texte paragraphe " + y + ": </b><br>");
         $( "#paragraphes" ).append(texteParagraphe);
@@ -138,7 +145,20 @@
           $( "#genResult" ).append("&lt;br&gt;<br>&lt;p&gt;<br><span id='p"+y+"Texte'></span><br>&lt;/p&gt;<br>&lt;br&gt;<br><span id='p"+y+"Image'></span><br>");
       }
     }
-    /* ONCLICK - GENERATION DES INFOS */
+	    // Auto fill  image name
+	          for (var i = 0; i < nbParagraphes; i++) {
+			var p = i + 1;
+    			document.getElementById("hasParaImg" + p).onclick = function() {
+				var paraCheckbox = this.dataset.para;
+				if (document.getElementById("hasParaImg" + p).checked) {
+					document.getElementById("imgParagraphe" + paraCheckbox).value = "article" + document.getElementById("numArticle") + "/p" + paraCheckbox + ".jpg";
+				} else {
+					document.getElementById("imgParagraphe" + paraCheckbox).value = ""; 
+				}
+			};	
+    		}
+    
+	/* ONCLICK - GENERATION DES INFOS */
     document.getElementById("validateInfo").onclick = function() {
       // On vide préalablement la génération précédente
       $("span").html("");
