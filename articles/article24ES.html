@@ -1,3 +1,4 @@
+<img src="./img/franceText.png" class="articleTranslate" id="article24">
 <p id='date'> 
 Le 2018-08-24, à Algodoal 
 </p>
@@ -171,3 +172,14 @@ siguiente y saldremos de esta <b>hermosa isla</b>, con playas grandiosas y desie
 <div class="photo">
 <img src="./img/diaporama/AmSud/article24/p16.jpg" id="photo16" class="paysage">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
