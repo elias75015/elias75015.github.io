@@ -84,10 +84,6 @@
 	var hasParaImg = document.createElement( "input" );
 	hasParaImg.id = "hasParaImg" + y;
 	hasParaImg.type = "checkbox";
-	$("#hasParaImg").data("para", y);
-        
-	var imageParagraphe = document.createElement( "input" );
-        imageParagraphe.id = "imgParagraphe" + y;
 
         var imageTypePortrait = document.createElement( "input" );
         imageTypePortrait.id = "imgTypeParagraphe" + y + "Portrait";
@@ -121,8 +117,8 @@
 
         $( "#paragraphes" ).append("<b>Texte paragraphe " + y + ": </b><br>");
         $( "#paragraphes" ).append(texteParagraphe);
-        $( "#paragraphes" ).append("<br><b>Nom image (avec extension) paragraphe " + y + ": </b><br>");
-        $( "#paragraphes" ).append(imageParagraphe);
+        $( "#paragraphes" ).append("<br><b>Cocher si le paragraphe " + y + " a une image </b><br>");
+        $( "#paragraphes" ).append(hasParaImg);
         $( "#paragraphes" ).append("<br><b>Format image paragraphe" + y + ": </b><br>");
         $( "#paragraphes" ).append("Portrait : ");
         $( "#paragraphes" ).append(imageTypePortrait);
@@ -146,19 +142,7 @@
           $( "#genResult" ).append("&lt;br&gt;<br>&lt;p&gt;<br><span id='p"+y+"Texte'></span><br>&lt;/p&gt;<br>&lt;br&gt;<br><span id='p"+y+"Image'></span><br>");
       }
     }
-	    
-	// Auto fill  image name
-	for (var i = 0; i < document.getElementById(selectNbParagraphes).value; i++) {
-			var p = i + 1;
-    			document.getElementById("hasParaImg" + p).onclick = function() {
-				var paraCheckbox = this.dataset.para;
-				if (document.getElementById("hasParaImg" + p).checked) {
-					document.getElementById("imgParagraphe" + paraCheckbox).value = "article" + document.getElementById("numArticle") + "/p" + paraCheckbox + ".jpg";
-				} else {
-					document.getElementById("imgParagraphe" + paraCheckbox).value = ""; 
-				}
-			};	
-    	}
+	  
     
 	/* ONCLICK - GENERATION DES INFOS */
     document.getElementById("validateInfo").onclick = function() {
@@ -175,15 +159,15 @@
       for (var i=0; i<nbParagraphes; i++) {
         y = i+1;
         document.getElementById("p"+y+"Texte").append(document.getElementById("texteParagraphe" + y).value);
-        if (document.getElementById("imgParagraphe" + y).value) {
-					// rretrieve image name
-          var imageName = document.getElementById("imgParagraphe" + y).value;
-					// retrieve image type
+        if (document.getElementById("hasParaImg" + y).checked)) {
+	// retrieve image name
+          var imageName = "article" + document.getElementById("numArticle").value + "/p" + y + ".jpg";
+	// retrieve image type
           var radiobuttonsType = "imageType" + y;
           var imageType = document.querySelector('input[name="'+radiobuttonsType+'"]:checked').value;
-					// retrieve image region
-					var radiobuttonsRegion = "imagePays" + y;
-					var imageRegion = document.querySelector('input[name="'+radiobuttonsRegion+'"]:checked').value;
+	// retrieve image region
+	  var radiobuttonsRegion = "imagePays" + y;
+	  var imageRegion = document.querySelector('input[name="'+radiobuttonsRegion+'"]:checked').value;
           $( "#p"+y+"Image" ).append('<br>&lt;div class="photo"&gt;<br>&lt;img src="./img/diaporama/'+imageRegion+'/'+imageName+'" id="photo'+y+'" class="'+imageType+'"&gt;<br>&lt;/div&gt;<br><br>');
         }
       }
