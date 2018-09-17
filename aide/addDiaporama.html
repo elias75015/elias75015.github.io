@@ -19,6 +19,9 @@
         <br/>
         Titre du diaporama : <input id="title"></input>
         <br/>
+	<br/>
+        Numero du diaporama: <input id="numDiapo"></input>
+        <br/>
         Date de début du diaporama : <input type="date" id="dateDebut"></input>
         <br/>
         Date de fin du diaporama : <input type="date" id="dateFin"></input>
@@ -102,6 +105,7 @@
 
         var imageName = document.createElement( "input" );
         imageName.id = "imageName" + y;
+	imageName.value = "diapo" + document.getElementById("numDiapo").value + "/d" + document.getElementById("numDiapo").value + y + ".jpg"; 
 
         var imageAlt = document.createElement( "input" );
         imageAlt.id = "imageAlt" + y;
