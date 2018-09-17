@@ -1,3 +1,4 @@
+<img src="./img/franceText.png" class="articleTranslate" id="article25">
 <p id='date'> 
 Le 2018-08-26, à Belém 
 </p>
@@ -82,3 +83,14 @@ Nos vamos a Nueva Orleans. El choque cultural es probable que sea brutal. Cierta
 <div class="photo">
 <img src="./img/diaporama/AmSud/article25/p9.jpg" id="photo9" class="paysage">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
