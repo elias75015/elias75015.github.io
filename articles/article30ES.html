@@ -1,3 +1,4 @@
+<img src="./img/franceText.png" class="articleTranslate" id="article30">
 <p id='date'> 
 El 08 de setiembre, en Mesa Verde 
 </p>
@@ -110,3 +111,14 @@ En Cliff Palace, vivieron de 100 a 150 personas. Nuestro guardabosques para esta
 La forma en que se han fechado los diferentes sitios es bastante interesante y se explica en el bonito museo del parque. Como la madera fue usada en las estructuras, es eso lo que usan los arqueologos. Todos sabemos que los anillos concéntricos del tronco de un árbol indican su edad. El tamaño de estos círculos representa el crecimiento del árbol. Entonces la parte clara, más grande, corresponde a la primavera. Cada año es más o menos ancho dependiendo de si era lluvioso o seco, dejando la misma huella en todos los árboles. Así podemos reconstruir la cronología del riego de la región. Al comparar los troncos utilizados para construir los edificios de los sitios arqueológicos con un tronco que se puede fechar (que se acaba de cortar, por ejemplo), podemos encontrar la fecha en que se cortó el árbol !
 </p>
 <br>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
