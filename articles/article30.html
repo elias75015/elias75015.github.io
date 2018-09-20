@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article30ES">
 <p id='date'> 
 Le 2018-09-08, à Mesa Verde 
 </p>
@@ -110,3 +111,14 @@ Dans <b>Cliff Palace</b>, 100 à 150 personnes vivaient. Notre ranger pour cette
 La façon dont les différents sites ont été datés est assez intéressante et fait l'objet d'une explication dans le chouette musée du parc. Comme du bois était utilisé dans les structures, ce sont eux qui ont été utilisés. On sait tous que les anneaux concentriques d'un tronc d'arbres indiquent son âge. La taille de ces cercles représentent la croissance de l'arbre. Ainsi la partie claire, plus grande, correspond au printemps. Chaque année est plus ou moins large en fonction de si elle a été pluvieuse ou sèche, laissant ainsi la même empreinte sur tous les arbres. On peut ainsi reconstruire la chronologie de l'irrigation de la région. En comparant les troncs ayant servi a construire les bâtisses des sites archéologiques à un tronc que l'on sait dater (que l'on vient de couper par exemple) on peut alors retrouver la date a laquelle l'arbre fut coupé ! 
 </p>
 <br>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
