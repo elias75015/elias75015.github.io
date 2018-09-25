@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article31ES">
 <p id='date'> 
 Le 2018-09-10, à Monument Valley 
 </p>
@@ -125,3 +126,14 @@ Le lendemain, réveil à 8h00. Surprise : le voisin a installé 3 canettes dans 
 <div class="photo">
 <img src="./img/diaporama/US/article31/p12-min.jpg" id="photo12" class="paysage">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
