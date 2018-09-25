@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article32ES">
 <p id='date'> 
 Le 2018-09-10, à Page 
 </p>
@@ -44,3 +45,13 @@ Il faut descendre 50m de marches pour arriver à <b>l'intérieur du canyon</b>. 
 La visite dure un peu plus d'une heure et sitôt finie, nous prenons la route. 2h et un beau panorama nous séparent de l'entrée au parc du Grand Canyon. 
 </p>
 <br>
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
