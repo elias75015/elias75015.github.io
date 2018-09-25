@@ -1,5 +1,6 @@
+<img src="./img/franceText.png" class="articleTranslate" id="article32">
 <p id='date'> 
-Le 2018-09-10, à Page 
+El 10 de setiembre, en Page 
 </p>
 <br>
 <h2 id='title'>
@@ -44,3 +45,14 @@ Tienes que bajar 50 m de pasos para entrar al cañón. Con sus curvas suaves y b
 La visita dura poco más de una hora y tomamos la carretera. 2 horas y un hermoso panorama nos separa de la entrada al Grand Canyon Park. 
 </p>
 <br>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
