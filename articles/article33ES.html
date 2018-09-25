@@ -1,3 +1,4 @@
+<img src="./img/franceText.png" class="articleTranslate" id="article33">
 <p id='date'> 
 El 12 de setiembre, en Desert View 
 </p>
@@ -125,3 +126,15 @@ Y un poco más tarde, vemos algunos autos detenidos al costado de la carretera y
 <div class="photo">
 <img src="./img/diaporama/US/article33/p12-min.jpg" id="photo12" class="carre">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
+
