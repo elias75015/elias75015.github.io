@@ -1,5 +1,6 @@
+<img src="./img/franceText.png" class="articleTranslate" id="article31">
 <p id='date'> 
-Le 2018-09-10, à Monument Valley 
+El 10 de setiembre, en Monument Valley 
 </p>
 <br>
 <h2 id='title'>
@@ -125,3 +126,14 @@ Al día siguiente, despertamos a las 8:00. Sorpresa: el vecino instaló 3 latas 
 <div class="photo">
 <img src="./img/diaporama/US/article31/p12-min.jpg" id="photo12" class="paysage">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
