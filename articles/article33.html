@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article33ES">
 <p id='date'> 
 Le 2018-09-12, à Desert View 
 </p>
@@ -125,3 +126,15 @@ Et un peu après, nous voyons quelques voitures arrêtées sur le bord de la rou
 <div class="photo">
 <img src="./img/diaporama/US/article33/p12-min.jpg" id="photo12" class="carre">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
+
