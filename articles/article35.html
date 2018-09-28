@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article35ES">
 <p id='date'> 
 Le 2018-09-15, à Springdale 
 </p>
@@ -110,3 +111,14 @@ De retour à midi trente au camping, nous partons manger un bout dans un buffet 
 <div class="photo">
 <img src="./img/diaporama/US/article35/p12-min.jpg" id="photo12" class="portrait">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
