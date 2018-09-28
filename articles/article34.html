@@ -1,3 +1,5 @@
+<img src="./img/espText.png" class="articleTranslate" id="article34ES">
+
 <p id='date'> 
 Le 2018-09-14, à Bryce Canyon 
 </p>
@@ -83,3 +85,14 @@ Un autre ensemble de Hoodoos et de hauts murs de roches est nommé <b>Wall Stree
 Le bonus, c'est qu'il n'y a pas trop de monde et que le camping est agréable ! Un de nos parcs préférés ! 
 </p>
 <br>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
