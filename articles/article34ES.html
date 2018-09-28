@@ -1,5 +1,6 @@
+<img src="./img/franceText.png" class="articleTranslate" id="article34">
 <p id='date'> 
-Le 2018-09-14, à Bryce Canyon 
+El 14 de setiembre, en Bryce Canyon 
 </p>
 <br>
 <h2 id='title'>
@@ -83,3 +84,14 @@ Otro conjunto de Hoodoos y altos muros de roca se llama <b> Wall Street </ b>. C
 ¡La ventaja de este parque es que no hay demasiadas personas y que acampar es agradable! ¡Uno de nuestros parques favoritos!
 </p>
 <br>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
