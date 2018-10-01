@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article36ES">
 <p id='date'> 
 Le 2018-09-16, à Valley of Fire 
 </p>
@@ -75,3 +76,14 @@ Nous partons très satisfaits de cet arrêt improvisé. D'autant plus que malgr�
 <div class="photo">
 <img src="./img/diaporama/US/article36/p7-min.jpg" id="photo7" class="paysage">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
