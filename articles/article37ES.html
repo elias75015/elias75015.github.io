@@ -1,3 +1,5 @@
+<img src="./img/franceText.png" class="articleTranslate" id="article37">
+
 <p id='date'> 
 El 17 de setiembre, en Las Vegas 
 </p>
@@ -137,3 +139,14 @@ A esta hora de la noche, estamos muy cansados, y la emoción que reinaba en la c
 No aprovecharemos las cómodas camas del hotel, porque nos vamos a la cama a las 4 de la mañana y debemos tomar la carretera al día siguiente.
 </p>
 <br>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
