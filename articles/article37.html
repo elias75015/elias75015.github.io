@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article37ES">
 <p id='date'> 
 Le 2018-09-17, à Las Vegas 
 </p>
@@ -138,3 +139,13 @@ A ce moment de la nuit, nous sommes bien fatigués, et l'effervescence qui régn
 Nous profiterons peu des bons lits douillets de l'hôtel, car nous nous couchons à 4 heures du matin, et il faut reprendre la route le lendemain. 
 </p>
 <br>
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
