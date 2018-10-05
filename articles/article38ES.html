@@ -1,5 +1,6 @@
+<img src="./img/franceText.png" class="articleTranslate" id="article10">
 <p id='date'> 
-Le 2018-09-19, à Furnace Creek 
+El 19 de setiembre, en Furnace Creek 
 </p>
 <br>
 <h2 id='title'>
@@ -168,3 +169,14 @@ A la mañana siguiente, nos dirigimos a la salida oeste del Valle de la Muerte. 
 El valle de la muerte es un lugar bastante singular. Por su calor y su clima, por supuesto. Pero también y quizás especialmente por la diversidad de los paisajes, pero también de la fauna, que existe aquí. No hablamos de eso, pero también mencionamos Darwin Creek, un lugar remoto al que solo se puede acceder en 4 * 4, rodeado por un frondoso bosque y salpicado por varias cascadas. Finalmente, la noche aquí es mágica por su silencio (cuando la próxima caravana se digna apagar su generador) y su oscuridad: la estrellas brillan mas fuerte en el infierno. 
 </p>
 <br>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
