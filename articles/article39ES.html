@@ -1,3 +1,4 @@
+<img src="./img/franceText.png" class="articleTranslate" id="article39">
 <p id='date'> 
 El 20 de setiembre, en Lee Vining 
 </p>
@@ -92,3 +93,14 @@ Las montañas de la Sierra Nevada deben ser atravesadas por el paso de carretera
 <div class="photo">
 <img src="./img/diaporama/US/article39/p9-min.jpg" id="photo9" class="paysage">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
