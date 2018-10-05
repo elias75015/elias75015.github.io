@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article39ES">
 <p id='date'> 
 Le 2018-09-20, à Lee Vining 
 </p>
@@ -92,3 +93,14 @@ La faune du lac est quant à elle très intéressante : mouches, algues, et crev
 <div class="photo">
 <img src="./img/diaporama/US/article39/p9-min.jpg" id="photo9" class="paysage">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
