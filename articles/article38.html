@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article38ES">
 <p id='date'> 
 Le 2018-09-19, à Furnace Creek 
 </p>
@@ -168,3 +169,14 @@ Lendemain matin, on se met en route vers la sortie ouest de la Death Valley. Sur
 La vallée de la mort est un lieu assez unique. De part sa chaleur et son climat, bien évidemment. Mais aussi et peut être même surtout par la diversité des paysages, mais aussi de la faune, qui existent ici. Nous en avons pas parlé, mais citons aussi la Darwin creek, lieu retiré accessible qu’en 4*4, bordé d'une forêt luxuriante et ponctué de plusieurs cascades. Enfin, la nuit est ici magique par son silence (quand le camping car à côté daigne éteindre son générateur) et son obscurité : les étoiles brillent plus fort en enfer. 
 </p>
 <br>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
