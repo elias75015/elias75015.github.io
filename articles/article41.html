@@ -1,9 +1,10 @@
+<img src="./img/espText.png" class="articleTranslate" id="article41ES">
 <p id='date'> 
-Le 2018-09-26, à Bodega Bay 
+El 26 de setiembre, à Bodega Bay 
 </p>
 <br>
 <h2 id='title'>
-Au bout de l’Ouest 
+Al fin del oeste
 </h2>
 <br>
 <p>
@@ -143,3 +144,13 @@ Il est 10h du matin, heure d’engloutir le meilleur <b>sandwich au crabe</b> de
 <img src="./img/diaporama/US/article41/p14-min.jpg" id="photo14" class="paysage">
 </div>
 
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>

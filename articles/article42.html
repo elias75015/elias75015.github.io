@@ -1,3 +1,4 @@
+<img src="./img/espText.png" class="articleTranslate" id="article42ES">
 <p id='date'> 
 Le 2018-09-29, à San Francisco 
 </p>
@@ -195,3 +196,14 @@ Le lendemain, nous irons chercher notre nouvelle voiture (une Volkswagen Passat)
 <div class="photo">
 <img src="./img/diaporama/US/article42/p22-min.jpg" id="photo22" class="paysage">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
