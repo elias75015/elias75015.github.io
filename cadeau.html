@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Where is my cadeau</title>
+</head>
+
+
+<body>    
+
+<h1> Les rois mages ont caché ton cadeau dans un pays du monde </h1>
+<select name="pays" onChange="getDirections(this.value);">
+
+<option value="Le pays cherché a la même religion majoritaire">Afghanistan </option>
+<option value="Le pays cherché a des mosquées">Arabie_Saoudite </option>
+<option value="Le pays cherché a le même nombre de lettres">Armenie </option>
+<option value="Le pays cherché borde une mer">Azerbaidjan </option>
+<option value="Le pays cherché est environ 58 fois moins peuplé">Bangladesh </option>
+<option value="La capitale du pays cherché a le même nombre de lettres est termine par la même lettre que la capitale du Bahrein">Bahrein </option>
+<option value="Le point culminant du pays cherché est 2.7 fois plus bas que celui du Bhoutan">Bhoutan </option>
+<option value="Le pays cherché a la même religion majoritaire">Brunei </option>
+<option value="Le pays cherché est à une plus haute latitude">Cambodge </option>
+<option value="Le pays cherché n'a pas le même alphabet">Chine </option>
+<option value="Le pays cherché est à la même latitude">Coree_du_Nord </option>
+<option value="Le pays cherché n'est pas en extrème-orient">Coree_du_Sud </option>
+<option value="Le pays cherché a la même religion majoritaire">Emirats_Arabes_Unis </option>
+<option value="Le pays cherché est au nord-ouest">Inde </option>
+<option value="Le pays cherché a la même religion majoritaire">Indonesie </option>
+<option value="Le pays cherché ne borde pas une mer intérieure">Iran </option>
+<option value="Le pays cherché n'a pas été directement impliqué dans les guerres du golfe">Iraq </option>
+<option value="Le pays cherché partage en partie la même mer">Israel </option>
+<option value="Le pays cherché est environ à la même latitude">Japon </option>
+<option value="Le pays cherché a la même religion majoritaire">Jordanie </option>
+<option value="Le pays cherché n'estpas limitrophe de la Russie">Kazakhstan </option>
+<option value="Le pays cherché a trois fois moins de population">Kirghizistan </option>
+<option value="Le pays cherché a un PIB 8.5 fois inférieur">Koweit </option>
+<option value="Le pays cherché a une superficie 8.5 fois inférieure">Laos </option>
+<option value="Le pays cherché est à 2435 kms de route">Liban </option>
+<option value="Le pays cherché est à l'ouest">Malaisie </option>
+<option value="Le pays cherché est 93 fois plus grand">Maldives </option>
+<option value="Le pays cherché est 0.88 fois moins peuplé">Mongolie </option>
+<option value="Le pays cherché a un point culminant 3.2 fois moins haut que l'Everest">Nepal </option>
+<option value="Le pays recherché a la même religion majoritaire">Oman </option>
+<option value="Le pays cherché est à la même latitude">Ouzbekistan </option>
+<option value="Le pays cherché est au moins à 3000kms">Pakistan </option>
+<option value="Le pays cherché est membre de l'ONU">Palestine </option>
+<option value="Le pays cherché n'a pas la même langue nationale">Philippines </option>
+<option value="Le pays cherché n'a pas un régime monarchique">Qatar </option>
+<option value="Le pays cherché est deux fois moins peuplé">Singapour </option>
+<option value="Le pays cherché n'est pas ou ne borde pas l'océan indien">Sri_Lanka </option>
+<option value="Le pays cherché n'est pas au moyen-orient">Syrie </option>
+<option value="Le pays cherché n'est pas en Asie centrale">Tadjikistan </option>
+<option value="Le pays cherché n'est pas une monarchie">Thailande </option>
+<option value="Le pays cherché est à la même latitude">Turkmenistan </option>
+<option value="La capitale du pays cherché est à moins de 2h de vol d'Istanbul ">Turquie </option>
+<option value="Le pays cherché n'a jamais été en conflit direct avec les Etats-Unis">Vietnam </option>
+<option value="Le pays cherché a la même religion majoritaire">Yemen </option>
+<option value="Le pays cherché est à une plus haute latitude">Afrique_du_Sud </option>
+<option value="Le pays cherché a le même nombre de lettres">Algerie </option>
+<option value="Le pays cherché n'a pas la même langue nationale">Angola </option>
+<option value="Le pays cherché est au nord">Benin </option>
+<option value="Le pays cherché n'est pas sur le même continent">Botswana </option>
+<option value="Le pays cherché n'a pas de desert">Burkina_Faso </option>
+<option value="Le pays cherché a environ la même superficie">Burundi </option>
+<option value="Le pays cherché est à une plus haute latitude">Cameroun </option>
+<option value="Le pays cherché ne touche pas l'océan Atlantique">Cap_Vert </option>
+<option value="Le pays cherché a la même religion majoritaire">Comores </option>
+<option value="Le pays cherché est environ a 4620km de distance">Congo </option>
+<option value="Le pays cherché est sur le même méridien">RDC</option>
+<option value="Le pays cherché est presque 10 fois moins peuplé">Côte_d_Ivoire </option>
+<option value="Le pays cherché a la même religion majoritaire">Djibouti </option>
+<option value="Le pays cherché borde en partie la même mer que l'Egypte">Egypte </option>
+<option value="Le pays cherché ne borde pas la mer rouge">Erythree </option>
+<option value="Le pays cherché termine par les deux même lettres">Ethiopie </option>
+<option value="Le pays cherché est au nord">Gabon </option>
+<option value="Le pays cherché n'est pas enclavé dans un autre pays">Gambie </option>
+<option value="Le pays cherché est 8.5 fois plus petit">Ghana </option>
+<option value="La capitale du pays cherché a deux fois moins d'habitants que Conakry, capitale de Guinée">Guinee </option>
+<option value="Le pays cherché a deux fois plus de pays limitrophes">Guinee_Bissau </option>
+<option value="Le pays cherché n'a pas de savane">Kenya </option>
+<option value="Le pays cherché n'est pas enclavé">Lesotho </option>
+<option value="La population du pays cherché est 1.7 inférieure">Liberia </option>
+<option value="Pour rejoindre le pays cherché en voiture depuis la Libye, il faut passer par le Liban">Lybie </option>
+<option value="Le pays cherché n'est pas une île">Madagascar </option>
+<option value="Le pays cherché est au nord">Malawi </option>
+<option value="Le pays cherché n'est pas en Afrique">Mali </option>
+<option value="Le pays cherché a la même religion majoritaire">Maroc </option>
+<option value="Le pays cherché n'est pas et ne borde pas l'Océan indien">Maurice </option>
+<option value="Le pays cherché n'est pas dans le Sahel">Mauritanie </option>
+<option value="Le pays cherché n'a pas la même langue nationale">Mozambique </option>
+<option value="Le pays cherché est sur le même méridien">Namibie </option>
+<option value="Le pays cherché est à 2859km">Niger </option>
+<option value="Le pays cherché est 70 fois moins peuplé">Nigeria </option>
+<option value="Le pays recherché a le même nombre de lettres">Ouganda </option>
+<option value="Rwanda">Le pays cherché n'a pas une population majoritairement noire </option>
+<option value="Le pays cherché n'a pas la même langue nationale">Senegal </option>
+<option value="Le pays cherché n'est pas une île">Seychelles </option>
+<option value="Le pays cherché n'est pas en Afrique">Sierra Leone </option>
+<option value="Le pays cherché est 5 fois moins peuplé">Somalie </option>
+<option value="Le pays cherché n'est pas en Afrique">Soudan</option>
+<option value="Le pays cherché est 4 fois moins peuplé">Soudan du Sud</option>
+<option value="Le pays cherché ne propose pas de safari">Tanzanie </option>
+<option value="Le pays cherché ne connait pas de guerre civile">Tchad </option>
+<option value="Le pays cherché n'est pas en Afrique de l'Ouest">Togo </option>
+<option value="Le pays cherché a la même religion majoritaire">Tunisie </option>
+<option value="Le pays cherché termine par les deux même lettres">Zambie </option>
+<option value="Le pays cherché est au nord">Zimbabwe </option>
+<option value="https://elias75015.github.io/roulette.html">Albanie </option>
+<option value="Le pays cherché partage un symbole national avec l'Allemagne">Allemagne </option>
+<option value="La pays cherché est plus grand">Andorre </option>
+<option value="Le pays cherché a une couleur en commun sur son drapeau">Autriche </option>
+<option value="Le pays cherché a presque la même superficie">Belgique </option>
+<option value="Le pays cherché n'est pas limitroph de la Russie">Bielorussie </option>
+<option value="Le pays cherché est au sud">Boznie_Herzegovine </option>
+<option value="Le pays cherché est à l'ouest">Bulgarie </option>
+<option value="Le pays cherché est à moins de 2000km de distance">Chypre </option>
+<option value="Il faut 13h de bus pour rejoindre la capitale du pays cherché depuis Zagreb">Croatie </option>
+<option value="Le pays cherché est sur le même continent">Danemark </option>
+<option value="Olé">Espagne </option>
+<option value="Le pays cherché est deux fois plus peuplé">Estonie </option>
+<option value="Le pays cherché est à une latitude plus basse">Feroe </option>
+<option value="Le pays cherché est sur le même méridien">Finlande </option>
+<option value="Le pays cherché est 23 fois plus petit">France </option>
+<option value="Le pays cherché a le même nombre de lettres">Georgie </option>
+<option value="Le pays cherché est lié à la Grèce par le traité de Florence">Grece </option>
+<option value="Le pays cherché est sur le même méridien">Hongrie </option>
+<option value="Le pays cherché n'a pas la même langue nationale">Irlande </option>
+<option value="Le pays cherché n'est pas une île">Islande </option>
+<option value="Le pays cherché est facilement accessible depuis l'Italie en ferry">Italie </option>
+<option value="Le pays cherché partage la même religion majoritaire">Kosovo </option>
+<option value="Le pays cherché n'est pas un pays balte">Lettonie </option>
+<option value="Le pays cherché est sur le même continent">Liechtenstein </option>
+<option value="Le pays cherché est au sud">Lituanie </option>
+<option value="Le pays cherché est à l'est">Luxembourg </option>
+<option value="Le point culminant du pays cherché est le même que celui de Macédoine du nord">Macedoine du nord</option>
+<option value="Le pays cherché borde la même mer que celle de Malte">Malte </option>
+<option value="Le pays cherché est au sud-ouest">Moldavie </option>
+<option value="Le pays cherché partage une couleur de son drapeau">Monaco </option>
+<option value="Le pays cherché est sur le même méridien">Monténégro </option>
+<option value="Le pays cherché est au sud">Norvege </option>
+<option value="Le pays cherché a un point culminant 8.5 fois supérieur a celui des Pays-Bas">Pays_Bas </option>
+<option value="Le pays cherché a autant de lettres dans son nom">Pologne </option>
+<option value="Le pays cherché est environ a la même latitude">Portugal </option>
+<option value="Le pays cherché est au sud">Republique_Tcheque </option>
+<option value="Le pays cherché termine par les trois même lettres">Roumanie </option>
+<option value="Le pays cherché ne fais pas partie de l'UE">Royaume_Uni </option>
+<option value="Le pays cherché n'est pas un pays de l'ex-URSS">Russie </option>
+<option value="Le pays cherché a indirectement guerroyé avec la Serbie">Serbie </option>
+<option value="Le pays cherché est sur le même méridien">Slovaquie </option>
+<option value="La capitale du pays cherché est à 12h de route de Ljubljana">Slovenie</option>
+<option value="Le pays cherché n'est pas dans l'UE">Suede </option>
+<option value="Le pays cherché partage une couleur de son drapeau avec celui de la Suisse">Suisse </option>
+<option value="Le pays cherché n'a pas connu de guerre ces 10 dernières années">Ukraine </option>
+<option value="Le pays cherché n'est pas une papauté">Vatican </option>
+<option value="Le pays cherché n'est pas une île">Anguilla </option>
+<option value="Le pays cherché n'est pas sur le même continent">Argentine </option>
+<option value="Le pays cherché n'est pas dans l'océan Atlantique">Bahamas </option>
+<option value="Le pays cherché a le même nombre de lettres">Barbade </option>
+<option value="Le pays cherché a trois lettres en commun">Belize </option>
+<option value="Le pays cherché n'est pas une île">Bermudes </option>
+<option value="Le pays cherché n'a pas la même langue nationale">Bolivie </option>
+<option value="Le pays cherché n'a jamais gagné de coupe du monde de football">Bresil </option>
+<option value="Le pays cherché n'est pas dans la mer des caraïbes">Caiman </option>
+<option value="Le point culminant du pays cherché est deux fois plus bas que celui du Canada">Canada </option>
+<option value="Le pays cherché ne touche pas l'océan pacifique">Chili </option>
+<option value="Le pays cherché n'a pas la même langue majoritaire">Colombie </option>
+<option value="Le pays cherché n'est pas en amérique centrale">Costa_Rica </option>
+<option value="Le pays cherché est à 9078km">Cuba </option>
+<option value="Le pays cherché n'est pas une île">Dominique </option>
+<option value="Le pays cherché est dans l'hémisphère nord">Equateur </option>
+<option value="La capitale du pays cherché est à 14h30 de vol de Boston">Etats_Unis </option>
+<option value="Le pays cherché a le même nombre de pays limitrophes">Guatemala</option>
+<option value="Le pays cherché a quasiment la même superficie">Haiti </option>
+<option value="Le pays cherché n'est pas en amérique centrale">Honduras </option>
+<option value="Le pays cherché a une couleur de son drapeau en commun">Jamaique </option>
+<option value="Le pays cherché n'a pas la même langue nationale">Mexique </option>
+<option value="Le pays cherché n'appartient à ou ne borde ni l'océan pacifique, ni la mer des Caraïbes">Nicaragua </option>
+<option value="Le pays cherché a un accès à la mer">Panama </option>
+<option value="Le pays cherché n'est pas limitrophe du Paraguay">Paraguay </option>
+<option value="Le pays cherché n'est pas en Amérique du Sud">Perou </option>
+<option value="Le pays cherché est à une latitude plus haute">Republique_Dominicaine </option>
+<option value="Le pays cherché est à plus de 3000kms">Salvador </option>
+<option value="Le pays cherché ne borde pas l'océan Atlantique">Surinam </option>
+<option value="Le pays cherché n'est pas un archipel">Trinite_et_Tobago </option>
+<option value="Le pays cherché est 6 fois plus petit">Uruguay </option>
+<option value="Le pays cherché n'est pas un gros producteur de pétrole">Venezuela </option>
+<option value="Le pays cherché est environ 270 fois plus petit">Australie </option>
+<option value="Le pays cherché est à 16653 km">Fidji </option>
+<option value="Le pays cherché n'est pas en Océanie">Nouvelle_Zelande </option>
+<option value="Le pays cherché n'est pas connu pour son équipe de rugby">Tonga </option>
+<option value="Le pays cherché n'est pas en Océanie">Vanuatu </option>
+</select>
+
+<script type="text/javascript" charset="utf-8">
+function getDirections(valeur) {
+	alert(valeur);
+}
+</script>
+</body>
+</html>
