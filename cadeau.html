@@ -11,6 +11,12 @@
 <body>    
 
 <h1> Les rois mages ont caché ton cadeau dans un pays du monde </h1>
+	
+<br/>
+<br/>
+	<h2 id="compteur"> Compteurs des jokers : </h2>
+<br/>
+<br/>
 <select name="pays" onChange="getDirections(this.value);">
 
 <option value="Le pays cherché a la même religion majoritaire">Afghanistan </option>
@@ -196,8 +202,14 @@
 <div id="maCarteKDO" style="width:800px; height:400px"></div>
 	
 <script type="text/javascript" charset="utf-8">
+var n = 10;
+	
 function getDirections(valeur) {
 	alert(valeur);
+	if (n !== 0) {
+		n--;
+	}
+	document.getElementById("compteur").innerHTML = " Compteurs des jokers : " + n;
 }
 	
 function createMap () {
