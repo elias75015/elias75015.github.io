@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Where is my cadeau</title>
+    <script src="sdk-ol/GpOl3-src.js"></script>
 </head>
 
 
@@ -191,11 +192,51 @@
 <option value="Le pays cherché n'est pas connu pour son équipe de rugby">Tonga </option>
 <option value="Le pays cherché n'est pas en Océanie">Vanuatu </option>
 </select>
-
+<br/> <br/>
+<div id="maCarteKDO" style="width:800px; height:400px"></div>
+	
 <script type="text/javascript" charset="utf-8">
 function getDirections(valeur) {
 	alert(valeur);
 }
+	
+function createMap () {
+    return Gp.Map.load(
+    "maCarteKDO",   // identifiant du conteneur HTML
+    // options d'affichage de la carte (Gp.MapOptions)
+    {
+        // clef d'accès à la plateforme
+        apiKey : "yogxjonad4s1bk7a2hs62ytc",
+        // centrage de la carte
+        center : {
+            x : 0,
+            y : 0,
+            projection : "CRS:84"
+        },
+        // niveau de zoom de la carte (de 1 à 21)
+        zoom : 1,
+        // Couches à afficher
+        layersOptions : {
+		"coucheOSM" : {
+            		position : 0,
+            		opacity : 1,
+            		visibility : true,
+            		format :"osm",
+            		title : "OpenStreetMap",
+            		url : "https://{a-c}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=39cfa021a92541bdbcac02cf76e3a2ce",
+            		crossOrigin : null
+            	}
+        },
+        controlsOptions : {
+            "graticule" : {
+            }
+        }
+    }
+) ;
+};
+	
+	var map = createMap();
+
 </script>
 </body>
 </html>
