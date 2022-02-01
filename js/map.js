@@ -7,7 +7,7 @@ function createMap () {
     // options d'affichage de la carte (Gp.MapOptions)
     {
         // clef d'accès à la plateforme
-        apiKey : "yogxjonad4s1bk7a2hs62ytc",
+        apiKey : "essentiels",
         // centrage de la carte
         center : {
             x : -60,
