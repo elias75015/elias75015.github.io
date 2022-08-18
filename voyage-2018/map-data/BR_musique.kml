@@ -1,0 +1,18 @@
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 https://developers.google.com/kml/schema/kml22gx.xsd">
+	<Placemark>
+		<description>27/07 : Serenade (tous les vendredis, 22h)</description>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5lJREFUeNq8mN9LFFEUx2c0t81CI/MHRqShlhYoZFsPEUSBDxL2qG/SQ5EYuqHRPxAIhg8VpOnfkGZFBPWgT1aamlQgWWRFEPaQrKFmbt+j57r3ruveO7Oze+DD3J17zznfmbl37tmxLQcWDoeLcagFp8ERcADs5O4F8AW8A8PgiW3bny2vDMltcB4MhZ3bEPvaujy2RkQVDvfAyY1zYAK8BJ/AHJ/fCw6CE6Bqc+ARcAV3aMLNnQiCZXFps+AaKACWhgIeO6veHYoVdCIgHdwX3iEO6jMQEI2PfUOqIIqdbjIfeoXHFCh1ISCaUo4lWW/ceYPOdjFyGGR7IEKQzTEla99KRACs0IhJj0XIYiYjQihXIFpEGnhDvfOgJAkiBCWcg41ypslC6kVPSxJFCFrUR1S/8R7Bj9c4VNNrsAysGKyu/aCOx5NNg4fgq4HvNh5fvP5zFO+X4ySiQkhrNbgaP7grJlOUrXCf3yBOq+paQefaqPUP5Gmct2+e+TFtmMfGi5XHOdna6NwgtUYNrqLTwSbTaRBvNDJ8kH7PUKtH47QbLDkQssQ+8WL2RIbP0NIppBnzUTPBzgGfg73Kxz7xTMpZSEL81JrXOBW7KCF0PlJO/8bLZJfGKeRCiM5HzklCflMjR+M06UKIzkfK+ZuEzFCrXOM0wi8hU5tmn3gm5VybrGPUOqUp11bBVT7qzGSszTnZxmgVNYg1FDBY+xflsi2GLfMYXZyA6tZA57LAH1GtmGxaleABWJQiLfK5SsMYvRFXyp0ldt8+cTVFDnZR2lMOMX4HfkXqXe2TywAqE/7S2YEUlAEDERGUsyS6OOoSvY1JFNGozo2uWKViJpgWlXsyqrQytaKnXJlb1a3V4hG9AhkeishQd1uaIsd0fyluiNEdHgrpUB/JdZM/WFRIv6DRq+CMByLOciy250rBrBGzD/wir29gTwIicsD3iIg5UOj0v+8F4d2fgJB+9ZHUuf0k0S0iXHIh4rIqojuRbyO0pD9QlAVw2IGIcrFvrNt7sCPRDzVVolwdN6jORbU/rpavlV59NQqKqLcMhHSpjyRoeWX8ueKZiFwTR0SNKuKpyWcrp2LywU+K/gPkxhCRy31sNDbfSoYhcK3I8ohvkxBB7cfq3ai1kmlIcEdkapaENKsiblvJNq6B3oqq7CgjVWvU57dSYXLuKfX72Jo2K5WGhE0xaucmK9XG8/Mm1zohbrteqv8FGAAoweaiaQg+ngAAAABJRU5ErkJggg==</href>
+					<gx:w>34</gx:w>
+					<gx:h>44</gx:h>
+				</Icon>
+				<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-34.84848188610389,-8.010775414478317</coordinates>
+		</Point>
+	</Placemark>
+</kml>

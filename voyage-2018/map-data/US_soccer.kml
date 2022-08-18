@@ -1,0 +1,64 @@
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 https://developers.google.com/kml/schema/kml22gx.xsd">
+	<Document>
+		<Placemark>
+			<description>24/09 : L.A Galaxy - Seattle Sounders&lt;br&gt;16h00&lt;br&gt;&lt;br&gt;&lt;br&gt;30/09 : L.A Galaxy - Vancouver Whitecaps FC&lt;br&gt;19h00</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABQNJREFUeNq8WF1sVEUU/u72b0spFNACq+F/iaGtFm2hQalBeaEIiYnRoImBoCTyhonKgz6S+JdogomCGp/kyUR9aMQfbBBFgq1go2giTaPRIiDQIhaQbdfv68y93O127+y2S7/k5M7MnTnnu2dmzpw7HgpAOp1eyMd6SiuljjKfUmVf/0v5jfIT5StKu+d5vSgWaNyjbKAcTBeOg3as57LjOUg08vEmpSXcfrof6DsHDNAHg1dN25QKYDp9k5gFzK7JUnWE8hQ9dLxgIiSxg4+XKGWqXxwEOn8FTvzOObgS/XVVcWDZPKApCUybEjRfozxHMq/lRYQESqwXnhwZnQIOcda/PwkMDRc2rSUx4M4lwGquprLSoPlt652hnETsXO6lPKH62QHgw8PAhUsTW2czpgIPrgJunh40vUPZRjLpXESe4eNllf/4G/jga+DqteIs+gpO8EP3ALfeFDQ9SyKvZBEhiRV8HJZH5Yn3O4pHIkzmsTWBZzQ1q0jmqCoxS0LPt0Tiv5SZjmKTEKRTumVDtmTT2jZEiIcpy1U49OPE10QUpFs2LJZb22ZqyOo7PpoUF/Z+Agyn3Qq1LZckgJnVpn7+H+Bkn9nmLsRodds6E3eITk5Ps6LmMhuWceC4iRVRKKVD19zOT1nMr/BGb33gWA/Q0Q2khqL1KMbc3xhU6zQ1bb4SBStXXHik1cQGb4xQqDa9U5+SWLQu2Upf93xbzB5gI2HbD9e50Fqfsf1yQn3UNwqyJZu+6pg9RfHXBffWuyuZ/6JU34qy6D4hmyNTk1Cp37FTFsx2u3v0NGpMFEI2E1Id9/d4FGqqCt+qrjEhm/HgG8tLowfZIFQQXGPCNkVkQIXKiuhBZ/oLJ+IaE7I5ICI9Ks2qjh7Ud94ErXyhvhoThZDNHhHp8rdcdLYGfHEsY+9PuG/IZpeIdPhumjszemDvaWA/aQ9HJEh6pz7qGwXZCk1Nh5ZLO+WyuNyxCDjlcGd3r9n/d/NgWDz3+pZW9tZzCvjmRH7rSbYsZLu9lAfORZ43+1jZ2sCfg29/NkmxaxHqONe54+ekOuxc54sPHXayZbFPHPzt+yIlFYtlHEROyLAWpSRfEoJsxIzllLVt8hEyYmqM3SonGWcbFty4fES6k4mgutvazkgV5WT9dySVub/3efETJOUum9cGGb0SjkYSGQxnaLANj8pd6rhhZeC+okC6pNOSUHDf5JPIIGLJdPLxgr+9VtcVj4h0zZkRVJ+nra4MomOM0e/Elyq03AbMq504ifm1RpfFAcqrWR7LzrI8havHFaVVf4A/GfHy8ZOoLDc6LM5Jt7UBl0dE5k/FFZWrK5nHNY2fyDqOnVoZVLdSd9+Yayjn37nnfcTHnpEtfQuX96LCSWiMxlrsoc6Pcy5mh66nKb+ocF+j+4TOOFmnZQRHxmvsiNxVkZcnZnttUo5TxnC+sSW/dFF9Nq40R4DG2q16edxELBkFuZ0q19Yw3W5wE7m3wfS12EkdPzjjTJ6efp3ymQorlgIL5+TuqHfNS4PqfjsWRSFi7zG0pc+qvr7ZXFWNhtr0zkJ9N4fvQIrhEZFRqrPFv5pqa87uo7aqeFDdYsegqEQsGSVRb6ispEi/lz5UVlvoVG3HjQRP6TilW3eXqaF0+t1PjahsoXdxTAZoqJ5yRVbP9BuxUFs9JhM0uH2MC97tmGzYG+ldlEtWduVzw5wL/wswALGfB9L+YJgHAAAAAElFTkSuQmCC</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-118.26108080155791,33.86426191602497,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>02/09 : FC Dallas - Houston Dynamo&lt;br&gt;19h00</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABQNJREFUeNq8WF1sVEUU/u72b0spFNACq+F/iaGtFm2hQalBeaEIiYnRoImBoCTyhonKgz6S+JdogomCGp/kyUR9aMQfbBBFgq1go2giTaPRIiDQIhaQbdfv68y93O127+y2S7/k5M7MnTnnu2dmzpw7HgpAOp1eyMd6SiuljjKfUmVf/0v5jfIT5StKu+d5vSgWaNyjbKAcTBeOg3as57LjOUg08vEmpSXcfrof6DsHDNAHg1dN25QKYDp9k5gFzK7JUnWE8hQ9dLxgIiSxg4+XKGWqXxwEOn8FTvzOObgS/XVVcWDZPKApCUybEjRfozxHMq/lRYQESqwXnhwZnQIOcda/PwkMDRc2rSUx4M4lwGquprLSoPlt652hnETsXO6lPKH62QHgw8PAhUsTW2czpgIPrgJunh40vUPZRjLpXESe4eNllf/4G/jga+DqteIs+gpO8EP3ALfeFDQ9SyKvZBEhiRV8HJZH5Yn3O4pHIkzmsTWBZzQ1q0jmqCoxS0LPt0Tiv5SZjmKTEKRTumVDtmTT2jZEiIcpy1U49OPE10QUpFs2LJZb22ZqyOo7PpoUF/Z+Agyn3Qq1LZckgJnVpn7+H+Bkn9nmLsRodds6E3eITk5Ps6LmMhuWceC4iRVRKKVD19zOT1nMr/BGb33gWA/Q0Q2khqL1KMbc3xhU6zQ1bb4SBStXXHik1cQGb4xQqDa9U5+SWLQu2Upf93xbzB5gI2HbD9e50Fqfsf1yQn3UNwqyJZu+6pg9RfHXBffWuyuZ/6JU34qy6D4hmyNTk1Cp37FTFsx2u3v0NGpMFEI2E1Id9/d4FGqqCt+qrjEhm/HgG8tLowfZIFQQXGPCNkVkQIXKiuhBZ/oLJ+IaE7I5ICI9Ks2qjh7Ud94ErXyhvhoThZDNHhHp8rdcdLYGfHEsY+9PuG/IZpeIdPhumjszemDvaWA/aQ9HJEh6pz7qGwXZCk1Nh5ZLO+WyuNyxCDjlcGd3r9n/d/NgWDz3+pZW9tZzCvjmRH7rSbYsZLu9lAfORZ43+1jZ2sCfg29/NkmxaxHqONe54+ekOuxc54sPHXayZbFPHPzt+yIlFYtlHEROyLAWpSRfEoJsxIzllLVt8hEyYmqM3SonGWcbFty4fES6k4mgutvazkgV5WT9dySVub/3efETJOUum9cGGb0SjkYSGQxnaLANj8pd6rhhZeC+okC6pNOSUHDf5JPIIGLJdPLxgr+9VtcVj4h0zZkRVJ+nra4MomOM0e/Elyq03AbMq504ifm1RpfFAcqrWR7LzrI8havHFaVVf4A/GfHy8ZOoLDc6LM5Jt7UBl0dE5k/FFZWrK5nHNY2fyDqOnVoZVLdSd9+Yayjn37nnfcTHnpEtfQuX96LCSWiMxlrsoc6Pcy5mh66nKb+ocF+j+4TOOFmnZQRHxmvsiNxVkZcnZnttUo5TxnC+sSW/dFF9Nq40R4DG2q16edxELBkFuZ0q19Yw3W5wE7m3wfS12EkdPzjjTJ6efp3ymQorlgIL5+TuqHfNS4PqfjsWRSFi7zG0pc+qvr7ZXFWNhtr0zkJ9N4fvQIrhEZFRqrPFv5pqa87uo7aqeFDdYsegqEQsGSVRb6ispEi/lz5UVlvoVG3HjQRP6TilW3eXqaF0+t1PjahsoXdxTAZoqJ5yRVbP9BuxUFs9JhM0uH2MC97tmGzYG+ldlEtWduVzw5wL/wswALGfB9L+YJgHAAAAAElFTkSuQmCC</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-96.8352194233935,33.15445841228164,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>16/09 : Los Angeles FC - New England Revolution&lt;br&gt;19h30&lt;br&gt;&lt;br&gt;22/09 : Los Angeles FC - San Jose EarthQuakes&lt;br&gt;12h30</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABQNJREFUeNq8WF1sVEUU/u72b0spFNACq+F/iaGtFm2hQalBeaEIiYnRoImBoCTyhonKgz6S+JdogomCGp/kyUR9aMQfbBBFgq1go2giTaPRIiDQIhaQbdfv68y93O127+y2S7/k5M7MnTnnu2dmzpw7HgpAOp1eyMd6SiuljjKfUmVf/0v5jfIT5StKu+d5vSgWaNyjbKAcTBeOg3as57LjOUg08vEmpSXcfrof6DsHDNAHg1dN25QKYDp9k5gFzK7JUnWE8hQ9dLxgIiSxg4+XKGWqXxwEOn8FTvzOObgS/XVVcWDZPKApCUybEjRfozxHMq/lRYQESqwXnhwZnQIOcda/PwkMDRc2rSUx4M4lwGquprLSoPlt652hnETsXO6lPKH62QHgw8PAhUsTW2czpgIPrgJunh40vUPZRjLpXESe4eNllf/4G/jga+DqteIs+gpO8EP3ALfeFDQ9SyKvZBEhiRV8HJZH5Yn3O4pHIkzmsTWBZzQ1q0jmqCoxS0LPt0Tiv5SZjmKTEKRTumVDtmTT2jZEiIcpy1U49OPE10QUpFs2LJZb22ZqyOo7PpoUF/Z+Agyn3Qq1LZckgJnVpn7+H+Bkn9nmLsRodds6E3eITk5Ps6LmMhuWceC4iRVRKKVD19zOT1nMr/BGb33gWA/Q0Q2khqL1KMbc3xhU6zQ1bb4SBStXXHik1cQGb4xQqDa9U5+SWLQu2Upf93xbzB5gI2HbD9e50Fqfsf1yQn3UNwqyJZu+6pg9RfHXBffWuyuZ/6JU34qy6D4hmyNTk1Cp37FTFsx2u3v0NGpMFEI2E1Id9/d4FGqqCt+qrjEhm/HgG8tLowfZIFQQXGPCNkVkQIXKiuhBZ/oLJ+IaE7I5ICI9Ks2qjh7Ud94ErXyhvhoThZDNHhHp8rdcdLYGfHEsY+9PuG/IZpeIdPhumjszemDvaWA/aQ9HJEh6pz7qGwXZCk1Nh5ZLO+WyuNyxCDjlcGd3r9n/d/NgWDz3+pZW9tZzCvjmRH7rSbYsZLu9lAfORZ43+1jZ2sCfg29/NkmxaxHqONe54+ekOuxc54sPHXayZbFPHPzt+yIlFYtlHEROyLAWpSRfEoJsxIzllLVt8hEyYmqM3SonGWcbFty4fES6k4mgutvazkgV5WT9dySVub/3efETJOUum9cGGb0SjkYSGQxnaLANj8pd6rhhZeC+okC6pNOSUHDf5JPIIGLJdPLxgr+9VtcVj4h0zZkRVJ+nra4MomOM0e/Elyq03AbMq504ifm1RpfFAcqrWR7LzrI8havHFaVVf4A/GfHy8ZOoLDc6LM5Jt7UBl0dE5k/FFZWrK5nHNY2fyDqOnVoZVLdSd9+Yayjn37nnfcTHnpEtfQuX96LCSWiMxlrsoc6Pcy5mh66nKb+ocF+j+4TOOFmnZQRHxmvsiNxVkZcnZnttUo5TxnC+sSW/dFF9Nq40R4DG2q16edxELBkFuZ0q19Yw3W5wE7m3wfS12EkdPzjjTJ6efp3ymQorlgIL5+TuqHfNS4PqfjsWRSFi7zG0pc+qvr7ZXFWNhtr0zkJ9N4fvQIrhEZFRqrPFv5pqa87uo7aqeFDdYsegqEQsGSVRb6ispEi/lz5UVlvoVG3HjQRP6TilW3eXqaF0+t1PjahsoXdxTAZoqJ5yRVbP9BuxUFs9JhM0uH2MC97tmGzYG+ldlEtWduVzw5wL/wswALGfB9L+YJgHAAAAAElFTkSuQmCC</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot xmlns="" x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Point>
+				<coordinates>-118.2846422256641,34.01274938124469,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</kml>
