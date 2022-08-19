@@ -1,0 +1,23 @@
+/* MENU DE GAUCHE */
+
+nav {
+    background-image: url("../img/americaSite.jpg");
+}
+
+
+/* PAGE D'ACCUEIL */
+
+#background1 {
+    height: 30%;
+    background-image: url("../img/backgroundIndex.jpg");
+}
+  
+#background2 {
+    height: 30%;
+    background-image: url("../img/backgroundIndex2.jpg");
+}
+  
+#background3 {
+    height: 80%;
+    background-image: url("../img/backgroundIndex3.jpg");
+}
