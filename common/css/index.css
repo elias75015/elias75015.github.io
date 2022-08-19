@@ -29,21 +29,6 @@ body, html {
     letter-spacing: 8px;
 }
 
-#background1 {
-  height: 30%;
-  background-image: url("../img/backgroundIndex.jpg");
-}
-
-#background2 {
-  height: 30%;
-  background-image: url("../img/backgroundIndex2.jpg");
-}
-
-#background3 {
-  height: 80%;
-  background-image: url("../img/backgroundIndex3.jpg");
-}
-
 .mainContent {
   font-family: 'Source Serif Pro', serif;
   background-color: #694d33;
