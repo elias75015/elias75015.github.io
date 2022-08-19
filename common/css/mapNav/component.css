@@ -29,12 +29,18 @@
 	background: #694d33;
 	border: none;
 	width: 48px;
-	height: 45px;
+	height: 48px;
 	text-indent: -900em;
 	overflow: hidden;
 	position: relative;
 	cursor: pointer;
 	outline: none;
+}
+
+button.dl-active {
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	transition: all 0.7s ease;
 }
 
 .dl-menuwrapper button:hover,
@@ -49,7 +55,7 @@
 	width: 68%;
 	height: 5px;
 	background: #fff;
-	top: 10px;
+	top: 12px;
 	left: 16%;
 	box-shadow:
 		0 10px 0 #fff,
@@ -123,7 +129,7 @@
 }
 
 .dl-menuwrapper .dl-menu.dl-menu-toggle {
-	transition: all 0.3s ease;
+	transition: all 0.7s ease;
 }
 
 .dl-menuwrapper .dl-menu.dl-menuopen {
