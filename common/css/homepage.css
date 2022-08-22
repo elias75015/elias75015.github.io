@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Road+Rage');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.screenSplit {
+    height:50vh;
+    width:100vw;
+    display:flex;
+    margin: auto;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;
+    filter: opacity(50%);   
+}
+
+.screenSplit:hover {
+    filter: opacity(100%);
+}
+
+p {
+    color: white;
+    font-family: 'Road Rage', cursive;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    visibility: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover p, a:active p {
+    transition: all 0.3s ease-in;
+    font-size: 5rem;
+    visibility: visible;
+    opacity: 1;
+}
+
+@media only screen and (hover: none) and (pointer: coarse){
+    .screenSplit {
+        filter: opacity(80%);
+    }
+
+    p {
+        font-size: 5rem;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+}
+
+#top_div {
+    background-image: url("../img/voyage2018.jpg");
+}
+
+#bottom_div {
+    background-image: url("../img/voyage2022.jpg");
+}
