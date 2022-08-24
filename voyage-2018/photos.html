@@ -1,74 +1,146 @@
 <!DOCTYPE html>
 <html lang="fr" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Blog de voyage - Diaporama</title>
-		<meta name="description" content="Blog de voyage de Clara et Elias" />
-		<link rel="shortcut icon" href="img/favicon.ico">
-		<link rel="stylesheet" type="text/css" href="./../common/css/main.css" />
-		<link rel="stylesheet" type="text/css" href="./../common/css/menu.css" />
-    	<link rel="stylesheet" type="text/css" href="./../common/css/commonstyle.css" />
-		<link rel="stylesheet" type="text/css" href="./css/specificstyle.css" />
-    	<link rel="stylesheet" type="text/css" href="./../common/css/fontello.css" />
-    	<link rel="stylesheet" type="text/css" href="./../common/css/mapNav/default.css" />
-    	<link rel="stylesheet" type="text/css" href="./../common/css/mapNav/component.css" />
-		<link rel="stylesheet" type="text/css" href="./../common/css/photos.css" />
-		<script src="./../common/js/modernizr-2.6.2.min.js"></script>
 
-	</head>
-	<body>
-		<div class="container">
-      <!-- Menu de gauche -->
-      <nav id="diapoMenu">
-        <!-- rempli par menuDiapo.html -->
-      </nav>
-			<article id="mainContent">
-				<h2 id="titreMainPhotoPage"> Diaporamas </h2>
-				<br>
-				<p class="pMainPhotoPage"> Vous trouverez ici plusieurs diaporamas, classés par région et dates.
-					Utilisez le menu de gauche pour naviguer entre les diaporamas. Cliquez sur les flèches
-					pour faire défiler les photos.
-				</p>
-				<br>
-				<p class="pMainPhotoPage"> Bon visionnage ! </p>
-				<br>
-			</article>
-			<aside>
-			</aside>
-			<div class="component">
-				<!-- Start Nav Structure -->
-				<button class="cn-button" id="cn-button">+</button>
-				<div class="cn-wrapper" id="cn-wrapper">
-                    <ul>
-				      <li><a href="./index.html"><span class="icon-flight"></span></a></li>
-				      <li><a href="./itineraire.html"><span class="icon-map-signs"></span></a></li>
-				      <li><a href="./articles.html"><span class="icon-newspaper"></span></a></li>
-				      <li><a href="./photos.html"><span class="icon-camera-outline"></span></a></li>
-				      <li><a href="./infos.html"><span class="icon-info-circled"></span></a></li>
-				     </ul>
-				</div>
-				<div id="cn-overlay" class="cn-overlay"></div>
-				<!-- End Nav Structure -->
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blog de voyage - Diaporama</title>
+	<meta name="description" content="Blog de voyage de Clara et Elias" />
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="./../common/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="./../common/css/menu.css" />
+	<link rel="stylesheet" type="text/css" href="./../common/css/commonstyle.css" />
+	<link rel="stylesheet" type="text/css" href="./css/specificstyle.css" />
+	<link rel="stylesheet" type="text/css" href="./../common/css/fontello.css" />
+	<link rel="stylesheet" type="text/css" href="./../common/css/mapNav/default.css" />
+	<link rel="stylesheet" type="text/css" href="./../common/css/mapNav/component.css" />
+	<link rel="stylesheet" type="text/css" href="./../common/css/photos.css" />
+	<link rel="stylesheet" type="text/css" href="./../common/css/splide.min.css" />
+	<link rel="stylesheet" type="text/css" href="./../common/css/diapo.css" />
+	<script src="./../common/js/modernizr-2.6.2.min.js"></script>
+	<script src="./../common/js/splide.min.js"></script>
+
+</head>
+
+<body>
+	<div class="container">
+		<!-- Menu de gauche -->
+		<nav id="diapoMenu">
+			<div id="dl-menu" class="dl-menuwrapper">
+				<button class="dl-trigger">Open Menu</button>
+				<ul class="dl-menu">
+					<li>
+						<a href="#">Amérique du Sud</a>
+						<ul class="dl-submenu">
+							<li class="diapoEntry" id="diapotest"><a href="#"> TEST </a></li>
+							<!-- liens absolus car depend de si clique depuis photos.html ou une autre diapo.html -->
+							<li class="diapoEntry" id="diapo1"><a href="#"> Buenos Aires </a></li>
+							<li class="diapoEntry" id="diapo2"><a href="#"> Uruguay </a></li>
+							<li class="diapoEntry" id="diapo3"><a href="#"> Porto Alegre </a></li>
+							<li class="diapoEntry" id="diapo4"><a href="#"> Blumenau </a></li>
+							<li class="diapoEntry" id="diapo5"><a href="#"> Curitiba </a></li>
+							<li class="diapoEntry" id="diapo6"><a href="#"> Morretes </a></li>
+							<li class="diapoEntry" id="diapo7"><a href="#"> Presidente Prudente </a></li>
+							<li class="diapoEntry" id="diapo8"><a href="#"> Piraju </a></li>
+							<li class="diapoEntry" id="diapo9"><a href="#"> Sao Roque </a></li>
+							<li class="diapoEntry" id="diapo10"><a href="#"> Guaruja </a></li>
+							<li class="diapoEntry" id="diapo11"><a href="#"> Sao Paulo </a></li>
+							<li class="diapoEntry" id="diapo12"><a href="#"> Paraty </a></li>
+							<li class="diapoEntry" id="diapo13"><a href="#"> Rio de Janeiro </a></li>
+							<li class="diapoEntry" id="diapo14"><a href="#"> Ouro Preto </a></li>
+							<li class="diapoEntry" id="diapo15"><a href="#"> BH et Inhotim </a></li>
+							<li class="diapoEntry" id="diapo16"><a href="#"> Salvador </a></li>
+							<li class="diapoEntry" id="diapo17"><a href="#"> Chapada Diamantina </a></li>
+							<li class="diapoEntry" id="diapo18"><a href="#"> Recife et Olinda </a></li>
+							<li class="diapoEntry" id="diapo19"><a href="#"> Lencois Maranhenses </a></li>
+							<li class="diapoEntry" id="diapo20"><a href="#"> Amazonie </a></li>
+							<li class="diapoEntry" id="diapo21"><a href="#"> Manaus </a></li>
+							<li class="diapoEntry" id="diapo22"><a href="#"> Algodoal </a></li>
+							<li class="diapoEntry" id="diapo23"><a href="#"> Belem </a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">US</a>
+						<ul class="dl-submenu">
+							<li class="diapoEntry" id="diapo24"><a href="#"> New Orleans </a></li>
+							<li class="diapoEntry" id="diapo25"><a href="#"> Houston </a></li>
+							<li class="diapoEntry" id="diapo26"><a href="#"> Austin </a></li>
+							<li class="diapoEntry" id="diapo27"><a href="#"> Santa Fe </a></li>
+							<li class="diapoEntry" id="diapo28"><a href="#"> Mesa Verde </a></li>
+							<li class="diapoEntry" id="diapo29"><a href="#"> Monument Valley </a></li>
+							<li class="diapoEntry" id="diapo30"><a href="#"> Antelope Canyon </a></li>
+							<li class="diapoEntry" id="diapo31"><a href="#"> Grand Canyon </a></li>
+							<li class="diapoEntry" id="diapo32"><a href="#"> Bryce Canyon </a></li>
+							<li class="diapoEntry" id="diapo33"><a href="#"> Zion </a></li>
+							<li class="diapoEntry" id="diapo34"><a href="#"> Valley of Fire </a></li>
+							<li class="diapoEntry" id="diapo35"><a href="#"> Las Vegas </a></li>
+							<li class="diapoEntry" id="diapo36"><a href="#"> Death Valley </a></li>
+							<li class="diapoEntry" id="diapo37"><a href="#"> Bodie </a></li>
+							<li class="diapoEntry" id="diapo38"><a href="#"> Lac Mono </a></li>
+							<li class="diapoEntry" id="diapo39"><a href="#"> Yosemite </a></li>
+							<li class="diapoEntry" id="diapo40"><a href="#"> Sacramento </a></li>
+							<li class="diapoEntry" id="diapo41"><a href="#"> Bodega Bay </a></li>
+							<li class="diapoEntry" id="diapo42"><a href="#"> San Francisco </a></li>
+							<li class="diapoEntry" id="diapo43"><a href="#"> Pacific Highway </a></li>
+							<li class="diapoEntry" id="diapo44"><a href="#"> Los Angeles </a></li>
+						</ul>
+					</li>
+				</ul>
 			</div>
-		</div><!-- /container -->
-		<script src="./../common/js/polyfills.js"></script>
-		<script src="./../common/js/menu.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="./../common/js/jquery.dlmenu.js"></script>
-    <script>
-        // on charge le contenu du menu de gauche
-        $('#diapoMenu').load('./menuDiapo.html', function() {
-            $( '#dl-menu' ).dlmenu({
-                animationClasses : {
-                    classin : 'dl-animate-in-4',
-                    classout : 'dl-animate-out-4'
-                }
-            });
-            // on ouvre le menu au chargement de la page
-            $( 'button.dl-trigger').click();
-        });
-    </script>
-	</body>
+		</nav>
+		<article id="mainContent">
+			<h2 id="titreMainPhotoPage"> Diaporamas </h2>
+			<br>
+			<p class="pMainPhotoPage"> Vous trouverez ici plusieurs diaporamas, classés par région et dates.
+				Utilisez le menu de gauche pour naviguer entre les diaporamas. Cliquez sur les flèches
+				pour faire défiler les photos.
+			</p>
+			<br>
+			<p class="pMainPhotoPage"> Bon visionnage ! </p>
+			<br>
+		</article>
+		<aside>
+		</aside>
+		<div class="component">
+			<!-- Start Nav Structure -->
+			<button class="cn-button" id="cn-button">+</button>
+			<div class="cn-wrapper" id="cn-wrapper">
+				<ul>
+					<li><a href="./index.html"><span class="icon-flight"></span></a></li>
+					<li><a href="./itineraire.html"><span class="icon-map-signs"></span></a></li>
+					<li><a href="./articles.html"><span class="icon-newspaper"></span></a></li>
+					<li><a href="./photos.html"><span class="icon-camera-outline"></span></a></li>
+					<li><a href="./infos.html"><span class="icon-info-circled"></span></a></li>
+				</ul>
+			</div>
+			<div id="cn-overlay" class="cn-overlay">
+			</div>
+			<!-- End Nav Structure -->
+		</div>
+	</div><!-- /container -->
+
+	<script src="./../common/js/polyfills.js"></script>
+	<script src="./../common/js/menu.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="./../common/js/jquery.dlmenu.js"></script>
+	<script>
+		var map;
+		$(function () {
+			$('#dl-menu').dlmenu({
+				animationClasses: {
+					classin: 'dl-animate-in-4',
+					classout: 'dl-animate-out-4'
+				}
+			});
+			// on ouvre le menu au chargement de la page
+			$('button.dl-trigger').click();
+		});
+		$(".diapoEntry").click(function (e) {
+			$('#mainContent').empty();
+			$('#mainContent').load('diaporamas/' + this.id + '.html');
+		});
+	</script>
+</body>
+
 </html>
