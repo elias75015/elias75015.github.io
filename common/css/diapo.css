@@ -1,4 +1,9 @@
 .splide__slide img {
     width: auto;
-    height: 80vh;
+    height: 55vh;
   }
+
+.splide {
+  width: 60vw;
+  margin: auto;
+}

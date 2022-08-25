@@ -1,0 +1,14 @@
+{
+    "img1" : {
+        "url" :"./img/diaporama/AmSud/diapo2/d21.JPG",
+        "description" : "TEST1 - d21"
+    },
+    "img2" : {
+        "url" :"./img/diaporama/AmSud/diapo2/d22.JPG",
+        "description" : "TEST1 - d22"
+    },
+    "img3" : {
+        "url" :"./img/diaporama/AmSud/diapo2/d23.JPG",
+        "description" : "TEST1 - d23"
+    }
+}

@@ -34,6 +34,7 @@
 						<a href="#">Amérique du Sud</a>
 						<ul class="dl-submenu">
 							<li class="diapoEntry" id="diapotest"><a href="#"> TEST </a></li>
+							<li class="diapoEntry" id="diapotest2"><a href="#"> TEST2 </a></li>
 							<!-- liens absolus car depend de si clique depuis photos.html ou une autre diapo.html -->
 							<li class="diapoEntry" id="diapo1"><a href="#"> Buenos Aires </a></li>
 							<li class="diapoEntry" id="diapo2"><a href="#"> Uruguay </a></li>
@@ -92,22 +93,19 @@
 		<article id="mainContent">
 			<h2 id="titreMainPhotoPage"> Diaporamas </h2>
 			<br>
-			<p class="pMainPhotoPage"> Vous trouverez ici plusieurs diaporamas, classés par région et dates.
-				Utilisez le menu de gauche pour naviguer entre les diaporamas. Cliquez sur les flèches
-				pour faire défiler les photos.
-			</p>
-			<br>
-			<p class="pMainPhotoPage"> Bon visionnage ! </p>
-			<br>
+			<div id="introductionPhotos">
+				<p class="pMainPhotoPage"> Vous trouverez ici plusieurs diaporamas, classés par région et dates.
+					Utilisez le menu de gauche pour naviguer entre les diaporamas. Utilisez les flèches du clavier, 
+					cliquez ou cliquez-glissez pour faire défiler les photos.
+				</p>
+				<br>
+				<p class="pMainPhotoPage"> Bon visionnage ! </p>
+				<br>
+			</div>
+
 			<div class="splide" role="group" aria-label="Splide Basic HTML Example">
 				<div class="splide__track">
 					<ul class="splide__list">
-						<li class="splide__slide"><img src="./img/diaporama/AmSud/diapo2/d21.JPG" alt="" data-description="Colonia">
-						</li>
-						<li class="splide__slide"><img src="./img/diaporama/AmSud/diapo2/d22.JPG" alt="" data-description="Colonia">
-						</li>
-						<li class="splide__slide"><img src="./img/diaporama/AmSud/diapo2/d23.JPG" alt="" data-description="Colonia">
-						</li>
 					</ul>
 				</div>
 			</div>
@@ -115,9 +113,12 @@
 				// initialise le diapo
 				var splide = new Splide(".splide", {
 					autoWidth: true,
+					focus: "center",
+					keyboard: true,
+					arrows: false,
 					type: "loop",
 					perPage: 1,
-					height: "80vh",
+					height: "60vh",
 					lazyLoad: "nearby",
 					isNavigation: true
 				}).mount();
@@ -160,8 +161,19 @@
 			$('button.dl-trigger').click();
 		});
 		$(".diapoEntry").click(function (e) {
-			$('#mainContent').empty();
-			$('#mainContent').load('diaporamas/' + this.id + '.html');
+			// Vide le diaporama
+			splide.remove(Slide => Slide.index >= 0);
+			// vide l'introduction
+			$('#introductionPhotos').empty();
+			// change le titre
+			$('#titreMainPhotoPage').html(e.target.getInnerHTML());
+			$.getJSON('diaporamas/' + this.id +'.json', function(diaporama) {      
+				var index = 1;   
+    			for (var image in diaporama) {
+					splide.add('<li class="splide__slide"><img src='+diaporama[image].url+'><div>'+diaporama[image].description+'</div></li>', index);
+					index++;
+				}
+			});
 		});
 	</script>
 </body>
