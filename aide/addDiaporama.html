@@ -124,13 +124,11 @@
     <div id="photosChemins">
     </div>
     <br>
-    <button id="validateInfo"> Afficher le code ci-dessous </button>
+    <button id="validateInfo"> Télécharger le json du diaporama et l'afficher ci-dessous </button>
   </fieldset>
   <br>
   <br>
 
-  <div id="genResult">
-  </div>
   <script>
     /* GENERATION DU FORMULAIRE */
     function updatePhotos(nbPhotos) {
@@ -174,8 +172,14 @@
         $("#photosChemins").append("<br> <br>");
       }
     }
-    /* ONCLICK - GENERATION DES INFOS */
+
+    /* ONCLICK - GENERATION DU JSON */
+
+    // variable globale : lien du fichier json
+    var textFile = null;
+
     document.getElementById("validateInfo").onclick = function () {
+      // 1 -  on prépare le json
       var jsonDiaporama = {};
       jsonDiaporama.images = {};
       var region = document.querySelector('input[name="diapoRegion"]:checked').value;
@@ -185,17 +189,74 @@
       var nbPhotos = document.getElementById("selectNbPhotos").value;
       for (var i = 1; i <= nbPhotos; i++) {
         // construction de l'url et de la description de l'image
-        var format = document.querySelector('input[name="format'+ i +'"]:checked').value;
+        var format = document.querySelector('input[name="format' + i + '"]:checked').value;
         var description = document.getElementById("imageDescription" + i).value;
-        jsonDiaporama.images["img"+i] = {
-          "url" : "./img/diaporama/" + region + "/diapo" + numDiapo + "/d" + numDiapo + i + "." + format,
-          "description" : description
+        jsonDiaporama.images["img" + i] = {
+          "url": "./img/diaporama/" + region + "/diapo" + numDiapo + "/d" + numDiapo + i + "." + format,
+          "description": description
         };
       };
-      console.log(jsonDiaporama);
-      JSON.stringify(jsonDiaporama);
-      console.log(jsonDiaporama);
+
+      // 2 - on transforme l'objet json en texte printable
+      var jsonDiaporamaPrintable = JSON.stringify(jsonDiaporama, null, 2);
+
+      // 3 - on créé un lien de téléchargement vers diapoX.json
+      var link = document.createElement('a');
+      link.setAttribute('download', 'diapo' + numDiapo + '.json');
+      link.href = makeJSONFile(jsonDiaporamaPrintable);
+      document.body.appendChild(link);
+
+      // 4 - on attend que le lien soit ajouté et on déclenche le téléchargement
+      window.requestAnimationFrame(function () {
+        var event = new MouseEvent('click');
+        link.dispatchEvent(event);
+        document.body.removeChild(link);
+      });
+
+      // 5 - on affiche le json sur la page
+      output(syntaxHighlight(jsonDiaporamaPrintable));
     };
+
+    // fonction qui permet de créer le fichier json
+    function makeJSONFile(text) {
+        var data = new Blob([text], { type: 'text/plain' });
+
+        // On révoque l'ancien lien s'il existe
+        if (textFile !== null) {
+          window.URL.revokeObjectURL(textFile);
+        }
+
+        textFile = window.URL.createObjectURL(data);
+
+        return textFile;
+      };
+
+    // fonction qui ajoute un élément pre avec le texte du json dedans
+    function output(inp) {
+      document.body.appendChild(document.createElement('pre')).innerHTML = inp;
+    }
+
+    // fonction pour mettre en forme le json
+    function syntaxHighlight(json) {
+      json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+        var cls = 'number';
+        if (/^"/.test(match)) {
+          if (/:$/.test(match)) {
+            cls = 'key';
+          } else {
+            cls = 'string';
+          }
+        } else if (/true|false/.test(match)) {
+          cls = 'boolean';
+        } else if (/null/.test(match)) {
+          cls = 'null';
+        }
+        return '<span class="' + cls + '">' + match + '</span>';
+      });
+    }
+
+
   </script>
 </body>
 
