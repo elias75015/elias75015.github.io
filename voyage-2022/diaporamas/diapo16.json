@@ -19,6 +19,10 @@
     "img5": {
       "url": "./img/diaporama/Paraguay/diapo16/d165.jpg",
       "description": "beau paysage"
+    },
+    "img6": {
+      "url": "./img/diaporama/Paraguay/diapo16/d166.jpg",
+      "description": "beau paysage 2"
     }
   },
   "datedebut": "2022-08-04",
