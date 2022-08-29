@@ -92,6 +92,7 @@
 		</nav>
 		<article id="mainContent">
 			<h2 id="titreMainPhotoPage"> Diaporamas </h2>
+			<p id="date"></p>
 			<br>
 			<div id="introductionPhotos">
 				<p class="pMainPhotoPage"> Vous trouverez ici plusieurs diaporamas, classés par région et dates.
@@ -120,7 +121,15 @@
 					perPage: 1,
 					height: "60vh",
 					lazyLoad: "nearby",
-					isNavigation: true
+					isNavigation: true,
+					breakpoints: {
+						1625: {
+							width: "80vw"
+						},
+						812: {
+							width: "70vw"
+						}
+					}
 				}).mount();
 			</script>
 		</article>
@@ -163,14 +172,23 @@
 		$(".diapoEntry").click(function (e) {
 			// Vide le diaporama
 			splide.remove(Slide => Slide.index >= 0);
-			// vide l'introduction
+			// vide l'introduction/titre et date
 			$('#introductionPhotos').empty();
+			$('#date').empty();
 			// change le titre
-			$('#titreMainPhotoPage').html(e.target.getInnerHTML());
-			$.getJSON('diaporamas/' + this.id +'.json', function(diaporama) {      
-				var index = 1;   
-    			for (var image in diaporama) {
-					splide.add('<li class="splide__slide"><img src='+diaporama[image].url+'><div>'+diaporama[image].description+'</div></li>', index);
+			var title;
+			if (e.target.getInnerHTML) {
+				title = e.target.getInnerHTML();
+			} else {
+				title = e.target.text;
+			}
+			$('#titreMainPhotoPage').html(title);
+			$.getJSON('diaporamas/' + this.id +'.json', function(diaporama) {  
+				$('#date').html("Du "+ diaporama["datedebut"] + " au " + diaporama["datefin"]);    
+				var index = 1;
+				var imagesList = diaporama["images"];   
+    			for (var image in imagesList) {
+					splide.add('<li class="splide__slide"><img src='+imagesList[image].url+'><div>'+imagesList[image].description+'</div></li>', index);
 					index++;
 				}
 			});

@@ -1,14 +1,18 @@
-{
-    "img1" : {
-        "url" :"./img/diaporama/AmSud/diapo2/d24.JPG",
-        "description" : "TEST2 - d24"
-    },
-    "img2" : {
-        "url" :"./img/diaporama/AmSud/diapo2/d25.JPG",
-        "description" : "TEST2 - d25"
-    },
-    "img3" : {
-        "url" :"./img/diaporama/AmSud/diapo2/d26.JPG",
-        "description" : "TEST2 - d26"
+{    
+    "datedebut" : "12-10-2022",
+    "datefin" :"18-11-2022",
+    "images" : {
+        "img1" : {
+            "url" :"./img/diaporama/AmSud/diapo2/d24.JPG",
+            "description" : "TEST2 - d24"
+        },
+        "img2" : {
+            "url" :"./img/diaporama/AmSud/diapo2/d25.JPG",
+            "description" : "TEST2 - d25"
+        },
+        "img3" : {
+            "url" :"./img/diaporama/AmSud/diapo2/d26.JPG",
+            "description" : "TEST2 - d26"
+        }
     }
 }

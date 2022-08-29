@@ -1,167 +1,202 @@
 <!DOCTYPE html>
 <html lang="fr" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Blog de voyage - BO</title>
-    <meta name="description" content="Blog de voyage de Clara et Elias" />
-    <link rel="stylesheet" type="text/css" href="./css/aide.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	</head>
 
-  <body>
-		<h3> Générateur de code diaporama</h3>
-		<p>Le code généré est à insérer dans un fichier ./diaporamas/diapoX.html. Il suffit ensuite de modifier
-    la page menuDiapo.html pour ajouter une ligne du type  &lt;li class="diapoEntry" id="diapo2"&gt;&lt;a href="./diapo2.html"&gt; 20/05 - 30/05 &lt;/a&gt;&lt;/li&gt;
-    dans le menu</p>
-      <fieldset class="fieldsetAide">
-        <br/>
-        Titre du diaporama : <input id="title"></input>
-        <br/>
-	<br/>
-        Numero du diaporama: <input id="numDiapo"></input>
-        <br/>
-        Date de début du diaporama : <input type="date" id="dateDebut"></input>
-        <br/>
-        Date de fin du diaporama : <input type="date" id="dateFin"></input>
-        <br/><br/>
-        <b>Région du diaporama :</b>
-        <br/>
-        Amérique du sud :
-        <input type="radio" id="diapoAmSud" name="diapoRegion" value="AmSud"/>
-        </input>
-        <br/>
-        US :
-        <input type="radio" id="diapoUS" name="diapoRegion" value="US"/>
-        </input>
-        <br/>
-        <br/>
-        Nombre de Photos du diaporama :
-        <select id="selectNbPhotos" onchange="updatePhotos(this.value)">
-            <option>0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-            <option value="13">13</option>
-            <option value="14">14</option>
-            <option value="15">15</option>
-            <option value="16">16</option>
-            <option value="17">17</option>
-            <option value="18">18</option>
-            <option value="19">19</option>
-            <option value="20">20</option>
-            <option value="21">21</option>
-            <option value="22">22</option>
-            <option value="23">23</option>
-            <option value="24">24</option>
-            <option value="25">25</option>
-            <option value="26">26</option>
-            <option value="27">27</option>
-            <option value="28">28</option>
-            <option value="29">29</option>
-            <option value="30">30</option>
-        </select>
-        <div id="photosChemins">
-        </div>
-        <br>
-        <button id="validateInfo"> Afficher le code ci-dessous </button>
-    </fieldset>
-    <br>
-    <br>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog de voyage - BO</title>
+  <meta name="description" content="Blog de voyage de Clara et Elias" />
+  <link rel="stylesheet" type="text/css" href="./css/aide.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
 
-    <div id="genResult">
+<body>
+  <h3> Générateur de code diaporama</h3>
+  <p>Le code généré est à insérer dans un fichier ./diaporamas/diapoX.json. Il suffit ensuite de modifier
+    la page photos.html pour ajouter une ligne du type &lt;li class="diapoEntry" id="diapo2"&gt;&lt;a href="#"&gt; 20/05
+    - 30/05 &lt;/a&gt;&lt;/li&gt;
+    dans le menu, et d'ajouter les photos dans le bon dossier</p>
+  <fieldset class="fieldsetAide">
+    <br />
+    Numero du diaporama: <input id="numDiapo"></input>
+    <br />
+    Date de début du diaporama : <input type="date" id="dateDebut"></input>
+    <br />
+    Date de fin du diaporama : <input type="date" id="dateFin"></input>
+    <br /><br />
+    <b>Région du diaporama :</b>
+    <table>
+      <tr>
+        <td>
+          Amérique du sud
+        </td>
+        <td>
+          <input type="radio" id="diapoAmSud" name="diapoRegion" value="AmSud" />
+          </input>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          US
+        </td>
+        <td>
+          <input type="radio" id="diapoUS" name="diapoRegion" value="US" />
+          </input>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <table>
+      <tr>
+        <td>
+          Brésil
+        </td>
+        <td>
+          <input type="radio" id="diapoBresil" name="diapoRegion" value="Bresil" />
+          </input>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Paraguay
+        </td>
+        <td>
+          <input type="radio" id="diapoParaguay" name="diapoRegion" value="Paraguay" />
+          </input>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Argentine
+        </td>
+        <td>
+          <input type="radio" id="diapoArgentine" name="diapoRegion" value="Argentine" />
+          </input>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Chili
+        </td>
+        <td>
+          <input type="radio" id="diapoChili" name="diapoRegion" value="Chili" />
+          </input>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    Nombre de Photos du diaporama :
+    <select id="selectNbPhotos" onchange="updatePhotos(this.value)">
+      <option>0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+      <option value="29">29</option>
+      <option value="30">30</option>
+    </select>
+    <div id="photosChemins">
     </div>
-    <script>
-		/*Remplissage result div*/
-		/* on recrée tout le fichier  diapo sous forme de texte*/
-		$( "#genResult" ).empty();
-		$( "#genResult" ).append('&lt;!DOCTYPE html&gt;<br>&lt;html lang="fr" class="no-js"&gt;<br>');
-		$( "#genResult" ).append('&lt;head&gt;<br>&lt;meta charset="UTF-8" /&gt;<br>&lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"&gt;<br>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;');
-		$( "#genResult" ).append('<br>&lt;title&gt;Diapo&lt;/title&gt;<br>&lt;meta name="description" content="Blog de voyage de Clara et Elias" /&gt;<br>');
-		$( "#genResult" ).append('&lt;link rel="stylesheet" type="text/css" href="./../../common/css/main.css" /&gt;<br>&lt;link rel="stylesheet" type="text/css" href="./../../common/css/menu.css" /&gt;<br>&lt;link rel="stylesheet" type="text/css" href="./../../common/css/commonstyle.css" /&gt;');
-		$( "#genResult" ).append('<br>&lt;link rel="stylesheet" type="text/css" href="./../../common/css/fontello.css" /&gt;<br>&lt;link rel="stylesheet" type="text/css" href="./../../common/css/mapNav/default.css" /&gt;<br>&lt;link rel="stylesheet" type="text/css" href="./../../common/css/mapNav/component.css" /&gt;');
-		$( "#genResult" ).append('<br>&lt;link rel="stylesheet" type="text/css" href="./../common/js/libDiaporama/pgwslider.css" /&gt;<br>');
-		$( "#genResult" ).append('&lt;link rel="stylesheet" type="text/css" href="./../../common/css/photos.css" /&gt;<br>');
-		$( "#genResult" ).append('&lt;script src="./../../common/js/modernizr-2.6.2.min.js"&gt;&lt;/script&gt;<br>&lt;/head&gt;<br><br>&lt;body&gt;<br>');
-		$( "#genResult" ).append('&lt;div class="container"&gt;<br>&lt;nav id="diapoMenu"&gt;<br>&lt;/nav&gt;<br>');
-		$( "#genResult" ).append('&lt;article id="mainContent"&gt;<br>&lt;h2 id="diapoTitle"&gt; <span id="titreDiapo" class="forGen"> </span> &lt;/h2&gt;<br>&lt;p id="date"&gt;<br>Du <span id="dateDebutDiapo" class="forGen"> </span>  au <span id="dateFinDiapo" class="forGen"> </span><br>&lt;/p&gt;<br>&lt;ul class="pgwSlider"&gt;<br><span id="listImgDiapo" class="forGen"></span>&lt;/ul&gt;<br>&lt;/article&gt;');
-		$( "#genResult" ).append('<br>&lt;aside&gt;<br>&lt;/aside&gt;<br>&lt;div class="component"&gt;<br>&lt;button class="cn-button" id="cn-button"&gt;+&lt;/button&gt;<br>');
-		$( "#genResult" ).append('&lt;div class="cn-wrapper" id="cn-wrapper"&gt;<br>&lt;ul&gt;<br>&lt;li&gt;&lt;a href="./../index.html"&gt;&lt;span class="icon-flight"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br>');
-		$( "#genResult" ).append('&lt;li&gt;&lt;a href="./../itineraire.html"&gt;&lt;span class="icon-map-signs"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br>');
-		$( "#genResult" ).append('&lt;li&gt;&lt;a href="./../articles.html"&gt;&lt;span class="icon-newspaper"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br>');
-		$( "#genResult" ).append('&lt;li&gt;&lt;a href="./../photos.html"&gt;&lt;span class="icon-camera-outline"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br>');
-		$( "#genResult" ).append('&lt;li&gt;&lt;a href="./../infos.html"&gt;&lt;span class="icon-info-circled"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;/div&gt;<br>&lt;div id="cn-overlay" class="cn-overlay"&gt;&lt;/div&gt;');
-		$( "#genResult" ).append('<br>&lt;/div&gt;<br>&lt;/div&gt;<br>&lt;script src="./../../common/js/polyfills.js"&gt;&lt;/script&gt;<br>&lt;script src="./../../common/js/menu.js"&gt;&lt;/script&gt;<br>');
-		$( "#genResult" ).append('&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"&gt;&lt;/script&gt;<br>&lt;script src="./../../common/js/jquery.dlmenu.js"&gt;&lt;/script&gt;<br>');
-		$( "#genResult" ).append('&lt;script src="./../common/js/libDiaporama/pgwslider.js"&gt;&lt;/script&gt;<br>&lt;script src="./../../common/js/diapoScript.js"&gt;&lt;/script&gt;<br>&lt;/body&gt;<br>&lt;/html&gt;');
+    <br>
+    <button id="validateInfo"> Afficher le code ci-dessous </button>
+  </fieldset>
+  <br>
+  <br>
 
+  <div id="genResult">
+  </div>
+  <script>
     /* GENERATION DU FORMULAIRE */
     function updatePhotos(nbPhotos) {
       // Form Part -->
-      $( "#photosChemins" ).empty();
-      $( "#photosChemins" ).append("<br><br>");
+      $("#photosChemins").empty();
+      $("#photosChemins").append("<br><br>");
       for (var i = 0; i < nbPhotos; i++) {
-        var y = i+1;
-
-        var imageName = document.createElement( "input" );
-        imageName.id = "imageName" + y;
-	imageName.value = "diapo" + document.getElementById("numDiapo").value + "/d" + document.getElementById("numDiapo").value + y + "-min.jpg"; 
-
-        var imageAlt = document.createElement( "input" );
-        imageAlt.id = "imageAlt" + y;
-
-        var imageDescription = document.createElement( "input" );
+        var y = i + 1;
+        var imageDescription = document.createElement("input");
         imageDescription.id = "imageDescription" + y;
-
-        $( "#photosChemins" ).append("<br><b>Nom image " + y + " (avec extension) : </b><br>");
-        $( "#photosChemins" ).append(imageName);
-        $( "#photosChemins" ).append("<br><b>Alt image " + y + " : </b><br>");
-        $( "#photosChemins" ).append(imageAlt);
-        $( "#photosChemins" ).append("<br><b>Description image " + y + " : </b><br>");
-        $( "#photosChemins" ).append(imageDescription);
-        $( "#photosChemins" ).append("<br> <br> <br>");
+        $("#photosChemins").append("<br><b>Format image " + y + " : </b><br>");
+        // AJOUT RADIO jpg
+        $("#photosChemins").append(
+          $('<input>').prop({
+            type: 'radio',
+            id: 'formatMinImage' + y,
+            name: 'format' + y,
+            value: "jpg",
+            checked: "checked"
+          })
+        ).append(
+          $('<label>').prop({
+            for: 'formatImage' + y
+          }).html("jpg")
+        )
+        //AJOUT RADIO JPG
+        $("#photosChemins").append(
+          $('<input>').prop({
+            type: 'radio',
+            id: 'formatMajImage' + y,
+            name: 'format' + y,
+            value: "JPG"
+          })
+        ).append(
+          $('<label>').prop({
+            for: 'formatImage' + y
+          }).html("JPG")
+        )
+        $("#photosChemins").append("<br><b>Description image " + y + " : </b><br>");
+        $("#photosChemins").append(imageDescription);
+        $("#photosChemins").append("<br> <br>");
       }
     }
     /* ONCLICK - GENERATION DES INFOS */
-    document.getElementById("validateInfo").onclick = function() {
-      // On vide préalablement la génération précédente
-      $(".forGen").html("");
-
-      // On remplit les trous pour le titre, la date de début et de fin du diaporama
-      document.getElementById("titreDiapo").append(document.getElementById("title").value);
-      document.getElementById("dateDebutDiapo").append(document.getElementById("dateDebut").value);
-      document.getElementById("dateFinDiapo").append(document.getElementById("dateFin").value);
-
+    document.getElementById("validateInfo").onclick = function () {
+      var jsonDiaporama = {};
+      jsonDiaporama.images = {};
+      var region = document.querySelector('input[name="diapoRegion"]:checked').value;
+      var numDiapo = document.getElementById("numDiapo").value;
+      jsonDiaporama.datedebut = document.getElementById("dateDebut").value;
+      jsonDiaporama.datefin = document.getElementById("dateFin").value;
       var nbPhotos = document.getElementById("selectNbPhotos").value;
-			// on récupère la région du diaporama pour aller chercher les images dans le bon dossier
-      var imageRegion = document.querySelector('input[name="diapoRegion"]:checked').value;
-      // On crée la liste des images du diaporama à insérer dans le fichier
-			var imageList = "";
-      for (var i=0; i<nbPhotos; i++) {
-        y = i+1;
-        if (document.getElementById("imageName" + y).value) {
-          // retrieve image name
-          var imageName = document.getElementById("imageName" + y).value;
-          // retrieve image alt
-          var imageAlt = document.getElementById("imageAlt" + y).value;
-          // retrieve image desc
-          var imageDesc = document.getElementById("imageDescription" + y).value;
+      for (var i = 1; i <= nbPhotos; i++) {
+        // construction de l'url et de la description de l'image
+        var format = document.querySelector('input[name="format'+ i +'"]:checked').value;
+        var description = document.getElementById("imageDescription" + i).value;
+        jsonDiaporama.images["img"+i] = {
+          "url" : "./img/diaporama/" + region + "/diapo" + numDiapo + "/d" + numDiapo + i + "." + format,
+          "description" : description
+        };
+      };
+      console.log(jsonDiaporama);
+      JSON.stringify(jsonDiaporama);
+      console.log(jsonDiaporama);
+    };
+  </script>
+</body>
 
-          imageList = imageList + '<li> <img src="./../img/diaporama/' +imageRegion+'/'+imageName+'" alt="'+imageAlt+'" data-description="'+imageDesc+'"></li>'
-        }
-      }
-			  document.getElementById("listImgDiapo").append(imageList);
-    }
-    </script>
-  </body>
 </html>
