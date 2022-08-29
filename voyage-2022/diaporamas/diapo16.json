@@ -1,0 +1,26 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Paraguay/diapo16/d161.jpg",
+      "description": "palmiers"
+    },
+    "img2": {
+      "url": "./img/diaporama/Paraguay/diapo16/d162.JPG",
+      "description": "étang curitiba"
+    },
+    "img3": {
+      "url": "./img/diaporama/Paraguay/diapo16/d163.jpg",
+      "description": ""
+    },
+    "img4": {
+      "url": "./img/diaporama/Paraguay/diapo16/d164.jpg",
+      "description": "polo rouge"
+    },
+    "img5": {
+      "url": "./img/diaporama/Paraguay/diapo16/d165.jpg",
+      "description": "beau paysage"
+    }
+  },
+  "datedebut": "2022-08-04",
+  "datefin": "2022-08-24"
+}

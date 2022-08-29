@@ -1,74 +1,168 @@
 <!DOCTYPE html>
 <html lang="fr" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Blog de voyage - Diaporama</title>
-		<meta name="description" content="Blog de voyage de Clara et Elias" />
-		<link rel="shortcut icon" href="img/favicon.ico">
-		<link rel="stylesheet" type="text/css" href="./../common/css/main.css" />
-		<link rel="stylesheet" type="text/css" href="./../common/css/menu.css" />
-    	<link rel="stylesheet" type="text/css" href="./../common/css/commonstyle.css" />
-		<link rel="stylesheet" type="text/css" href="./css/specificstyle.css" />
-    	<link rel="stylesheet" type="text/css" href="./../common/css/fontello.css" />
-    	<link rel="stylesheet" type="text/css" href="./../common/css/mapNav/default.css" />
-    	<link rel="stylesheet" type="text/css" href="./../common/css/mapNav/component.css" />
-		<link rel="stylesheet" type="text/css" href="./../common/css/photos.css" />
-		<script src="./../common/js/modernizr-2.6.2.min.js"></script>
 
-	</head>
-	<body>
-		<div class="container">
-      <!-- Menu de gauche -->
-      <nav id="diapoMenu">
-        <!-- rempli par menuDiapo.html -->
-      </nav>
-			<article id="mainContent">
-				<h2 id="titreMainPhotoPage"> Diaporamas </h2>
-				<br>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blog de voyage - Diaporama</title>
+	<meta name="description" content="Blog de voyage de Clara et Elias" />
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="./../common/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="./../common/css/menu.css" />
+	<link rel="stylesheet" type="text/css" href="./../common/css/commonstyle.css" />
+	<link rel="stylesheet" type="text/css" href="./css/specificstyle.css" />
+	<link rel="stylesheet" type="text/css" href="./../common/css/fontello.css" />
+	<link rel="stylesheet" type="text/css" href="./../common/css/mapNav/default.css" />
+	<link rel="stylesheet" type="text/css" href="./../common/css/mapNav/component.css" />
+	<link rel="stylesheet" type="text/css" href="./../common/css/photos.css" />
+	<link rel="stylesheet" type="text/css" href="./../common/css/splide.min.css" />
+	<link rel="stylesheet" type="text/css" href="./../common/css/diapo.css" />
+	<script src="./../common/js/modernizr-2.6.2.min.js"></script>
+	<script src="./../common/js/splide.min.js"></script>
+
+</head>
+
+<body>
+	<div class="container">
+		<!-- Menu de gauche -->
+		<nav id="diapoMenu">
+			<div id="dl-menu" class="dl-menuwrapper">
+				<button class="dl-trigger">Open Menu</button>
+				<ul class="dl-menu">
+					<li>
+						<a href="#">Bresil</a>
+						<ul class="dl-submenu">
+						</ul>
+					</li>
+					<li>
+						<a href="#">Paraguay</a>
+						<ul class="dl-submenu">
+							<li class="diapoEntry" id="diapo16"><a href="#"> Test Grandeur Nature </a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Argentine</a>
+						<ul class="dl-submenu">
+						</ul>
+					</li>
+					<li>
+						<a href="#">Chili</a>
+						<ul class="dl-submenu">
+						</ul>
+					</li>
+					<li>
+						<a href="#">Uruguay</a>
+						<ul class="dl-submenu">
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<article id="mainContent">
+			<h2 id="titreMainPhotoPage"> Diaporamas </h2>
+			<p id="date"></p>
+			<br>
+			<div id="introductionPhotos">
 				<p class="pMainPhotoPage"> Vous trouverez ici plusieurs diaporamas, classés par région et dates.
-					Utilisez le menu de gauche pour naviguer entre les diaporamas. Cliquez sur les flèches
-					pour faire défiler les photos.
+					Utilisez le menu de gauche pour naviguer entre les diaporamas. Utilisez les flèches du clavier, 
+					cliquez ou cliquez-glissez pour faire défiler les photos.
 				</p>
 				<br>
 				<p class="pMainPhotoPage"> Bon visionnage ! </p>
 				<br>
-			</article>
-			<aside>
-			</aside>
-			<div class="component">
-				<!-- Start Nav Structure -->
-				<button class="cn-button" id="cn-button">+</button>
-				<div class="cn-wrapper" id="cn-wrapper">
-                    <ul>
-				      <li><a href="./index.html"><span class="icon-flight"></span></a></li>
-				      <li><a href="./itineraire.html"><span class="icon-map-signs"></span></a></li>
-				      <li><a href="./articles.html"><span class="icon-newspaper"></span></a></li>
-				      <li><a href="./photos.html"><span class="icon-camera-outline"></span></a></li>
-				      <li><a href="./infos.html"><span class="icon-info-circled"></span></a></li>
-				     </ul>
-				</div>
-				<div id="cn-overlay" class="cn-overlay"></div>
-				<!-- End Nav Structure -->
 			</div>
-		</div><!-- /container -->
-		<script src="./../common/js/polyfills.js"></script>
-		<script src="./../common/js/menu.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="./../common/js/jquery.dlmenu.js"></script>
-    <script>
-        // on charge le contenu du menu de gauche
-        $('#diapoMenu').load('./menuDiapo.html', function() {
-            $( '#dl-menu' ).dlmenu({
-                animationClasses : {
-                    classin : 'dl-animate-in-4',
-                    classout : 'dl-animate-out-4'
-                }
-            });
-            // on ouvre le menu au chargement de la page
-            $( 'button.dl-trigger').click();
-        });
-    </script>
-	</body>
+
+			<div class="splide" role="group" aria-label="Splide Basic HTML Example">
+				<div class="splide__track">
+					<ul class="splide__list">
+					</ul>
+				</div>
+			</div>
+			<script>
+				// initialise le diapo
+				var splide = new Splide(".splide", {
+					autoWidth: true,
+					focus: "center",
+					keyboard: true,
+					arrows: false,
+					type: "loop",
+					perPage: 1,
+					height: "60vh",
+					lazyLoad: "nearby",
+					isNavigation: true,
+					breakpoints: {
+						1625: {
+							width: "80vw"
+						},
+						812: {
+							width: "70vw"
+						}
+					}
+				}).mount();
+			</script>
+		</article>
+		<aside>
+		</aside>
+		<div class="component">
+			<!-- Start Nav Structure -->
+			<button class="cn-button" id="cn-button">+</button>
+			<div class="cn-wrapper" id="cn-wrapper">
+				<ul>
+					<li><a href="./index.html"><span class="icon-flight"></span></a></li>
+					<li><a href="./itineraire.html"><span class="icon-map-signs"></span></a></li>
+					<li><a href="./articles.html"><span class="icon-newspaper"></span></a></li>
+					<li><a href="./photos.html"><span class="icon-camera-outline"></span></a></li>
+					<li><a href="./infos.html"><span class="icon-info-circled"></span></a></li>
+				</ul>
+			</div>
+			<div id="cn-overlay" class="cn-overlay">
+			</div>
+			<!-- End Nav Structure -->
+		</div>
+	</div><!-- /container -->
+
+	<script src="./../common/js/polyfills.js"></script>
+	<script src="./../common/js/menu.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="./../common/js/jquery.dlmenu.js"></script>
+	<script>
+		var map;
+		$(function () {
+			$('#dl-menu').dlmenu({
+				animationClasses: {
+					classin: 'dl-animate-in-4',
+					classout: 'dl-animate-out-4'
+				}
+			});
+			// on ouvre le menu au chargement de la page
+			$('button.dl-trigger').click();
+		});
+		$(".diapoEntry").click(function (e) {
+			// Vide le diaporama
+			splide.remove(Slide => Slide.index >= 0);
+			// vide l'introduction/titre et date
+			$('#introductionPhotos').empty();
+			$('#date').empty();
+			// change le titre
+			var title;
+			if (e.target.getInnerHTML) {
+				title = e.target.getInnerHTML();
+			} else {
+				title = e.target.text;
+			}
+			$('#titreMainPhotoPage').html(title);
+			$.getJSON('diaporamas/' + this.id +'.json', function(diaporama) {  
+				$('#date').html("Du "+ diaporama["datedebut"] + " au " + diaporama["datefin"]);    
+				var index = 1;
+				var imagesList = diaporama["images"];   
+    			for (var image in imagesList) {
+					splide.add('<li class="splide__slide"><img src='+imagesList[image].url+'><div>'+imagesList[image].description+'</div></li>', index);
+					index++;
+				}
+			});
+		});
+	</script>
+</body>
+
 </html>
