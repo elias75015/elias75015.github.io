@@ -8,8 +8,6 @@ on:
       - '**.jpeg'
       - '**.png'
       - '**.gif'
-      - '**.JPG'
-      - '**.JPEG'  
 jobs:
   crush:
     runs-on: ubuntu-latest
