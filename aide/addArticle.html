@@ -19,8 +19,19 @@
         <br/>
         Titre de l'article : <input id="title"></input>
 	<br/>
+  <br/>
+	Langue de l'article : 
+	<br/>
+	<input id="langueFR" type="radio" name="langue" value="FR" checked="true"> </input>
+	<label for="langueFR">Français</label>
+	<br/>
+	<input id="langueES" type="radio" name="langue" value="ES"> </input>
+	<label for="langueES">Espagnol</label>
+  <br/>
+  <br/>
 	Numéro de l'article : <input id="numArticle"></input>
-        <br/>
+  <br/>
+  <br/>
 	Région de l'article : 
 	<br/>
 	<input id="imgPaysParagrapheAmSud" type="radio" name="imagePays" value="AmSud"> </input>
@@ -28,10 +39,29 @@
 	<br/>
 	<input id="imgPaysParagrapheUS" type="radio" name="imagePays" value="US"> </input>
 	<label for="imgPaysParagrapheUS">USA</label>
+  <br/>
+  <br/>
+	<input id="imgPaysParagrapheArgentine" type="radio" name="imagePays" value="Argentine"> </input>
+	<label for="imgPaysParagrapheArgentine">Argentine</label>
 	<br/>
+	<input id="imgPaysParagrapheBresil" type="radio" name="imagePays" value="Bresil"> </input>
+	<label for="imgPaysParagrapheBresil">Brésil</label>
+	<br/>
+	<input id="imgPaysParagrapheParaguay" type="radio" name="imagePays" value="Paraguay"> </input>
+	<label for="imgPaysParagrapheParaguay">Paraguay</label>
+	<br/>
+	<input id="imgPaysParagrapheChili" type="radio" name="imagePays" value="Chili"> </input>
+	<label for="imgPaysParagrapheChili">Chili</label>
+  <br/>
+	<input id="imgPaysParagrapheUruguay" type="radio" name="imagePays" value="Uruguay"> </input>
+	<label for="imgPaysParagrapheUruguay">Uruguay</label>
+	<br/>
+  <br/>
         Date de l'article : <input type="date" id="date"></input>
         <br/>
+        <br/>
         Lieu de l'article (ville) : <input id="place"></input>
+        <br/>
         <br/>
         Nombre de paragraphes de l'article :
         <select id="selectNbParagraphes" onchange="updateParagraphes(this.value)">
@@ -89,9 +119,9 @@
         texteParagraphe.rows = 15;
         texteParagraphe.cols = 70;
 	
-	var hasParaImg = document.createElement( "input" );
-	hasParaImg.id = "hasParaImg" + y;
-	hasParaImg.type = "checkbox";
+	      var hasParaImg = document.createElement( "input" );
+	      hasParaImg.id = "hasParaImg" + y;
+	      hasParaImg.type = "checkbox";
 
         var imageTypePortrait = document.createElement( "input" );
         imageTypePortrait.id = "imgTypeParagraphe" + y + "Portrait";
@@ -139,7 +169,26 @@
     document.getElementById("validateInfo").onclick = function() {
       // On vide préalablement la génération précédente
       $("span").html("");
+      $("#langueDiv").html("");
+      
+      // on insère le lien vers l'article de langue esp ou fr
+      //<img src="./../common/img/franceText.png" class="articleTranslate" id="article2">
+      var langue = document.querySelector('input[name="langue"]:checked').value;
+      var imageLangue = document.createElement("img");
+      var sautdeLigne = document.createElement("br");
+      var langueDiv = document.createElement("div");
+      langueDiv.id = "langueDiv";
+      document.getElementById("genResult").prepend(langueDiv);
 
+      imageLangue.id = "article"+document.getElementById("numArticle").value;
+      imageLangue.class = "articleTranslate";
+      if (langue === "ES") {
+        imageLangue.src = "./../common/img/franceText.png";
+      } else {
+        imageLangue.src = "./../common/img/espText.png";
+      }
+      document.getElementById("langueDiv").prepend(sautdeLigne);
+      document.getElementById("langueDiv").prepend(imageLangue.outerHTML);
       // On remplit les trous pour le titre, la date, et le lieu de l'article
       document.getElementById("titreArticle").append(document.getElementById("title").value);
       document.getElementById("dateArticle").append(document.getElementById("date").value);
