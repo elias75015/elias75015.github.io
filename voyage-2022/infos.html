@@ -28,21 +28,12 @@
 			</div>
 		</nav>
 		<article id="mainContent">
-			<table cellspacing="0" id="infoArray">
-				<thead>
-					<tr>
-						<th>Nom</th>
-						<th>Theme</th>
-						<th>Pays</th>
-						<th>Lieu</th>
-						<th>Date</th>
-						<th data-dynatable-no-sort=true> Commentaires </th>
-					</tr>
-				</thead>
-				<tbody>
-				<tbody>
-			</table>
-
+			<iframe width="70%" height="400" 
+				src="https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidwCNyNNU00L_T_Ss-TrBvk8&showinfo=1" 
+				title="Aquarela Do Brasil" frameborder="0" 
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+				allowfullscreen>
+			</iframe>
 		</article>
 		<div class="component">
 			<!-- Start Nav Structure -->
@@ -87,63 +78,9 @@
 	<script src="../common/js/jquery.dlmenu.js"></script>
 	<script src="../common/js/jquery.dynatable.js"></script>
 	<script>
-		var map;
-		$(function () {
-			$('#dl-menu').dlmenu({
-				animationClasses: {
-					classin: 'dl-animate-in-4',
-					classout: 'dl-animate-out-4'
-				}
-			});
-			// on ouvre le menu au chargement de la page
-			$('button.dl-trigger').click();
-		});
+		
+	document.getElementsByClassName("ytp-playlist-menu-button ytp-button")[0].click();
 
-
-		// on transforme le tableau pour le trier et le requeter
-		var dynatableClosed = $('#infoArray').dynatable({
-			features: {
-				search: true,
-				paginate: false,
-				recordCount: true,
-				sorting: true,
-				pushState: true
-			},
-			readers: {
-				'date': function (el, record) {
-					var date = el.innerHTML.split('/');
-					var dateObj = new Date(Number(date[2]), Number(date[1]), Number(date[0]));
-					return dateObj;
-				}
-			},
-			writers: {
-				'date': function (record) {
-					var objDate = record.date;
-					var d = objDate.getDate();
-					var m = objDate.getMonth();
-					var y = objDate.getFullYear();
-
-					// ensure we have 2 digits for days/months
-					var d = (d.toString().length < 2) ? '0' + d : d;
-					var m = (m.toString().length < 2) ? '0' + m : m;
-
-					return d + '/' + m + '/' + y;
-				}
-			}
-		}).data('dynatable');
-
-		var dynatable = $('#infoArray').data('dynatable');
-		$("#dynatable-search-infoArray").appendTo($("#dl-menu"));
-		$("#dynatable-search-infoArray").css({
-			"background-color": "hsla(29, 34.6%, 37.6%, 1)",
-			"color": "#ffffff",
-			"top": "70px"
-		});
-		$("#dynatable-query-search-infoArray").css({
-			"position": "relative",
-			"height": "40px",
-			"width": "100%"
-		})
 
 	</script>
 </body>
