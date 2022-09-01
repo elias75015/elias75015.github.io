@@ -67,7 +67,7 @@
     <br />
     Nombre de paragraphes de l'article :
     <select id="selectNbParagraphes" onchange="updateParagraphes(this.value)">
-      <option>0</option>
+      <option value="vide">vider</option>
       <option value="1">1</option>
       <option value="2">2</option>
       <option value="3">3</option>
@@ -111,10 +111,29 @@
 
     function updateParagraphes(nbParagraphes) {
       // Form Part -->
-      $("#paragraphes").empty();
-      $("#paragraphes").append("<br><br>");
+      if (nbParagraphes === "vide") {
+        // on vid etout
+        $("#paragraphes").empty();
+        return;
+      }
 
-      for (var i = 0; i < nbParagraphes; i++) {
+      var nbFormPara = document.getElementsByClassName("formPara").length;
+      if (nbParagraphes > nbFormPara) {
+        // ajout des paragraphes en plus
+        var nbNewPara = nbParagraphes - nbFormPara;
+        var indexBegin = nbFormPara;
+      } else if (nbParagraphes < nbFormPara) {
+        nbParagraphes = parseInt(nbParagraphes);
+        var indexEnd = nbFormPara;
+        // nettoyage des paragraphes en plus (form + genresult)
+        for (var i = nbParagraphes + 1; i <= indexEnd; i++) {
+          $("#formPara" + i).remove();
+          $("#p" + i).remove();
+        }
+        return;
+      }
+      for (var i = indexBegin; i < nbNewPara + indexBegin; i++) {
+        // création des éléments du formulaire
         var y = i + 1;
         var texteParagraphe = document.createElement("textArea");
         texteParagraphe.id = "texteParagraphe" + y;
@@ -143,18 +162,67 @@
         imageTypeCarre.name = "imageType" + y;
         imageTypeCarre.value = "carre";
 
-        $("#paragraphes").append("<b>Texte paragraphe " + y + ": </b><br>");
-        $("#paragraphes").append(texteParagraphe);
-        $("#paragraphes").append("<br><b>Cocher si le paragraphe " + y + " a une image </b><br>");
-        $("#paragraphes").append(hasParaImg);
-        $("#paragraphes").append("<br><b>Format image paragraphe" + y + ": </b><br>");
-        $("#paragraphes").append("Portrait (smartphone) : ");
-        $("#paragraphes").append(imageTypePortrait);
-        $("#paragraphes").append("<br>Paysage (smartphone) : ");
-        $("#paragraphes").append(imageTypePaysage);
-        $("#paragraphes").append("<br>Appareil Photo : ");
-        $("#paragraphes").append(imageTypeCarre);
-        $("#paragraphes").append("<br> <br> <br>");
+        var imageFormatJPG = document.createElement("input");
+        imageFormatJPG.id = "imgFormatParagraphe" + y + "JPG";
+        imageFormatJPG.type = "radio";
+        imageFormatJPG.name = "imageFormat" + y;
+        imageFormatJPG.value = "JPG";
+
+        var imageFormatjpg = document.createElement("input");
+        imageFormatjpg.id = "imgFormatParagraphe" + y + "jpg";
+        imageFormatjpg.type = "radio";
+        imageFormatjpg.checked = "checked";
+        imageFormatjpg.name = "imageFormat" + y;
+        imageFormatjpg.value = "jpg";
+
+        var container = document.createElement("fieldset");
+        container.style.marginTop = "4px";
+        container.style.backgroundColor = "#dfe8f6";
+        container.id = "formPara" + y;
+        container.className = "formPara";
+
+        // création de la mise en page
+        var formtitlePara = document.createElement("p");
+        var para1 = document.createElement("p");
+        var para2 = document.createElement("p");
+        var para3 = document.createElement("p");
+        var para4 = document.createElement("p");
+        var liste1 = document.createElement("ul");
+        var elem1 = document.createElement("li");
+        var elem2 = document.createElement("li");
+        var elem3 = document.createElement("li");
+        var liste2 = document.createElement("ul");
+        var elem4 = document.createElement("li");
+        var elem5 = document.createElement("li");
+
+        formtitlePara.append("PARAGRAPHE " + y);
+        formtitlePara.style.fontWeight = "bold";
+        container.append(formtitlePara);
+        
+        container.append(para1,para2,para3,para4);
+        para1.append("Texte paragraphe " + y + ":");
+        container.append(texteParagraphe);
+
+        container.append(para2);
+        para2.append("Cocher si le paragraphe " + y + " a une image : ", hasParaImg);
+
+        container.append(para3);
+        para3.append("Format image paragraphe " + y + ":");
+
+        container.append(liste1);
+        liste1.append(elem1,elem2,elem3);
+        elem1.append("Portrait (smartphone) : ", imageTypePortrait);
+        elem2.append("Paysage (smartphone) : ", imageTypePaysage);
+        elem3.append("Carré (Appareil Photo) : ", imageTypeCarre);
+
+        container.append(para4);
+        para4.append("Extension de l'image : ");
+        container.append(liste2);
+        liste2.append(elem4,elem5);
+        elem4.append("format jpg : ", imageFormatjpg);
+        elem5.append("Format JPG : ", imageFormatJPG);
+
+        $("#paragraphes").append(container);
       }
 
       // Results Generation part -->
@@ -162,7 +230,7 @@
       $("#genResult").append("&lt;p id='date'&gt; <br> Le <span id='dateArticle'></span>, à <span id='lieuArticle'></span> <br>&lt;/p&gt;<br>&lt;br&gt;<br>&lt;h2 id='title'&gt;<br> <span id='titreArticle'></span> <br>&lt;/h2&gt;<br>");
       for (var i = 0; i < nbParagraphes; i++) {
         y = i + 1;
-        $("#genResult").append("&lt;br&gt;<br>&lt;p&gt;<br><span id='p" + y + "Texte'></span><br>&lt;/p&gt;<br>&lt;br&gt;<br><span id='p" + y + "Image'></span><br>");
+        $("#genResult").append("<span id='p"+ y + "'>&lt;br&gt;<br>&lt;p&gt;<br><span id='p" + y + "Texte'></span><br>&lt;/p&gt;<br>&lt;br&gt;<br><span id='p" + y + "Image'></span><br></span>");
       }
     }
 
@@ -172,8 +240,9 @@
     /* ONCLICK - GENERATION DES INFOS */
     document.getElementById("validateInfo").onclick = function () {
       // 1 -  On vide préalablement la génération précédente
-      $("span").html("");
-      $("#langueDiv").html("");
+      // $("span").html("");
+      $("#langueDiv").remove();
+      
       // récupération du numéro de l'article
       var numArticle = document.getElementById("numArticle").value
       // 2 -on insère le lien vers l'article de langue esp ou fr
@@ -208,30 +277,31 @@
           // retrieve image type
           var radiobuttonsType = "imageType" + y;
           var imageType = document.querySelector('input[name="' + radiobuttonsType + '"]:checked').value;
-          
+
+          // retrieve image format
+          var radiobuttonsFormat = "imageFormat" + y;
+          var imageFormat = document.querySelector('input[name="' + radiobuttonsFormat + '"]:checked').value;
+
           // retrieve image name
-          var imageName;
-          if (imageType == "carre") {
-            imageName = "article" + numArticle + "/p" + y + ".JPG";
-          } else {
-            imageName = "article" + numArticle + "/p" + y + ".jpg";
-          }    
-          
+          var imageName = "article" + numArticle + "/p" + y + "." + imageFormat;
+
           // retrieve image region
           var radiobuttonsRegion = "imagePays";
           var imageRegion = document.querySelector('input[name="' + radiobuttonsRegion + '"]:checked').value;
+
+          // add image dom html
           $("#p" + y + "Image").append('<br>&lt;div class="photo"&gt;<br>&lt;img src="./img/diaporama/' + imageRegion + '/' + imageName + '" id="photo' + y + '" class="' + imageType + '"&gt;<br>&lt;/div&gt;<br><br>');
         }
       }
 
       // 5 - on créé un lien de téléchargement vers articleX.html
-    
+
       var htmlArticlePrintable = document.getElementById('genResult').textContent.replace(/>/gi, ">\n");
       var link = document.createElement('a');
       link.setAttribute('download', 'article' + numArticle + '.html');
       link.href = makeHTMLFile(htmlArticlePrintable);
       document.body.appendChild(link);
-      
+
       // 5 - on attend que le lien soit ajouté et on déclenche le téléchargement
       window.requestAnimationFrame(function () {
         var event = new MouseEvent('click');
