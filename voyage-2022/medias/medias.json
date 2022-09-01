@@ -1,0 +1,23 @@
+{
+    "musics": {
+        "playlist1" : {
+            "title" : "titre playlist 1",
+            "iframe" : "<iframe width='70%' height='400' src='https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidwCNyNNU00L_T_Ss-TrBvk8&showinfo=1' title='Aquarela Do Brasil' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+            "description" : "la samba du brésil"
+        }
+    },
+    "videos" : {
+        "video1" : {
+            "title" : "titre video 1",
+            "iframe": "iframe video 1",
+            "description": "description video 1"
+        }
+    }, 
+    "articles" : {
+        "article1" : {
+            "title" : "titre article 1",
+            "iframe": "iframe article 1",
+            "description": "description article 1"
+        }
+    }
+}
