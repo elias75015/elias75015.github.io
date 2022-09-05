@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="../common/css/menu.css" />
 	<link rel="stylesheet" type="text/css" href="../common/css/commonstyle.css" />
 	<link rel="stylesheet" type="text/css" href="./css/specificstyle.css" />
-	<link rel="stylesheet" type="text/css" href="../common/css/infos.css" />
+	<link rel="stylesheet" type="text/css" href="../common/css/medias.css" />
 	<link rel="stylesheet" type="text/css" href="../common/css/fontello.css" />
 	<link rel="stylesheet" type="text/css" href="../common/css/mapNav/default.css" />
 	<link rel="stylesheet" type="text/css" href="../common/css/mapNav/component.css" />
@@ -45,8 +45,12 @@
 			</div><!-- /dl-menuwrapper -->
 		</nav>
 		<article id="mainContent">
-
-		</article>
+			<div id="headerMedia">
+				<h1 id="iframeTitle" class="grandTitre"></h1>
+				<p id="iframeDescription" class="description"></p>
+			</div>
+			<iframe id="articleIframe" width='100%' height='100%' src='' allowfullscreen></iframe>
+			<iframe id="youtubeIframe" width='100%' height='100%' src='' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'></iframe>		</article>
 		<div class="component">
 			<!-- Start Nav Structure -->
 			<button class="cn-button" id="cn-button">+</button>
@@ -109,7 +113,8 @@
 			for (var playlist in musicsEntries) {
 				console.log(playlist);
 				var playlistEntry = document.createElement("li");
-				playlistEntry.className = "mediaEntry";
+				playlistEntry.classList.add("mediaEntry");
+				playlistEntry.classList.add("musicEntry");
 				playlistEntry.id = playlist;
 				var playlistLink = document.createElement("a");
 				playlistLink.href="#";
@@ -122,7 +127,8 @@
 			for (var video in videosEntries) {
 				console.log(video);
 				var videoEntry = document.createElement("li");
-				videoEntry.className = "mediaEntry";
+				videoEntry.classList.add("mediaEntry");
+				videoEntry.classList.add("videoEntry");
 				videoEntry.id = video;
 				var videoLink = document.createElement("a");
 				videoLink.href="#";
@@ -135,7 +141,8 @@
 			for (var article in articlesEntries) {
 				console.log(playlist);
 				var articleEntry = document.createElement("li");
-				articleEntry.className = "mediaEntry";
+				articleEntry.classList.add("mediaEntry");
+				articleEntry.classList.add("articleEntry");
 				articleEntry.id = article;
 				var articleLink = document.createElement("a");
 				articleLink.href="#";
@@ -143,19 +150,50 @@
 				articleEntry.append(articleLink);
 				document.getElementById("articleMenu").append(articleEntry);
 			};
-			/*
-			$(".mediaEntry").click(function (e) {
-				$('#mainContent').empty();
-				$('#mainContent').load('articles/' + this.id + '.html');
-			});*/
-		});
-/*
-				$(".articleEntry").click(function (e) {
-					$('#mainContent').empty();
-					$('#mainContent').load('articles/' + this.id + '.html');
-				});*/
-	// document.getElementsByClassName("ytp-playlist-menu-button ytp-button")[0].click();
 
+			// on cache les iframes 
+			document.getElementById("articleIframe").style.display = "none";
+			document.getElementById("youtubeIframe").style.display = "none";
+
+			// $("articleIframe").hide();
+			// $("musicIframe").hide();
+			
+			$(".mediaEntry").click(function (e) {
+				// on vide le titre et la description
+				$('#iframeTitle').empty();
+				$('#iframeDescription').empty();
+				// on cache les iframes 
+				document.getElementById("articleIframe").style.display = "none";
+				document.getElementById("youtubeIframe").style.display = "none";;
+				if (this.classList.contains("articleEntry")) {
+					// On affiche le titre et la description de l'article
+					document.getElementById('iframeTitle').innerHTML =  articlesEntries[this.id].title;
+					document.getElementById('iframeDescription').innerHTML =  articlesEntries[this.id].description;
+					// on affiche l'iframe article
+					document.getElementById('articleIframe').src = articlesEntries[this.id].iframe;
+					document.getElementById("articleIframe").style.display = "inline";
+					console.log("Article");
+				} else if (this.classList.contains("videoEntry")) {
+					// On affiche le titre et la description de la video
+					document.getElementById('iframeTitle').innerHTML =  videosEntries[this.id].title;
+					document.getElementById('iframeDescription').innerHTML =  videosEntries[this.id].description;
+					// on affiche l'iframe youtube
+					document.getElementById('youtubeIframe').src = videosEntries[this.id].iframe;
+					document.getElementById("youtubeIframe").style.display = "inline";
+					console.log("Video ");
+				} else if (this.classList.contains("musicEntry")) {
+					// On affiche le titre et la description de la playlist
+					document.getElementById('iframeTitle').innerHTML =  musicsEntries[this.id].title;
+					document.getElementById('iframeDescription').innerHTML =  musicsEntries[this.id].description;
+					// on affiche l'iframe youtube
+					document.getElementById('youtubeIframe').src = musicsEntries[this.id].iframe;
+					document.getElementById("youtubeIframe").style.display = "inline";
+					// on ouvre la liste des titres de la playlist
+					// document.getElementsByClassName("ytp-playlist-menu-button ytp-button")[0].click();
+					console.log("Music");
+				}
+			});
+		});
 
 	</script>
 </body>
