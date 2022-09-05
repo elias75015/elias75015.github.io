@@ -1,0 +1,28 @@
+{
+    "musics": {
+        "playlist1" : {
+            "title" : "Les sons du Brésil",
+            "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidwCNyNNU00L_T_Ss-TrBvk8&showinfo=1",
+            "description" : "La samba du brésil"
+        }
+    },
+    "videos" : {
+        "video1" : {
+            "title" : "Les elections approchent",
+            "iframe": "https://www.youtube.com/embed/iEWWiLqn8s8",
+            "description": "Nous retournons au Brésil en période d'élections"
+        },
+        "video2" : {
+            "title" : "Le dessous des cartes Brésil",
+            "iframe": "https://www.youtube.com/embed/rtNgasjiUuc",
+            "description": "Sortons nos cartes sur le Brésil"
+        }
+    }, 
+    "articles" : {
+        "article1" : {
+            "title" : "Le pangolin Argentin ?",
+            "iframe": "https://www.francetvinfo.fr/sante/maladie/argentine-ce-que-l-on-sait-de-la-pneumonie-d-origine-inconnue-qui-a-deja-fait-trois-morts-dans-une-clinique_5340433.html",
+            "description": "Destination Covid new age"
+        }
+    }
+}
