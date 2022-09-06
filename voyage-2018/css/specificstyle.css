@@ -65,3 +65,15 @@ nav {
   width:auto;
   height:auto;
 }
+
+/* Menu de gauche */
+
+.dl-menuwrapper button:hover,
+.dl-menuwrapper button.dl-active,
+.dl-menuwrapper ul {
+	background: #694d33;
+}
+
+.dl-menuwrapper button {
+	background: #694d33;
+}

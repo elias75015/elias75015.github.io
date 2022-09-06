@@ -6,7 +6,7 @@
 nav {
     background-image: url("../img/americaSite.jpg");
     background-size: 835px 1100px;
-    background-color: #eccd9d;
+    background-color:  #04244D;
 }
 
 
@@ -33,8 +33,8 @@ nav {
     font-family: 'Gloria Hallelujah', cursive;
     text-align: justify;
     text-justify: inter-word;
-    background-color: #ffe7c5;
-    color: #694d33;
+    background-color: #04244D;
+    color: white;
     /*padding-bottom: 100px;*/
   }
 
@@ -42,12 +42,12 @@ nav {
 
 .grandTitre {
     font-family: 'Source Serif Pro', serif;
-    color: #000;
+    color: white;
 }
 
 .titreSpan {
-    background-color: #694d33;
-    color: #eccd9d;
+    background-color: #04244D;
+    color:  #193571;
     padding: 15px;
     font-size: 1.250em;
     letter-spacing: 8px;
@@ -55,8 +55,8 @@ nav {
 
 .mainContent {
   font-family: 'Source Serif Pro', serif;
-  background-color: #694d33;
-  color: #eccd9d;
+  background-color: #04244D;
+  color:  white;
   font-size:1em;
   padding-left: 15px;
   padding-right: 15px;
@@ -64,4 +64,16 @@ nav {
   padding-bottom: 30px;
   width:auto;
   height:auto;
+}
+
+/* Menu de gauche */
+
+.dl-menuwrapper button:hover,
+.dl-menuwrapper button.dl-active,
+.dl-menuwrapper ul {
+	background: #04244D;
+}
+
+.dl-menuwrapper button {
+	background: #04244D;
 }
