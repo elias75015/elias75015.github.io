@@ -7,9 +7,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Blog de voyage - Infos pratiques</title>
 	<meta name="description" content="Blog de voyage de Clara et Elias" />
-	<link rel="shortcut icon" href="img/favicon.ico">
+	<!-- FAVICON.ICO -->
+	<link rel="apple-touch-icon" sizes="180x180" href="./../common/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./../common/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./../common/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="./../common/img/favicon/site.webmanifest">
+	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="../common/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="../common/css/menu.css" />
+	<link rel="stylesheet" type="text/css" href="./css/menu.css" />
 	<link rel="stylesheet" type="text/css" href="../common/css/commonstyle.css" />
 	<link rel="stylesheet" type="text/css" href="./css/specificstyle.css" />
 	<link rel="stylesheet" type="text/css" href="../common/css/medias.css" />
@@ -46,11 +51,22 @@
 		</nav>
 		<article id="mainContent">
 			<div id="headerMedia">
-				<h1 id="iframeTitle" class="grandTitre"></h1>
-				<p id="iframeDescription" class="description"></p>
+				<h1 id="iframeTitle"></h1>
+				<span id="iframeDescription" class="description"></span>
+			</div>
+			<div id="introMedia">
+				<h2> Médias </h2>
+				<br>
+				<p> Les playlists du voyage, des vidéos liées au périple, et des articles ou sites intéressants </p>
+				<br>
+				<p> Bonne consultation ! </p>
+				<br><br>
+				<p> Clara & Elias </p>
 			</div>
 			<iframe id="articleIframe" width='100%' height='100%' src='' allowfullscreen></iframe>
-			<iframe id="youtubeIframe" width='100%' height='100%' src='' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'></iframe>		</article>
+			<iframe id="youtubeIframe" width='100%' height='100%' src='' frameborder='0'
+				allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'></iframe>
+		</article>
 		<div class="component">
 			<!-- Start Nav Structure -->
 			<button class="cn-button" id="cn-button">+</button>
@@ -117,7 +133,7 @@
 				playlistEntry.classList.add("musicEntry");
 				playlistEntry.id = playlist;
 				var playlistLink = document.createElement("a");
-				playlistLink.href="#";
+				playlistLink.href = "#";
 				playlistLink.textContent = musicsEntries[playlist].title;
 				playlistEntry.append(playlistLink);
 				document.getElementById("musicMenu").append(playlistEntry);
@@ -131,7 +147,7 @@
 				videoEntry.classList.add("videoEntry");
 				videoEntry.id = video;
 				var videoLink = document.createElement("a");
-				videoLink.href="#";
+				videoLink.href = "#";
 				videoLink.textContent = videosEntries[video].title;
 				videoEntry.append(videoLink);
 				document.getElementById("videoMenu").append(videoEntry);
@@ -145,7 +161,7 @@
 				articleEntry.classList.add("articleEntry");
 				articleEntry.id = article;
 				var articleLink = document.createElement("a");
-				articleLink.href="#";
+				articleLink.href = "#";
 				articleLink.textContent = articlesEntries[article].title;
 				articleEntry.append(articleLink);
 				document.getElementById("articleMenu").append(articleEntry);
@@ -157,9 +173,10 @@
 
 			// $("articleIframe").hide();
 			// $("musicIframe").hide();
-			
+
 			$(".mediaEntry").click(function (e) {
-				// on vide le titre et la description
+				// on vide le titre et la description et le texte d'intro
+				$('#introMedia').remove();
 				$('#iframeTitle').empty();
 				$('#iframeDescription').empty();
 				// on cache les iframes 
@@ -167,24 +184,24 @@
 				document.getElementById("youtubeIframe").style.display = "none";;
 				if (this.classList.contains("articleEntry")) {
 					// On affiche le titre et la description de l'article
-					document.getElementById('iframeTitle').innerHTML =  articlesEntries[this.id].title;
-					document.getElementById('iframeDescription').innerHTML =  articlesEntries[this.id].description;
+					document.getElementById('iframeTitle').innerHTML = articlesEntries[this.id].title;
+					document.getElementById('iframeDescription').innerHTML = articlesEntries[this.id].description;
 					// on affiche l'iframe article
 					document.getElementById('articleIframe').src = articlesEntries[this.id].iframe;
 					document.getElementById("articleIframe").style.display = "inline";
 					console.log("Article");
 				} else if (this.classList.contains("videoEntry")) {
 					// On affiche le titre et la description de la video
-					document.getElementById('iframeTitle').innerHTML =  videosEntries[this.id].title;
-					document.getElementById('iframeDescription').innerHTML =  videosEntries[this.id].description;
+					document.getElementById('iframeTitle').innerHTML = videosEntries[this.id].title;
+					document.getElementById('iframeDescription').innerHTML = videosEntries[this.id].description;
 					// on affiche l'iframe youtube
 					document.getElementById('youtubeIframe').src = videosEntries[this.id].iframe;
 					document.getElementById("youtubeIframe").style.display = "inline";
 					console.log("Video ");
 				} else if (this.classList.contains("musicEntry")) {
 					// On affiche le titre et la description de la playlist
-					document.getElementById('iframeTitle').innerHTML =  musicsEntries[this.id].title;
-					document.getElementById('iframeDescription').innerHTML =  musicsEntries[this.id].description;
+					document.getElementById('iframeTitle').innerHTML = musicsEntries[this.id].title;
+					document.getElementById('iframeDescription').innerHTML = musicsEntries[this.id].description;
 					// on affiche l'iframe youtube
 					document.getElementById('youtubeIframe').src = musicsEntries[this.id].iframe;
 					document.getElementById("youtubeIframe").style.display = "inline";

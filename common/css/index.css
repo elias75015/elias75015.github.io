@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:600');
-
 body, html {
     height: 100%;
 }
@@ -12,50 +10,18 @@ body, html {
 }
 
 .grandTitre {
-    font-family: 'Source Serif Pro', serif;
     position: absolute;
     left: 0;
     top: 40%;
     width: 100%;
     text-align: center;
-    color: #000;
-}
-
-.titreSpan {
-    background-color: #694d33;
-    color: #eccd9d;
-    padding: 15px;
-    font-size: 1.250em;
-    letter-spacing: 8px;
 }
 
 .mainContent {
-  font-family: 'Source Serif Pro', serif;
-  background-color: #694d33;
-  color: #eccd9d;
-  font-size:1em;
   text-align: justify;
   text-justify: inter-word;
 }
 
 .mainContent h2 {
   text-align: center;
-}
-
-#firstPart {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  width:auto;
-  height:auto;
-}
-
-#secondPart {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  width:auto;
-  height:auto;
 }
