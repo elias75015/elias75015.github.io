@@ -49,6 +49,15 @@
 				<h1 id="iframeTitle" class="grandTitre"></h1>
 				<p id="iframeDescription" class="description"></p>
 			</div>
+			<div id="introMedia">
+				<h2> Médias </h2>
+				<br>
+				<p> Les playlists du voyage, des vidéos liées au périple, et des articles ou sites intéressants </p>
+				<br>
+				<p> Bonne consultation ! </p>
+				<br><br>
+				<p> Clara & Elias </p>
+			</div>
 			<iframe id="articleIframe" width='100%' height='100%' src='' allowfullscreen></iframe>
 			<iframe id="youtubeIframe" width='100%' height='100%' src='' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'></iframe>		</article>
 		<div class="component">
@@ -159,7 +168,8 @@
 			// $("musicIframe").hide();
 			
 			$(".mediaEntry").click(function (e) {
-				// on vide le titre et la description
+				// on vide le titre et la description et le texte d'intro
+				$('#introMedia').remove();
 				$('#iframeTitle').empty();
 				$('#iframeDescription').empty();
 				// on cache les iframes 

@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:600');
+
 /* MENU DE GAUCHE */
 
 nav {
     background-image: url("../img/americaSite.jpg");
+    background-size: 835px 1100px;
+    background-color: #eccd9d;
 }
 
 
@@ -20,4 +25,43 @@ nav {
 #background3 {
     height: 80%;
     background-image: url("../img/backgroundIndex3.jpg");
+}
+
+/* POLICE & FOND */
+
+#mainContent {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: #ffe7c5;
+    color: #694d33;
+    padding-bottom: 100px;
+  }
+
+/* PAGE D'ACCUEIL*/
+
+.grandTitre {
+    font-family: 'Source Serif Pro', serif;
+    color: #000;
+}
+
+.titreSpan {
+    background-color: #694d33;
+    color: #eccd9d;
+    padding: 15px;
+    font-size: 1.250em;
+    letter-spacing: 8px;
+}
+
+.mainContent {
+  font-family: 'Source Serif Pro', serif;
+  background-color: #694d33;
+  color: #eccd9d;
+  font-size:1em;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width:auto;
+  height:auto;
 }

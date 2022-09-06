@@ -7,8 +7,6 @@
 nav {
     grid-column: 1;
     grid-row: 1;
-    background-size: 835px 1100px;
-    background-color: #eccd9d;
 }
 
 /* Petit ecrans */
