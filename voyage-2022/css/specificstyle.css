@@ -77,3 +77,12 @@ nav {
 .dl-menuwrapper button {
 	background: #04244D;
 }
+
+.dl-menuwrapper li > a:after {
+	color: #fff;
+}
+
+.dl-menuwrapper li a {
+	font-weight: 0;
+	color: #fff;
+}
