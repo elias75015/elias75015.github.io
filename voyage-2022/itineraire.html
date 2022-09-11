@@ -114,13 +114,28 @@
                     classout: 'dl-animate-out-4'
                 }
             });
+            smallScreens();
+
             // FIXME : dégueu : on ouvre/ferme/ouvre le menu au chargement de la page
             // pour contourner un probleme de css et de redimensionnement de la page
             // qui introduit une scrollbar sur la fenêtre de la carte
-            $('button.dl-trigger').click();
-            $('button.dl-trigger').click();
+            // $('button.dl-trigger').click();
+            // $('button.dl-trigger').click();
             $('button.dl-trigger').click();
         });
+
+        $(".kmlLayer").click(function (e) {
+            smallScreens();
+        });
+
+        // affiche la page mainCOntent en plein ecran
+        function smallScreens() {
+            if (window.screen.width <= 480) {
+                $('#mainContent').css("display", "block");
+                $('#mainContent').css("gridColumn", "1");
+                $('button.dl-trigger').click();
+            }
+        }
     </script>
 </body>
 

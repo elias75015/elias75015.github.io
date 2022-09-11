@@ -195,11 +195,13 @@
             // hides left nav menu
             $( 'nav' ).hide();
             $( 'nav' ).css("gridColumn", "");
-
-						// Specific for info page - hide the query bar
-						if (document.getElementById("dynatable-search-infoArray")) {
-							$("#dynatable-search-infoArray").hide();
-						}
+			if (window.screen.width <= 812) {
+				$( '#mainContent' ).css("display", "block");
+			} 
+			// Specific for info page - hide the query bar
+			if (document.getElementById("dynatable-search-infoArray")) {
+				$("#dynatable-search-infoArray").hide();
+			}
 
             // puts the article fullscreen
             $( '#mainContent' ).css("gridColumn", "1 / 3");
@@ -213,7 +215,7 @@
             $( '#dl-menu').css( "top", "0px");
             $( '#dl-menu').css( "left", "0px");
 
-            // actions specific to the itinaire.html page
+            // actions specific to the itineraire.html page
             if (this.options.forMap === true) {
                 // trick on the map viewport to adapt the size of the map to the window
                 $( '.ol-viewport').css( "position", "absolute");
@@ -231,13 +233,20 @@
 
             // shows left nav menu on the first grid column
             $( 'nav' ).show();
-            $( 'nav' ).css("gridColumn", "1 / 2");
-						// Specific for info page - show the query bar
-						if (document.getElementById("dynatable-search-infoArray")) {
-							$("#dynatable-search-infoArray").show();
-						}
-            // puts the article Div on the second grid column
-            $( '#mainContent' ).css("gridColumn", "2 / 3");
+			// pour les petits écrans et la page diaporama UNIQUEMENT
+			if (window.screen.width <= 812 && document.getElementById("diapoMenu")) {
+				$( 'nav' ).css("gridColumn", "1 / 3");
+				// on affiche le menu en plein ecran
+				$( '#mainContent' ).css("display", "none");
+			} else {
+				$( 'nav' ).css("gridColumn", "1 / 2");
+				// Specific for info page - show the query bar
+				if (document.getElementById("dynatable-search-infoArray")) {
+					$("#dynatable-search-infoArray").show();
+				}
+				// puts the article Div on the second grid column
+				$( '#mainContent' ).css("gridColumn", "2 / 3");
+			}
 
             // adds the menu button into the nav div
             $( '#dl-menu').appendTo( "nav");
