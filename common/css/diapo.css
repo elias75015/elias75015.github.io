@@ -4,6 +4,44 @@
   }
 
 .splide {
-  width: 90vw;
+  /*width: 90vw;*/
   margin: auto;
+}
+
+/* Petit ecrans */
+@media screen and (max-width:812px) {
+  .splide__slide img {
+    width: auto;
+    height: 60vh;
+  }
+
+  .splide {
+    width: auto;
+    height: 80vh;
+    /* surcharge splide css */
+    max-width: fit-content !important;
+  }
+/*
+  #date {
+    display: none;
+  }
+*/
+}
+
+/* Petit ecrans */
+@media screen and (max-width:480px) {
+  .splide__slide img {
+    width: 80vw;
+    height: auto;
+  }
+
+  .splide {
+    width: 100vw;
+    margin: auto;
+  }
+
+  #date {
+    display: block;
+  }
+
 }
