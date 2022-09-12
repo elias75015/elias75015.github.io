@@ -1,0 +1,55 @@
+html {
+    background-color: rgb(153, 196, 199);
+    color: white;
+}
+article {
+    display: block;
+    margin: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    width: 80vw;
+    text-align: center;
+}
+
+#questionForm {
+    display: none;
+    background-color: rgb(61, 61, 240);;
+}
+
+#reponseFausse {
+    display: none;
+    background-color: rgb(158, 35, 19);;
+}
+
+#reponseVraie {
+    display: none;
+    background-color: rgb(18, 189, 18);;
+}
+
+#headerQuestion {
+    font-weight: bold;
+}
+
+fieldset {
+    background-color: rgb(15, 15, 14);
+}
+
+img {
+    width: 50vw;
+}
+
+@media screen and (max-height: 480px) {
+    img {
+        width: 30vw;
+    }
+    article {
+        padding-top: 0vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    img {
+        width: 80vw;
+    }
+}
