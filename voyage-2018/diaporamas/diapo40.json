@@ -1,0 +1,31 @@
+{
+      "datedebut": "2018-09-24",
+      "datefin": "2018-09-25",
+      "images": {
+            "img1": {
+                  "description": "Princesse Leia ?",
+                  "url": "./img/diaporama/US/diapo40/d401-min.jpg"
+            },
+            "img2": {
+                  "description": "Monument à la gloire des soldats du VietNam",
+                  "url": "./img/diaporama/US/diapo40/d402-min.jpg"
+            },
+            "img3": {
+                  "description": "Capitol Mall, où sont les bureaux de l'administration et des institutions californiennes",
+                  "url": "./img/diaporama/US/diapo40/d403-min.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo40/d404-min.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo40/d405-min.jpg"
+            },
+            "img6": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo40/d406-min.jpg"
+            }
+      },
+      "titre": "Sacramento"
+}

@@ -1,0 +1,87 @@
+{
+      "datedebut": "2018-09-26",
+      "datefin": "2018-09-29",
+      "images": {
+            "img1": {
+                  "description": "Les pieds dans les nuages",
+                  "url": "./img/diaporama/US/diapo42/d421-min.jpg"
+            },
+            "img10": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo42/d4210-min.jpg"
+            },
+            "img11": {
+                  "description": "Castro",
+                  "url": "./img/diaporama/US/diapo42/d4211-min.jpg"
+            },
+            "img12": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo42/d4212-min.jpg"
+            },
+            "img13": {
+                  "description": "Cookie ",
+                  "url": "./img/diaporama/US/diapo42/d4213-min.jpg"
+            },
+            "img14": {
+                  "description": "Chinatown",
+                  "url": "./img/diaporama/US/diapo42/d4214-min.jpg"
+            },
+            "img15": {
+                  "description": "Maisons victoriennes",
+                  "url": "./img/diaporama/US/diapo42/d4215-min.jpg"
+            },
+            "img16": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo42/d4216-min.jpg"
+            },
+            "img17": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo42/d4217-min.jpg"
+            },
+            "img18": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo42/d4218-min.jpg"
+            },
+            "img19": {
+                  "description": "Arc en ciel",
+                  "url": "./img/diaporama/US/diapo42/d4219-min.jpg"
+            },
+            "img2": {
+                  "description": "Cable Car",
+                  "url": "./img/diaporama/US/diapo42/d422-min.jpg"
+            },
+            "img20": {
+                  "description": "AT&T Park",
+                  "url": "./img/diaporama/US/diapo42/d4220-min.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo42/d423-min.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo42/d424-min.jpg"
+            },
+            "img5": {
+                  "description": "Vue sur la prison-musée d'Alcatraz",
+                  "url": "./img/diaporama/US/diapo42/d425-min.jpg"
+            },
+            "img6": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo42/d426-min.jpg"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo42/d427-min.jpg"
+            },
+            "img8": {
+                  "description": "Ça fait les cuisses !",
+                  "url": "./img/diaporama/US/diapo42/d428-min.jpg"
+            },
+            "img9": {
+                  "description": "Au MOMA",
+                  "url": "./img/diaporama/US/diapo42/d429-min.jpg"
+            }
+      },
+      "titre": "San Francisco"
+}

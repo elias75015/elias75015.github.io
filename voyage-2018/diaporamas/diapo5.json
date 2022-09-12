@@ -1,0 +1,43 @@
+{
+      "datedebut": "2018-06-19",
+      "datefin": "2018-06-21",
+      "images": {
+            "img1": {
+                  "description": "Tube de l'été (bus de Curitiba)",
+                  "url": "./img/diaporama/AmSud/diapo5/d51.jpg"
+            },
+            "img2": {
+                  "description": "Jardin botanique de Curitiba",
+                  "url": "./img/diaporama/AmSud/diapo5/d52.jpg"
+            },
+            "img3": {
+                  "description": "L'oasis au coeur de la ville",
+                  "url": "./img/diaporama/AmSud/diapo5/d53.jpg"
+            },
+            "img4": {
+                  "description": "Un pont et de l'eau",
+                  "url": "./img/diaporama/AmSud/diapo5/d54.JPG"
+            },
+            "img5": {
+                  "description": "Side-cars",
+                  "url": "./img/diaporama/AmSud/diapo5/d55.jpg"
+            },
+            "img6": {
+                  "description": "Une des places de Curitiba",
+                  "url": "./img/diaporama/AmSud/diapo5/d56.jpg"
+            },
+            "img7": {
+                  "description": "Avec Gabriel pour le match des bleus ! (Matuidi Ailier gauche ?!)",
+                  "url": "./img/diaporama/AmSud/diapo5/d57.jpg"
+            },
+            "img8": {
+                  "description": "Plus vieille rue de Curitiba",
+                  "url": "./img/diaporama/AmSud/diapo5/d58.jpg"
+            },
+            "img9": {
+                  "description": "Toucan cage",
+                  "url": "./img/diaporama/AmSud/diapo5/d59.jpg"
+            }
+      },
+      "titre": "Curitiba"
+}

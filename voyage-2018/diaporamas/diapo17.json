@@ -1,0 +1,63 @@
+{
+      "datedebut": "2018-07-23",
+      "datefin": "2018-07-26",
+      "images": {
+            "img1": {
+                  "description": "Vale do Capao",
+                  "url": "./img/diaporama/AmSud/diapo17/d171.JPG"
+            },
+            "img10": {
+                  "description": "Vertigo.",
+                  "url": "./img/diaporama/AmSud/diapo17/d1710.JPG"
+            },
+            "img11": {
+                  "description": "Rayssa, Marc et Christine",
+                  "url": "./img/diaporama/AmSud/diapo17/d1711.jpg"
+            },
+            "img12": {
+                  "description": "I believe i can fly.",
+                  "url": "./img/diaporama/AmSud/diapo17/d1712.JPG"
+            },
+            "img13": {
+                  "description": "El condor pasa.",
+                  "url": "./img/diaporama/AmSud/diapo17/d1713.jpg"
+            },
+            "img14": {
+                  "description": "Cimetière de chaussures en fin de randonnée",
+                  "url": "./img/diaporama/AmSud/diapo17/d1714.jpg"
+            },
+            "img2": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo17/d172.jpg"
+            },
+            "img3": {
+                  "description": "Mer rouge. Riche en fer.",
+                  "url": "./img/diaporama/AmSud/diapo17/d173.JPG"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo17/d174.jpg"
+            },
+            "img5": {
+                  "description": "Direction le Mordor. Morro do Castelo",
+                  "url": "./img/diaporama/AmSud/diapo17/d175.JPG"
+            },
+            "img6": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo17/d176.JPG"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo17/d177.JPG"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo17/d178.jpg"
+            },
+            "img9": {
+                  "description": "Cahoeirao",
+                  "url": "./img/diaporama/AmSud/diapo17/d179.JPG"
+            }
+      },
+      "titre": "Chapada Diamantina"
+}

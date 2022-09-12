@@ -1,0 +1,67 @@
+{
+      "datedebut": "2018-08-07",
+      "datefin": "2018-08-09",
+      "images": {
+            "img1": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo20/d201.jpg"
+            },
+            "img10": {
+                  "description": "Junior, je plus jeune des deux guides",
+                  "url": "./img/diaporama/AmSud/diapo20/d2010.jpg"
+            },
+            "img11": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo20/d2011.jpg"
+            },
+            "img12": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo20/d2012.jpg"
+            },
+            "img13": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo20/d2013.jpg"
+            },
+            "img14": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo20/d2014.jpg"
+            },
+            "img15": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo20/d2015.jpg"
+            },
+            "img2": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo20/d202.jpg"
+            },
+            "img3": {
+                  "description": "Pêche aux piranhas",
+                  "url": "./img/diaporama/AmSud/diapo20/d203.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo20/d204.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo20/d205.jpg"
+            },
+            "img6": {
+                  "description": "Le fruit de la pêche",
+                  "url": "./img/diaporama/AmSud/diapo20/d206.jpg"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo20/d207.jpg"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo20/d208.jpg"
+            },
+            "img9": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo20/d209.jpg"
+            }
+      },
+      "titre": "Amazonie"
+}

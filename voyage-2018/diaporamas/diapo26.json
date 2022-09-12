@@ -1,0 +1,43 @@
+{
+      "datedebut": "2018-09-02",
+      "datefin": "2018-09-04",
+      "images": {
+            "img1": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo26/d261.jpg"
+            },
+            "img2": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo26/d262.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo26/d263.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo26/d264.jpg"
+            },
+            "img5": {
+                  "description": "Clara et son ami imaginaire",
+                  "url": "./img/diaporama/US/diapo26/d265.jpg"
+            },
+            "img6": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo26/d266.jpg"
+            },
+            "img7": {
+                  "description": "Ici, on range son vélo à l'avant du bus",
+                  "url": "./img/diaporama/US/diapo26/d267.jpg"
+            },
+            "img8": {
+                  "description": "Bain public dans la rivière",
+                  "url": "./img/diaporama/US/diapo26/d268.jpg"
+            },
+            "img9": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo26/d269.jpg"
+            }
+      },
+      "titre": "Austin"
+}

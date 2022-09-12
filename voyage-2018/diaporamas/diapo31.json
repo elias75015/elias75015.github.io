@@ -1,0 +1,39 @@
+{
+      "datedebut": "2018-09-10",
+      "datefin": "2018-09-12",
+      "images": {
+            "img1": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo31/d311-min.jpg"
+            },
+            "img2": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo31/d312-min.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo31/d313-min.jpg"
+            },
+            "img4": {
+                  "description": "Les temples, ilots de roche",
+                  "url": "./img/diaporama/US/diapo31/d314-min.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo31/d315-min.jpg"
+            },
+            "img6": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo31/d316-min.jpg"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo31/d317-min.jpg"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo31/d318-min.jpg"
+            }
+      },
+      "titre": "Grand Canyon"
+}

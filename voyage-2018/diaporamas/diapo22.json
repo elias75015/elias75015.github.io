@@ -1,0 +1,55 @@
+{
+      "datedebut": "2018-08-21",
+      "datefin": "2018-08-24",
+      "images": {
+            "img1": {
+                  "description": "Marudá",
+                  "url": "./img/diaporama/AmSud/diapo22/d221.jpg"
+            },
+            "img10": {
+                  "description": "Se la couler douce ",
+                  "url": "./img/diaporama/AmSud/diapo22/d2210.jpg"
+            },
+            "img11": {
+                  "description": "Chien ensable",
+                  "url": "./img/diaporama/AmSud/diapo22/d2211.jpg"
+            },
+            "img12": {
+                  "description": "Touareg brésilienne",
+                  "url": "./img/diaporama/AmSud/diapo22/d2212.jpg"
+            },
+            "img2": {
+                  "description": "Seul moyen de locomotion de l'ile",
+                  "url": "./img/diaporama/AmSud/diapo22/d222.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo22/d223.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo22/d224.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo22/d225.jpg"
+            },
+            "img6": {
+                  "description": "A marée haute, on prend une barque",
+                  "url": "./img/diaporama/AmSud/diapo22/d226.jpg"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo22/d227.jpg"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo22/d228.jpg"
+            },
+            "img9": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo22/d229.jpg"
+            }
+      },
+      "titre": "Algodoal"
+}

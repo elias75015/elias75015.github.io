@@ -1,0 +1,31 @@
+{
+      "datedebut": "2018-06-30",
+      "datefin": "2018-07-02",
+      "images": {
+            "img1": {
+                  "description": "Festa junina",
+                  "url": "./img/diaporama/AmSud/diapo9/d91.jpg"
+            },
+            "img2": {
+                  "description": "Préparation de sushis et makis",
+                  "url": "./img/diaporama/AmSud/diapo9/d92.jpg"
+            },
+            "img3": {
+                  "description": "Miam !",
+                  "url": "./img/diaporama/AmSud/diapo9/d93.jpeg"
+            },
+            "img4": {
+                  "description": "Festa junina de la famille de Fernanda",
+                  "url": "./img/diaporama/AmSud/diapo9/d94.jpeg"
+            },
+            "img5": {
+                  "description": "Festa junina",
+                  "url": "./img/diaporama/AmSud/diapo9/d95.jpeg"
+            },
+            "img6": {
+                  "description": "Chez Fernanda",
+                  "url": "./img/diaporama/AmSud/diapo9/d96.jpeg"
+            }
+      },
+      "titre": "Sao Roque"
+}

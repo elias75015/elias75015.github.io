@@ -1,0 +1,31 @@
+{
+      "datedebut": "2018-09-10",
+      "datefin": "2018-09-10",
+      "images": {
+            "img1": {
+                  "description": "Ah qu'est-ce qu'on est serrés, au fond de ce canyon !",
+                  "url": "./img/diaporama/US/diapo30/d301-min.jpg"
+            },
+            "img2": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo30/d302-min.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo30/d303-min.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo30/d304-min.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo30/d305-min.jpg"
+            },
+            "img6": {
+                  "description": "Une sortie étroite",
+                  "url": "./img/diaporama/US/diapo30/d306-min.jpg"
+            }
+      },
+      "titre": "Antelope Canyon"
+}

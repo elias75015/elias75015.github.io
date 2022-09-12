@@ -1,0 +1,59 @@
+{
+      "datedebut": "2018-09-17",
+      "datefin": "2018-09-19",
+      "images": {
+            "img1": {
+                  "description": "Zabriskie point",
+                  "url": "./img/diaporama/US/diapo36/d361-min.jpg"
+            },
+            "img10": {
+                  "description": "Gemini cricket ?! (copyright Thomas)",
+                  "url": "./img/diaporama/US/diapo36/d3610-min.jpg"
+            },
+            "img11": {
+                  "description": "Artist Palet",
+                  "url": "./img/diaporama/US/diapo36/d3611-min.jpg"
+            },
+            "img12": {
+                  "description": "Le dernier français à avoir gagné le Tour de France",
+                  "url": "./img/diaporama/US/diapo36/d3612-min.jpg"
+            },
+            "img13": {
+                  "description": "Ancienne mine à Rhyolite",
+                  "url": "./img/diaporama/US/diapo36/d3613-min.jpg"
+            },
+            "img2": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo36/d362-min.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo36/d363-min.jpg"
+            },
+            "img4": {
+                  "description": "Dante's view",
+                  "url": "./img/diaporama/US/diapo36/d364-min.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo36/d365-min.jpg"
+            },
+            "img6": {
+                  "description": "Voltige dans le golden canyon",
+                  "url": "./img/diaporama/US/diapo36/d366-min.jpg"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo36/d367-min.jpg"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo36/d368-min.jpg"
+            },
+            "img9": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo36/d369-min.jpg"
+            }
+      },
+      "titre": "Death Valley"
+}

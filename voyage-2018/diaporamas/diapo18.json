@@ -1,0 +1,39 @@
+{
+      "datedebut": "2018-07-28",
+      "datefin": "2018-07-30",
+      "images": {
+            "img1": {
+                  "description": "La linda Olinda",
+                  "url": "./img/diaporama/AmSud/diapo18/d1.jpg"
+            },
+            "img2": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo18/d2.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo18/d3.jpg"
+            },
+            "img4": {
+                  "description": "En haut d'Olinda",
+                  "url": "./img/diaporama/AmSud/diapo18/d4.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo18/d5.jpg"
+            },
+            "img6": {
+                  "description": "Recife",
+                  "url": "./img/diaporama/AmSud/diapo18/d6.jpg"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo18/d7.jpg"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo18/d8.jpg"
+            }
+      },
+      "titre": "Recife et Olinda"
+}

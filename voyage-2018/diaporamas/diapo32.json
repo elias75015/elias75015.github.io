@@ -1,0 +1,51 @@
+{
+      "datedebut": "2018-09-12",
+      "datefin": "2018-09-14",
+      "images": {
+            "img1": {
+                  "description": "Avec Clara",
+                  "url": "./img/diaporama/US/diapo32/d321-min.jpg"
+            },
+            "img10": {
+                  "description": "Oups..",
+                  "url": "./img/diaporama/US/diapo32/d3210-min.jpg"
+            },
+            "img11": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo32/d3211-min.jpg"
+            },
+            "img2": {
+                  "description": "Sans Clara",
+                  "url": "./img/diaporama/US/diapo32/d322-min.jpg"
+            },
+            "img3": {
+                  "description": "Duel au sommet",
+                  "url": "./img/diaporama/US/diapo32/d323-min.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo32/d324-min.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo32/d325-min.jpg"
+            },
+            "img6": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo32/d326-min.jpg"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo32/d327-min.jpg"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo32/d328-min.jpg"
+            },
+            "img9": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo32/d329-min.jpg"
+            }
+      },
+      "titre": "Bryce Canyon"
+}

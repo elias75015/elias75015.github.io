@@ -1,0 +1,55 @@
+{
+      "datedebut": "2018-07-31",
+      "datefin": "2018-08-03",
+      "images": {
+            "img1": {
+                  "description": "Roche sédimentaire de bord de mer",
+                  "url": "./img/diaporama/AmSud/diapo19/d191.jpg"
+            },
+            "img10": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo19/d1910.jpg"
+            },
+            "img11": {
+                  "description": "De la foret morte",
+                  "url": "./img/diaporama/AmSud/diapo19/d1911.jpg"
+            },
+            "img12": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo19/d1912.jpg"
+            },
+            "img2": {
+                  "description": "Ventilateurs",
+                  "url": "./img/diaporama/AmSud/diapo19/d192.jpg"
+            },
+            "img3": {
+                  "description": "Ce macaque nous singe",
+                  "url": "./img/diaporama/AmSud/diapo19/d193.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo19/d194.jpg"
+            },
+            "img5": {
+                  "description": "Eau rouge, ferumineuse",
+                  "url": "./img/diaporama/AmSud/diapo19/d195.jpg"
+            },
+            "img6": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo19/d196.jpg"
+            },
+            "img7": {
+                  "description": "Petit problème de pression",
+                  "url": "./img/diaporama/AmSud/diapo19/d197.jpg"
+            },
+            "img8": {
+                  "description": "Montés sur échasses",
+                  "url": "./img/diaporama/AmSud/diapo19/d198.jpg"
+            },
+            "img9": {
+                  "description": "Kite sur lagune",
+                  "url": "./img/diaporama/AmSud/diapo19/d199.jpg"
+            }
+      },
+      "titre": "Lencois Maranhenses"
+}

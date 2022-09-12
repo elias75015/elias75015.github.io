@@ -1,0 +1,39 @@
+{
+      "datedebut": "2018-07-07",
+      "datefin": "2018-07-09",
+      "images": {
+            "img1": {
+                  "description": "Les rues de Paraty",
+                  "url": "./img/diaporama/AmSud/diapo12/d121.JPG"
+            },
+            "img2": {
+                  "description": "Le sauveteur acrobate de la cascade Tobogá",
+                  "url": "./img/diaporama/AmSud/diapo12/d122.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo12/d123.JPG"
+            },
+            "img4": {
+                  "description": "Les rues de Paraty",
+                  "url": "./img/diaporama/AmSud/diapo12/d124.JPG"
+            },
+            "img5": {
+                  "description": "L'éclairage public décoré",
+                  "url": "./img/diaporama/AmSud/diapo12/d125.JPG"
+            },
+            "img6": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo12/d126.JPG"
+            },
+            "img7": {
+                  "description": "Les collines verdoyantes de mata atlantica",
+                  "url": "./img/diaporama/AmSud/diapo12/d127.JPG"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo12/d128.JPG"
+            }
+      },
+      "titre": "Paraty"
+}

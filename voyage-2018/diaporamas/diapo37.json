@@ -1,0 +1,51 @@
+{
+      "datedebut": "2018-09-19",
+      "datefin": "2018-09-19",
+      "images": {
+            "img1": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo37/d371-min.jpg"
+            },
+            "img10": {
+                  "description": "Maison à vendre",
+                  "url": "./img/diaporama/US/diapo37/d3710-min.jpg"
+            },
+            "img11": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo37/d3711-min.jpg"
+            },
+            "img2": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo37/d372-min.jpg"
+            },
+            "img3": {
+                  "description": "Corbillard sur ressorts",
+                  "url": "./img/diaporama/US/diapo37/d373-min.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo37/d374-min.jpg"
+            },
+            "img5": {
+                  "description": "Monoprix ",
+                  "url": "./img/diaporama/US/diapo37/d375-min.jpg"
+            },
+            "img6": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo37/d376-min.jpg"
+            },
+            "img7": {
+                  "description": "Gare",
+                  "url": "./img/diaporama/US/diapo37/d377-min.jpg"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo37/d378-min.jpg"
+            },
+            "img9": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo37/d379-min.jpg"
+            }
+      },
+      "titre": "Bodie"
+}

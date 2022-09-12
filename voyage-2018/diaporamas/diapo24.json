@@ -1,0 +1,59 @@
+{
+      "datedebut": "2018-08-27",
+      "datefin": "2018-09-30",
+      "images": {
+            "img1": {
+                  "description": "Retour à la maison !",
+                  "url": "./img/diaporama/US/diapo24/d241.jpg"
+            },
+            "img10": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo24/d2410.jpg"
+            },
+            "img11": {
+                  "description": "Dans les bayous",
+                  "url": "./img/diaporama/US/diapo24/d2411.jpg"
+            },
+            "img12": {
+                  "description": "Polo Lacoste",
+                  "url": "./img/diaporama/US/diapo24/d2412.jpg"
+            },
+            "img13": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo24/d2413.jpg"
+            },
+            "img2": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo24/d242.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo24/d243.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo24/d244.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo24/d245.jpg"
+            },
+            "img6": {
+                  "description": "Jeanne d'arc",
+                  "url": "./img/diaporama/US/diapo24/d246.jpg"
+            },
+            "img7": {
+                  "description": "Au city park",
+                  "url": "./img/diaporama/US/diapo24/d247.jpg"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo24/d248.jpg"
+            },
+            "img9": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo24/d249.jpg"
+            }
+      },
+      "titre": "Nouvelle Orléans"
+}

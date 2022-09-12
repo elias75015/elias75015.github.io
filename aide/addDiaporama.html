@@ -21,6 +21,8 @@
     <br />
     Numero du diaporama: <input id="numDiapo"></input>
     <br />
+    Titre du diaporama: <input id="titreDiapo"></input>
+    <br />
     Date de début du diaporama : <input type="date" id="dateDebut"></input>
     <br />
     Date de fin du diaporama : <input type="date" id="dateFin"></input>
@@ -184,6 +186,7 @@
       jsonDiaporama.images = {};
       var region = document.querySelector('input[name="diapoRegion"]:checked').value;
       var numDiapo = document.getElementById("numDiapo").value;
+      jsonDiaporama.titre = document.getElementById("titreDiapo").value;
       jsonDiaporama.datedebut = document.getElementById("dateDebut").value;
       jsonDiaporama.datefin = document.getElementById("dateFin").value;
       var nbPhotos = document.getElementById("selectNbPhotos").value;

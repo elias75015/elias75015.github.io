@@ -1,0 +1,47 @@
+{
+      "datedebut": "2018-09-04",
+      "datefin": "2018-09-06",
+      "images": {
+            "img1": {
+                  "description": "Puits de...puits de quoi ?",
+                  "url": "./img/diaporama/US/diapo27/d271.jpg"
+            },
+            "img10": {
+                  "description": "Ranch sur une belle route du Colorado.",
+                  "url": "./img/diaporama/US/diapo27/d2710.jpg"
+            },
+            "img2": {
+                  "description": "Santa Fe",
+                  "url": "./img/diaporama/US/diapo27/d272.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo27/d273.jpg"
+            },
+            "img4": {
+                  "description": "Les écussons des familles historiques de la ville",
+                  "url": "./img/diaporama/US/diapo27/d274.jpg"
+            },
+            "img5": {
+                  "description": "Escudo de los Gonzalez !",
+                  "url": "./img/diaporama/US/diapo27/d275.jpg"
+            },
+            "img6": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo27/d276.jpg"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo27/d277.jpg"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo27/d278.jpg"
+            },
+            "img9": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo27/d279.jpg"
+            }
+      },
+      "titre": "Santa Fe"
+}

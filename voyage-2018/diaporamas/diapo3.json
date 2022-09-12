@@ -1,0 +1,39 @@
+{
+      "datedebut": "2018-06-15",
+      "datefin": "2018-06-18",
+      "images": {
+            "img1": {
+                  "description": "Churrascaria en famille",
+                  "url": "./img/diaporama/AmSud/diapo3/d31.JPG"
+            },
+            "img2": {
+                  "description": "Danse traditionnelle des Gauchos",
+                  "url": "./img/diaporama/AmSud/diapo3/d32.JPG"
+            },
+            "img3": {
+                  "description": "Clara capturant Porto-Alegre",
+                  "url": "./img/diaporama/AmSud/diapo3/d33.jpg"
+            },
+            "img4": {
+                  "description": "Bong, le sage.",
+                  "url": "./img/diaporama/AmSud/diapo3/d34.jpg"
+            },
+            "img5": {
+                  "description": "Une autre vue",
+                  "url": "./img/diaporama/AmSud/diapo3/d35.JPG"
+            },
+            "img6": {
+                  "description": "Pedro et Kia, le plus jeune des deux chiens",
+                  "url": "./img/diaporama/AmSud/diapo3/d36.JPG"
+            },
+            "img7": {
+                  "description": "Fin de journée sur Porto-Alegre",
+                  "url": "./img/diaporama/AmSud/diapo3/d37.JPG"
+            },
+            "img8": {
+                  "description": "Clara sur de la samba",
+                  "url": "./img/diaporama/AmSud/diapo3/d38.jpg"
+            }
+      },
+      "titre": "Porto Alegre"
+}

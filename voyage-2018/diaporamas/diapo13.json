@@ -1,0 +1,47 @@
+{
+      "datedebut": "2018-07-09",
+      "datefin": "2018-07-13",
+      "images": {
+            "img1": {
+                  "description": "Ipanema ",
+                  "url": "./img/diaporama/AmSud/diapo13/d131.jpg"
+            },
+            "img10": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo13/d140.jpg"
+            },
+            "img2": {
+                  "description": "Escadeira Selarón",
+                  "url": "./img/diaporama/AmSud/diapo13/d132.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo13/d133.jpg"
+            },
+            "img4": {
+                  "description": "Lagoa",
+                  "url": "./img/diaporama/AmSud/diapo13/d134.jpg"
+            },
+            "img5": {
+                  "description": "Dans les mains du Christ",
+                  "url": "./img/diaporama/AmSud/diapo13/d135.JPG"
+            },
+            "img6": {
+                  "description": "Jardim Botanico",
+                  "url": "./img/diaporama/AmSud/diapo13/d136.jpg"
+            },
+            "img7": {
+                  "description": "Maracana : en situation sur la surface technique",
+                  "url": "./img/diaporama/AmSud/diapo13/d137.jpg"
+            },
+            "img8": {
+                  "description": "Un mico",
+                  "url": "./img/diaporama/AmSud/diapo13/d138.JPG"
+            },
+            "img9": {
+                  "description": "Deux micos",
+                  "url": "./img/diaporama/AmSud/diapo13/d139.JPG"
+            }
+      },
+      "titre": "Rio de Janeiro"
+}

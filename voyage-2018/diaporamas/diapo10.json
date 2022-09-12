@@ -1,0 +1,47 @@
+{
+      "datedebut": "2018-07-02",
+      "datefin": "2018-07-05",
+      "images": {
+            "img1": {
+                  "description": "Petit verre sur le front de mer",
+                  "url": "./img/diaporama/AmSud/diapo10/d101.jpg"
+            },
+            "img10": {
+                  "description": "Clara à la plage",
+                  "url": "./img/diaporama/AmSud/diapo10/d1010.jpg"
+            },
+            "img2": {
+                  "description": "Temps bof bof...",
+                  "url": "./img/diaporama/AmSud/diapo10/d102.jpg"
+            },
+            "img3": {
+                  "description": "Front de mer de Guaruja",
+                  "url": "./img/diaporama/AmSud/diapo10/d103.jpg"
+            },
+            "img4": {
+                  "description": "Petit marché local",
+                  "url": "./img/diaporama/AmSud/diapo10/d104.jpg"
+            },
+            "img5": {
+                  "description": "Pasteis au marché",
+                  "url": "./img/diaporama/AmSud/diapo10/d105.jpg"
+            },
+            "img6": {
+                  "description": "Vue avec temps moche",
+                  "url": "./img/diaporama/AmSud/diapo10/d106.jpg"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo10/d107.jpg"
+            },
+            "img8": {
+                  "description": "Vue avec temps beau",
+                  "url": "./img/diaporama/AmSud/diapo10/d108.jpg"
+            },
+            "img9": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo10/d109.jpg"
+            }
+      },
+      "titre": "Guaruja"
+}

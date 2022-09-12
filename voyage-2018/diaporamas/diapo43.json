@@ -1,0 +1,71 @@
+{
+      "datedebut": "2018-09-29",
+      "datefin": "2018-10-02",
+      "images": {
+            "img1": {
+                  "description": "Pélerinage en ville sainte",
+                  "url": "./img/diaporama/US/diapo43/d431-min.jpg"
+            },
+            "img10": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo43/d4310-min.jpg"
+            },
+            "img11": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo43/d4311-min.jpg"
+            },
+            "img12": {
+                  "description": "Dinner à Pismo Beach",
+                  "url": "./img/diaporama/US/diapo43/d4312-min.jpg"
+            },
+            "img13": {
+                  "description": "Pismo Beach et ses oiseaux",
+                  "url": "./img/diaporama/US/diapo43/d4313-min.jpg"
+            },
+            "img14": {
+                  "description": "Télé à la pompe",
+                  "url": "./img/diaporama/US/diapo43/d4314-min.jpg"
+            },
+            "img15": {
+                  "description": "Ca te barbera !",
+                  "url": "./img/diaporama/US/diapo43/d4315-min.jpg"
+            },
+            "img16": {
+                  "description": "Plage de Santa Barbara",
+                  "url": "./img/diaporama/US/diapo43/d4316-min.jpg"
+            },
+            "img2": {
+                  "description": "San José",
+                  "url": "./img/diaporama/US/diapo43/d432-min.jpg"
+            },
+            "img3": {
+                  "description": "Chez Intel...pas très d'accord avec ça.",
+                  "url": "./img/diaporama/US/diapo43/d433-min.jpg"
+            },
+            "img4": {
+                  "description": "La cote",
+                  "url": "./img/diaporama/US/diapo43/d434-min.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo43/d435-min.jpg"
+            },
+            "img6": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo43/d436-min.jpg"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo43/d437-min.jpg"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo43/d438-min.jpg"
+            },
+            "img9": {
+                  "description": "Duels d'élephants de mer",
+                  "url": "./img/diaporama/US/diapo43/d439-min.jpg"
+            }
+      },
+      "titre": "Pacific Highway"
+}

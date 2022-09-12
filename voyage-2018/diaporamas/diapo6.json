@@ -1,0 +1,71 @@
+{
+      "datedebut": "2018-06-21",
+      "datefin": "2018-06-24",
+      "images": {
+            "img1": {
+                  "description": "Vol stationnaire.",
+                  "url": "./img/diaporama/AmSud/diapo6/d61.JPG"
+            },
+            "img10": {
+                  "description": "Vue sur la jungle Atlantique",
+                  "url": "./img/diaporama/AmSud/diapo6/d610.jpg"
+            },
+            "img11": {
+                  "description": "La bouche pleine...",
+                  "url": "./img/diaporama/AmSud/diapo6/d611.JPG"
+            },
+            "img12": {
+                  "description": "Chemin de fer à flanc de montagne",
+                  "url": "./img/diaporama/AmSud/diapo6/d612.JPG"
+            },
+            "img13": {
+                  "description": "Clara Croft",
+                  "url": "./img/diaporama/AmSud/diapo6/d613.jpg"
+            },
+            "img14": {
+                  "description": "Centre de Morretes",
+                  "url": "./img/diaporama/AmSud/diapo6/d614.JPG"
+            },
+            "img15": {
+                  "description": "Le train fou",
+                  "url": "./img/diaporama/AmSud/diapo6/d615.JPG"
+            },
+            "img16": {
+                  "description": "CloudPiercer",
+                  "url": "./img/diaporama/AmSud/diapo6/d616.JPG"
+            },
+            "img2": {
+                  "description": "Première randonnée",
+                  "url": "./img/diaporama/AmSud/diapo6/d62.JPG"
+            },
+            "img3": {
+                  "description": "Dans les nuages...",
+                  "url": "./img/diaporama/AmSud/diapo6/d63.JPG"
+            },
+            "img4": {
+                  "description": "Selfie sur pont suspendu",
+                  "url": "./img/diaporama/AmSud/diapo6/d64.jpg"
+            },
+            "img5": {
+                  "description": "Chemin de fer dans la brume",
+                  "url": "./img/diaporama/AmSud/diapo6/d65.JPG"
+            },
+            "img6": {
+                  "description": "Sanctuaire de la vierge du Candeado",
+                  "url": "./img/diaporama/AmSud/diapo6/d66.JPG"
+            },
+            "img7": {
+                  "description": "Tic ou tac ?",
+                  "url": "./img/diaporama/AmSud/diapo6/d67.JPG"
+            },
+            "img8": {
+                  "description": "Randonnée jour 2",
+                  "url": "./img/diaporama/AmSud/diapo6/d68.JPG"
+            },
+            "img9": {
+                  "description": "Au top",
+                  "url": "./img/diaporama/AmSud/diapo6/d69.JPG"
+            }
+      },
+      "titre": "Morretes"
+}

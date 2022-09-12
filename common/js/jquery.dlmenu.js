@@ -195,7 +195,7 @@
             // hides left nav menu
             $( 'nav' ).hide();
             $( 'nav' ).css("gridColumn", "");
-			if (window.screen.width <= 812) {
+			if (window.screen.width <= 480) {
 				$( '#mainContent' ).css("display", "block");
 			} 
 			// Specific for info page - hide the query bar
@@ -234,7 +234,7 @@
             // shows left nav menu on the first grid column
             $( 'nav' ).show();
 			// pour les petits écrans et la page diaporama UNIQUEMENT
-			if (window.screen.width <= 812 && document.getElementById("diapoMenu")) {
+			if (window.screen.width <= 480 && document.getElementById("diapoMenu")) {
 				$( 'nav' ).css("gridColumn", "1 / 3");
 				// on affiche le menu en plein ecran
 				$( '#mainContent' ).css("display", "none");

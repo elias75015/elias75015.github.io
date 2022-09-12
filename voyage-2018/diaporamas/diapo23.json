@@ -1,0 +1,67 @@
+{
+      "datedebut": "2018-08-06",
+      "datefin": "2018-08-26",
+      "images": {
+            "img1": {
+                  "description": "Centre de Bélem",
+                  "url": "./img/diaporama/AmSud/diapo23/d231.jpg"
+            },
+            "img10": {
+                  "description": "Churrasco, match retour",
+                  "url": "./img/diaporama/AmSud/diapo23/d2310.jpg"
+            },
+            "img11": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo23/d2311.jpg"
+            },
+            "img12": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo23/d2312.jpg"
+            },
+            "img13": {
+                  "description": "Avec Marcus",
+                  "url": "./img/diaporama/AmSud/diapo23/d2313.jpg"
+            },
+            "img14": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo23/d2314.jpg"
+            },
+            "img15": {
+                  "description": "Merci Thiago !",
+                  "url": "./img/diaporama/AmSud/diapo23/d2315.jpg"
+            },
+            "img2": {
+                  "description": "Au jardin botanique",
+                  "url": "./img/diaporama/AmSud/diapo23/d232.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo23/d233.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo23/d234.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo23/d235.jpg"
+            },
+            "img6": {
+                  "description": "Les docks",
+                  "url": "./img/diaporama/AmSud/diapo23/d236.jpg"
+            },
+            "img7": {
+                  "description": "Marché Vero Peso",
+                  "url": "./img/diaporama/AmSud/diapo23/d237.jpg"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo23/d238.jpg"
+            },
+            "img9": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo23/d239.jpg"
+            }
+      },
+      "titre": "Bélem"
+}

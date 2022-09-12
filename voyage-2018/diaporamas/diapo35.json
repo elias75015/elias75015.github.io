@@ -1,0 +1,59 @@
+{
+      "datedebut": "2018-10-16",
+      "datefin": "2018-10-17",
+      "images": {
+            "img1": {
+                  "description": "Sur le Strip..",
+                  "url": "./img/diaporama/US/diapo35/d351-min.jpg"
+            },
+            "img10": {
+                  "description": "Au bout de la nuit sur Fremont Street",
+                  "url": "./img/diaporama/US/diapo35/d3510-min.jpg"
+            },
+            "img11": {
+                  "description": "Bon, de jour ça fait un peu carton pâte",
+                  "url": "./img/diaporama/US/diapo35/d3511-min.jpg"
+            },
+            "img12": {
+                  "description": "Le Mandalay Bay, d'où un tireur fou a fait beaucoup de victimes dans un attentat l'année dernière...",
+                  "url": "./img/diaporama/US/diapo35/d3512-min.jpg"
+            },
+            "img13": {
+                  "description": "La Trump Tower, presque aussi orange que son propriétaire",
+                  "url": "./img/diaporama/US/diapo35/d3513-min.jpg"
+            },
+            "img2": {
+                  "description": "Place Saint-Marc-tificielle",
+                  "url": "./img/diaporama/US/diapo35/d352-min.jpg"
+            },
+            "img3": {
+                  "description": "Pont du Rialtoc",
+                  "url": "./img/diaporama/US/diapo35/d353-min.jpg"
+            },
+            "img4": {
+                  "description": "Bienvenue dans le monde merveilleux des clichës",
+                  "url": "./img/diaporama/US/diapo35/d354-min.jpg"
+            },
+            "img5": {
+                  "description": "Jouer aux machines à sous dans Paris ? Oui, à Las Vegas !",
+                  "url": "./img/diaporama/US/diapo35/d355-min.jpg"
+            },
+            "img6": {
+                  "description": "On descend la rue Mouffetard, on remonte les Gobelins et...ah non",
+                  "url": "./img/diaporama/US/diapo35/d356-min.jpg"
+            },
+            "img7": {
+                  "description": "New-York x2",
+                  "url": "./img/diaporama/US/diapo35/d357-min.jpg"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo35/d358-min.jpg"
+            },
+            "img9": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo35/d359-min.jpg"
+            }
+      },
+      "titre": "Las Vegas"
+}

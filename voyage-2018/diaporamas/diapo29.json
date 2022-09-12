@@ -1,0 +1,43 @@
+{
+      "datedebut": "2018-09-08",
+      "datefin": "2018-09-10",
+      "images": {
+            "img1": {
+                  "description": "Dans tous nos Etats",
+                  "url": "./img/diaporama/US/diapo29/d291-min.jpg"
+            },
+            "img2": {
+                  "description": "Monument Valley",
+                  "url": "./img/diaporama/US/diapo29/d292-min.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo29/d293-min.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo29/d294-min.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo29/d295-min.jpg"
+            },
+            "img6": {
+                  "description": "A la recherche d'indiens",
+                  "url": "./img/diaporama/US/diapo29/d296-min.jpg"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo29/d297-min.jpg"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo29/d298-min.jpg"
+            },
+            "img9": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo29/d299-min.jpg"
+            }
+      },
+      "titre": "Monument Valley"
+}

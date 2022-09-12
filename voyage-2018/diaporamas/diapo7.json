@@ -1,0 +1,43 @@
+{
+      "datedebut": "2018-06-26",
+      "datefin": "2018-07-29",
+      "images": {
+            "img1": {
+                  "description": "Drapée du drapeau",
+                  "url": "./img/diaporama/AmSud/diapo7/d71.jpg"
+            },
+            "img2": {
+                  "description": "Avec Carioca et André",
+                  "url": "./img/diaporama/AmSud/diapo7/d72.jpg"
+            },
+            "img3": {
+                  "description": "Tout le groupe au lanchonete",
+                  "url": "./img/diaporama/AmSud/diapo7/d73.jpg"
+            },
+            "img4": {
+                  "description": "Boteco time !",
+                  "url": "./img/diaporama/AmSud/diapo7/d74.jpg"
+            },
+            "img5": {
+                  "description": "Cheese !",
+                  "url": "./img/diaporama/AmSud/diapo7/d75.jpeg"
+            },
+            "img6": {
+                  "description": "Au pico, la colline surplombant la ville",
+                  "url": "./img/diaporama/AmSud/diapo7/d76.jpeg"
+            },
+            "img7": {
+                  "description": "Vai Brasil !",
+                  "url": "./img/diaporama/AmSud/diapo7/d77.jpeg"
+            },
+            "img8": {
+                  "description": "Coeur avec les doigts, Mariana et Nayana ! ",
+                  "url": "./img/diaporama/AmSud/diapo7/d78.jpeg"
+            },
+            "img9": {
+                  "description": "Victoire avec Gabriel !",
+                  "url": "./img/diaporama/AmSud/diapo7/d79.jpeg"
+            }
+      },
+      "titre": "Presidente Prudente"
+}

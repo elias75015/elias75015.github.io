@@ -1,0 +1,63 @@
+{
+      "datedebut": "2018-09-21",
+      "datefin": "2018-09-25",
+      "images": {
+            "img1": {
+                  "description": "Tuolomne Meadows",
+                  "url": "./img/diaporama/US/diapo39/d391-min.jpg"
+            },
+            "img10": {
+                  "description": "La maman, le petit, le papa",
+                  "url": "./img/diaporama/US/diapo39/d3910-min.jpg"
+            },
+            "img11": {
+                  "description": "El Capitan, fameux spot d'escalade",
+                  "url": "./img/diaporama/US/diapo39/d3911-min.jpg"
+            },
+            "img12": {
+                  "description": "Yosemite Valley",
+                  "url": "./img/diaporama/US/diapo39/d3912-min.jpg"
+            },
+            "img13": {
+                  "description": "Half Dome",
+                  "url": "./img/diaporama/US/diapo39/d3913-min.jpg"
+            },
+            "img14": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo39/d3914-min.jpg"
+            },
+            "img2": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo39/d392-min.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo39/d393-min.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo39/d394-min.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo39/d395-min.jpg"
+            },
+            "img6": {
+                  "description": "Vers Elisabeth Lake",
+                  "url": "./img/diaporama/US/diapo39/d396-min.jpg"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo39/d397-min.jpg"
+            },
+            "img8": {
+                  "description": "Glen Aulin Trail",
+                  "url": "./img/diaporama/US/diapo39/d398-min.jpg"
+            },
+            "img9": {
+                  "description": "Lembert Dome",
+                  "url": "./img/diaporama/US/diapo39/d399-min.jpg"
+            }
+      },
+      "titre": "Yosemite"
+}

@@ -1,0 +1,43 @@
+{
+      "datedebut": "2018-08-06",
+      "datefin": "2018-08-11",
+      "images": {
+            "img1": {
+                  "description": "Zumba de rue",
+                  "url": "./img/diaporama/AmSud/diapo21/d211.jpg"
+            },
+            "img2": {
+                  "description": "Manaus et ses jus",
+                  "url": "./img/diaporama/AmSud/diapo21/d212.jpg"
+            },
+            "img3": {
+                  "description": "La cuillère de bois pour Junior",
+                  "url": "./img/diaporama/AmSud/diapo21/d213.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo21/d214.jpg"
+            },
+            "img5": {
+                  "description": "Librairie 100% Jesus",
+                  "url": "./img/diaporama/AmSud/diapo21/d215.jpg"
+            },
+            "img6": {
+                  "description": "Port de Manaus",
+                  "url": "./img/diaporama/AmSud/diapo21/d216.jpg"
+            },
+            "img7": {
+                  "description": "Marché aux poissons",
+                  "url": "./img/diaporama/AmSud/diapo21/d217.jpg"
+            },
+            "img8": {
+                  "description": "Opéra de Manaus",
+                  "url": "./img/diaporama/AmSud/diapo21/d218.jpg"
+            },
+            "img9": {
+                  "description": "Rencontre des eaux",
+                  "url": "./img/diaporama/AmSud/diapo21/d219.jpg"
+            }
+      },
+      "titre": "Manaus"
+}

@@ -1,0 +1,39 @@
+{
+      "datedebut": "2018-08-30",
+      "datefin": "2018-09-02",
+      "images": {
+            "img1": {
+                  "description": "Rocket ",
+                  "url": "./img/diaporama/US/diapo25/d251.jpg"
+            },
+            "img2": {
+                  "description": "Iron Man",
+                  "url": "./img/diaporama/US/diapo25/d252.jpg"
+            },
+            "img3": {
+                  "description": "Simulateur spatial",
+                  "url": "./img/diaporama/US/diapo25/d253.jpg"
+            },
+            "img4": {
+                  "description": "Préparation de la collection spatiale printemps/été 2019",
+                  "url": "./img/diaporama/US/diapo25/d254.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo25/d255.jpg"
+            },
+            "img6": {
+                  "description": "Premier contact",
+                  "url": "./img/diaporama/US/diapo25/d256.jpg"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo25/d257.jpg"
+            },
+            "img8": {
+                  "description": "Supermarché latino",
+                  "url": "./img/diaporama/US/diapo25/d258.jpg"
+            }
+      },
+      "titre": "Houston"
+}

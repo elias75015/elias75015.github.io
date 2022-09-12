@@ -1,0 +1,47 @@
+{
+      "datedebut": "2018-07-05",
+      "datefin": "2018-07-07",
+      "images": {
+            "img1": {
+                  "description": "Cathédrale de Sao Paulo",
+                  "url": "./img/diaporama/AmSud/diapo11/d111.jpg"
+            },
+            "img10": {
+                  "description": "Quelques minutes avant le drame...",
+                  "url": "./img/diaporama/AmSud/diapo11/d1110.jpg"
+            },
+            "img2": {
+                  "description": "Mercado Municipal",
+                  "url": "./img/diaporama/AmSud/diapo11/d112.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo11/d113.jpg"
+            },
+            "img4": {
+                  "description": "Vue sur la gare",
+                  "url": "./img/diaporama/AmSud/diapo11/d114.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo11/d115.jpg"
+            },
+            "img6": {
+                  "description": "Le roi Pelé",
+                  "url": "./img/diaporama/AmSud/diapo11/d116.jpg"
+            },
+            "img7": {
+                  "description": "Parc Ibirapuera",
+                  "url": "./img/diaporama/AmSud/diapo11/d117.jpg"
+            },
+            "img8": {
+                  "description": "Parc Ibirapuera",
+                  "url": "./img/diaporama/AmSud/diapo11/d118.jpg"
+            },
+            "img9": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo11/d119.jpg"
+            }
+      },
+      "titre": "Sao Paulo"
+}

@@ -1,0 +1,63 @@
+{
+      "datedebut": "2018-07-16",
+      "datefin": "2018-07-19",
+      "images": {
+            "img1": {
+                  "description": "Belo Horizonte de loin",
+                  "url": "./img/diaporama/AmSud/diapo15/d151.jpg"
+            },
+            "img10": {
+                  "description": "Comment perdre la tête",
+                  "url": "./img/diaporama/AmSud/diapo15/d1510.JPG"
+            },
+            "img11": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo15/d1511.JPG"
+            },
+            "img12": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo15/d1512.JPG"
+            },
+            "img13": {
+                  "description": "Un des jardins botanique du parc",
+                  "url": "./img/diaporama/AmSud/diapo15/d1513.JPG"
+            },
+            "img14": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo15/d1514.JPG"
+            },
+            "img2": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo15/d152.jpg"
+            },
+            "img3": {
+                  "description": "Obelix",
+                  "url": "./img/diaporama/AmSud/diapo15/d153.jpg"
+            },
+            "img4": {
+                  "description": "Buches",
+                  "url": "./img/diaporama/AmSud/diapo15/d154.JPG"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo15/d155.jpg"
+            },
+            "img6": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo15/d156.JPG"
+            },
+            "img7": {
+                  "description": "Agenda Piscine",
+                  "url": "./img/diaporama/AmSud/diapo15/d157.jpg"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo15/d158.JPG"
+            },
+            "img9": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo15/d159.JPG"
+            }
+      },
+      "titre": "Belo Horizonte et Inhotim"
+}

@@ -1,0 +1,43 @@
+{
+      "datedebut": "2018-06-09",
+      "datefin": "2018-06-12",
+      "images": {
+            "img1": {
+                  "description": "Plaza de Mayo",
+                  "url": "./img/diaporama/AmSud/diapoBA/d11.jpg"
+            },
+            "img2": {
+                  "description": "Mausolée Eva Perón",
+                  "url": "./img/diaporama/AmSud/diapoBA/d12.jpg"
+            },
+            "img3": {
+                  "description": "Parque de Recoleta",
+                  "url": "./img/diaporama/AmSud/diapoBA/d13.jpg"
+            },
+            "img4": {
+                  "description": "Mi gran amiga",
+                  "url": "./img/diaporama/AmSud/diapoBA/d14.jpg"
+            },
+            "img5": {
+                  "description": "Bombonera et tennis-ballon",
+                  "url": "./img/diaporama/AmSud/diapoBA/d15.jpg"
+            },
+            "img6": {
+                  "description": "Hincha de Boca Jr !!",
+                  "url": "./img/diaporama/AmSud/diapoBA/d16.jpg"
+            },
+            "img7": {
+                  "description": "Caminito",
+                  "url": "./img/diaporama/AmSud/diapoBA/d17.jpg"
+            },
+            "img8": {
+                  "description": "En La Boca",
+                  "url": "./img/diaporama/AmSud/diapoBA/d18.jpg"
+            },
+            "img9": {
+                  "description": "Puerto Madero",
+                  "url": "./img/diaporama/AmSud/diapoBA/d19.jpg"
+            }
+      },
+      "titre": "Buenos Aires"
+}

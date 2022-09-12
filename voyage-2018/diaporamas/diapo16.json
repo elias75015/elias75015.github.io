@@ -1,0 +1,59 @@
+{
+      "datedebut": "2018-07-20",
+      "datefin": "2018-07-23",
+      "images": {
+            "img1": {
+                  "description": "Salvador vu du ciel",
+                  "url": "./img/diaporama/AmSud/diapo16/d161.jpg"
+            },
+            "img10": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo16/d169.jpg"
+            },
+            "img11": {
+                  "description": "Glace dans la rua do Carmo",
+                  "url": "./img/diaporama/AmSud/diapo16/d1610.jpg"
+            },
+            "img12": {
+                  "description": "Au stade. Où sommes nous ?",
+                  "url": "./img/diaporama/AmSud/diapo16/d1611.jpg"
+            },
+            "img13": {
+                  "description": "Coco sur plage, Rio Vermelho",
+                  "url": "./img/diaporama/AmSud/diapo16/d1612.jpg"
+            },
+            "img2": {
+                  "description": "Stand de tapioca sur la place de Rio Vermelho",
+                  "url": "./img/diaporama/AmSud/diapo16/d162.jpg"
+            },
+            "img3": {
+                  "description": "Largo do Cruzeiro do Sao Francisco",
+                  "url": "./img/diaporama/AmSud/diapo16/d163.jpg"
+            },
+            "img4": {
+                  "description": "Azulejos de l'église Sao Francisco",
+                  "url": "./img/diaporama/AmSud/diapo16/d163bis.jpg"
+            },
+            "img5": {
+                  "description": "Cherubins de l'église Sao Francisco (un peu moches non ?)",
+                  "url": "./img/diaporama/AmSud/diapo16/d164.jpg"
+            },
+            "img6": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo16/d165.jpg"
+            },
+            "img7": {
+                  "description": "Bateria. Salvador n'est que musique !",
+                  "url": "./img/diaporama/AmSud/diapo16/d166.jpg"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo16/d167.jpg"
+            },
+            "img9": {
+                  "description": "Rua do Carmo",
+                  "url": "./img/diaporama/AmSud/diapo16/d168.jpg"
+            }
+      },
+      "titre": "Salvador de Bahia"
+}

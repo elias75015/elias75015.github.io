@@ -1,0 +1,43 @@
+{
+      "datedebut": "2018-07-14",
+      "datefin": "2018-07-16",
+      "images": {
+            "img1": {
+                  "description": "Eglise Sao Francisco",
+                  "url": "./img/diaporama/AmSud/diapo14/d141.jpg"
+            },
+            "img2": {
+                  "description": "Ouro Preto, tout en collines",
+                  "url": "./img/diaporama/AmSud/diapo14/d142.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo14/d143.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo14/d144.JPG"
+            },
+            "img5": {
+                  "description": "Balade matinale",
+                  "url": "./img/diaporama/AmSud/diapo14/d145.JPG"
+            },
+            "img6": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo14/d146.JPG"
+            },
+            "img7": {
+                  "description": "De jolies couleurs",
+                  "url": "./img/diaporama/AmSud/diapo14/d147.JPG"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo14/d148.JPG"
+            },
+            "img9": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo14/d149.JPG"
+            }
+      },
+      "titre": "Ouro Preto"
+}

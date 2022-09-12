@@ -1,0 +1,43 @@
+{
+      "datedebut": "2018-10-15",
+      "datefin": "2018-10-16",
+      "images": {
+            "img1": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo34/d341-min.jpg"
+            },
+            "img2": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo34/d342-min.jpg"
+            },
+            "img3": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo34/d343-min.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo34/d344-min.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo34/d345-min.jpg"
+            },
+            "img6": {
+                  "description": "Petroglyphes",
+                  "url": "./img/diaporama/US/diapo34/d346-min.jpg"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo34/d347-min.jpg"
+            },
+            "img8": {
+                  "description": "Au coucher de soleil",
+                  "url": "./img/diaporama/US/diapo34/d348-min.jpg"
+            },
+            "img9": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo34/d349-min.jpg"
+            }
+      },
+      "titre": "Valley of Fire"
+}

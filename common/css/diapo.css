@@ -9,23 +9,21 @@
 }
 
 /* Petit ecrans */
+
 @media screen and (max-width:812px) {
   .splide__slide img {
     width: auto;
-    height: 60vh;
+    height: 55vh;
   }
 
   .splide {
     width: auto;
-    height: 80vh;
-    /* surcharge splide css */
-    max-width: fit-content !important;
+    height: 70vh;
   }
-/*
+
   #date {
     display: none;
   }
-*/
 }
 
 /* Petit ecrans */

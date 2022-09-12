@@ -1,0 +1,51 @@
+{
+      "datedebut": "2018-06-12",
+      "datefin": "2018-06-15",
+      "images": {
+            "img1": {
+                  "description": "Colonia",
+                  "url": "./img/diaporama/AmSud/diapo2/d21.JPG"
+            },
+            "img10": {
+                  "description": "Estadio Centenario",
+                  "url": "./img/diaporama/AmSud/diapo2/d210.jpg"
+            },
+            "img11": {
+                  "description": "Mate",
+                  "url": "./img/diaporama/AmSud/diapo2/d211.jpg"
+            },
+            "img2": {
+                  "description": "Colonia",
+                  "url": "./img/diaporama/AmSud/diapo2/d22.JPG"
+            },
+            "img3": {
+                  "description": "Montevideo",
+                  "url": "./img/diaporama/AmSud/diapo2/d23.JPG"
+            },
+            "img4": {
+                  "description": "Montevideo",
+                  "url": "./img/diaporama/AmSud/diapo2/d24.JPG"
+            },
+            "img5": {
+                  "description": "Palacio Salvo",
+                  "url": "./img/diaporama/AmSud/diapo2/d25.JPG"
+            },
+            "img6": {
+                  "description": "Fanions sur les voitures",
+                  "url": "./img/diaporama/AmSud/diapo2/d26.JPG"
+            },
+            "img7": {
+                  "description": "Montevideo !!",
+                  "url": "./img/diaporama/AmSud/diapo2/d27.JPG"
+            },
+            "img8": {
+                  "description": "Juega la Celeste, Jugamos todos !",
+                  "url": "./img/diaporama/AmSud/diapo2/d28.JPG"
+            },
+            "img9": {
+                  "description": "Parque Rodó",
+                  "url": "./img/diaporama/AmSud/diapo2/d29.JPG"
+            }
+      },
+      "titre": "Guay de Uruguay"
+}

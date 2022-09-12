@@ -1,0 +1,47 @@
+{
+      "datedebut": "2018-06-29",
+      "datefin": "2018-07-30",
+      "images": {
+            "img1": {
+                  "description": "Ranch",
+                  "url": "./img/diaporama/AmSud/diapo8/d81.JPG"
+            },
+            "img10": {
+                  "description": "Safari",
+                  "url": "./img/diaporama/AmSud/diapo8/d810.jpg"
+            },
+            "img2": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo8/d82.JPG"
+            },
+            "img3": {
+                  "description": "La rivière Paranapanema",
+                  "url": "./img/diaporama/AmSud/diapo8/d83.JPG"
+            },
+            "img4": {
+                  "description": "Jongleur au citron",
+                  "url": "./img/diaporama/AmSud/diapo8/d84.JPG"
+            },
+            "img5": {
+                  "description": "Une des cascades",
+                  "url": "./img/diaporama/AmSud/diapo8/d85.JPG"
+            },
+            "img6": {
+                  "description": "Eriksen et Clara",
+                  "url": "./img/diaporama/AmSud/diapo8/d86.JPG"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo8/d87.jpg"
+            },
+            "img8": {
+                  "description": "",
+                  "url": "./img/diaporama/AmSud/diapo8/d88.JPG"
+            },
+            "img9": {
+                  "description": "Le petit troupeau de vaches",
+                  "url": "./img/diaporama/AmSud/diapo8/d89.JPG"
+            }
+      },
+      "titre": "Piraju"
+}

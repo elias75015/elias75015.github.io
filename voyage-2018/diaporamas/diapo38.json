@@ -1,0 +1,35 @@
+{
+      "datedebut": "2018-09-20",
+      "datefin": "2018-09-20",
+      "images": {
+            "img1": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo38/d381-min.jpg"
+            },
+            "img2": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo38/d382-min.jpg"
+            },
+            "img3": {
+                  "description": "Buffet à volonté pour mouettes",
+                  "url": "./img/diaporama/US/diapo38/d383-min.jpg"
+            },
+            "img4": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo38/d384-min.jpg"
+            },
+            "img5": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo38/d385-min.jpg"
+            },
+            "img6": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo38/d386-min.jpg"
+            },
+            "img7": {
+                  "description": "",
+                  "url": "./img/diaporama/US/diapo38/d387-min.jpg"
+            }
+      },
+      "titre": "Lac Mono"
+}
