@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
-@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:600');
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime');
+@import url('https://fonts.googleapis.com/css?family=Chivo');
 
 /* MENU DE GAUCHE */
 
@@ -30,7 +30,7 @@ nav {
 /* POLICE & FOND DES PAGES AUTRES QUE l'ACCUEIL */
 
 #mainContent {
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Courier Prime', cursive;
     text-align: justify;
     text-justify: inter-word;
     background-color: #04244D;
@@ -41,7 +41,7 @@ nav {
 /* PAGE D'ACCUEIL*/
 
 .grandTitre {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Chivo', serif;
     color: white;
 }
 
@@ -54,7 +54,7 @@ nav {
 }
 
 .mainContent {
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Chivo', serif;
   background-color: #04244D;
   color:  white;
   font-size:1em;
@@ -85,4 +85,10 @@ nav {
 .dl-menuwrapper li a {
 	font-weight: 0;
 	color: #fff;
+}
+
+/* TITRE MARGE HAUTE*/
+
+#introMedia, #titreMainPhotoPage {
+    margin-top: 20px;
 }
