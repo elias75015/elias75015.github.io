@@ -102,7 +102,7 @@ function addKMLLayer (clickedElement) {
     // - yes ? we set isLayerAlreadyAdded to true
     for (var layerId in layers) {
         // FIXME workaround to fix position problem, displaying baseLayer over kmlLayers
-        if (layers[layerId].format !== "kml") {
+        if (layers[layerId].format !== "kml" && layers[layerId].format !== "gpx") {
             layers[layerId].position = 0;
         }
         if (layerId === kmlId) {
@@ -126,6 +126,50 @@ function addKMLLayer (clickedElement) {
         map.addLayers(kmlLayerToAdd);
     } else {
         map.removeLayers(kmlId);
+    }
+
+}
+
+/**
+  * Fonction qui :
+  * - ajoute un gpx s'il n'est pas déja présent
+  * - supprime un gpx s'il est déjà présent
+  *
+  */
+ function addGPXLayer (clickedElement) {
+    var gpxId = clickedElement.id;
+    var layers = map.getLayersOptions();
+
+    var isLayerAlreadyAdded = false;
+
+    // checks if the clickedlayer is on the map
+    // - yes ? we set isLayerAlreadyAdded to true
+    for (var layerId in layers) {
+        // FIXME workaround to fix position problem, displaying baseLayer over gpxLayers
+        if (layers[layerId].format !== "kml" && layers[layerId].format !== "gpx") {
+            layers[layerId].position = 0;
+        }
+        if (layerId === gpxId) {
+            isLayerAlreadyAdded = true;
+        }
+    }
+
+    // if the gpxLayer is not on the map, we add it.
+    // if the gpxLayer is on the map, we remove it.
+    if (isLayerAlreadyAdded === false) {
+        // adds gpx Layer associated to the clicked button
+        var gpxFilePath = "./map-data/" + gpxId + ".gpx";
+        var gpxLayerToAdd = {};
+        gpxLayerToAdd[gpxId] = {
+            format : "gpx",
+            url : gpxFilePath,
+            title : gpxId,
+            zoomToExtent : true,
+            showPointNames : false
+        };
+        map.addLayers(gpxLayerToAdd);
+    } else {
+        map.removeLayers(gpxId);
     }
 
 }
@@ -221,6 +265,16 @@ var kmlLayersButtons = document.querySelectorAll("li.kmlLayer");
 for (var i = 0; i < kmlLayersButtons.length; i++) {
     kmlLayersButtons[i].onclick = function () {
         addKMLLayer(this);
+    };
+}
+
+// selects all buttons to add gpx
+var gpxLayersButtons = document.querySelectorAll("li.gpxLayer");
+
+// adds to the button listener to add layer to the map
+for (var i = 0; i < gpxLayersButtons.length; i++) {
+    gpxLayersButtons[i].onclick = function () {
+        addGPXLayer(this);
     };
 }
 
