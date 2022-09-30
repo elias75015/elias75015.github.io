@@ -1,9 +1,14 @@
 {
     "musics": {
         "playlist1" : {
-            "title" : "Les sons du Brésil",
+            "title" : "Les sons du Brésil avant de partir",
             "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidwCNyNNU00L_T_Ss-TrBvk8&showinfo=1",
-            "description" : "La samba du brésil"
+            "description" : "Ce qu'on écoutait du Brésil avant de partir"
+        },
+        "playlist2" : {
+            "title" : "Brasil : samba et autre joyeusetés",
+            "iframe" : "",
+            "description" : "Les découvertes lors de ce voyage"
         }
     },
     "videos" : {
@@ -16,6 +21,11 @@
             "title" : "Le dessous des cartes Brésil",
             "iframe": "https://www.youtube.com/embed/rtNgasjiUuc",
             "description": "Sortons nos cartes sur le Brésil"
+        },
+        "video3" : {
+            "title" : "Elections sous tensions",
+            "iframe": "https://www.youtube.com/embed/5MAwnec1mXA",
+            "description": "Un récapitulatif clair avant les éléctions"
         }
     }, 
     "articles" : {
