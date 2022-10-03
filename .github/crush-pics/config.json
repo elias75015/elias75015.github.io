@@ -1,5 +1,5 @@
 {
     "compression_mode": "balanced",
     "compression_level": 85,
-    "strip_tags": true
+    "strip_tags": false
 }
