@@ -5,6 +5,8 @@ on:
       - master
     paths:
       - '**.jpg'
+      - '**.JPG'
+      - '**.JPEG'
       - '**.jpeg'
       - '**.png'
       - '**.gif'
