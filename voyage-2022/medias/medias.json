@@ -6,9 +6,14 @@
             "description" : "Ce qu'on écoutait du Brésil avant de partir"
         },
         "playlist2" : {
-            "title" : "Brasil : samba et autre joyeusetés",
-            "iframe" : "",
-            "description" : "Les découvertes lors de ce voyage"
+            "title" : "La playlist Carioca",
+            "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidzBNuvtDIVQ32Xa5FT84F07&showinfo=1",
+            "description" : "Les classiques de Samba entendus lors de nos soirees Cariocas"
+        },
+        "playlist3" : {
+            "title" : "Rap o RnB do Brasil",
+            "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidxvv0cpiTrGYl_hlIS0dSXS&showinfo=1",
+            "description" : "Les recommandations musiques urbaines bresiliennes de nos amis"
         }
     },
     "videos" : {
