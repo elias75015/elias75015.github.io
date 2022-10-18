@@ -1,0 +1,99 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Bresil/diapo1/d11.jpg",
+      "description": "Accueil de la Carioca"
+    },
+    "img2": {
+      "url": "./img/diaporama/Bresil/diapo1/d12.jpg",
+      "description": "Fruit Nespera"
+    },
+    "img3": {
+      "url": "./img/diaporama/Bresil/diapo1/d13.jpg",
+      "description": "Beach Soccer sur Copacabana"
+    },
+    "img4": {
+      "url": "./img/diaporama/Bresil/diapo1/d14.jpg",
+      "description": ""
+    },
+    "img5": {
+      "url": "./img/diaporama/Bresil/diapo1/d15.jpg",
+      "description": "Metro Carioca"
+    },
+    "img6": {
+      "url": "./img/diaporama/Bresil/diapo1/d16.jpg",
+      "description": ""
+    },
+    "img7": {
+      "url": "./img/diaporama/Bresil/diapo1/d17.jpg",
+      "description": "Legende de Botafogo"
+    },
+    "img8": {
+      "url": "./img/diaporama/Bresil/diapo1/d18.jpg",
+      "description": "Torcida Flamengista"
+    },
+    "img9": {
+      "url": "./img/diaporama/Bresil/diapo1/d19.jpg",
+      "description": "Avec la soeur et la cousine de Je"
+    },
+    "img10": {
+      "url": "./img/diaporama/Bresil/diapo1/d110.jpg",
+      "description": ""
+    },
+    "img11": {
+      "url": "./img/diaporama/Bresil/diapo1/d111.jpg",
+      "description": "Lula 2022"
+    },
+    "img12": {
+      "url": "./img/diaporama/Bresil/diapo1/d112.jpg",
+      "description": "Praca Maua"
+    },
+    "img13": {
+      "url": "./img/diaporama/Bresil/diapo1/d113.jpg",
+      "description": ""
+    },
+    "img14": {
+      "url": "./img/diaporama/Bresil/diapo1/d114.jpg",
+      "description": "Montreuil a Rio"
+    },
+    "img15": {
+      "url": "./img/diaporama/Bresil/diapo1/d115.jpg",
+      "description": "Vue sur les docks"
+    },
+    "img16": {
+      "url": "./img/diaporama/Bresil/diapo1/d116.jpg",
+      "description": "L'idole du peuple "
+    },
+    "img17": {
+      "url": "./img/diaporama/Bresil/diapo1/d117.jpg",
+      "description": "Gilbert Gilles"
+    },
+    "img18": {
+      "url": "./img/diaporama/Bresil/diapo1/d118.jpg",
+      "description": "Favela sur villa"
+    },
+    "img19": {
+      "url": "./img/diaporama/Bresil/diapo1/d119.jpg",
+      "description": "Ascension vers vista Chinesa"
+    },
+    "img20": {
+      "url": "./img/diaporama/Bresil/diapo1/d1120.jpg",
+      "description": "Singe sur Dragon"
+    },
+    "img21": {
+      "url": "./img/diaporama/Bresil/diapo1/d1121.jpg",
+      "description": "Lagoa"
+    },
+    "img22": {
+      "url": "./img/diaporama/Bresil/diapo1/d1122.jpg",
+      "description": "Bip-Bip"
+    },
+    "img23": {
+      "url": "./img/diaporama/Bresil/diapo1/d1123.jpg",
+      "description": "Espetinos "
+    }
+  },
+  "titre": "Rio de Janeiro",
+  "datedebut": "2022-10-09",
+  "datefin": "2022-10-15"
+}
