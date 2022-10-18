@@ -1,0 +1,159 @@
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 https://developers.google.com/kml/schema/kml22gx.xsd">
+	<Document>
+		<Placemark>
+			<name/>
+			<description>Rio de Janeiro :&lt;br&gt;09-10-2022</description>
+			<Style>
+				<IconStyle>
+					<scale>1.199463</scale>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<ExtendedData>
+				<Data name="measure">
+					<value>lon : -43.1934° / lat : -22.9097°</value>
+				</Data>
+				<Data name="type">
+					<value>Point</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.19339742957257,-22.90970543013178,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name/>
+			<description>Montevideo :&lt;br&gt;10-12-2022</description>
+			<Style>
+				<IconStyle>
+					<scale>1.199463</scale>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<ExtendedData>
+				<Data name="measure">
+					<value>lon : -56.192° / lat : -34.8739°</value>
+				</Data>
+				<Data name="type">
+					<value>Point</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-56.191973663571545,-34.87389904035303,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name/>
+			<description/>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<ExtendedData>
+				<Data name="measure">
+					<value>412.807 km</value>
+				</Data>
+				<Data name="type">
+					<value>LineString</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<coordinates>-43.201543285144574,-22.907483305671562,0 -43.23375897480007,-22.909821451073455,0 -43.3350001744323,-22.88434585125198,0 -43.35521930416191,-22.814148607543885,0 -43.43828713201675,-22.747270948124836,0 -43.705749792704104,-22.726543851644337,0 -43.878558868706136,-22.660710141099045,0 -43.96482048802522,-22.58316434541173,0 -44.10461152573446,-22.602182932245697,0 -44.17873688207096,-22.543963002726088,0 -44.30678674779267,-22.446187036555486,0 -44.50311367882183,-22.463581465109073,0 -44.7299652896151,-22.529457680226756,0 -44.841420116700235,-22.596906361616192,0 -45.048556313176135,-22.687316854365008,0 -45.28086674265084,-22.878813245637843,0 -45.663412021736114,-23.09261256460377,0 -45.961633021843895,-23.25661987205001,0 -46.12813891099364,-23.325578927882262,0 -46.1141694972614,-23.37385552277047,0 -46.220982884347514,-23.430469682098632,0 -46.36833704084432,-23.462946293749823,0 -46.442043148061636,-23.48528310374725,0 -46.5108874213589,-23.46317192498954,0 -46.59222108455101,-23.5222222061615,0 -46.62518005840092,-23.559862722707578,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name/>
+			<description>Sao Paulo &lt;br&gt;15/10 - 19/10</description>
+			<Style>
+				<IconStyle>
+					<scale>1.128906</scale>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ffffffff</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<ExtendedData>
+				<Data name="measure">
+					<value>lon : -46.6257° / lat : -23.5602°</value>
+				</Data>
+				<Data name="type">
+					<value>Point</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-46.62565384279662,-23.56021112458221,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<ExtendedData>
+				<Data name="measure">
+					<value>81.29 km</value>
+				</Data>
+				<Data name="type">
+					<value>LineString</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<coordinates>-46.62590942489284,-23.55974340613328 -46.63575736321934,-23.625046398367758 -46.63815819902582,-23.66237345806597 -46.615823860275874,-23.68058782337161 -46.60084026960765,-23.701161866680224 -46.60771512425983,-23.727532646264137 -46.591699420322264,-23.76971070551076 -46.5981802594749,-23.786427476137632 -46.58385310271928,-23.815118589909886 -46.56207138710418,-23.893297303051057 -46.53081446969191,-23.889507766976024 -46.4933386378747,-23.86368444701658 -46.478982213814206,-23.89208939645144 -46.45021645916834,-23.903695433253304 -46.43135569357348,-23.895344671483656 -46.41475297189114,-23.918825367287894 -46.40065693272868,-23.927563137789278 -46.362742057189074,-23.92988546234723 -46.340199127952346,-23.92935806526441 -46.3147736751046,-23.937089419029746 -46.31312966293071,-23.95807558433657 -46.28913461000672,-23.962019362608686 -46.27338548093476,-23.967000492491465 -46.262987124305624,-23.988762561302394 -46.257946546888924,-23.99405537680495 -46.26538291649223,-24.00178020026914</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description>Guaruja&lt;br&gt;17/10</description>
+			<Style>
+				<IconStyle>
+					<scale>1.0625</scale>
+					<Icon>
+						<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAsCAYAAAAATWqyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABB5JREFUeNq8WFtLVFEUXkdNpwsVmhVGlGGaJihU2lMgRj1I2KO9SQ9JEZSh0R8IgsSHEtLsN1RaEUE95JOalCYVSCbdENIeEo0ya7W+s2f2Po7O2ec4M37wMXvOXpfv7NmXNduhEGDmQvmoEx4R7hfuEq6Pds8JPwrfCPuEjxzHmaBUQZI7whPC5xwez6O+ji2PYxFRKR+3hIc9D4mGh4kGBog+fCCanlbPt2wh2rOHqLqaqFLcnEWh+4VnZYSGVzISzcJ5/W6fPjFfusS8fTuk+BM2sIWPAWI1hxGQKbyt3WdnVdDsbLuAeMIHvohhgNiZQeZDt3YZHWXeuze8gHgiBmIZdPvOG+ls1aZ9fcybNiUvIkbEQkyD1kQiqoQLrsnISGpFeMUgtgJyVcWLyBC+dLtnZpiLilIvIkbERg4F5MzwCmnQA3bhQvpExIgcBg16H5EvL+TjIE3IRlhcTLSwYF9eO3cS1dcre2BsjKinh+jzZ7tvVpayL8RGTUOyvxyCiDKt7eJF+9tEIswdHfILLyzdR/EMfbCxxUEugzIIaXGbf/8yb93q75yTEz/zlwdsYOsXC7mQU6EFQnrd5tCQ/S2uXw9+ysDWFg85FXohZNxtdnX5O23ezPz7d3AhsIWPX0zkVBjH0ilwJ9D79/4T7OhRouzs4IcVbOHjB5OzAEIibnNmxt9JzfBwsPmYnBGzmWzY4O80OxteiM3HkxNCfritvDx/p5GR8EJsPibnDwgZd5ulpf5O/f1qEwoK2MLHDybnOOnaY2pKDmbHf5YfO+Zd+4kBG9j6xUIu5IzWKBBySgeoqrKv/dOnpdaaTywCfbCxxUEug1MQslH4U5Ur3cEOrYoK5rt3mX/9MqHQxjP0BYnRresv5N4YO33v6LfZvTv4KYozpaREMcj5EiNymFG94y0DpEjgP+7j+/fTXwYghwJyFsUXR+16mBsb0ycCsQ3alysV1wnHdOWejiqtuNhb0SPXukR160H9Ew0OMq9ZkzoRiGVOW0yQA7a/FFf0wF27ljohiGVwOcgfLBTSz1zzf/+Ya2qSF1Fbq2IpPF1UMFvE7BB+d92+fGHOzV25iLw85q9fYyKmhQVh//ue1AN5797KhcDXoH6lVxKdOsSZM+FFNDV5RXQmczeCJf3ODTM3x7xvX3ARpaWyef+MiXgrXJvsRU0lKlA33KtX9uo8Vu3DNlq9CitSdWvUrAe4rc0upL3d+5M0U6oQva54okMfP55YBPoMHge5tgorZpvwmxt+cpI5P3+pCDxDnwJst1E6IIHr9Ls+eLC4okP74UPvaNRROiEJbupU588bIWgb3KB0Q5JIBcSvdVVWXq5oqjX0RWg1IInKIUPfs5n7MTwrp9WEJDy3TOl8jlYb0SV9FWVUlFeTWar/BRgA8G9p83hisDUAAAAASUVORK5CYII=</href>
+						<gx:w>34</gx:w>
+						<gx:h>44</gx:h>
+					</Icon>
+					<hotSpot x="17" y="0" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+			</Style>
+			<ExtendedData>
+				<Data name="measure">
+					<value>lon : -46.2653° / lat : -24.0018°</value>
+				</Data>
+				<Data name="type">
+					<value>Point</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-46.26531408424122,-24.001792611230584</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</kml>
