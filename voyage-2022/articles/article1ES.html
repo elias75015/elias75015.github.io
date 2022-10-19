@@ -16,6 +16,7 @@ Rio y me divierto
   <li>La playlist Carioca </li> 
   <li>Musiques Urbaines brésiliennes </li>
 </ul>
+<br>
 <h3>Página 'itineraire' : </h3>
 <br>
 <b>Rutas asociadas :</b> 
@@ -232,3 +233,14 @@ Después de una buena noche de sueño, es hora de despedirse de la Carioca. ¡De
 <div class="photo">
 <img src="./img/diaporama/Bresil/article1/p22.jpg" id="photo22" class="paysage">
 </div>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
