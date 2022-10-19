@@ -14,6 +14,21 @@
             "title" : "Rap o RnB do Brasil",
             "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidxvv0cpiTrGYl_hlIS0dSXS&showinfo=1",
             "description" : "Les recommandations musiques urbaines bresiliennes de nos amis"
+        },
+        "playlist4" : {
+            "title" : "Le concert d'Allan Bernardes",
+            "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidyUvAHNagrMKRO9Z_lG79F6&showinfo=1",
+            "description" : "Tous les morceaux joues lors de son concert"
+        },
+        "playlist5" : {
+            "title" : "La Roda d'Al Janiah",
+            "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidz28d_RrS0tlyl6JMp63Z0P&showinfo=1",
+            "description" : "Quelques uns des classique de samba joues dans le bar Palestinien"
+        },
+        "playlist6" : {
+            "title" : "La playlist de Carla",
+            "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidyAw-EzmyLhctF043gH9BBK&showinfo=1",
+            "description" : "La creme de la crema par Carla"
         }
     },
     "videos" : {
@@ -31,7 +46,12 @@
             "title" : "Elections sous tensions",
             "iframe": "https://www.youtube.com/embed/5MAwnec1mXA",
             "description": "Un récapitulatif clair avant les éléctions"
-        }
+        },
+        "video4" : {
+            "title" : "Les Podcasts de Carla",
+            "iframe": "https://www.youtube.com/embed?listType=playlist&list=PLo7Crj3Jcpia4jvuhSulYh8TVKGexG99I&showinfo=1",
+            "description": "Les femmes dans les data-sciences"
+        },
     }, 
     "articles" : {
         "article1" : {
