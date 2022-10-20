@@ -51,7 +51,7 @@
             "title" : "Les Podcasts de Carla",
             "iframe": "https://www.youtube.com/embed?listType=playlist&list=PLo7Crj3Jcpia4jvuhSulYh8TVKGexG99I&showinfo=1",
             "description": "Les femmes dans les data-sciences"
-        },
+        }
     }, 
     "articles" : {
         "article1" : {
