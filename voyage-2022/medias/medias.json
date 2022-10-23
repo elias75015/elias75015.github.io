@@ -29,6 +29,16 @@
             "title" : "La playlist de Carla",
             "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidyAw-EzmyLhctF043gH9BBK&showinfo=1",
             "description" : "La creme de la crema par Carla"
+        },
+        "playlist7" : {
+            "title" : "Le Forro de Pinheiros",
+            "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidxDbo5HrPum891SpI5QL9fm&showinfo=1",
+            "description" : "Groupe Trio beijo de moca"
+        },
+        "playlist8" : {
+            "title" : "MPB de Churrasco",
+            "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidzSGTNrhS-zGceP-6zxVe5n&showinfo=1",
+            "description" : "La playlist MPB du Churrasco de Marilla"
         }
     },
     "videos" : {
