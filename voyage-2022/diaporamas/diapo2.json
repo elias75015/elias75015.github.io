@@ -1,0 +1,99 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Bresil/diapo2/d21.jpg",
+      "description": "Street Cred"
+    },
+    "img2": {
+      "url": "./img/diaporama/Bresil/diapo2/d22.jpg",
+      "description": "Cadrage fortuit"
+    },
+    "img3": {
+      "url": "./img/diaporama/Bresil/diapo2/d23.jpg",
+      "description": "Merci Hidalgao !"
+    },
+    "img4": {
+      "url": "./img/diaporama/Bresil/diapo2/d24.jpg",
+      "description": "News d'ascenseur"
+    },
+    "img5": {
+      "url": "./img/diaporama/Bresil/diapo2/d25.jpg",
+      "description": "Superette privative"
+    },
+    "img6": {
+      "url": "./img/diaporama/Bresil/diapo2/d26.jpg",
+      "description": "Un beau pont"
+    },
+    "img7": {
+      "url": "./img/diaporama/Bresil/diapo2/d27.jpg",
+      "description": "Avec Jessinquinha et Pablo"
+    },
+    "img8": {
+      "url": "./img/diaporama/Bresil/diapo2/d28.jpg",
+      "description": "Toujours la !"
+    },
+    "img9": {
+      "url": "./img/diaporama/Bresil/diapo2/d29.jpg",
+      "description": "LGBT : Section palestinienne "
+    },
+    "img10": {
+      "url": "./img/diaporama/Bresil/diapo2/d210.jpg",
+      "description": "Surfin Guaruja"
+    },
+    "img11": {
+      "url": "./img/diaporama/Bresil/diapo2/d211.jpg",
+      "description": "Cours particuliers"
+    },
+    "img12": {
+      "url": "./img/diaporama/Bresil/diapo2/d212.jpg",
+      "description": "Hang ten Lais !"
+    },
+    "img13": {
+      "url": "./img/diaporama/Bresil/diapo2/d213.jpg",
+      "description": "Retrouvailles a praia das Asturias."
+    },
+    "img14": {
+      "url": "./img/diaporama/Bresil/diapo2/d214.jpg",
+      "description": ""
+    },
+    "img15": {
+      "url": "./img/diaporama/Bresil/diapo2/d215.jpg",
+      "description": "Celui-la vous ne l'aurez pas !"
+    },
+    "img16": {
+      "url": "./img/diaporama/Bresil/diapo2/d216.jpg",
+      "description": "Japantown aka Liberdade"
+    },
+    "img17": {
+      "url": "./img/diaporama/Bresil/diapo2/d217.jpg",
+      "description": "Banque-pagode"
+    },
+    "img18": {
+      "url": "./img/diaporama/Bresil/diapo2/d218.jpg",
+      "description": "Metro de Sao Paulo like a boss"
+    },
+    "img19": {
+      "url": "./img/diaporama/Bresil/diapo2/d219.jpg",
+      "description": "Juiz, vai tomar por #@* !"
+    },
+    "img20": {
+      "url": "./img/diaporama/Bresil/diapo2/d220.jpg",
+      "description": "Elias dans le bain"
+    },
+    "img21": {
+      "url": "./img/diaporama/Bresil/diapo2/d221.jpg",
+      "description": "Si contente d'acheter des havaianas"
+    },
+    "img22": {
+      "url": "./img/diaporama/Bresil/diapo2/d222.jpg",
+      "description": "Sauvez la planete, c'est la seule qui a de la biere !"
+    },
+    "img23": {
+      "url": "./img/diaporama/Bresil/diapo2/d223.jpg",
+      "description": "Au lit/bus !"
+    }
+  },
+  "titre": "Sao Paulo & Guaruja",
+  "datedebut": "2022-10-15",
+  "datefin": "2022-10-20"
+}

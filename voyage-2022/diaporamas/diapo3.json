@@ -1,0 +1,111 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Bresil/diapo3/d31.jpg",
+      "description": ""
+    },
+    "img2": {
+      "url": "./img/diaporama/Bresil/diapo3/d32.jpg",
+      "description": ""
+    },
+    "img3": {
+      "url": "./img/diaporama/Bresil/diapo3/d33.jpg",
+      "description": ""
+    },
+    "img4": {
+      "url": "./img/diaporama/Bresil/diapo3/d34.jpg",
+      "description": ""
+    },
+    "img5": {
+      "url": "./img/diaporama/Bresil/diapo3/d35.jpg",
+      "description": ""
+    },
+    "img6": {
+      "url": "./img/diaporama/Bresil/diapo3/d36.jpg",
+      "description": ""
+    },
+    "img7": {
+      "url": "./img/diaporama/Bresil/diapo3/d37.jpg",
+      "description": ""
+    },
+    "img8": {
+      "url": "./img/diaporama/Bresil/diapo3/d38.jpg",
+      "description": ""
+    },
+    "img9": {
+      "url": "./img/diaporama/Bresil/diapo3/d39.jpg",
+      "description": ""
+    },
+    "img10": {
+      "url": "./img/diaporama/Bresil/diapo3/d310.jpg",
+      "description": ""
+    },
+    "img11": {
+      "url": "./img/diaporama/Bresil/diapo3/d311.jpg",
+      "description": ""
+    },
+    "img12": {
+      "url": "./img/diaporama/Bresil/diapo3/d312.jpg",
+      "description": ""
+    },
+    "img13": {
+      "url": "./img/diaporama/Bresil/diapo3/d313.jpg",
+      "description": ""
+    },
+    "img14": {
+      "url": "./img/diaporama/Bresil/diapo3/d314.jpg",
+      "description": ""
+    },
+    "img15": {
+      "url": "./img/diaporama/Bresil/diapo3/d315.jpg",
+      "description": ""
+    },
+    "img16": {
+      "url": "./img/diaporama/Bresil/diapo3/d316.jpg",
+      "description": ""
+    },
+    "img17": {
+      "url": "./img/diaporama/Bresil/diapo3/d317.jpg",
+      "description": ""
+    },
+    "img18": {
+      "url": "./img/diaporama/Bresil/diapo3/d318.jpg",
+      "description": ""
+    },
+    "img19": {
+      "url": "./img/diaporama/Bresil/diapo3/d319.jpg",
+      "description": ""
+    },
+    "img20": {
+      "url": "./img/diaporama/Bresil/diapo3/d320.jpg",
+      "description": ""
+    },
+    "img21": {
+      "url": "./img/diaporama/Bresil/diapo3/d321.jpg",
+      "description": ""
+    },
+    "img22": {
+      "url": "./img/diaporama/Bresil/diapo3/d322.jpg",
+      "description": ""
+    },
+    "img23": {
+      "url": "./img/diaporama/Bresil/diapo3/d323.jpg",
+      "description": ""
+    },
+    "img24": {
+      "url": "./img/diaporama/Bresil/diapo3/d324.jpg",
+      "description": ""
+    },
+    "img25": {
+      "url": "./img/diaporama/Bresil/diapo3/d325.jpg",
+      "description": ""
+    },
+    "img26": {
+      "url": "./img/diaporama/Bresil/diapo3/d326.jpg",
+      "description": ""
+    }
+  },
+  "titre": "Sao Paulo - Street Art",
+  "datedebut": "2022-10-15",
+  "datefin": "2022-10-20"
+}
