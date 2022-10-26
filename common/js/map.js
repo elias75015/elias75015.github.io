@@ -68,8 +68,8 @@ function goTo (clickedElement) {
         }
     }
     // réajout de la couche National Geo si elle a été supprimée
-    if (!layers["National Geo"]) {
-        map.addLayers(baseLayers["NAT_GEO"]);
+    if (!layers["coucheOSM"]) {
+        map.addLayers(baseLayers["OSM"]);
     }
 
     // ajout du kml itineraire correspondant
