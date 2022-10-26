@@ -19,15 +19,15 @@ function createMap () {
         // Couches à afficher
         layersOptions : {
             // Couche national geo
-            "National Geo" : {
+            "coucheOSM" : {
                 position : 0,
                 opacity : 1,
                 visibility : true,
                 format :"osm",
-                title : "National Geographic",
-                url : "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}",
+                title : "OpenStreetMap",
+                url : "https://{a-c}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=39cfa021a92541bdbcac02cf76e3a2ce",
                 crossOrigin : null
-                }
+            }
         },
         controlsOptions : {
             "layerswitcher" : {
