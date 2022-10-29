@@ -53,7 +53,7 @@ function createMap () {
 /**
   * Fonction qui remet tout à zero:
   * - suppression de toutes les couches présentes
-  * - ajout de la couche de fond National Geo
+  * - ajout de la couche de fond OSM
   * - ajout de la couche KML de l'itinéraire choisi
   * - centrage sur cet itinéraire
   */
@@ -63,11 +63,11 @@ function goTo (clickedElement) {
 
     // Suppression de toutes les couches précédement ajoutées
     for (var layerId in layers) {
-        if (layerId !== "National Geo") {
+        if (layerId !== "coucheOSM") {
             map.removeLayers(layerId);
         }
     }
-    // réajout de la couche National Geo si elle a été supprimée
+    // réajout de la couche OSM si elle a été supprimée
     if (!layers["coucheOSM"]) {
         map.addLayers(baseLayers["OSM"]);
     }
