@@ -1,0 +1,43 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Bresil/diapo5/d51.jpg",
+      "description": "BolsonaBar"
+    },
+    "img2": {
+      "url": "./img/diaporama/Bresil/diapo5/d52.jpg",
+      "description": "Le marché de PP"
+    },
+    "img3": {
+      "url": "./img/diaporama/Bresil/diapo5/d53.jpg",
+      "description": "Gab et Italo se racontent des salades"
+    },
+    "img4": {
+      "url": "./img/diaporama/Bresil/diapo5/d54.jpg",
+      "description": "Le monde est Prudente"
+    },
+    "img5": {
+      "url": "./img/diaporama/Bresil/diapo5/d55.jpg",
+      "description": "Privé de Feijoada"
+    },
+    "img6": {
+      "url": "./img/diaporama/Bresil/diapo5/d56.jpg",
+      "description": "Fejoiada Vegane"
+    },
+    "img7": {
+      "url": "./img/diaporama/Bresil/diapo5/d57.jpg",
+      "description": "Dodo-minos"
+    },
+    "img8": {
+      "url": "./img/diaporama/Bresil/diapo5/d58.jpg",
+      "description": "Os Daltoes"
+    },
+    "img9": {
+      "url": "./img/diaporama/Bresil/diapo5/d59.jpg",
+      "description": "Cafe da Manha"
+    }
+  },
+  "titre": "Presidente Prudente",
+  "datedebut": "2022-10-22",
+  "datefin": "2022-10-24"
+}
