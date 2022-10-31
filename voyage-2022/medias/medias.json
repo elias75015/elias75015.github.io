@@ -68,6 +68,11 @@
             "title" : "Le pangolin Argentin ?",
             "iframe": "https://www.francetvinfo.fr/sante/maladie/argentine-ce-que-l-on-sait-de-la-pneumonie-d-origine-inconnue-qui-a-deja-fait-trois-morts-dans-une-clinique_5340433.html",
             "description": "Destination Covid new age"
+        },
+        "article2" : {
+            "title" : "Lula victorieux : et maintenant ?",
+            "iframe": "https://www.france24.com/fr/am%C3%A9riques/20221031-apr%C3%A8s-la-courte-victoire-de-lula-le-camp-de-la-d%C3%A9mocratie-entre-soulagement-et-inqui%C3%A9tude",
+            "description": "Lula vainqueur d'une courte tete contre Bolsonaro"
         }
     }
 }
