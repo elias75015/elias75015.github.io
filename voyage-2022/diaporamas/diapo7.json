@@ -1,0 +1,23 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Bresil/diapo7/d71.jpg",
+      "description": "Heron Cocoi"
+    },
+    "img2": {
+      "url": "./img/diaporama/Bresil/diapo7/d72.jpg",
+      "description": "Chevechette Brune"
+    },
+    "img3": {
+      "url": "./img/diaporama/Bresil/diapo7/d73.jpg",
+      "description": "Toucan toco"
+    },
+    "img4": {
+      "url": "./img/diaporama/Bresil/diapo7/d74.jpg",
+      "description": "Cabibara"
+    }
+  },
+  "titre": "Pantanal : Pokedex",
+  "datedebut": "2022-10-25",
+  "datefin": "2022-10-27"
+}

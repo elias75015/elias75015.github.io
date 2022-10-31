@@ -1,0 +1,51 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Bresil/diapo6/d61.jpg",
+      "description": "Chill au Mall"
+    },
+    "img2": {
+      "url": "./img/diaporama/Bresil/diapo6/d62.jpg",
+      "description": "Rio Claro"
+    },
+    "img3": {
+      "url": "./img/diaporama/Bresil/diapo6/d63.jpg",
+      "description": "Benedito Lacoste"
+    },
+    "img4": {
+      "url": "./img/diaporama/Bresil/diapo6/d64.jpg",
+      "description": "Balade en foret"
+    },
+    "img5": {
+      "url": "./img/diaporama/Bresil/diapo6/d65.jpg",
+      "description": "Biche curieuse"
+    },
+    "img6": {
+      "url": "./img/diaporama/Bresil/diapo6/d66.jpg",
+      "description": "Paysage typique"
+    },
+    "img7": {
+      "url": "./img/diaporama/Bresil/diapo6/d67.jpg",
+      "description": ""
+    },
+    "img8": {
+      "url": "./img/diaporama/Bresil/diapo6/d68.jpg",
+      "description": "Fleur de cactus"
+    },
+    "img9": {
+      "url": "./img/diaporama/Bresil/diapo6/d69.jpg",
+      "description": "Perruche sur le perron"
+    },
+    "img10": {
+      "url": "./img/diaporama/Bresil/diapo6/d610.jpg",
+      "description": "Clara qui parle a l'oreille de Whiskey"
+    },
+    "img11": {
+      "url": "./img/diaporama/Bresil/diapo6/d611.jpg",
+      "description": "Capi-par-la"
+    }
+  },
+  "titre": "Pantanal",
+  "datedebut": "2022-10-24",
+  "datefin": "2022-10-27"
+}
