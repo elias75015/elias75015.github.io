@@ -1,0 +1,43 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Bresil/diapo8/d81.jpg",
+      "description": "Gare routiere"
+    },
+    "img2": {
+      "url": "./img/diaporama/Bresil/diapo8/d82.jpg",
+      "description": "Vers le jardin du Luxembourg"
+    },
+    "img3": {
+      "url": "./img/diaporama/Bresil/diapo8/d83.jpg",
+      "description": "Pour se faire floquer...sa voiture"
+    },
+    "img4": {
+      "url": "./img/diaporama/Bresil/diapo8/d84.jpg",
+      "description": "Le rayonnement du cinema francais"
+    },
+    "img5": {
+      "url": "./img/diaporama/Bresil/diapo8/d85.jpg",
+      "description": "Carrefour au Bresil"
+    },
+    "img6": {
+      "url": "./img/diaporama/Bresil/diapo8/d86.jpg",
+      "description": "Encore un peu de France"
+    },
+    "img7": {
+      "url": "./img/diaporama/Bresil/diapo8/d87.jpg",
+      "description": "L'OM sur le grand terrain"
+    },
+    "img8": {
+      "url": "./img/diaporama/Bresil/diapo8/d88.jpg",
+      "description": "L'attaque des clowns"
+    },
+    "img9": {
+      "url": "./img/diaporama/Bresil/diapo8/d89.jpg",
+      "description": "ClaRaoni"
+    }
+  },
+  "titre": "Campo Grande",
+  "datedebut": "2022-10-28",
+  "datefin": "2022-10-28"
+}
