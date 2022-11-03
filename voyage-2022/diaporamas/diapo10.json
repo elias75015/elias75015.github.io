@@ -1,0 +1,47 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Paraguay/diapo10/d101.jpg",
+      "description": ""
+    },
+    "img2": {
+      "url": "./img/diaporama/Paraguay/diapo10/d102.jpg",
+      "description": ""
+    },
+    "img3": {
+      "url": "./img/diaporama/Paraguay/diapo10/d103.jpg",
+      "description": ""
+    },
+    "img4": {
+      "url": "./img/diaporama/Paraguay/diapo10/d104.jpg",
+      "description": ""
+    },
+    "img5": {
+      "url": "./img/diaporama/Paraguay/diapo10/d105.jpg",
+      "description": ""
+    },
+    "img6": {
+      "url": "./img/diaporama/Paraguay/diapo10/d106.jpg",
+      "description": ""
+    },
+    "img7": {
+      "url": "./img/diaporama/Paraguay/diapo10/d107.jpg",
+      "description": ""
+    },
+    "img8": {
+      "url": "./img/diaporama/Paraguay/diapo10/d108.jpg",
+      "description": ""
+    },
+    "img9": {
+      "url": "./img/diaporama/Paraguay/diapo10/d109.jpg",
+      "description": ""
+    },
+    "img10": {
+      "url": "./img/diaporama/Paraguay/diapo10/d1010.jpg",
+      "description": ""
+    }
+  },
+  "titre": "Asuncion - Street Art",
+  "datedebut": "2022-10-29",
+  "datefin": "2022-10-31"
+}
