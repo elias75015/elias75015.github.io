@@ -1,44 +1,54 @@
 {
     "musics": {
         "playlist1" : {
+            "title" : "Voyage 2022",
+            "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidwdcmp37zmHXAMfFKC84KFS&showinfo=1",
+            "description" : "Uber, hotel, rue : tout ce qu'on entend !"
+        },
+        "playlist2" : {
             "title" : "Les sons du Brésil avant de partir",
             "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidwCNyNNU00L_T_Ss-TrBvk8&showinfo=1",
             "description" : "Ce qu'on écoutait du Brésil avant de partir"
         },
-        "playlist2" : {
+        "playlist3" : {
             "title" : "La playlist Carioca",
             "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidzBNuvtDIVQ32Xa5FT84F07&showinfo=1",
             "description" : "Les classiques de Samba entendus lors de nos soirees Cariocas"
         },
-        "playlist3" : {
+        "playlist4" : {
             "title" : "Rap o RnB do Brasil",
             "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidxvv0cpiTrGYl_hlIS0dSXS&showinfo=1",
             "description" : "Les recommandations musiques urbaines bresiliennes de nos amis"
         },
-        "playlist4" : {
+        "playlist5" : {
             "title" : "Le concert d'Allan Bernardes",
             "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidyUvAHNagrMKRO9Z_lG79F6&showinfo=1",
             "description" : "Tous les morceaux joues lors de son concert"
         },
-        "playlist5" : {
+        "playlist6" : {
             "title" : "La Roda d'Al Janiah",
             "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidz28d_RrS0tlyl6JMp63Z0P&showinfo=1",
             "description" : "Quelques uns des classique de samba joues dans le bar Palestinien"
         },
-        "playlist6" : {
+        "playlist7" : {
             "title" : "La playlist de Carla",
             "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidyAw-EzmyLhctF043gH9BBK&showinfo=1",
             "description" : "La creme de la crema par Carla"
         },
-        "playlist7" : {
+        "playlist8" : {
             "title" : "Le Forro de Pinheiros",
             "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidxDbo5HrPum891SpI5QL9fm&showinfo=1",
             "description" : "Groupe Trio beijo de moca"
         },
-        "playlist8" : {
+        "playlist9" : {
             "title" : "MPB de Churrasco",
             "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidzSGTNrhS-zGceP-6zxVe5n&showinfo=1",
             "description" : "La playlist MPB du Churrasco de Marilla"
+        },
+        "playlist10" : {
+            "title" : "Bus vers Posadas",
+            "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidwWPUZLeP0x3-UEh6diOZjy&showinfo=1",
+            "description" : "La playlist du chauffeur de Bus pour Posadas"
         }
     },
     "videos" : {
@@ -71,7 +81,7 @@
         },
         "article2" : {
             "title" : "Lula victorieux : et maintenant ?",
-            "iframe": "https://www.france24.com/fr/am%C3%A9riques/20221031-apr%C3%A8s-la-courte-victoire-de-lula-le-camp-de-la-d%C3%A9mocratie-entre-soulagement-et-inqui%C3%A9tude",
+            "iframe": "https://www.francetvinfo.fr/monde/bresil/bresil-lulaelu-a-la-tete-dun-pays-fortement-divise_5450932.html",
             "description": "Lula vainqueur d'une courte tete contre Bolsonaro"
         }
     }
