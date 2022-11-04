@@ -1,0 +1,83 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Paraguay/diapo9/d91.jpg",
+      "description": ""
+    },
+    "img2": {
+      "url": "./img/diaporama/Paraguay/diapo9/d92.jpg",
+      "description": "Notre dame d'Assomption"
+    },
+    "img3": {
+      "url": "./img/diaporama/Paraguay/diapo9/d93.jpg",
+      "description": "Plaza Uruguaya"
+    },
+    "img4": {
+      "url": "./img/diaporama/Paraguay/diapo9/d94.jpg",
+      "description": "Para-gai"
+    },
+    "img5": {
+      "url": "./img/diaporama/Paraguay/diapo9/d95.jpg",
+      "description": ""
+    },
+    "img6": {
+      "url": "./img/diaporama/Paraguay/diapo9/d96.jpg",
+      "description": "Le Pantheon des Heros"
+    },
+    "img7": {
+      "url": "./img/diaporama/Paraguay/diapo9/d97.jpg",
+      "description": "Label \"Ville fleurie\""
+    },
+    "img8": {
+      "url": "./img/diaporama/Paraguay/diapo9/d98.jpg",
+      "description": "Plage Fluviale"
+    },
+    "img9": {
+      "url": "./img/diaporama/Paraguay/diapo9/d99.jpg",
+      "description": ""
+    },
+    "img10": {
+      "url": "./img/diaporama/Paraguay/diapo9/d910.jpg",
+      "description": "Le grand chantier présidentiel"
+    },
+    "img11": {
+      "url": "./img/diaporama/Paraguay/diapo9/d911.jpg",
+      "description": "Paseo Carmelitas"
+    },
+    "img12": {
+      "url": "./img/diaporama/Paraguay/diapo9/d912.jpg",
+      "description": "Mbeju et autres specialites"
+    },
+    "img13": {
+      "url": "./img/diaporama/Paraguay/diapo9/d913.jpg",
+      "description": "Escalinata"
+    },
+    "img14": {
+      "url": "./img/diaporama/Paraguay/diapo9/d914.jpg",
+      "description": "Roue des couleurs"
+    },
+    "img15": {
+      "url": "./img/diaporama/Paraguay/diapo9/d915.jpg",
+      "description": "Ça balance pas mal"
+    },
+    "img16": {
+      "url": "./img/diaporama/Paraguay/diapo9/d916.jpg",
+      "description": "Vue depuis la terrasse du bar"
+    },
+    "img17": {
+      "url": "./img/diaporama/Paraguay/diapo9/d917.jpg",
+      "description": "Les cocktails de Sebastian"
+    },
+    "img18": {
+      "url": "./img/diaporama/Paraguay/diapo9/d918.jpg",
+      "description": ""
+    },
+    "img19": {
+      "url": "./img/diaporama/Paraguay/diapo9/d919.jpg",
+      "description": "Merci l'Europe !"
+    }
+  },
+  "titre": "Asunción",
+  "datedebut": "2022-10-29",
+  "datefin": "2022-10-31"
+}
