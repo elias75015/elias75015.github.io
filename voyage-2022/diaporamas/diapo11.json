@@ -1,0 +1,63 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Argentine/diapo11/d111.jpg",
+      "description": "Frontière au dessus du Parana"
+    },
+    "img2": {
+      "url": "./img/diaporama/Argentine/diapo11/d112.jpg",
+      "description": "Puerto Iguazú..."
+    },
+    "img3": {
+      "url": "./img/diaporama/Argentine/diapo11/d113.jpg",
+      "description": "...By night"
+    },
+    "img4": {
+      "url": "./img/diaporama/Argentine/diapo11/d114.jpg",
+      "description": "Les chutes"
+    },
+    "img5": {
+      "url": "./img/diaporama/Argentine/diapo11/d115.jpg",
+      "description": ""
+    },
+    "img6": {
+      "url": "./img/diaporama/Argentine/diapo11/d116.jpg",
+      "description": "Spectaculaires !"
+    },
+    "img7": {
+      "url": "./img/diaporama/Argentine/diapo11/d117.jpg",
+      "description": ""
+    },
+    "img8": {
+      "url": "./img/diaporama/Argentine/diapo11/d118.jpg",
+      "description": "Grosse douche"
+    },
+    "img9": {
+      "url": "./img/diaporama/Argentine/diapo11/d119.jpg",
+      "description": ""
+    },
+    "img10": {
+      "url": "./img/diaporama/Argentine/diapo11/d1110.jpg",
+      "description": "Recto..."
+    },
+    "img11": {
+      "url": "./img/diaporama/Argentine/diapo11/d1111.jpg",
+      "description": "Verso !"
+    },
+    "img12": {
+      "url": "./img/diaporama/Argentine/diapo11/d1112.jpg",
+      "description": "Clara papillonne"
+    },
+    "img13": {
+      "url": "./img/diaporama/Argentine/diapo11/d1113.jpg",
+      "description": "Sac de Noeuds Papillon"
+    },
+    "img14": {
+      "url": "./img/diaporama/Argentine/diapo11/d1114.jpg",
+      "description": "Brumisateur naturel"
+    }
+  },
+  "titre": "Iguazú",
+  "datedebut": "2022-10-31",
+  "datefin": "2022-11-02"
+}
