@@ -1,0 +1,59 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Paraguay/diapo12/d121.jpg",
+      "description": "Dans les rues d'Encarnación"
+    },
+    "img2": {
+      "url": "./img/diaporama/Paraguay/diapo12/d122.jpg",
+      "description": "Cathedrale de Encarnación"
+    },
+    "img3": {
+      "url": "./img/diaporama/Paraguay/diapo12/d123.jpg",
+      "description": "EncarNippon"
+    },
+    "img4": {
+      "url": "./img/diaporama/Paraguay/diapo12/d124.jpg",
+      "description": "Sambodrome sur le rio"
+    },
+    "img5": {
+      "url": "./img/diaporama/Paraguay/diapo12/d125.jpg",
+      "description": "Notre hôtel"
+    },
+    "img6": {
+      "url": "./img/diaporama/Paraguay/diapo12/d126.jpg",
+      "description": "C'est toujours l'heure du Tereré "
+    },
+    "img7": {
+      "url": "./img/diaporama/Paraguay/diapo12/d127.jpg",
+      "description": "Skyline by day"
+    },
+    "img8": {
+      "url": "./img/diaporama/Paraguay/diapo12/d128.jpg",
+      "description": "Ça ressemble a des figues !"
+    },
+    "img9": {
+      "url": "./img/diaporama/Paraguay/diapo12/d129.jpg",
+      "description": "Recto..."
+    },
+    "img10": {
+      "url": "./img/diaporama/Paraguay/diapo12/d1210.jpg",
+      "description": "Verso ?!"
+    },
+    "img11": {
+      "url": "./img/diaporama/Paraguay/diapo12/d1211.jpg",
+      "description": "Milanaise napolitaine"
+    },
+    "img12": {
+      "url": "./img/diaporama/Paraguay/diapo12/d1212.jpg",
+      "description": "Skyline by night"
+    },
+    "img13": {
+      "url": "./img/diaporama/Paraguay/diapo12/d1213.jpg",
+      "description": ""
+    }
+  },
+  "titre": "Encarnación",
+  "datedebut": "2022-11-02",
+  "datefin": "2022-11-04"
+}

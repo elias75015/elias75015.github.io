@@ -1,0 +1,75 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Paraguay/diapo13/d131.jpg",
+      "description": "Mission acceptée"
+    },
+    "img2": {
+      "url": "./img/diaporama/Paraguay/diapo13/d132.jpg",
+      "description": "Le cloître de Tavanrangue"
+    },
+    "img3": {
+      "url": "./img/diaporama/Paraguay/diapo13/d133.jpg",
+      "description": ""
+    },
+    "img4": {
+      "url": "./img/diaporama/Paraguay/diapo13/d134.jpg",
+      "description": "Les seuls saints visibles"
+    },
+    "img5": {
+      "url": "./img/diaporama/Paraguay/diapo13/d135.jpg",
+      "description": "Pour le Gondor !"
+    },
+    "img6": {
+      "url": "./img/diaporama/Paraguay/diapo13/d136.jpg",
+      "description": ""
+    },
+    "img7": {
+      "url": "./img/diaporama/Paraguay/diapo13/d137.jpg",
+      "description": "Atalaya, clocher de la première église"
+    },
+    "img8": {
+      "url": "./img/diaporama/Paraguay/diapo13/d138.jpg",
+      "description": "Réveil d'outre-tombe"
+    },
+    "img9": {
+      "url": "./img/diaporama/Paraguay/diapo13/d139.jpg",
+      "description": ""
+    },
+    "img10": {
+      "url": "./img/diaporama/Paraguay/diapo13/d1310.jpg",
+      "description": "Angelot Guarani"
+    },
+    "img11": {
+      "url": "./img/diaporama/Paraguay/diapo13/d1311.jpg",
+      "description": ""
+    },
+    "img12": {
+      "url": "./img/diaporama/Paraguay/diapo13/d1312.jpg",
+      "description": "Pas de repos pour les anges"
+    },
+    "img13": {
+      "url": "./img/diaporama/Paraguay/diapo13/d1313.jpg",
+      "description": "Faune locale"
+    },
+    "img14": {
+      "url": "./img/diaporama/Paraguay/diapo13/d1314.jpg",
+      "description": ""
+    },
+    "img15": {
+      "url": "./img/diaporama/Paraguay/diapo13/d1315.jpg",
+      "description": "Mission camouflage"
+    },
+    "img16": {
+      "url": "./img/diaporama/Paraguay/diapo13/d1316.jpg",
+      "description": "Porte mudégare"
+    },
+    "img17": {
+      "url": "./img/diaporama/Paraguay/diapo13/d1317.jpg",
+      "description": "Porte mudégare de prés "
+    }
+  },
+  "titre": "Missions jésuites",
+  "datedebut": "2022-11-03",
+  "datefin": "2022-11-03"
+}

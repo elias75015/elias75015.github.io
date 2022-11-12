@@ -1,0 +1,83 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Argentine/diapo14/d141.jpg",
+      "description": "Rues piétonnes"
+    },
+    "img2": {
+      "url": "./img/diaporama/Argentine/diapo14/d142.jpg",
+      "description": "Cathedrale Basilique"
+    },
+    "img3": {
+      "url": "./img/diaporama/Argentine/diapo14/d143.jpg",
+      "description": "Musée archéologique de haute montagne"
+    },
+    "img4": {
+      "url": "./img/diaporama/Argentine/diapo14/d144.jpg",
+      "description": "Oh c'est Oooh !"
+    },
+    "img5": {
+      "url": "./img/diaporama/Argentine/diapo14/d145.jpg",
+      "description": "Une sainte et une statuette"
+    },
+    "img6": {
+      "url": "./img/diaporama/Argentine/diapo14/d146.jpg",
+      "description": ""
+    },
+    "img7": {
+      "url": "./img/diaporama/Argentine/diapo14/d147.jpg",
+      "description": ""
+    },
+    "img8": {
+      "url": "./img/diaporama/Argentine/diapo14/d148.jpg",
+      "description": "Photo bombing de serveur"
+    },
+    "img9": {
+      "url": "./img/diaporama/Argentine/diapo14/d149.jpg",
+      "description": "Circuit court"
+    },
+    "img10": {
+      "url": "./img/diaporama/Argentine/diapo14/d1410.jpg",
+      "description": "Humita "
+    },
+    "img11": {
+      "url": "./img/diaporama/Argentine/diapo14/d1411.jpg",
+      "description": ""
+    },
+    "img12": {
+      "url": "./img/diaporama/Argentine/diapo14/d1412.jpg",
+      "description": "Prière de rue"
+    },
+    "img13": {
+      "url": "./img/diaporama/Argentine/diapo14/d1413.jpg",
+      "description": "Restaurant-garderie"
+    },
+    "img14": {
+      "url": "./img/diaporama/Argentine/diapo14/d1414.jpg",
+      "description": "Premières hauteurs"
+    },
+    "img15": {
+      "url": "./img/diaporama/Argentine/diapo14/d1415.jpg",
+      "description": "Vue sur Salta"
+    },
+    "img16": {
+      "url": "./img/diaporama/Argentine/diapo14/d1416.jpg",
+      "description": "Intérieur Centre Culturel America"
+    },
+    "img17": {
+      "url": "./img/diaporama/Argentine/diapo14/d1417.jpg",
+      "description": "Soy Caporal ! "
+    },
+    "img18": {
+      "url": "./img/diaporama/Argentine/diapo14/d1418.jpg",
+      "description": "Budget costume illimité"
+    },
+    "img19": {
+      "url": "./img/diaporama/Argentine/diapo14/d1419.jpg",
+      "description": "Vraiment illimité"
+    }
+  },
+  "titre": "Salta",
+  "datedebut": "2022-11-05",
+  "datefin": "2022-11-07"
+}
