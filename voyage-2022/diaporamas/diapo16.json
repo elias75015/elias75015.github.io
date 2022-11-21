@@ -1,0 +1,67 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Argentine/diapo16/d161.jpg",
+      "description": "Couleurs de l'au-delà"
+    },
+    "img2": {
+      "url": "./img/diaporama/Argentine/diapo16/d162.jpg",
+      "description": "Tropique du Capricorne"
+    },
+    "img3": {
+      "url": "./img/diaporama/Argentine/diapo16/d163.jpg",
+      "description": "A l'assaut des Señoritas"
+    },
+    "img4": {
+      "url": "./img/diaporama/Argentine/diapo16/d164.jpg",
+      "description": "Pacheta, pour honorer la Pachamama"
+    },
+    "img5": {
+      "url": "./img/diaporama/Argentine/diapo16/d165.jpg",
+      "description": "Canyon"
+    },
+    "img6": {
+      "url": "./img/diaporama/Argentine/diapo16/d166.jpg",
+      "description": "Bois de cactus"
+    },
+    "img7": {
+      "url": "./img/diaporama/Argentine/diapo16/d167.jpg",
+      "description": ""
+    },
+    "img8": {
+      "url": "./img/diaporama/Argentine/diapo16/d168.jpg",
+      "description": "Vue sur la vallée"
+    },
+    "img9": {
+      "url": "./img/diaporama/Argentine/diapo16/d169.jpg",
+      "description": ""
+    },
+    "img10": {
+      "url": "./img/diaporama/Argentine/diapo16/d1610.jpg",
+      "description": "De loin"
+    },
+    "img11": {
+      "url": "./img/diaporama/Argentine/diapo16/d1611.jpg",
+      "description": "De moins loin"
+    },
+    "img12": {
+      "url": "./img/diaporama/Argentine/diapo16/d1612.jpg",
+      "description": "De près"
+    },
+    "img13": {
+      "url": "./img/diaporama/Argentine/diapo16/d1613.jpg",
+      "description": "Dans la faille"
+    },
+    "img14": {
+      "url": "./img/diaporama/Argentine/diapo16/d1614.jpg",
+      "description": ""
+    },
+    "img15": {
+      "url": "./img/diaporama/Argentine/diapo16/d1615.jpg",
+      "description": ""
+    }
+  },
+  "titre": "Las Señoritas",
+  "datedebut": "2022-11-09",
+  "datefin": "2022-11-09"
+}
