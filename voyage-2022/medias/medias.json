@@ -49,6 +49,16 @@
             "title" : "Bus vers Posadas",
             "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidwWPUZLeP0x3-UEh6diOZjy&showinfo=1",
             "description" : "La playlist du chauffeur de Bus pour Posadas"
+        },
+        "playlist11" : {
+            "title" : "Parilla de Tilcara",
+            "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidyOURzBFexpiD6nPNiL-JBq&showinfo=1",
+            "description" : "La playlist de la Parilla de Tilcara"
+        },
+        "playlist12" : {
+            "title" : "Guitarra de Tilcara",
+            "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidzNhBhFijOYKPGfYyqcYREu&showinfo=1",
+            "description" : "Les morceaux joués par les convives en fin de soirée"
         }
     },
     "videos" : {
