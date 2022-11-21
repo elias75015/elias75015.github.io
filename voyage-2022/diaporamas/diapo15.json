@@ -1,0 +1,59 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Argentine/diapo15/d151.jpg",
+      "description": "Marche vers Purmamarca"
+    },
+    "img2": {
+      "url": "./img/diaporama/Argentine/diapo15/d152.jpg",
+      "description": "Moutonnerie"
+    },
+    "img3": {
+      "url": "./img/diaporama/Argentine/diapo15/d153.jpg",
+      "description": "Arrivés !"
+    },
+    "img4": {
+      "url": "./img/diaporama/Argentine/diapo15/d154.jpg",
+      "description": ""
+    },
+    "img5": {
+      "url": "./img/diaporama/Argentine/diapo15/d155.jpg",
+      "description": "Les 7 couleurs et du violet"
+    },
+    "img6": {
+      "url": "./img/diaporama/Argentine/diapo15/d156.jpg",
+      "description": "Fumées..."
+    },
+    "img7": {
+      "url": "./img/diaporama/Argentine/diapo15/d157.jpg",
+      "description": ""
+    },
+    "img8": {
+      "url": "./img/diaporama/Argentine/diapo15/d158.jpg",
+      "description": "Un index dans le désert"
+    },
+    "img9": {
+      "url": "./img/diaporama/Argentine/diapo15/d159.jpg",
+      "description": "L'Oréal"
+    },
+    "img10": {
+      "url": "./img/diaporama/Argentine/diapo15/d1510.jpg",
+      "description": ""
+    },
+    "img11": {
+      "url": "./img/diaporama/Argentine/diapo15/d1511.jpg",
+      "description": ""
+    },
+    "img12": {
+      "url": "./img/diaporama/Argentine/diapo15/d1512.jpg",
+      "description": ""
+    },
+    "img13": {
+      "url": "./img/diaporama/Argentine/diapo15/d1513.jpg",
+      "description": "Une terre de foot ? "
+    }
+  },
+  "titre": "Purmamarca",
+  "datedebut": "2022-11-08",
+  "datefin": "2022-11-09"
+}
