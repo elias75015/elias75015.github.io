@@ -1,0 +1,75 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Argentine/diapo17/d171.jpg",
+      "description": "Kermess de Tilcara"
+    },
+    "img2": {
+      "url": "./img/diaporama/Argentine/diapo17/d172.jpg",
+      "description": "Casa Los Molles"
+    },
+    "img3": {
+      "url": "./img/diaporama/Argentine/diapo17/d173.jpg",
+      "description": "Art Deco Retro"
+    },
+    "img4": {
+      "url": "./img/diaporama/Argentine/diapo17/d174.jpg",
+      "description": "Le p'tit bar de l'auberge"
+    },
+    "img5": {
+      "url": "./img/diaporama/Argentine/diapo17/d175.jpg",
+      "description": ""
+    },
+    "img6": {
+      "url": "./img/diaporama/Argentine/diapo17/d176.jpg",
+      "description": "Tilcara"
+    },
+    "img7": {
+      "url": "./img/diaporama/Argentine/diapo17/d177.jpg",
+      "description": "Lama au four"
+    },
+    "img8": {
+      "url": "./img/diaporama/Argentine/diapo17/d178.jpg",
+      "description": "Tilcara-venue"
+    },
+    "img9": {
+      "url": "./img/diaporama/Argentine/diapo17/d179.jpg",
+      "description": "La Pucara reconstruite"
+    },
+    "img10": {
+      "url": "./img/diaporama/Argentine/diapo17/d1710.jpg",
+      "description": "Orgie de viande"
+    },
+    "img11": {
+      "url": "./img/diaporama/Argentine/diapo17/d1711.jpg",
+      "description": "Baco le chien en attente des restes"
+    },
+    "img12": {
+      "url": "./img/diaporama/Argentine/diapo17/d1712.jpg",
+      "description": "Sauter d'un pont"
+    },
+    "img13": {
+      "url": "./img/diaporama/Argentine/diapo17/d1713.jpg",
+      "description": ""
+    },
+    "img14": {
+      "url": "./img/diaporama/Argentine/diapo17/d1714.jpg",
+      "description": "Mafalda et une fan"
+    },
+    "img15": {
+      "url": "./img/diaporama/Argentine/diapo17/d1715.jpg",
+      "description": "Vue depuis l'auberge"
+    },
+    "img16": {
+      "url": "./img/diaporama/Argentine/diapo17/d1716.jpg",
+      "description": "Maté"
+    },
+    "img17": {
+      "url": "./img/diaporama/Argentine/diapo17/d1717.jpg",
+      "description": ""
+    }
+  },
+  "titre": "Tilcara",
+  "datedebut": "2022-11-09",
+  "datefin": "2022-11-11"
+}
