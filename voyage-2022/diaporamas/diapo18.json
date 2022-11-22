@@ -1,0 +1,67 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Argentine/diapo18/d181.jpg",
+      "description": "Bienvenue à la cave"
+    },
+    "img2": {
+      "url": "./img/diaporama/Argentine/diapo18/d182.jpg",
+      "description": "A-fleurement"
+    },
+    "img3": {
+      "url": "./img/diaporama/Argentine/diapo18/d183.jpg",
+      "description": "Une Bouche dans le cerro"
+    },
+    "img4": {
+      "url": "./img/diaporama/Argentine/diapo18/d184.jpg",
+      "description": ""
+    },
+    "img5": {
+      "url": "./img/diaporama/Argentine/diapo18/d185.jpg",
+      "description": "Vue sur Tilcara"
+    },
+    "img6": {
+      "url": "./img/diaporama/Argentine/diapo18/d186.jpg",
+      "description": ""
+    },
+    "img7": {
+      "url": "./img/diaporama/Argentine/diapo18/d187.jpg",
+      "description": "Dans le ventre de la Pachamama"
+    },
+    "img8": {
+      "url": "./img/diaporama/Argentine/diapo18/d188.jpg",
+      "description": "Contorsion"
+    },
+    "img9": {
+      "url": "./img/diaporama/Argentine/diapo18/d189.jpg",
+      "description": ""
+    },
+    "img10": {
+      "url": "./img/diaporama/Argentine/diapo18/d1810.jpg",
+      "description": "Voir la lumière"
+    },
+    "img11": {
+      "url": "./img/diaporama/Argentine/diapo18/d1811.jpg",
+      "description": "Notre guide Celso"
+    },
+    "img12": {
+      "url": "./img/diaporama/Argentine/diapo18/d1812.jpg",
+      "description": ""
+    },
+    "img13": {
+      "url": "./img/diaporama/Argentine/diapo18/d1813.jpg",
+      "description": "Spéléologie"
+    },
+    "img14": {
+      "url": "./img/diaporama/Argentine/diapo18/d1814.jpg",
+      "description": ""
+    },
+    "img15": {
+      "url": "./img/diaporama/Argentine/diapo18/d1815.jpg",
+      "description": ""
+    }
+  },
+  "titre": "Wayra - cuevas",
+  "datedebut": "2022-11-10",
+  "datefin": "2022-11-10"
+}
