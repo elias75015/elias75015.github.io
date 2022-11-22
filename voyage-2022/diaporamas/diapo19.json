@@ -1,0 +1,59 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Argentine/diapo19/d191.jpg",
+      "description": "Place centrale"
+    },
+    "img2": {
+      "url": "./img/diaporama/Argentine/diapo19/d192.jpg",
+      "description": ""
+    },
+    "img3": {
+      "url": "./img/diaporama/Argentine/diapo19/d193.jpg",
+      "description": "La rue piétonne"
+    },
+    "img4": {
+      "url": "./img/diaporama/Argentine/diapo19/d194.jpg",
+      "description": ""
+    },
+    "img5": {
+      "url": "./img/diaporama/Argentine/diapo19/d195.jpg",
+      "description": "Lagoa"
+    },
+    "img6": {
+      "url": "./img/diaporama/Argentine/diapo19/d196.jpg",
+      "description": ""
+    },
+    "img7": {
+      "url": "./img/diaporama/Argentine/diapo19/d197.jpg",
+      "description": ""
+    },
+    "img8": {
+      "url": "./img/diaporama/Argentine/diapo19/d198.jpg",
+      "description": ""
+    },
+    "img9": {
+      "url": "./img/diaporama/Argentine/diapo19/d199.jpg",
+      "description": "Ici on se baigne"
+    },
+    "img10": {
+      "url": "./img/diaporama/Argentine/diapo19/d1910.jpg",
+      "description": "La sou-soupe"
+    },
+    "img11": {
+      "url": "./img/diaporama/Argentine/diapo19/d1911.jpg",
+      "description": "Albondigas bizarres"
+    },
+    "img12": {
+      "url": "./img/diaporama/Argentine/diapo19/d1912.jpg",
+      "description": "La gelée en dessert"
+    },
+    "img13": {
+      "url": "./img/diaporama/Argentine/diapo19/d1913.jpg",
+      "description": "Retour de marché"
+    }
+  },
+  "titre": "San Salvador de Jujuy",
+  "datedebut": "2022-11-11",
+  "datefin": "2022-11-13"
+}
