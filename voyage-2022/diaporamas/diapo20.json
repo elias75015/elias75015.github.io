@@ -1,0 +1,67 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Chili/diapo20/d201.jpg",
+      "description": ""
+    },
+    "img2": {
+      "url": "./img/diaporama/Chili/diapo20/d202.jpg",
+      "description": ""
+    },
+    "img3": {
+      "url": "./img/diaporama/Chili/diapo20/d203.jpg",
+      "description": "Poste frontière"
+    },
+    "img4": {
+      "url": "./img/diaporama/Chili/diapo20/d204.jpg",
+      "description": ""
+    },
+    "img5": {
+      "url": "./img/diaporama/Chili/diapo20/d205.jpg",
+      "description": ""
+    },
+    "img6": {
+      "url": "./img/diaporama/Chili/diapo20/d206.jpg",
+      "description": ""
+    },
+    "img7": {
+      "url": "./img/diaporama/Chili/diapo20/d207.jpg",
+      "description": ""
+    },
+    "img8": {
+      "url": "./img/diaporama/Chili/diapo20/d208.jpg",
+      "description": ""
+    },
+    "img9": {
+      "url": "./img/diaporama/Chili/diapo20/d209.jpg",
+      "description": ""
+    },
+    "img10": {
+      "url": "./img/diaporama/Chili/diapo20/d2010.jpg",
+      "description": ""
+    },
+    "img11": {
+      "url": "./img/diaporama/Chili/diapo20/d2011.jpg",
+      "description": ""
+    },
+    "img12": {
+      "url": "./img/diaporama/Chili/diapo20/d2012.jpg",
+      "description": ""
+    },
+    "img13": {
+      "url": "./img/diaporama/Chili/diapo20/d2013.jpg",
+      "description": "On va par lama !"
+    },
+    "img14": {
+      "url": "./img/diaporama/Chili/diapo20/d2014.jpg",
+      "description": "Le Licancatur"
+    },
+    "img15": {
+      "url": "./img/diaporama/Chili/diapo20/d2015.jpg",
+      "description": ""
+    }
+  },
+  "titre": "Col de Jama",
+  "datedebut": "2022-11-14",
+  "datefin": "2022-11-14"
+}
