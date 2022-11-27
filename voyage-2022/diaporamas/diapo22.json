@@ -1,0 +1,95 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Chili/diapo22/d221.jpg",
+      "description": "Ça soufre fort !"
+    },
+    "img2": {
+      "url": "./img/diaporama/Chili/diapo22/d222.jpg",
+      "description": "Marmite naturelle"
+    },
+    "img3": {
+      "url": "./img/diaporama/Chili/diapo22/d223.jpg",
+      "description": "En studio"
+    },
+    "img4": {
+      "url": "./img/diaporama/Chili/diapo22/d224.jpg",
+      "description": ""
+    },
+    "img5": {
+      "url": "./img/diaporama/Chili/diapo22/d225.jpg",
+      "description": "Terre de feux"
+    },
+    "img6": {
+      "url": "./img/diaporama/Chili/diapo22/d226.jpg",
+      "description": ""
+    },
+    "img7": {
+      "url": "./img/diaporama/Chili/diapo22/d227.jpg",
+      "description": ""
+    },
+    "img8": {
+      "url": "./img/diaporama/Chili/diapo22/d228.jpg",
+      "description": "Quand tu oublies les pâtes"
+    },
+    "img9": {
+      "url": "./img/diaporama/Chili/diapo22/d229.jpg",
+      "description": "Ecran de fumée"
+    },
+    "img10": {
+      "url": "./img/diaporama/Chili/diapo22/d2210.jpg",
+      "description": "Machine à vapeur"
+    },
+    "img11": {
+      "url": "./img/diaporama/Chili/diapo22/d2211.jpg",
+      "description": ""
+    },
+    "img12": {
+      "url": "./img/diaporama/Chili/diapo22/d2212.jpg",
+      "description": "Fantômes ?"
+    },
+    "img13": {
+      "url": "./img/diaporama/Chili/diapo22/d2213.jpg",
+      "description": "Micro-biote du geyser"
+    },
+    "img14": {
+      "url": "./img/diaporama/Chili/diapo22/d2214.jpg",
+      "description": "Coca en stock"
+    },
+    "img15": {
+      "url": "./img/diaporama/Chili/diapo22/d2215.jpg",
+      "description": "Un peu de vert aussi"
+    },
+    "img16": {
+      "url": "./img/diaporama/Chili/diapo22/d2216.jpg",
+      "description": ""
+    },
+    "img17": {
+      "url": "./img/diaporama/Chili/diapo22/d2217.jpg",
+      "description": "Vicuñas"
+    },
+    "img18": {
+      "url": "./img/diaporama/Chili/diapo22/d2218.jpg",
+      "description": "Cueillette de Xuxicama"
+    },
+    "img19": {
+      "url": "./img/diaporama/Chili/diapo22/d2219.jpg",
+      "description": "Plus ancienne église du Chili"
+    },
+    "img20": {
+      "url": "./img/diaporama/Chili/diapo22/d2220.jpg",
+      "description": "Guanaco labore pas"
+    },
+    "img21": {
+      "url": "./img/diaporama/Chili/diapo22/d2221.jpg",
+      "description": "La tête sous l'eau de rose"
+    },
+    "img22": {
+      "url": "./img/diaporama/Chili/diapo22/d2222.jpg",
+      "description": "Nid supra-quatique"
+    }
+  },
+  "titre": "Geysers de Tatio",
+  "datedebut": "2022-11-15",
+  "datefin": "2022-11-15"
+}
