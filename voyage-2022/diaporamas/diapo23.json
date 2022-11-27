@@ -1,0 +1,39 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Chili/diapo23/d231.jpg",
+      "description": "Laguna escondida 1/7"
+    },
+    "img2": {
+      "url": "./img/diaporama/Chili/diapo23/d232.jpg",
+      "description": "Lagunas escondidas 2,3,4/7"
+    },
+    "img3": {
+      "url": "./img/diaporama/Chili/diapo23/d233.jpg",
+      "description": "Pret pour le petit bain ?"
+    },
+    "img4": {
+      "url": "./img/diaporama/Chili/diapo23/d234.jpg",
+      "description": "Et oui ça flotte !"
+    },
+    "img5": {
+      "url": "./img/diaporama/Chili/diapo23/d235.jpg",
+      "description": "Lagune 7/7 : ça flotte toujours."
+    },
+    "img6": {
+      "url": "./img/diaporama/Chili/diapo23/d236.jpg",
+      "description": "La note est salée"
+    },
+    "img7": {
+      "url": "./img/diaporama/Chili/diapo23/d237.jpg",
+      "description": "Presque autant de sel que sur LoL"
+    },
+    "img8": {
+      "url": "./img/diaporama/Chili/diapo23/d238.jpg",
+      "description": ""
+    }
+  },
+  "titre": "Lagunas Baltinoche",
+  "datedebut": "2022-11-15",
+  "datefin": "2022-11-15"
+}
