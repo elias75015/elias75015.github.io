@@ -1,0 +1,31 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Chili/diapo21/d211.jpg",
+      "description": "Ville de poussieres"
+    },
+    "img2": {
+      "url": "./img/diaporama/Chili/diapo21/d212.jpg",
+      "description": "La place centrale"
+    },
+    "img3": {
+      "url": "./img/diaporama/Chili/diapo21/d213.jpg",
+      "description": "Calle Caracoles"
+    },
+    "img4": {
+      "url": "./img/diaporama/Chili/diapo21/d214.jpg",
+      "description": ""
+    },
+    "img5": {
+      "url": "./img/diaporama/Chili/diapo21/d215.jpg",
+      "description": ""
+    },
+    "img6": {
+      "url": "./img/diaporama/Chili/diapo21/d216.jpg",
+      "description": "Clara sauvage prise dans les phares"
+    }
+  },
+  "titre": "San Pedro de Atacama",
+  "datedebut": "2022-11-14",
+  "datefin": "2022-11-18"
+}
