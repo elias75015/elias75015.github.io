@@ -1,0 +1,99 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Chili/diapo25/d251.jpg",
+      "description": "En route !"
+    },
+    "img2": {
+      "url": "./img/diaporama/Chili/diapo25/d252.jpg",
+      "description": "Vue sur San Pedro"
+    },
+    "img3": {
+      "url": "./img/diaporama/Chili/diapo25/d253.jpg",
+      "description": "Départ du critérium d'Atacama"
+    },
+    "img4": {
+      "url": "./img/diaporama/Chili/diapo25/d254.jpg",
+      "description": "Maillot vert"
+    },
+    "img5": {
+      "url": "./img/diaporama/Chili/diapo25/d255.jpg",
+      "description": "Cote casse-pates"
+    },
+    "img6": {
+      "url": "./img/diaporama/Chili/diapo25/d256.jpg",
+      "description": "Duel dans le Far-Oueste"
+    },
+    "img7": {
+      "url": "./img/diaporama/Chili/diapo25/d257.jpg",
+      "description": "A fond les bananes"
+    },
+    "img8": {
+      "url": "./img/diaporama/Chili/diapo25/d258.jpg",
+      "description": ""
+    },
+    "img9": {
+      "url": "./img/diaporama/Chili/diapo25/d259.jpg",
+      "description": ""
+    },
+    "img10": {
+      "url": "./img/diaporama/Chili/diapo25/d2510.jpg",
+      "description": "Ou est le proprio du vélo ?"
+    },
+    "img11": {
+      "url": "./img/diaporama/Chili/diapo25/d2511.jpg",
+      "description": "Funam-dune"
+    },
+    "img12": {
+      "url": "./img/diaporama/Chili/diapo25/d2512.jpg",
+      "description": "Maillot Blanc"
+    },
+    "img13": {
+      "url": "./img/diaporama/Chili/diapo25/d2513.jpg",
+      "description": ""
+    },
+    "img14": {
+      "url": "./img/diaporama/Chili/diapo25/d2514.jpg",
+      "description": "3 Maries"
+    },
+    "img15": {
+      "url": "./img/diaporama/Chili/diapo25/d2515.jpg",
+      "description": "Dernier virage ?"
+    },
+    "img16": {
+      "url": "./img/diaporama/Chili/diapo25/d2516.jpg",
+      "description": ""
+    },
+    "img17": {
+      "url": "./img/diaporama/Chili/diapo25/d2517.jpg",
+      "description": ""
+    },
+    "img18": {
+      "url": "./img/diaporama/Chili/diapo25/d2518.jpg",
+      "description": ""
+    },
+    "img19": {
+      "url": "./img/diaporama/Chili/diapo25/d2519.jpg",
+      "description": ""
+    },
+    "img20": {
+      "url": "./img/diaporama/Chili/diapo25/d2520.jpg",
+      "description": "Cristaux de sel."
+    },
+    "img21": {
+      "url": "./img/diaporama/Chili/diapo25/d2521.jpg",
+      "description": "Un p'tit remontant..."
+    },
+    "img22": {
+      "url": "./img/diaporama/Chili/diapo25/d2522.jpg",
+      "description": "...pour la victoire finale !"
+    },
+    "img23": {
+      "url": "./img/diaporama/Chili/diapo25/d2523.jpg",
+      "description": "The end..."
+    }
+  },
+  "titre": "Vallée de la Lune",
+  "datedebut": "2022-11-17",
+  "datefin": "2022-11-17"
+}
