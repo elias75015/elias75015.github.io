@@ -1,0 +1,87 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Chili/diapo24/d241.jpg",
+      "description": "Une belle ligne droite"
+    },
+    "img2": {
+      "url": "./img/diaporama/Chili/diapo24/d242.jpg",
+      "description": "Route de l'Inca X tropique du Capricorne "
+    },
+    "img3": {
+      "url": "./img/diaporama/Chili/diapo24/d243.jpg",
+      "description": "Salar au loin"
+    },
+    "img4": {
+      "url": "./img/diaporama/Chili/diapo24/d244.jpg",
+      "description": "Salar moins loin"
+    },
+    "img5": {
+      "url": "./img/diaporama/Chili/diapo24/d245.jpg",
+      "description": "Piedras rojas"
+    },
+    "img6": {
+      "url": "./img/diaporama/Chili/diapo24/d246.jpg",
+      "description": "Tant de couleurs !"
+    },
+    "img7": {
+      "url": "./img/diaporama/Chili/diapo24/d247.jpg",
+      "description": ""
+    },
+    "img8": {
+      "url": "./img/diaporama/Chili/diapo24/d248.jpg",
+      "description": "Par la c'est interdit"
+    },
+    "img9": {
+      "url": "./img/diaporama/Chili/diapo24/d249.jpg",
+      "description": ""
+    },
+    "img10": {
+      "url": "./img/diaporama/Chili/diapo24/d2410.jpg",
+      "description": ""
+    },
+    "img11": {
+      "url": "./img/diaporama/Chili/diapo24/d2411.jpg",
+      "description": ""
+    },
+    "img12": {
+      "url": "./img/diaporama/Chili/diapo24/d2412.jpg",
+      "description": ""
+    },
+    "img13": {
+      "url": "./img/diaporama/Chili/diapo24/d2413.jpg",
+      "description": "Lagune Miscanti"
+    },
+    "img14": {
+      "url": "./img/diaporama/Chili/diapo24/d2414.jpg",
+      "description": "Lagune Miñiques"
+    },
+    "img15": {
+      "url": "./img/diaporama/Chili/diapo24/d2415.jpg",
+      "description": ""
+    },
+    "img16": {
+      "url": "./img/diaporama/Chili/diapo24/d2416.jpg",
+      "description": "La mer ?"
+    },
+    "img17": {
+      "url": "./img/diaporama/Chili/diapo24/d2417.jpg",
+      "description": "La direction est claire"
+    },
+    "img18": {
+      "url": "./img/diaporama/Chili/diapo24/d2418.jpg",
+      "description": "Toujours des salars"
+    },
+    "img19": {
+      "url": "./img/diaporama/Chili/diapo24/d2419.jpg",
+      "description": "Flamands chiliens du Chili"
+    },
+    "img20": {
+      "url": "./img/diaporama/Chili/diapo24/d2420.jpg",
+      "description": "Il est ou le renard ?"
+    }
+  },
+  "titre": "Lagunes altiplaniques",
+  "datedebut": "2022-11-16",
+  "datefin": "2022-11-16"
+}
