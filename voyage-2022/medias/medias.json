@@ -59,6 +59,11 @@
             "title" : "Guitarra de Tilcara",
             "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidzNhBhFijOYKPGfYyqcYREu&showinfo=1",
             "description" : "Les morceaux joués par les convives en fin de soirée"
+        },
+        "playlist13" : {
+            "title" : "Pichidangui Coffee",
+            "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidzjyCBxW8Io_cISxQTOl4ci&showinfo=1",
+            "description" : "La playlist tranquille du café de Pichidangui"
         }
     },
     "videos" : {
