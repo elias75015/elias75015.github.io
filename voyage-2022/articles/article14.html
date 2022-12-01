@@ -82,3 +82,14 @@ Nous avons le bus à 2:45 le matin, et lorsque nous annonçons en partant à la 
 Cette fois c'est bon, nous partons au Chili après une journée simple mais agréable qui a redoré le blason de San Salvador de Jujuy !
 </p>
 <br>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
