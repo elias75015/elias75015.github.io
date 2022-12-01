@@ -82,3 +82,14 @@ Tenemos el autobús a las 2:45 de la mañana, y cuando le anunciamos al salir a 
 Esta vez si, nos vamos a Chile después de un día sencillo pero agradable que ha mejorado la imagen de San Salvador de Jujuy!
 </p>
 <br>
+
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
