@@ -1,0 +1,99 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Chili/diapo30/d301.jpg",
+      "description": "Cantine de chalutier"
+    },
+    "img2": {
+      "url": "./img/diaporama/Chili/diapo30/d302.jpg",
+      "description": "Plats typiques"
+    },
+    "img3": {
+      "url": "./img/diaporama/Chili/diapo30/d303.jpg",
+      "description": "La Sebastiana de Neruda"
+    },
+    "img4": {
+      "url": "./img/diaporama/Chili/diapo30/d304.jpg",
+      "description": "Photo volée"
+    },
+    "img5": {
+      "url": "./img/diaporama/Chili/diapo30/d305.jpg",
+      "description": "Passage Clara"
+    },
+    "img6": {
+      "url": "./img/diaporama/Chili/diapo30/d306.jpg",
+      "description": "Avenue Elias"
+    },
+    "img7": {
+      "url": "./img/diaporama/Chili/diapo30/d307.jpg",
+      "description": ""
+    },
+    "img8": {
+      "url": "./img/diaporama/Chili/diapo30/d308.jpg",
+      "description": "Escalier pour parieur"
+    },
+    "img9": {
+      "url": "./img/diaporama/Chili/diapo30/d309.jpg",
+      "description": "EsAltamira !"
+    },
+    "img10": {
+      "url": "./img/diaporama/Chili/diapo30/d3010.jpg",
+      "description": ""
+    },
+    "img11": {
+      "url": "./img/diaporama/Chili/diapo30/d3011.jpg",
+      "description": ""
+    },
+    "img12": {
+      "url": "./img/diaporama/Chili/diapo30/d3012.jpg",
+      "description": ""
+    },
+    "img13": {
+      "url": "./img/diaporama/Chili/diapo30/d3013.jpg",
+      "description": ""
+    },
+    "img14": {
+      "url": "./img/diaporama/Chili/diapo30/d3014.jpg",
+      "description": ""
+    },
+    "img15": {
+      "url": "./img/diaporama/Chili/diapo30/d3015.jpg",
+      "description": ""
+    },
+    "img16": {
+      "url": "./img/diaporama/Chili/diapo30/d3016.jpg",
+      "description": "Une ligne électrique"
+    },
+    "img17": {
+      "url": "./img/diaporama/Chili/diapo30/d3017.jpg",
+      "description": ""
+    },
+    "img18": {
+      "url": "./img/diaporama/Chili/diapo30/d3018.jpg",
+      "description": "Engrenages"
+    },
+    "img19": {
+      "url": "./img/diaporama/Chili/diapo30/d3019.jpg",
+      "description": ""
+    },
+    "img20": {
+      "url": "./img/diaporama/Chili/diapo30/d3020.jpg",
+      "description": "Ex-école navale"
+    },
+    "img21": {
+      "url": "./img/diaporama/Chili/diapo30/d3021.jpg",
+      "description": "Architecture-fusion"
+    },
+    "img22": {
+      "url": "./img/diaporama/Chili/diapo30/d3022.jpg",
+      "description": ""
+    },
+    "img23": {
+      "url": "./img/diaporama/Chili/diapo30/d3023.jpg",
+      "description": "La chatte à Dédé"
+    }
+  },
+  "titre": "Valparaiso",
+  "datedebut": "2022-11-24",
+  "datefin": "2022-11-24"
+}
