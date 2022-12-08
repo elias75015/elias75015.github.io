@@ -176,3 +176,13 @@ Nous rentrons rincés à l'auberge, et nous devons prendre un bus le lendemain �
 <div class="photo">
 <img src="./img/diaporama/Argentine/article13/p21.jpg" id="photo21" class="carre">
 </div>
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
