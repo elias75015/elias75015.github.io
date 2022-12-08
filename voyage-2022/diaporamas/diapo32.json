@@ -1,0 +1,39 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Argentine/diapo32/d321.jpg",
+      "description": ""
+    },
+    "img2": {
+      "url": "./img/diaporama/Argentine/diapo32/d322.jpg",
+      "description": ""
+    },
+    "img3": {
+      "url": "./img/diaporama/Argentine/diapo32/d323.jpg",
+      "description": ""
+    },
+    "img4": {
+      "url": "./img/diaporama/Argentine/diapo32/d324.jpg",
+      "description": "Ambiance studieuse devant Messi"
+    },
+    "img5": {
+      "url": "./img/diaporama/Argentine/diapo32/d325.jpg",
+      "description": "On the road, again..."
+    },
+    "img6": {
+      "url": "./img/diaporama/Argentine/diapo32/d326.jpg",
+      "description": "Grêlons "
+    },
+    "img7": {
+      "url": "./img/diaporama/Argentine/diapo32/d327.jpg",
+      "description": "Des œufs d'autruche géants ?"
+    },
+    "img8": {
+      "url": "./img/diaporama/Argentine/diapo32/d328.jpg",
+      "description": "Non ! Des fours jésuites !"
+    }
+  },
+  "titre": "Uspallata",
+  "datedebut": "2022-11-28",
+  "datefin": "2022-11-30"
+}
