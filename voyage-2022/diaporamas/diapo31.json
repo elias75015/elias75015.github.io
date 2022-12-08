@@ -1,0 +1,55 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Argentine/diapo31/d311.jpg",
+      "description": ""
+    },
+    "img2": {
+      "url": "./img/diaporama/Argentine/diapo31/d312.jpg",
+      "description": ""
+    },
+    "img3": {
+      "url": "./img/diaporama/Argentine/diapo31/d313.jpg",
+      "description": ""
+    },
+    "img4": {
+      "url": "./img/diaporama/Argentine/diapo31/d314.jpg",
+      "description": "Alpes d'Huez ?"
+    },
+    "img5": {
+      "url": "./img/diaporama/Argentine/diapo31/d315.jpg",
+      "description": "Chao Chile !"
+    },
+    "img6": {
+      "url": "./img/diaporama/Argentine/diapo31/d316.jpg",
+      "description": ""
+    },
+    "img7": {
+      "url": "./img/diaporama/Argentine/diapo31/d317.jpg",
+      "description": ""
+    },
+    "img8": {
+      "url": "./img/diaporama/Argentine/diapo31/d318.jpg",
+      "description": ""
+    },
+    "img9": {
+      "url": "./img/diaporama/Argentine/diapo31/d319.jpg",
+      "description": ""
+    },
+    "img10": {
+      "url": "./img/diaporama/Argentine/diapo31/d3110.jpg",
+      "description": "Pont ferroviaire suspendu"
+    },
+    "img11": {
+      "url": "./img/diaporama/Argentine/diapo31/d3111.jpg",
+      "description": "Ligne de train désaffectée depuis 1984"
+    },
+    "img12": {
+      "url": "./img/diaporama/Argentine/diapo31/d3112.jpg",
+      "description": ""
+    }
+  },
+  "titre": "Paseo Libertadores",
+  "datedebut": "2022-11-28",
+  "datefin": "2022-11-28"
+}
