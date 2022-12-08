@@ -1,0 +1,115 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Argentine/diapo33/d331.jpg",
+      "description": "Ici, on ski"
+    },
+    "img2": {
+      "url": "./img/diaporama/Argentine/diapo33/d332.jpg",
+      "description": "C'est parti pour quelques kms"
+    },
+    "img3": {
+      "url": "./img/diaporama/Argentine/diapo33/d333.jpg",
+      "description": "Objectif en ligne de fond"
+    },
+    "img4": {
+      "url": "./img/diaporama/Argentine/diapo33/d334.jpg",
+      "description": ""
+    },
+    "img5": {
+      "url": "./img/diaporama/Argentine/diapo33/d335.jpg",
+      "description": ""
+    },
+    "img6": {
+      "url": "./img/diaporama/Argentine/diapo33/d336.jpg",
+      "description": ""
+    },
+    "img7": {
+      "url": "./img/diaporama/Argentine/diapo33/d337.jpg",
+      "description": ""
+    },
+    "img8": {
+      "url": "./img/diaporama/Argentine/diapo33/d338.jpg",
+      "description": ""
+    },
+    "img9": {
+      "url": "./img/diaporama/Argentine/diapo33/d339.jpg",
+      "description": ""
+    },
+    "img10": {
+      "url": "./img/diaporama/Argentine/diapo33/d3310.jpg",
+      "description": "Clara on the rock's"
+    },
+    "img11": {
+      "url": "./img/diaporama/Argentine/diapo33/d3311.jpg",
+      "description": ""
+    },
+    "img12": {
+      "url": "./img/diaporama/Argentine/diapo33/d3312.jpg",
+      "description": "Helico de secours"
+    },
+    "img13": {
+      "url": "./img/diaporama/Argentine/diapo33/d3313.jpg",
+      "description": ""
+    },
+    "img14": {
+      "url": "./img/diaporama/Argentine/diapo33/d3314.jpg",
+      "description": "Le pré camp de base"
+    },
+    "img15": {
+      "url": "./img/diaporama/Argentine/diapo33/d3315.jpg",
+      "description": ""
+    },
+    "img16": {
+      "url": "./img/diaporama/Argentine/diapo33/d3316.jpg",
+      "description": ""
+    },
+    "img17": {
+      "url": "./img/diaporama/Argentine/diapo33/d3317.jpg",
+      "description": ""
+    },
+    "img18": {
+      "url": "./img/diaporama/Argentine/diapo33/d3318.jpg",
+      "description": ""
+    },
+    "img19": {
+      "url": "./img/diaporama/Argentine/diapo33/d3319.jpg",
+      "description": "Redescente"
+    },
+    "img20": {
+      "url": "./img/diaporama/Argentine/diapo33/d3320.jpg",
+      "description": "Caravane..."
+    },
+    "img21": {
+      "url": "./img/diaporama/Argentine/diapo33/d3321.jpg",
+      "description": "Chargées comme de mules"
+    },
+    "img22": {
+      "url": "./img/diaporama/Argentine/diapo33/d3322.jpg",
+      "description": "P'eaux d'anes"
+    },
+    "img23": {
+      "url": "./img/diaporama/Argentine/diapo33/d3323.jpg",
+      "description": ""
+    },
+    "img24": {
+      "url": "./img/diaporama/Argentine/diapo33/d3324.jpg",
+      "description": ""
+    },
+    "img25": {
+      "url": "./img/diaporama/Argentine/diapo33/d3325.jpg",
+      "description": ""
+    },
+    "img26": {
+      "url": "./img/diaporama/Argentine/diapo33/d3326.jpg",
+      "description": ""
+    },
+    "img27": {
+      "url": "./img/diaporama/Argentine/diapo33/d3327.jpg",
+      "description": "Skiège"
+    }
+  },
+  "titre": "Aconcagua",
+  "datedebut": "2022-11-30",
+  "datefin": "2022-11-30"
+}
