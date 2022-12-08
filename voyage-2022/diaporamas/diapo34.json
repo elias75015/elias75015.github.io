@@ -1,0 +1,99 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Argentine/diapo34/d341.jpg",
+      "description": "Vignobles de Mendoza"
+    },
+    "img2": {
+      "url": "./img/diaporama/Argentine/diapo34/d342.jpg",
+      "description": ""
+    },
+    "img3": {
+      "url": "./img/diaporama/Argentine/diapo34/d343.jpg",
+      "description": "Bain de bouche ?"
+    },
+    "img4": {
+      "url": "./img/diaporama/Argentine/diapo34/d344.jpg",
+      "description": "Ou couleur de l'AlbiCeleste ?"
+    },
+    "img5": {
+      "url": "./img/diaporama/Argentine/diapo34/d345.jpg",
+      "description": ""
+    },
+    "img6": {
+      "url": "./img/diaporama/Argentine/diapo34/d346.jpg",
+      "description": "Rues ombragées"
+    },
+    "img7": {
+      "url": "./img/diaporama/Argentine/diapo34/d347.jpg",
+      "description": "Plaza Espana"
+    },
+    "img8": {
+      "url": "./img/diaporama/Argentine/diapo34/d348.jpg",
+      "description": "Texte fondateur pro espagnol"
+    },
+    "img9": {
+      "url": "./img/diaporama/Argentine/diapo34/d349.jpg",
+      "description": ""
+    },
+    "img10": {
+      "url": "./img/diaporama/Argentine/diapo34/d3410.jpg",
+      "description": "Un peu chez nous !"
+    },
+    "img11": {
+      "url": "./img/diaporama/Argentine/diapo34/d3411.jpg",
+      "description": ""
+    },
+    "img12": {
+      "url": "./img/diaporama/Argentine/diapo34/d3412.jpg",
+      "description": "Remus & Romulus"
+    },
+    "img13": {
+      "url": "./img/diaporama/Argentine/diapo34/d3413.jpg",
+      "description": ""
+    },
+    "img14": {
+      "url": "./img/diaporama/Argentine/diapo34/d3414.jpg",
+      "description": "Plaza Independencia"
+    },
+    "img15": {
+      "url": "./img/diaporama/Argentine/diapo34/d3415.jpg",
+      "description": "O'Higgins & San Martin"
+    },
+    "img16": {
+      "url": "./img/diaporama/Argentine/diapo34/d3416.jpg",
+      "description": ""
+    },
+    "img17": {
+      "url": "./img/diaporama/Argentine/diapo34/d3417.jpg",
+      "description": "La Roja voit rouge..."
+    },
+    "img18": {
+      "url": "./img/diaporama/Argentine/diapo34/d3418.jpg",
+      "description": "Expo d'art contemporain"
+    },
+    "img19": {
+      "url": "./img/diaporama/Argentine/diapo34/d3419.jpg",
+      "description": "Un bonhomme à torturer..."
+    },
+    "img20": {
+      "url": "./img/diaporama/Argentine/diapo34/d3420.jpg",
+      "description": "Rupture du ligament croisé !"
+    },
+    "img21": {
+      "url": "./img/diaporama/Argentine/diapo34/d3421.jpg",
+      "description": "Pour le visiteur ou oeuvre ? Mystère..."
+    },
+    "img22": {
+      "url": "./img/diaporama/Argentine/diapo34/d3422.jpg",
+      "description": "Banco Hipotecario"
+    },
+    "img23": {
+      "url": "./img/diaporama/Argentine/diapo34/d3423.jpg",
+      "description": "En route mauvaise troupe !"
+    }
+  },
+  "titre": "Mendoza",
+  "datedebut": "2022-12-01",
+  "datefin": "2022-12-01"
+}
