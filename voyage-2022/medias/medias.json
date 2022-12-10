@@ -62,14 +62,15 @@
         },
         "playlist13" : {
             "title" : "Pichidangui Coffee",
-            "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidwTe-sigdu3nAOP3cFSl4lG&showinfo=1",
-            "description" : "La playlist du bus pour Mendoza"
-        },
-        "playlist14" : {
-            "title" : "Bus pour Mendoza",
             "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidzjyCBxW8Io_cISxQTOl4ci&showinfo=1",
             "description" : "La playlist tranquille du café de Pichidangui"
         }
+        "playlist14" : {
+            "title" : "Bus pour Mendoza",
+            "iframe" : "https://www.youtube.com/embed?listType=playlist&list=PLoIqLq9ODidwTe-sigdu3nAOP3cFSl4lG&showinfo=1",
+            "description" : "La playlist du bus pour Mendoza"
+        },
+
     },
     "videos" : {
         "video1" : {
