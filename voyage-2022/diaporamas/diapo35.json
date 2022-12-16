@@ -1,0 +1,111 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Argentine/diapo35/d351.jpg",
+      "description": "Parque Sarmiento"
+    },
+    "img2": {
+      "url": "./img/diaporama/Argentine/diapo35/d352.jpg",
+      "description": "Sport en groupe"
+    },
+    "img3": {
+      "url": "./img/diaporama/Argentine/diapo35/d353.jpg",
+      "description": ""
+    },
+    "img4": {
+      "url": "./img/diaporama/Argentine/diapo35/d354.jpg",
+      "description": ""
+    },
+    "img5": {
+      "url": "./img/diaporama/Argentine/diapo35/d355.jpg",
+      "description": "Centre culturel de Cordoba"
+    },
+    "img6": {
+      "url": "./img/diaporama/Argentine/diapo35/d356.jpg",
+      "description": "Recto..."
+    },
+    "img7": {
+      "url": "./img/diaporama/Argentine/diapo35/d357.jpg",
+      "description": "Verso"
+    },
+    "img8": {
+      "url": "./img/diaporama/Argentine/diapo35/d358.jpg",
+      "description": ""
+    },
+    "img9": {
+      "url": "./img/diaporama/Argentine/diapo35/d359.jpg",
+      "description": "Université"
+    },
+    "img10": {
+      "url": "./img/diaporama/Argentine/diapo35/d3510.jpg",
+      "description": "Rue principale"
+    },
+    "img11": {
+      "url": "./img/diaporama/Argentine/diapo35/d3511.jpg",
+      "description": "Cathédrale de Cordoba"
+    },
+    "img12": {
+      "url": "./img/diaporama/Argentine/diapo35/d3512.jpg",
+      "description": ""
+    },
+    "img13": {
+      "url": "./img/diaporama/Argentine/diapo35/d3513.jpg",
+      "description": ""
+    },
+    "img14": {
+      "url": "./img/diaporama/Argentine/diapo35/d3514.jpg",
+      "description": ""
+    },
+    "img15": {
+      "url": "./img/diaporama/Argentine/diapo35/d3515.jpg",
+      "description": "Contraint et forcé..."
+    },
+    "img16": {
+      "url": "./img/diaporama/Argentine/diapo35/d3516.jpg",
+      "description": "De soutenir des bouchers"
+    },
+    "img17": {
+      "url": "./img/diaporama/Argentine/diapo35/d3517.jpg",
+      "description": "Célébrations"
+    },
+    "img18": {
+      "url": "./img/diaporama/Argentine/diapo35/d3518.jpg",
+      "description": "\"Interdit de les oublier\""
+    },
+    "img19": {
+      "url": "./img/diaporama/Argentine/diapo35/d3519.jpg",
+      "description": "Cappuccino du matin"
+    },
+    "img20": {
+      "url": "./img/diaporama/Argentine/diapo35/d3520.jpg",
+      "description": "Cappuccino du soir"
+    },
+    "img21": {
+      "url": "./img/diaporama/Argentine/diapo35/d3521.jpg",
+      "description": ""
+    },
+    "img22": {
+      "url": "./img/diaporama/Argentine/diapo35/d3522.jpg",
+      "description": "Mais ils sont où les argentins ?!"
+    },
+    "img23": {
+      "url": "./img/diaporama/Argentine/diapo35/d3523.jpg",
+      "description": "Label ville tranquille"
+    },
+    "img24": {
+      "url": "./img/diaporama/Argentine/diapo35/d3524.jpg",
+      "description": "Paseo Buen Pastor"
+    },
+    "img25": {
+      "url": "./img/diaporama/Argentine/diapo35/d3525.jpg",
+      "description": "Ca sort en soirée !"
+    },
+    "img26": {
+      "url": "./img/diaporama/Argentine/diapo35/d3526.jpg",
+      "description": "Dernière gare routière !"
+    }
+  },
+  "titre": "Cordoba",
+  "datedebut": "2022-12-02",
+  "datefin": "2022-12-05"
+}
