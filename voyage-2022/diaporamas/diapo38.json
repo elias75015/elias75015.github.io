@@ -1,0 +1,127 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Uruguay/diapo38/d381.jpg",
+      "description": "Arrivée à Colonia"
+    },
+    "img2": {
+      "url": "./img/diaporama/Uruguay/diapo38/d382.jpg",
+      "description": ""
+    },
+    "img3": {
+      "url": "./img/diaporama/Uruguay/diapo38/d383.jpg",
+      "description": "Choripan sur la nueve"
+    },
+    "img4": {
+      "url": "./img/diaporama/Uruguay/diapo38/d384.jpg",
+      "description": "Manif"
+    },
+    "img5": {
+      "url": "./img/diaporama/Uruguay/diapo38/d385.jpg",
+      "description": "Sortie sur Costanera"
+    },
+    "img6": {
+      "url": "./img/diaporama/Uruguay/diapo38/d386.jpg",
+      "description": "Repas au poids-chic"
+    },
+    "img7": {
+      "url": "./img/diaporama/Uruguay/diapo38/d387.jpg",
+      "description": "Plage \"Los Pocitos\""
+    },
+    "img8": {
+      "url": "./img/diaporama/Uruguay/diapo38/d388.jpg",
+      "description": "Bronzage à travailler"
+    },
+    "img9": {
+      "url": "./img/diaporama/Uruguay/diapo38/d389.jpg",
+      "description": ""
+    },
+    "img10": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3810.jpg",
+      "description": "Le remake de 2018"
+    },
+    "img11": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3811.jpg",
+      "description": ""
+    },
+    "img12": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3812.jpg",
+      "description": "Bus de ville"
+    },
+    "img13": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3813.jpg",
+      "description": "Mercado del puerto"
+    },
+    "img14": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3814.jpg",
+      "description": "Centre piéton"
+    },
+    "img15": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3815.jpg",
+      "description": ""
+    },
+    "img16": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3816.jpg",
+      "description": ""
+    },
+    "img17": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3817.jpg",
+      "description": "Vente de mascottes"
+    },
+    "img18": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3818.jpg",
+      "description": ""
+    },
+    "img19": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3819.jpg",
+      "description": "Plaza Independencia"
+    },
+    "img20": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3820.jpg",
+      "description": "Edificio Ciudadela, 1958"
+    },
+    "img21": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3821.jpg",
+      "description": "Puerta de la Ciudadela"
+    },
+    "img22": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3822.jpg",
+      "description": ""
+    },
+    "img23": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3823.jpg",
+      "description": "Pour les mascottes"
+    },
+    "img24": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3824.jpg",
+      "description": "Argentine en demi"
+    },
+    "img25": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3825.jpg",
+      "description": ""
+    },
+    "img26": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3826.jpg",
+      "description": ""
+    },
+    "img27": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3827.jpg",
+      "description": "Tempête sur un parapluie"
+    },
+    "img28": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3828.jpg",
+      "description": "Aéroport"
+    },
+    "img29": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3829.jpg",
+      "description": "Qui pour l'aéroport ?"
+    },
+    "img30": {
+      "url": "./img/diaporama/Uruguay/diapo38/d3830.jpg",
+      "description": "France-Angleterre"
+    }
+  },
+  "titre": "Montevideo",
+  "datedebut": "2022-12-08",
+  "datefin": "2022-12-10"
+}
