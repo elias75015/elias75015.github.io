@@ -1,0 +1,39 @@
+{
+  "images": {
+    "img1": {
+      "url": "./img/diaporama/Uruguay/diapo39/d391.jpg",
+      "description": ""
+    },
+    "img2": {
+      "url": "./img/diaporama/Uruguay/diapo39/d392.jpg",
+      "description": ""
+    },
+    "img3": {
+      "url": "./img/diaporama/Uruguay/diapo39/d393.jpg",
+      "description": ""
+    },
+    "img4": {
+      "url": "./img/diaporama/Uruguay/diapo39/d394.jpg",
+      "description": ""
+    },
+    "img5": {
+      "url": "./img/diaporama/Uruguay/diapo39/d395.jpg",
+      "description": ""
+    },
+    "img6": {
+      "url": "./img/diaporama/Uruguay/diapo39/d396.jpg",
+      "description": ""
+    },
+    "img7": {
+      "url": "./img/diaporama/Uruguay/diapo39/d397.jpg",
+      "description": ""
+    },
+    "img8": {
+      "url": "./img/diaporama/Uruguay/diapo39/d398.jpg",
+      "description": ""
+    }
+  },
+  "titre": "Montevideo - Street-art",
+  "datedebut": "2022-12-08",
+  "datefin": "2022-12-10"
+}
