@@ -164,3 +164,13 @@ Nous quittons Córdoba avec un sentiment assez mitigé. La deuxième ville d'Arg
 <div class="photo">
 <img src="./img/diaporama/Argentine/article23/p23.jpg" id="photo23" class="paysage">
 </div>
+<script>
+	$(".articleTranslate").click(function(e) {
+		// FIXME on ouvre le menu de gauche pour ne pas qu'il disparaisse (degueu)
+		if ($('nav').css('display') == 'none') {
+        	$( 'button.dl-trigger').click();
+		}
+		$('#mainContent').empty();
+    	$('#mainContent').load('articles/'+this.id+'.html');
+	});
+</script>
